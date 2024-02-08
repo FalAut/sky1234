@@ -25,5 +25,3 @@ jobs:
           **/overrides/
           **/manifest.json
           **/modlist.html
-          
-        path: '**/modpack/'
