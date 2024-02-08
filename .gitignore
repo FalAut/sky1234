@@ -5,6 +5,7 @@
 instance.cfg
 mmc-pack.json
 flame
+natives
 
 ## Config
 !.minecraft/config/
