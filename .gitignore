@@ -1,18 +1,28 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Whitelist
+.minecraft/**
 
-# Other files and folders
-.settings/
+## instance/0xUDF
+instance.cfg
+mmc-pack.json
+flame
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+## Config
+!.minecraft/config/
+!.minecraft/config/**
+.minecraft/config/jei
+.minecraft/config/jei/**
+!.minecraft/defaultconfigs/
+!.minecraft/defaultconfigs/**
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+## KubeJS
+!.minecraft/kubejs/
+!.minecraft/kubejs/**
+.minecraft/kubejs/README.txt
+.minecraft/kubejs/exported
+.minecraft/kubejs/probe
+
+## Resources
+!.minecraft/local/
+!.minecraft/local/**
+!.minecraft/multiblocked/
+!.minecraft/multiblocked/**
