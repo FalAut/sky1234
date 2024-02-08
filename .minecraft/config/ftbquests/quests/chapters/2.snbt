@@ -839,6 +839,7 @@
 		{
 			x: 17.5d
 			y: 5.5d
+			subtitle: "是乙（醛）而不是乙醇！！！！"
 			min_required_dependencies: 1
 			dependencies: [
 				"3C12EA9E5432FB50"
@@ -943,6 +944,7 @@
 			icon: "immersiveengineering:refinery"
 			x: 18.5d
 			y: 4.0d
+			subtitle: "是乙（醛）而不是乙醇！！！！"
 			dependencies: ["5E116288DA5ED172"]
 			dependency_requirement: "all_started"
 			can_repeat: true
@@ -3061,6 +3063,24 @@
 				id: "0470DEE8B2C843F5"
 				type: "item"
 				item: "trashcans:energy_trash_can"
+			}]
+		}
+		{
+			x: 24.0d
+			y: 4.0d
+			subtitle: "对的，就是这个"
+			dependencies: ["594F8C1AC073562B"]
+			id: "7700FD35D79A5FFA"
+			tasks: [{
+				id: "61A5E7B2EC52C1B5"
+				type: "item"
+				item: "immersiveengineering:acetaldehyde_bucket"
+			}]
+			rewards: [{
+				id: "0F9C16A870213AD2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
 			}]
 		}
 	]
