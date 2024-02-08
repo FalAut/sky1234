@@ -25,6 +25,8 @@ natives
 .minecraft/kubejs/probe
 
 ## Resources
+.minecraft/local/ftbchunks/data
+.minecraft/local/ftbchunks/data/**
 !.minecraft/local/ftbchunks/client-config.snbt
 !.minecraft/multiblocked/
 !.minecraft/multiblocked/**
