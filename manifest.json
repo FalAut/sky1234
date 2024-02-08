@@ -11,8 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "0xUDF",
-  "version": "0.11",
-  "author": "",
+  "version": "0.15",
+  "author": "落秋FalAut",
   "files": [
     {
       "projectID": 231951,
@@ -695,5 +695,5 @@
       "required": true
     }
   ],
-  "overrides": "overrides"
+  "overrides": ".minecraft"
 }

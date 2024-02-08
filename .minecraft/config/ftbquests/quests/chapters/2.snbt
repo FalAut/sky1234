@@ -2021,7 +2021,7 @@
 						}
 					}
 					team_reward: true
-					command: "/capsule giveLinked mixer.nbt @p@"
+					command: "/capsule giveLinked mixer.nbt @p"
 				}
 				{
 					id: "13DE0F7B419D4459"

@@ -65,6 +65,7 @@
 #31A081 minecraft:smithing_table
 #C5C0F6 minecraft:soul_campfire
 #D7A655 create:spout
+#1ADE45 immersiveengineering:steel_fence
 #F428EC immersiveengineering:steel_scaffolding_standard
 #F8955F minecraft:stone_bricks
 #A5960B occultism:storage_controller

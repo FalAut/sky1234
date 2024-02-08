@@ -28,6 +28,28 @@ onEvent("ui.main_menu", (event) => {
       b.shadow = false;
     });
 
+    //下载最新版本
+    ui.button((b) => {
+      b.name = Text.of("下载最新版本");
+      b.width = 70;
+      b.x = 0;
+      b.y = 220;
+      b.action = "https://gitee.com/FalAut/0xUDF/repository/archive/master.zip";
+      b.hoverColor = 0x00ff00;
+      b.shadow = false;
+    });
+
+    //如何更新版本？
+    ui.button((b) => {
+      b.name = Text.of("如何更新版本？");
+      b.width = 70;
+      b.x = 0;
+      b.y = 250;
+      b.action = "https://gitee.com/FalAut/0xUDF";
+      b.hoverColor = 0x00ff00;
+      b.shadow = false;
+    });
+
     //Gitee
     ui.button((b) => {
       b.name = Text.of("Gitee");
