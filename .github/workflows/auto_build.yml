@@ -1,0 +1,30 @@
+name: Auto Create Modpack ZIP
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Rename .minecraft to overrides
+      run: mv .minecraft overrides
+
+    - name: Move files for artifact
+      run: |
+        mkdir modpack
+        cp -r overrides modpack
+        cp manifest.json modpack
+        cp modlist.html modpack
+
+    - name: Upload ZIP artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: 0xUDF-build.0.${{ github.run_number }}
+        path: '**/modpack/'
