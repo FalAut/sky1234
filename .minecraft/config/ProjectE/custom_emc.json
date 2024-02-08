@@ -13,6 +13,50 @@
       "emc": 10000
     },
     {
+      "item": "#thermal:all",
+      "emc": 10000
+    },
+    {
+      "item": "#occultism:all",
+      "emc": 10000
+    },
+    {
+      "item": "#botania:all",
+      "emc": 10000
+    },
+    {
+      "item": "#industrialforegoing:all",
+      "emc": 10000
+    },
+    {
+      "item": "#assemblylinemachines:all",
+      "emc": 10000
+    },
+    {
+      "item": "#extendedcrafting:all",
+      "emc": 10000
+    },
+    {
+      "item": "#naturesaura:all",
+      "emc": 10000
+    },
+    {
+      "item": "#tconstruct:all",
+      "emc": 10000
+    },
+    {
+      "item": "#mekanism:all",
+      "emc": 10000
+    },
+    {
+      "item": "#mekanismgenerators:all",
+      "emc": 10000
+    },
+    {
+      "item": "#miniutilities:all",
+      "emc": 10000
+    },
+    {
       "item": "immersiveengineering:ingot_steel",
       "emc": 10000
     },

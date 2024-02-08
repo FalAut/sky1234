@@ -2032,31 +2032,13 @@
 			]
 		}
 		{
-			x: 19.0d
-			y: 10.0d
-			shape: "circle"
-			dependencies: [
-				"2A27F0CB28279D27"
-				"399F915020401C4C"
-			]
-			dependency_requirement: "one_completed"
-			id: "2D6005B4FBA793F1"
-			tasks: [{
-				id: "379D2DBFDE7DA32A"
-				type: "item"
-				item: "immersiveengineering:redstone_acid_bucket"
-			}]
-			rewards: [{
-				id: "7CF0E617024046AD"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5564527076072386099L
-			}]
-		}
-		{
 			x: 16.5d
 			y: 10.0d
-			dependencies: ["2D6005B4FBA793F1"]
+			dependencies: [
+				"4720241BA2E33A7D"
+				"18AA81BA1738546F"
+			]
+			dependency_requirement: "one_completed"
 			id: "6455BAF6A3CA6353"
 			tasks: [{
 				id: "2DBDC526B87EC659"
@@ -3081,6 +3063,21 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 5564527076072386099L
+			}]
+		}
+		{
+			x: 19.0d
+			y: 10.0d
+			dependencies: [
+				"2A27F0CB28279D27"
+				"399F915020401C4C"
+			]
+			dependency_requirement: "one_completed"
+			id: "4720241BA2E33A7D"
+			tasks: [{
+				id: "18AA81BA1738546F"
+				type: "item"
+				item: "immersiveengineering:redstone_acid_bucket"
 			}]
 		}
 	]

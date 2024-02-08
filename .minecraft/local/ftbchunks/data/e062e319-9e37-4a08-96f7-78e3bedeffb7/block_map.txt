@@ -56,12 +56,14 @@
 #BB6DCC tconstruct:part_builder
 #B9C232 tconstruct:part_chest
 #AFAC0D minecraft:poppy
+#5307D2 immersiveengineering:radiator
 #5B56FC immersiveengineering:refinery
 #7B5F9D immersiveengineering:rs_engineering
 #B74BCC tconstruct:seared_bricks
 #A09272 tconstruct:seared_faucet
 #D3CCFE create:shaft
 #8B3F27 immersiveengineering:sheetmetal_iron
+#079D5C immersiveengineering:sheetmetal_steel
 #31A081 minecraft:smithing_table
 #C5C0F6 minecraft:soul_campfire
 #D7A655 create:spout

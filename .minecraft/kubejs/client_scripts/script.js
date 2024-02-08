@@ -15,6 +15,7 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.add('naturesaura:gold_fiber', Text.green('将黄金叶使用铁砧压碎'))
 	tooltip.add('naturesaura:token_anger', Text.green('将愉悦印记扔进火里'))
 	tooltip.add('kubejs:nether_eye', Text.green('将3个眼睛扔进火里'))
+	tooltip.add([Item.of('immersiveengineering:metal_press').enchant('minecraft:vanishing_curse', 100), Item.of('thermal:machine_press').enchant('minecraft:vanishing_curse', 100)], [Text.red('这是一个假的序列合成'), Text.green('请查看红石通量线圈（未完成）的合成表'), Text.green('请查看红石伺服器（未完成）的合成表')])
 	// tooltip.add(Item.of('minecraft:enchanted_book').enchant('miniutilities:molten_head', 1), Text.green('不兼容时运附魔'))
 	// tooltip.add('occultism:storage_controller', [Text.red('警告：不要将大量物品传入维度存储！').bold(), Text.green('不建议当成抽屉使用')])
 	tooltip.add(['assemblylinemachines:entropy_reactor_block', 'assemblylinemachines:entropy_reactor_core'], Text.red('非常危险！不建议放置在基地中！').bold())
