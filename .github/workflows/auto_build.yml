@@ -22,5 +22,5 @@ jobs:
         name: 0xUDF-build.0.${{ github.run_number }}
         path: |
           **/overrides/
-          **/*.json
-          **/*.html
+          **/manifest.json
+          **/modlist.html
