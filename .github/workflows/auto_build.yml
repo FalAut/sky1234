@@ -27,4 +27,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: 0xUDF-build.0.${{ github.run_number }}
-        path: '**/modpack/'
+        path: '**/modpack/*'
