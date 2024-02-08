@@ -590,4 +590,37 @@ onEvent("recipes", (event) => {
       ),
     })
     .id(`${id_prefix}creative_energy_cube`);
+  event
+    .custom({
+      type: "extendedcrafting:shaped_table",
+      pattern: [
+        "ABBBBBBBA",
+        "BCDDDDDCB",
+        "BD     DB",
+        "BD     DB",
+        "BD     DB",
+        "BD     DB",
+        "BD     DB",
+        "BCDDDDDCB",
+        "ABBBBBBBA",
+      ],
+      key: {
+        A: {
+          item: "assemblylinemachines:novasteel_gear",
+        },
+        B: {
+          item: "assemblylinemachines:novasteel_plate",
+        },
+        C: {
+          item: "assemblylinemachines:mystium_gear",
+        },
+        D: {
+          item: "assemblylinemachines:mystium_plate",
+        },
+      },
+      result: {
+        item: "assemblylinemachines:creative_upgrade_kit",
+      },
+    })
+    .id(`${id_prefix}creative_energy_cube`);
 });

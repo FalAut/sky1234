@@ -246,3 +246,16 @@ naturesaura:crimson_aura_mushroom
 naturesaura:aura_mushroom
 naturesaura:ancient_tree
 naturesaura:nether_wart_mushroom
+minecraft:silver_ore
+minecraft:silver_ore_deepslate
+minecraft:iesnium_ore
+minecraft:underground_grove
+minecraft:otherworld_tree_natural
+minecraft:otherworld_tree
+immersiveengineering:bauxite
+immersiveengineering:lead
+immersiveengineering:silver
+immersiveengineering:nickel
+immersiveengineering:deep_nickel
+immersiveengineering:uranium
+immersiveengineering:mineral_veins

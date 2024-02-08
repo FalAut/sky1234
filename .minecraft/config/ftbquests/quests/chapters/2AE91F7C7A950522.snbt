@@ -16,6 +16,7 @@
 			y: 4.0d
 			shape: "diamond"
 			subtitle: "&c&l适度使用"
+			description: ["等价团队指令：\\n\\n主要指令：/team_projecte\\n邀请玩家加入团队：/team_projecte invite\\n列出团队成员：/team_projecte members\\n踢出团队成员：/team_projecte kick\\n离开团队：/team_projecte leave\\n转让队长：/team_projecte transfer_ownership\\n设置是否可以共享EMC（默认: true）：/team_projecte settings share_emc false/true\\n设置是否可以共享知识（默认: true）：/team_projecte settings share_knowledge false/true"]
 			size: 2.0d
 			can_repeat: true
 			id: "65ACED33E32205EC"

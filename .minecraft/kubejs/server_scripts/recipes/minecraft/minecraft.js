@@ -55,13 +55,15 @@ onEvent("recipes", (event) => {
       "immersiveengineering:sheetmetal_steel"
     )
     .id(`${id_prefix}stress_generator_output`);
+
   event
     .smithing(
-      "multiblocked:stress_generator_controller",
+      "multiblocked:stress_generator_nosun",
       "create:stressometer",
       "immersiveengineering:sheetmetal_steel"
     )
-    .id(`${id_prefix}stress_generator_controller`);
+    .id(`${id_prefix}stress_generator_nosun`);
+
   event
     .smoking("kubejs:smoked_iron_block", "iron_block")
     .id(`${id_prefix}smoked_iron_block`);

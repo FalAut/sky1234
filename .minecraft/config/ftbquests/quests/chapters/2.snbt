@@ -600,11 +600,12 @@
 			}]
 		}
 		{
-			title: "霊知の太陽信仰"
-			icon: "multiblocked:stress_generator_core"
+			title: "应力发电机"
+			icon: "multiblocked:stress_generator_controller"
 			x: 25.0d
 			y: 0.0d
 			shape: "pentagon"
+			subtitle: "&c&l使用胶囊放置后，请重新放置模块化内任意一个方块"
 			dependencies: ["22614C741CBF3AB8"]
 			size: 2.0d
 			can_repeat: true
@@ -657,12 +658,6 @@
 					count: 26L
 					consume_items: true
 				}
-				{
-					id: "1B598FB75728CEAB"
-					type: "item"
-					item: "multiblocked:stress_generator_core"
-					consume_items: true
-				}
 			]
 			rewards: [
 				{
@@ -680,11 +675,6 @@
 					}
 					team_reward: true
 					command: "/capsule giveLinked stress_generator.nbt @p"
-				}
-				{
-					id: "46F87E366A9F3CCE"
-					type: "item"
-					item: "trashcans:energy_trash_can"
 				}
 				{
 					id: "72A6905781D7AA4C"
@@ -782,6 +772,7 @@
 				"62C9BB10854C7A88"
 				"5E116288DA5ED172"
 			]
+			dependency_requirement: "one_completed"
 			id: "594F8C1AC073562B"
 			tasks: [
 				{
@@ -876,6 +867,7 @@
 			y: 4.0d
 			dependencies: ["5E116288DA5ED172"]
 			dependency_requirement: "all_started"
+			can_repeat: true
 			id: "3C12EA9E5432FB50"
 			tasks: [
 				{
@@ -3036,6 +3028,40 @@
 					table_id: 5564527076072386099L
 				}
 			]
+		}
+		{
+			icon: {
+				id: "mekanism:creative_energy_cube"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "18446744073709551615.9999"
+						}]
+					}
+				}
+			}
+			x: 25.0d
+			y: -1.5d
+			id: "5840112D96F10D72"
+			tasks: [
+				{
+					id: "1A13405891DEE0A5"
+					type: "item"
+					item: "multiblocked:stress_generator_controller"
+				}
+				{
+					id: "058B9AC79FC7CB5B"
+					type: "item"
+					item: "multiblocked:stress_generator_core"
+				}
+			]
+			rewards: [{
+				id: "0470DEE8B2C843F5"
+				type: "item"
+				item: "trashcans:energy_trash_can"
+			}]
 		}
 	]
 	quest_links: [ ]

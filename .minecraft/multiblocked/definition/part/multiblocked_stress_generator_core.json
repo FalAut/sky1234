@@ -27,6 +27,15 @@
       }
     },
     "idle": {
+      "renderer": {
+        "shouldCull": true,
+        "texture": "multiblocked:start",
+        "isShader": true,
+        "scale": 3.0,
+        "light": 15,
+        "type": "particle",
+        "postRenderer": false
+      },
       "parent": "unformed"
     },
     "working": {

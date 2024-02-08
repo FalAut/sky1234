@@ -209,6 +209,7 @@
 			x: 7.0d
 			y: 4.0d
 			shape: "diamond"
+			subtitle: "建议先做终极之星"
 			size: 2.0d
 			id: "5B85A332C176A832"
 			tasks: [{
@@ -314,6 +315,7 @@
 			x: 12.0d
 			y: 4.0d
 			shape: "diamond"
+			subtitle: "建议先做终极之星"
 			size: 2.0d
 			id: "6C9E7C7B5DECA9D6"
 			tasks: [{

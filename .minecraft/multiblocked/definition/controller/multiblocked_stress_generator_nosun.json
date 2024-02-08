@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "location": "multiblocked:stress_generator_controller",
+  "location": "multiblocked:stress_generator_nosun",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
@@ -20,9 +20,12 @@
   "status": {
     "unformed": {
       "renderer": {
-        "modelLocation": "multiblocked:stress_generator_controller",
-        "type": "imodel",
-        "postRenderer": false
+        "state": {
+          "id": "multiblocked:stress_generator_controller",
+          "meta": 2
+        },
+        "type": "blockstate",
+        "postRenderer": true
       }
     },
     "idle": {
@@ -35,18 +38,18 @@
       "parent": "working"
     }
   },
-  "recipeMap": "creative_energy_cube",
+  "recipeMap": "stress_to_energy",
   "basePattern": {
     "structureDir": [
-      "RIGHT",
+      "FRONT",
       "UP",
-      "FRONT"
+      "LEFT"
     ],
     "pattern": [
       [
         "AAAAA",
         "ABBBA",
-        "ABFBA",
+        "ABCBA",
         "ABBBA",
         "AAAAA"
       ],
@@ -60,9 +63,9 @@
       [
         "AAAAA",
         "BDDDB",
-        "FDGDF",
+        "CDDDF",
         "BDDDB",
-        "AEEEA"
+        "AEEE@"
       ],
       [
         "AAAAA",
@@ -76,7 +79,7 @@
         "ABBBA",
         "ABCBA",
         "ABBBA",
-        "AA@AA"
+        "AAAAA"
       ]
     ],
     "aisleRepetitions": [
@@ -111,7 +114,7 @@
         "type": "blocks"
       },
       "controller": {
-        "location": "multiblocked:stress_generator_controller",
+        "location": "multiblocked:stress_generator_nosun",
         "type": "component"
       },
       "B": {
@@ -125,7 +128,7 @@
       "C": {
         "blocks": [
           {
-            "id": "multiblocked:stress_generator_output"
+            "id": "multiblocked:stress_generator_input"
           }
         ],
         "type": "blocks"
@@ -136,8 +139,7 @@
             "id": "immersiveengineering:generator"
           }
         ],
-        "type": "blocks",
-        "disableRenderFormed": true
+        "type": "blocks"
       },
       "E": {
         "blocks": [
@@ -150,23 +152,24 @@
       "F": {
         "blocks": [
           {
-            "id": "multiblocked:stress_generator_input"
+            "id": "multiblocked:stress_generator_output"
           }
         ],
         "type": "blocks"
       },
-      "G": {
-        "blocks": [
-          {
-            "id": "multiblocked:stress_generator_core"
-          }
-        ],
-        "type": "blocks"
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
       }
     },
     "symbolMap": {
       "@": [
         "controller"
+      ],
+      " ": [
+        "any"
       ],
       "A": [
         "A"
@@ -186,8 +189,8 @@
       "F": [
         "F"
       ],
-      "G": [
-        "G"
+      "-": [
+        "air"
       ]
     }
   }

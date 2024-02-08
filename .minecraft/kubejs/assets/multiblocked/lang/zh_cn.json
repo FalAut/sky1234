@@ -8,7 +8,11 @@
   "block.multiblocked.stress_generator_core": "霊烏路 空",
   "block.multiblocked.stress_generator_input": "应力输入口",
   "block.multiblocked.stress_generator_output": "能量输出口",
-  "multiblocked.recipe_map.stress_to_energy": "霊知の太陽信仰 ～ Nuclear Fusion",
+  "multiblocked.recipe_map.creative_energy_cube": "霊知の太陽信仰 ～ Nuclear Fusion",
+
+  "block.multiblocked.stress_generator_nosun": "应力发电机",
+  "multiblocked.stress_generator_nosun.description": "应力发电机",
+  "multiblocked.recipe_map.stress_to_energy": "应力发电机",
 
   "block.multiblocked.prediction_chamber_core": "预测水晶",
   "multiblocked.prediction_chamber_core.description": "预测水晶",

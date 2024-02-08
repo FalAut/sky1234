@@ -1300,6 +1300,7 @@
 			x: 18.0d
 			y: 0.0d
 			shape: "pentagon"
+			subtitle: "&c&l使用胶囊放置后，请重新放置模块化内任意一个方块"
 			dependencies: [
 				"2CAE2E5EE9ED0D84"
 				"2492647061147447"
@@ -1487,6 +1488,7 @@
 			x: 22.0d
 			y: 0.0d
 			shape: "pentagon"
+			subtitle: "&c&l使用胶囊放置后，请重新放置模块化内任意一个方块"
 			dependencies: [
 				"4E454CF6AEAB486E"
 				"702550DC4581AA4E"
@@ -2166,6 +2168,7 @@
 			title: "太难了？"
 			x: 5.0d
 			y: 4.0d
+			can_repeat: true
 			id: "318D4F1A442D4C4A"
 			tasks: [{
 				id: "4973728C33DF04BC"

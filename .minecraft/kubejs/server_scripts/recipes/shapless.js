@@ -23,4 +23,9 @@ onEvent('recipes', event => {
     // minecraft.crafting_shapeless(Item.of('minecraft:enchanted_book').enchant('miniutilities:molten_head', 1), ['minecraft:lava_bucket', 'eccentrictome:tome']).id(`${id_prefix}molten_head`);
     minecraft.crafting_shapeless('assemblylinemachines:pure_steel_ingot', ['immersiveengineering:ingot_steel', 'assemblylinemachines:pure_iron_ingot']).id(`${id_prefix}pure_steel_ingot`);
     minecraft.crafting_shapeless('minecraft:crimson_nylium', ['minecraft:crimson_fungus', 'minecraft:netherrack']).id(`${id_prefix}crimson_nylium`);
+    minecraft.crafting_shapeless('multiblocked:stress_generator_controller', 'multiblocked:stress_generator_nosun').id(`${id_prefix}stress_generator_controller`);
+    minecraft.crafting_shapeless('thermal:machine_catalyst_creative_augment', 'assemblylinemachines:creative_upgrade_kit')
+    minecraft.crafting_shapeless('thermal:machine_efficiency_creative_augment', 'assemblylinemachines:creative_upgrade_kit')
+    minecraft.crafting_shapeless('thermal:rf_coil_creative_augment', 'assemblylinemachines:creative_upgrade_kit')
+    minecraft.crafting_shapeless('thermal:fluid_tank_creative_augment', 'assemblylinemachines:creative_upgrade_kit')
 })

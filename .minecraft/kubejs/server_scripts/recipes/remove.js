@@ -411,7 +411,7 @@ onEvent('recipes', event => {
 		'tconstruct:smeltery/melting/metal/netherite/coin',
 		'tconstruct:smeltery/melting/metal/copper/coin',
 		'tconstruct:smeltery/seared/chute_retextured',
-		'',
+		'create:crushing/prismarine_crystals',
 		'',
 		'',
 		'',
