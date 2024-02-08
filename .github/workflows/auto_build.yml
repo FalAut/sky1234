@@ -16,14 +16,15 @@ jobs:
     - name: Rename .minecraft to overrides
       run: mv .minecraft overrides
 
+    - name: Move files for artifact
+      run: |
+        mkdir modpack
+        cp -r overrides modpack
+        cp manifest.json modpack
+        cp modlist.html modpack
+
     - name: Upload ZIP artifact
       uses: actions/upload-artifact@v3
       with:
         name: 0xUDF-beta.0.${{ github.run_number }}
-
-        path: |
-          **/overrides/
-          **/manifest.json
-          **/modlist.html
-          
         path: '**/modpack/'
