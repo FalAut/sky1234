@@ -1,0 +1,26 @@
+name: Auto Create Modpack ZIP
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Rename .minecraft to overrides
+      run: mv .minecraft overrides
+
+    - name: Create ZIP file
+      run: zip -r modpack.zip overrides manifest.json modlist.html
+
+    - name: Upload ZIP artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: modpack-${{ github.sha }}
+        path: modpack.zip
