@@ -20,11 +20,8 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: 0xUDF-beta.0.${{ github.run_number }}
->>>>>>>>>>>>master
         path: |
           **/overrides/
           **/manifest.json
           **/modlist.html
-=========          
-        path: '**/modpack/'
->>>>>>> 5ed1f87c6ad48ef6dd858ff38e7afe0f83ea2383
+
