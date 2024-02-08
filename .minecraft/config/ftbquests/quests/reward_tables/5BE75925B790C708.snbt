@@ -1,0 +1,48 @@
+{
+	id: "5BE75925B790C708"
+	order_index: 1
+	title: "精灵传送门"
+	icon: {
+		id: "capsule:capsule"
+		Count: 1b
+		tag: {
+			overpowered: 1
+			state: 0
+			color: 16777215
+			size: 1
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			title: "精灵传送门x轴"
+			icon: {
+				id: "capsule:capsule"
+				Count: 1b
+				tag: {
+					overpowered: 1
+					state: 0
+					color: 16777215
+					size: 1
+				}
+			}
+			command: "/capsule giveLinked alfheim_portal_x.nbt @p"
+			type: "command"
+		}
+		{
+			title: "精灵传送门z轴"
+			icon: {
+				id: "capsule:capsule"
+				Count: 1b
+				tag: {
+					overpowered: 1
+					state: 0
+					color: 16777215
+					size: 1
+				}
+			}
+			command: "/capsule giveLinked alfheim_portal_z.nbt @p"
+			type: "command"
+		}
+	]
+}

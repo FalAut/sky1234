@@ -1,0 +1,8 @@
+!!dev.wuffs.squatgrow.config.SquatGrowConfig
+allowAdventureTwerking: true
+chance: 1.0
+debug: false
+enableMysticalCrops: true
+ignoreList: ['#minecraft:saplings', '#minecraft:crops', 'naturesaura:ancient_sapling']
+range: 3
+useWhitelist: true

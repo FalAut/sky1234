@@ -1,0 +1,580 @@
+{
+	id: "314AD4A06E84A508"
+	group: ""
+	order_index: 1
+	filename: "314AD4A06E84A508"
+	title: "商店（未完成）"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.25d
+		y: -5.75d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "functionalstorage:textures/blocks/oak_front_4.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "铜升级"
+			icon: "functionalstorage:copper_upgrade"
+			x: -8.5d
+			y: -8.0d
+			can_repeat: true
+			id: "72DF70FE78221011"
+			tasks: [{
+				id: "362380203A1CB8A7"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0DE60137D3FC956F"
+				type: "item"
+				item: "functionalstorage:copper_upgrade"
+			}]
+		}
+		{
+			title: "金升级"
+			icon: "functionalstorage:gold_upgrade"
+			x: -7.0d
+			y: -8.0d
+			can_repeat: true
+			id: "5828A9119845EF01"
+			tasks: [{
+				id: "6D3140FA8AB96941"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "32E4EDD57C0B4314"
+				type: "item"
+				item: "functionalstorage:gold_upgrade"
+			}]
+		}
+		{
+			title: "钻石升级"
+			icon: "functionalstorage:diamond_upgrade"
+			x: -5.5d
+			y: -8.0d
+			can_repeat: true
+			id: "17184A7611E646BD"
+			tasks: [{
+				id: "73881F0B56B13EF5"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "45545B8364E34848"
+				type: "item"
+				item: "functionalstorage:diamond_upgrade"
+			}]
+		}
+		{
+			title: "下界合金升级"
+			icon: "functionalstorage:netherite_upgrade"
+			x: -4.0d
+			y: -8.0d
+			can_repeat: true
+			id: "45DABE1914F007A8"
+			tasks: [{
+				id: "01868FAB592CF271"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "54A86049E33A7BCB"
+				type: "item"
+				item: "functionalstorage:netherite_upgrade"
+			}]
+		}
+		{
+			title: "铁升级"
+			icon: "functionalstorage:iron_downgrade"
+			x: -5.5d
+			y: -3.5d
+			can_repeat: true
+			id: "3046FACE3A52AF46"
+			tasks: [{
+				id: "139F332B95AE8DC5"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "512A892F34289096"
+				type: "item"
+				item: "functionalstorage:iron_downgrade"
+			}]
+		}
+		{
+			title: "红石升级"
+			icon: {
+				id: "functionalstorage:redstone_upgrade"
+				Count: 1b
+				tag: {
+					Slot: 0
+				}
+			}
+			x: -8.5d
+			y: -5.0d
+			can_repeat: true
+			id: "7C2D789CE32967E6"
+			tasks: [{
+				id: "5D53AADFFEE947F7"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "13535D0B1B2AFDD3"
+				type: "item"
+				item: {
+					id: "functionalstorage:redstone_upgrade"
+					Count: 1b
+					tag: {
+						Slot: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "虚空升级"
+			icon: "functionalstorage:void_upgrade"
+			x: -4.0d
+			y: -5.0d
+			can_repeat: true
+			id: "07AADFEB410A71BF"
+			tasks: [{
+				id: "189013DDA35CD4A6"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "66085D9CE0F5F47E"
+				type: "item"
+				item: "functionalstorage:void_upgrade"
+			}]
+		}
+		{
+			title: "收集升级"
+			icon: {
+				id: "functionalstorage:collector_upgrade"
+				Count: 1b
+				tag: {
+					Direction: "down"
+				}
+			}
+			x: -7.0d
+			y: -3.5d
+			can_repeat: true
+			id: "6CCB5C7899A932BB"
+			tasks: [{
+				id: "09CBA8FEFFC641E8"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "368179F7F5BF9C96"
+				type: "item"
+				item: {
+					id: "functionalstorage:collector_upgrade"
+					Count: 1b
+					tag: {
+						Direction: "down"
+					}
+				}
+			}]
+		}
+		{
+			title: "抽取升级"
+			icon: {
+				id: "functionalstorage:puller_upgrade"
+				Count: 1b
+				tag: {
+					Direction: "down"
+				}
+			}
+			x: -8.5d
+			y: -3.5d
+			can_repeat: true
+			id: "21C7BDB0E3CAA827"
+			tasks: [{
+				id: "08A6787F904F71BB"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "73DCFF9070D87A66"
+				type: "item"
+				item: {
+					id: "functionalstorage:puller_upgrade"
+					Count: 1b
+					tag: {
+						Direction: "down"
+					}
+				}
+			}]
+		}
+		{
+			title: "输出升级"
+			icon: {
+				id: "functionalstorage:pusher_upgrade"
+				Count: 1b
+				tag: {
+					Direction: "down"
+				}
+			}
+			x: -4.0d
+			y: -3.5d
+			can_repeat: true
+			id: "7B28E278013E8380"
+			tasks: [{
+				id: "33911FC12704942A"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3A913C35CEC90ABE"
+				type: "item"
+				item: {
+					id: "functionalstorage:pusher_upgrade"
+					Count: 1b
+					tag: {
+						Direction: "down"
+					}
+				}
+			}]
+		}
+		{
+			title: "连接工具"
+			icon: {
+				id: "functionalstorage:linking_tool"
+				Count: 1b
+				tag: {
+					Action: "ADD"
+					Mode: "SINGLE"
+				}
+			}
+			x: -8.5d
+			y: -6.5d
+			can_repeat: true
+			id: "7B70AFF5FA18B195"
+			tasks: [{
+				id: "730FF22E8FFE135C"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "015E9268AD7F0B56"
+				type: "item"
+				item: {
+					id: "functionalstorage:linking_tool"
+					Count: 1b
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+			}]
+		}
+		{
+			title: "配置工具"
+			icon: {
+				id: "functionalstorage:configuration_tool"
+				Count: 1b
+				tag: {
+					Mode: "LOCKING"
+				}
+			}
+			x: -4.0d
+			y: -6.5d
+			can_repeat: true
+			id: "0D4CF87367CDFCE2"
+			tasks: [{
+				id: "0AC046584DB95D77"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "74C3B68BC7C603DD"
+				type: "item"
+				item: {
+					id: "functionalstorage:configuration_tool"
+					Count: 1b
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+			}]
+		}
+		{
+			title: "基础管道升级"
+			icon: "pipez:basic_upgrade"
+			x: 4.5d
+			y: -3.5d
+			can_repeat: true
+			id: "2ADAFEA95BF928FA"
+			tasks: [{
+				id: "7422F0B03637D59E"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "565DD26FC9EFB498"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+		}
+		{
+			icon: "pipez:improved_upgrade"
+			x: 6.0d
+			y: -3.5d
+			can_repeat: true
+			id: "77242967316637D9"
+			tasks: [{
+				id: "2549D7F4B6ADB4D9"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2C6B39CD44FC4332"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			icon: "pipez:advanced_upgrade"
+			x: 7.5d
+			y: -3.5d
+			can_repeat: true
+			id: "4BEFD65783037D0F"
+			tasks: [{
+				id: "17AF55BDF3FEEE15"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1742EE4B2E8F48EF"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+		}
+		{
+			icon: "pipez:ultimate_upgrade"
+			x: 9.0d
+			y: -3.5d
+			can_repeat: true
+			id: "23AB55AC8EDB2911"
+			tasks: [{
+				id: "27B30F3FDA3C7B87"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1D0E58457FD659A3"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+		}
+		{
+			icon: "pipez:item_pipe"
+			x: 4.5d
+			y: -5.0d
+			can_repeat: true
+			id: "15362ACA2C6C74FA"
+			tasks: [{
+				id: "05F1D919C169A5A2"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3996B2217F97AC73"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 8
+			}]
+		}
+		{
+			icon: "pipez:fluid_pipe"
+			x: 9.0d
+			y: -5.0d
+			can_repeat: true
+			id: "528475E605AFB73C"
+			tasks: [{
+				id: "685BB49F33D6EC53"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23FA2D2423086B70"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 8
+			}]
+		}
+		{
+			icon: "pipez:energy_pipe"
+			x: 4.5d
+			y: -6.5d
+			can_repeat: true
+			id: "15C4CF5161EA220B"
+			tasks: [{
+				id: "079DE12675E54F66"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "57C89014778D38B3"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 8
+			}]
+		}
+		{
+			icon: "pipez:gas_pipe"
+			x: 9.0d
+			y: -6.5d
+			can_repeat: true
+			id: "1AB92990607099ED"
+			tasks: [{
+				id: "4B9B4D9BC4F651AD"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "29086405079212E9"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 8
+			}]
+		}
+		{
+			icon: "pipez:universal_pipe"
+			x: 7.5d
+			y: -8.0d
+			can_repeat: true
+			id: "1F5A746553E03145"
+			tasks: [{
+				id: "6CEE0DADDA1C63F6"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "07C971FBD6571E03"
+				type: "item"
+				item: "pipez:universal_pipe"
+				count: 8
+			}]
+		}
+		{
+			icon: "pipez:wrench"
+			x: 6.0d
+			y: -8.0d
+			can_repeat: true
+			id: "0473DEF8F9B40F09"
+			tasks: [{
+				id: "3CF0A745BDFBF49F"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3A56E8B2A205C362"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+		}
+		{
+			title: "纠缠方块"
+			icon: {
+				id: "entangled:block"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: -7.0d
+			can_repeat: true
+			id: "3D4388605F356FA7"
+			tasks: [{
+				id: "2E10DE027F45D953"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E1B49E31814232F"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "纠缠绑定器"
+			icon: {
+				id: "entangled:item"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: -5.5d
+			can_repeat: true
+			id: "6813CBAF74E7FA2B"
+			tasks: [{
+				id: "52D6FB04120C71F9"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "208600D155810983"
+				type: "item"
+				item: {
+					id: "entangled:item"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

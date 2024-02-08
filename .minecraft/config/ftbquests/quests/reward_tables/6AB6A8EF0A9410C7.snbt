@@ -1,0 +1,12 @@
+{
+	id: "6AB6A8EF0A9410C7"
+	order_index: 5
+	title: "下界合金币"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:netherite_coin", weight: 4 }
+		{ item: "thermal:netherite_coin", count: 2, weight: 3 }
+		{ item: "thermal:netherite_coin", count: 5, weight: 2 }
+		{ item: "thermal:netherite_coin", count: 10 }
+	]
+}

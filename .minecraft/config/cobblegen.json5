@@ -1,0 +1,231 @@
+{
+  "advanced": {
+    "kubejs:undef1ned_fluid": {  
+      "b:kubejs:earth_core": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:sand",
+              "weight": 25.0,
+            },
+            {
+              "id": "minecraft:gravel",
+              "weight": 25.0,
+            },
+            {
+              "id": "minecraft:clay",
+              "weight": 25.0,
+            },
+            {
+              "id": "minecraft:dirt",
+              "weight": 25.0,
+            },
+			    ],
+          "minecraft:iron_block": [
+            {
+              "id": "minecraft:andesite",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:tconstruct:queens_slime_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "tconstruct:earth_congealed_slime",
+              "weight": 20,
+            },
+            {
+              "id": "tconstruct:ender_congealed_slime",
+              "weight": 16.0,
+            },
+            {
+              "id": "tconstruct:sky_congealed_slime",
+              "weight": 16.0,
+            },
+            {
+              "id": "tconstruct:ichor_congealed_slime",
+              "weight": 16.0,
+            },
+            {
+              "id": "tconstruct:blood_congealed_slime",
+              "weight": 16.0,
+            },
+            {
+              "id": "kubejs:congealed_magma_cream",
+              "weight": 16.0,
+            },
+			    ]
+        }
+      },
+      "b:minecraft:gold_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:gold_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:iron_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:iron_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:coal_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:coal_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:diamond_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:diamond_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:emerald_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:emerald_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:netherite_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:ancient_debris",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:copper_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:copper_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:exposed_copper": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:copper_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:weathered_copper": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:copper_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:oxidized_copper": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:copper_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:lapis_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:lapis_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:redstone_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:redstone_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:quartz_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:nether_quartz_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:create:zinc_block": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "create:zinc_ore",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:multiblocked:stress_generator_core": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:glowstone",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+    }
+  }
+}

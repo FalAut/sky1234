@@ -1,0 +1,13 @@
+{
+	id: "5D1FA7D1839A3C65"
+	order_index: 4
+	title: "金币"
+	icon: "thermal:gold_coin"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:gold_coin", weight: 4 }
+		{ item: "thermal:gold_coin", count: 2, weight: 3 }
+		{ item: "thermal:gold_coin", count: 5, weight: 2 }
+		{ item: "thermal:gold_coin", count: 10 }
+	]
+}

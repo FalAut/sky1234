@@ -1,0 +1,11 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "duration": 40,
+  "destroysStructure": false,
+  "outputItem": "spirit:soul_powder"
+}

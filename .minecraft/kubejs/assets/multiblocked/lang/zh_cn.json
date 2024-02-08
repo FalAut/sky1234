@@ -1,0 +1,29 @@
+{
+  "block.multiblocked.blaze_in_jar": "罐中烈焰",
+  "multiblocked.blaze_in_jar.description": "罐中烈焰",
+  "multiblocked.recipe_map.blaze_in_jar": "罐中烈焰",
+
+  "block.multiblocked.stress_generator_controller": "霊知の太陽信仰",
+  "multiblocked.stress_generator_controller.description": "霊知の太陽信仰",
+  "block.multiblocked.stress_generator_core": "霊烏路 空",
+  "block.multiblocked.stress_generator_input": "应力输入口",
+  "block.multiblocked.stress_generator_output": "能量输出口",
+  "multiblocked.recipe_map.stress_to_energy": "霊知の太陽信仰 ～ Nuclear Fusion",
+
+  "block.multiblocked.prediction_chamber_core": "预测水晶",
+  "multiblocked.prediction_chamber_core.description": "预测水晶",
+  "multiblocked.recipe_map.prediction_chamber": "预测水晶",
+
+  "block.multiblocked.runic_altar_core": "符文祭坛",
+  "multiblocked.runic_altar_core.description": "符文祭坛",
+  "multiblocked.recipe_map.runic_altar": "符文祭坛",
+
+  "block.multiblocked.runic_crystal": "泰拉凝聚水晶",
+  "multiblocked.runic_crystal.description": "泰拉凝聚祭坛",
+  "multiblocked.recipe_map.runic_crystal": "泰拉凝聚祭坛",
+  "block.multiblocked.terrestrial_agglomeration_plate_io": "泰拉凝聚祭坛IO接口",
+
+  "block.multiblocked.gaia_killer": "盖亚守护者之墓",
+  "multiblocked.gaia_killer.description": "盖亚守护者之墓",
+  "multiblocked.recipe_map.gaia_killer": "盖亚守护者之墓"
+}

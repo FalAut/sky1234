@@ -1,0 +1,13 @@
+{
+	id: "79BE8FC30A2AEDAC"
+	order_index: 2
+	title: "铜币"
+	icon: "thermal:copper_coin"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:copper_coin", weight: 4 }
+		{ item: "thermal:copper_coin", count: 2, weight: 3 }
+		{ item: "thermal:copper_coin", count: 5, weight: 2 }
+		{ item: "thermal:copper_coin", count: 10 }
+	]
+}

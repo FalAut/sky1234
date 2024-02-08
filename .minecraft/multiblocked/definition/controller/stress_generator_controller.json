@@ -1,0 +1,194 @@
+{
+  "version": 3,
+  "location": "multiblocked:stress_generator_controller",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:stress_generator_controller",
+        "type": "imodel",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "stress_to_energy",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "AAAAA",
+        "ABBBA",
+        "ABFBA",
+        "ABBBA",
+        "AAAAA"
+      ],
+      [
+        "AAAAA",
+        "BDDDB",
+        "BDDDB",
+        "BDDDB",
+        "AEEEA"
+      ],
+      [
+        "AAAAA",
+        "BDDDB",
+        "FDGDF",
+        "BDDDB",
+        "AEEEA"
+      ],
+      [
+        "AAAAA",
+        "BDDDB",
+        "BDDDB",
+        "BDDDB",
+        "AEEEA"
+      ],
+      [
+        "AAAAA",
+        "ABBBA",
+        "ABCBA",
+        "ABBBA",
+        "AA@AA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:sheetmetal_steel"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "multiblocked:stress_generator_controller",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "tconstruct:clear_glass"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "multiblocked:stress_generator_output"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:generator"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:radiator"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "multiblocked:stress_generator_input"
+          }
+        ],
+        "type": "blocks"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "multiblocked:stress_generator_core"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}

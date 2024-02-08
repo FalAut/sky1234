@@ -1,0 +1,33 @@
+{
+  "name": "blaze_in_jar",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "blazing_blood",
+      "duration": 100,
+      "inputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "minecraft:lava",
+              "amount": 1000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "tconstruct:blazing_blood",
+              "amount": 1000
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

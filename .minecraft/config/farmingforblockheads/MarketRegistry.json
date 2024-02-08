@@ -1,0 +1,84 @@
+{
+  "customCategories": {
+    "runes": { "name": "Runes", "icon": { "item": "kubejs:undef1ned" } }
+  },
+
+  "customEntries": [
+    {
+      "output": { "item": "minecraft:chorus_flower", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+    {
+      "output": { "item": "minecraft:sugar_cane", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:cocoa_beans", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:nether_wart", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:glow_berries", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:sweet_berries", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:crimson_fungus", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:warped_fungus", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:red_mushroom", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:brown_mushroom", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:kelp", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:cactus", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    },
+
+    {
+      "output": { "item": "minecraft:bamboo", "count": 1 },
+      "payment": { "item": "minecraft:emerald", "count": 1 },
+      "category": "farmingforblockheads:seeds"
+    }
+  ]
+}

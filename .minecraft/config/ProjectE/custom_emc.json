@@ -1,0 +1,400 @@
+{
+  "entries": [
+    {
+      "item": "#create:all",
+      "emc": 10000
+    },
+    {
+      "item": "#immersiveengineering:all",
+      "emc": 10000
+    },
+    {
+      "item": "#ae2:all",
+      "emc": 10000
+    },
+    {
+      "item": "immersiveengineering:ingot_steel",
+      "emc": 10000
+    },
+    {
+      "item": "immersiveengineering:dust_steel",
+      "emc": 0
+    },
+    {
+      "item": "architects_palette:oracle_jelly",
+      "emc": 0
+    },
+    {
+      "item": "thermal:machine_frame",
+      "emc": 819200
+    },
+    {
+      "item": "immersiveengineering:component_electronic",
+      "emc": 102400
+    },
+    {
+      "item": "immersiveengineering:logic_circuit",
+      "emc": 409600
+    },
+    {
+      "item": "immersiveengineering:electron_tube",
+      "emc": 102400
+    },
+    {
+      "item": "immersiveengineering:circuit_board",
+      "emc": 102400
+    },
+    {
+      "item": "immersiveengineering:plate_duroplast",
+      "emc": 51200
+    },
+    {
+      "item": "immersiveengineering:insulating_glass",
+      "emc": 51200
+    },
+    {
+      "item": "pipez:item_pipe",
+      "emc": 1024
+    },
+    {
+      "item": "pipez:fluid_pipe",
+      "emc": 1024
+    },
+    {
+      "item": "pipez:energy_pipe",
+      "emc": 1024
+    },
+    {
+      "item": "tconstruct:queens_slime_ingot",
+      "emc": 10000
+    },
+    {
+      "item": "naturesaura:tainted_gold",
+      "emc": 1000
+    },
+    {
+      "item": "naturesaura:infused_iron",
+      "emc": 1000
+    },
+    {
+      "item": "naturesaura:sky_ingot",
+      "emc": 1000
+    },
+    {
+      "item": "kubejs:infused_coal",
+      "emc": 1000
+    },
+    {
+      "item": "naturesaura:aura_bottle{stored_type:\"naturesaura:overworld\"}",
+      "emc": 1000
+    },
+    {
+      "item": "naturesaura:aura_bottle{stored_type:\"naturesaura:nether\"}",
+      "emc": 1000
+    },
+    {
+      "item": "naturesaura:token_joy",
+      "emc": 1000
+    },
+    {
+      "item": "thermal_extra:twinite_ingot",
+      "emc": 30000
+    },
+    {
+      "item": "thermal_extra:shellite_ingot",
+      "emc": 30000
+    },
+    {
+      "item": "thermal_extra:soul_infused_ingot",
+      "emc": 30000
+    },
+    {
+      "item": "create:chromatic_compound",
+      "emc": 100000
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 1000000
+    },
+    {
+      "item": "ae2:logic_processor",
+      "emc": 10000
+    },
+    {
+      "item": "ae2:cell_component_1k",
+      "emc": 100000
+    },
+    {
+      "item": "ae2:charged_certus_quartz_crystal",
+      "emc": 1000
+    },
+    {
+      "item": "ae2:certus_quartz_crystal",
+      "emc": 100
+    },
+    {
+      "item": "ae2:singularity",
+      "emc": 30000000
+    },
+    {
+      "item": "kubejs:ferro_coke_blend",
+      "emc": 5000
+    },
+    {
+      "item": "immersiveengineering:heavy_engineering",
+      "emc": 100000
+    },
+    {
+      "item": "immersiveengineering:light_engineering",
+      "emc": 100000
+    },
+    {
+      "item": "immersiveengineering:rs_engineering",
+      "emc": 100000
+    },
+    {
+      "item": "create:electron_tube",
+      "emc": 50000
+    },
+    {
+      "item": "create:rose_quartz",
+      "emc": 30000
+    },
+    {
+      "item": "create:cinder_flour",
+      "emc": 10000
+    },
+    {
+      "item": "create:zinc_ingot",
+      "emc": 1000
+    },
+    {
+      "item": "create:andesite_alloy",
+      "emc": 1000
+    },
+    {
+      "item": "create:brass_ingot",
+      "emc": 3000
+    },
+    {
+      "item": "tconstruct:blood_slime_ball",
+      "emc": 800
+    },
+    {
+      "item": "tconstruct:ichor_slime_ball",
+      "emc": 800
+    },
+    {
+      "item": "tconstruct:ender_slime_ball",
+      "emc": 800
+    },
+    {
+      "item": "tconstruct:sky_slime_ball",
+      "emc": 800
+    },
+    {
+      "item": "hostilenetworks:empty_prediction",
+      "emc": 10000000
+    },
+    {
+      "item": "multiblocked:prediction_chamber_core",
+      "emc": 10000000
+    },
+    {
+      "item": "create:shadow_steel",
+      "emc": 5000000
+    },
+    {
+      "item": "create:refined_radiance",
+      "emc": 5000000
+    },
+    {
+      "item": "kubejs:undef1ned",
+      "emc": 1
+    },
+    {
+      "item": "botania:mana_diamond",
+      "emc": 10000
+    },
+    {
+      "item": "botania:manasteel_ingot",
+      "emc": 10000
+    },
+    {
+      "item": "botania:mana_pearl",
+      "emc": 10000
+    },
+    {
+      "item": "botania:rune_air",
+      "emc": 10000
+    },
+    {
+      "item": "botania:rune_water",
+      "emc": 10000
+    },
+    {
+      "item": "botania:rune_mana",
+      "emc": 10000
+    },
+    {
+      "item": "botania:rune_fire",
+      "emc": 10000
+    },
+    {
+      "item": "botania:rune_earth",
+      "emc": 10000
+    },
+    {
+      "item": "botania:terrasteel_ingot",
+      "emc": 10000
+    },
+    {
+      "item": "botania:elementium_ingot",
+      "emc": 10000
+    },
+    {
+      "item": "botania:pixie_dust",
+      "emc": 10000
+    },
+    {
+      "item": "botania:dragonstone",
+      "emc": 10000
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot",
+      "emc": 10000
+    },
+    {
+      "item": "botania:gaia_ingot",
+      "emc": 10000
+    },
+    {
+      "item": "botania:life_essence",
+      "emc": 10000
+    },
+    {
+      "item": "industrialforegoing:plastic",
+      "emc": 10000
+    },
+    {
+      "item": "industrialforegoing:machine_frame_pity",
+      "emc": 10000
+    },
+    {
+      "item": "industrialforegoing:machine_frame_simple",
+      "emc": 50000
+    },
+    {
+      "item": "industrialforegoing:machine_frame_advanced",
+      "emc": 100000
+    },
+    {
+      "item": "industrialforegoing:machine_frame_supreme",
+      "emc": 500000
+    },
+    {
+      "item": "mekanism:steel_casing",
+      "emc": 1000000
+    },
+    {
+      "item": "assemblylinemachines:microprocessor",
+      "emc": 100000
+    },
+    {
+      "item": "mekanism:basic_control_circuit",
+      "emc": 100000
+    },
+    {
+      "item": "mekanism:elite_control_circuit",
+      "emc": 500000
+    },
+    {
+      "item": "mekanism:advanced_control_circuit",
+      "emc": 1000000
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "emc": 5000000
+    },
+    {
+      "item": "mekanism:alloy_atomic",
+      "emc": 1000000
+    },
+    {
+      "item": "mekaevolution:absolute_control_circuit",
+      "emc": 10000000
+    },
+    {
+      "item": "architects_palette:unobtanium",
+      "emc": 1000000
+    },
+    {
+      "item": "assemblylinemachines:corrupted_shard",
+      "emc": 10000
+    },
+    {
+      "item": "assemblylinemachines:pure_iron_ingot",
+      "emc": 100000
+    },
+    {
+      "item": "assemblylinemachines:energized_gold_ingot",
+      "emc": 100000
+    },
+    {
+      "item": "assemblylinemachines:attuned_titanium_ingot",
+      "emc": 100000
+    },
+    {
+      "item": "assemblylinemachines:overclocked_conduction_component",
+      "emc": 1000000
+    },
+    {
+      "item": "assemblylinemachines:overclocked_convection_component",
+      "emc": 1000000
+    },
+    {
+      "item": "assemblylinemachines:empowered_fuel",
+      "emc": 514
+    },
+    {
+      "item": "assemblylinemachines:quantum_fuel",
+      "emc": 1919180
+    },
+    {
+      "item": "mekanism:pellet_polonium",
+      "emc": 123481
+    },
+    {
+      "item": "assemblylinemachines:novasteel_ingot",
+      "emc": 23490828
+    },
+    {
+      "item": "assemblylinemachines:mystium_ingot",
+      "emc": 23490828
+    },
+    {
+      "item": "mekanism:pellet_antimatter",
+      "emc": 3469021
+    },
+    {
+      "item": "assemblylinemachines:reality_crystal",
+      "emc": 12340710
+    },
+    {
+      "item": "assemblylinemachines:miniature_black_hole",
+      "emc": 14238778
+    },
+    {
+      "item": "assemblylinemachines:energy_harness",
+      "emc": 12489071
+    },
+    {
+      "item": "mekaevolution:infinite_control_circuit",
+      "emc": 1249710091
+    },
+    {
+      "item": "extendedexchange:final_star",
+      "emc": 9223372036854775807
+    }
+  ]
+}

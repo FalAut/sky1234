@@ -1,0 +1,44 @@
+{
+  "item.kubejs.infused_coal": "灌注煤炭",
+  "item.kubejs.ghast_eye": "恶魂之眼",
+  "item.kubejs.wither_skeleton_eye": "凋灵骷髅之眼",
+  "item.kubejs.nether_eye": "下界之眼",
+  "item.kubejs.incomplete_queens_slime_ingot": "皇后史莱姆锭（未完成）",
+  "item.kubejs.tainted_blend": "污染混合物",
+  "item.kubejs.ferro_coke_blend": "焦铁混合物",
+  "item.kubejs.enriched_dragon_breath": "富集龙息",
+  "item.kubejs.enriched_unobtanium": "富集难得素",
+  "item.kubejs.mold_rf_coil": "金属模具：红石通量线圈",
+  "item.kubejs.mold_redstone_servo": "金属模具：红石伺服器",
+  "item.kubejs.incomplete_rf_coil": "红石通量线圈（未完成）",
+  "item.kubejs.incomplete_redstone_servo": "红石伺服器（未完成）",
+  "item.kubejs.mana_emerald": "魔力绿宝石",
+  "item.kubejs.incomplete_creative_mana_tablet": "创造魔力石板（未完成）",
+  "item.kubejs.ichor_slime_bucket": "灵浆桶",
+  "item.kubejs.molten_andesite_bucket": "熔融安山岩桶",
+  "item.kubejs.molten_andesite_alloy_bucket": "熔融安山合金桶",
+
+  "block.kubejs.nether_portal_frame": "下界传送门框架",
+  "block.kubejs.nether_portal_frame_filled": "下界传送门框架",
+  "block.kubejs.earth_core": "大地之核",
+  "block.kubejs.smoked_iron_block": "烟熏的铁块",
+  "block.kubejs.spirit_attuned_gem_block": "魔灵同调宝石块",
+  "block.kubejs.congealed_magma_cream": "凝固岩浆膏块",
+  "block.kubejs.pure_iron_block": "纯铁块",
+  "block.kubejs.fluix_pearl_block": "福鲁伊克斯块",
+  "block.kubejs.mana_pearl_block": "魔力珍珠块",
+
+  "fluid.kubejs.ichor_slime": "灵浆",
+  "fluid.kubejs.molten_andesite": "熔融安山岩",
+  "fluid.kubejs.molten_andesite_alloy": "熔融安山合金",
+  "fluid.kubejs.mana": "魔力",
+
+  "infuse_type.kubejs.dragon_breath": "龙息",
+  "infuse_type.kubejs.unobtanium": "难得素",
+
+  "slurry.kubejs.dirty_titanium": "污浊钛浆液",
+  "slurry.kubejs.clean_titanium": "纯净钛浆液",
+
+  "pigment.kubejs.violet": "紫罗兰颜料",
+  "pigment.kubejs.lime": "黄绿颜料"
+}

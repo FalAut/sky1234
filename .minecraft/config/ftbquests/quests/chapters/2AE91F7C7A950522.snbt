@@ -1,0 +1,108 @@
+{
+	id: "2AE91F7C7A950522"
+	group: ""
+	order_index: 0
+	filename: "2AE91F7C7A950522"
+	title: "欢迎"
+	icon: "extendedexchange:arcane_tablet"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&l【可选】&2&l降低游戏难度"
+			icon: "extendedexchange:arcane_tablet"
+			x: 0.0d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "&c&l适度使用"
+			size: 2.0d
+			can_repeat: true
+			id: "65ACED33E32205EC"
+			tasks: [{
+				id: "094BDB990BDFC823"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "67CDECF539A7CC2C"
+				type: "choice"
+				icon: "extendedexchange:arcane_tablet"
+				team_reward: true
+				exclude_from_claim_all: true
+				table_id: 6301633763879063682L
+			}]
+		}
+		{
+			title: "0xUDF"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/image/packicon.png"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "&4&l当前为测试版"
+			description: ["&a&l这是一个半专家空岛整合包，需要你对模组有一定的了解。\\n\\n&c&l个人能力有限，无法迎合每个人的口味，如果你感到困难，随时可以退出，去寻找适合你的整合包。"]
+			size: 2.0d
+			id: "66B2B046668C4983"
+			tasks: [{
+				id: "2343471B8137A63F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "&6&l反馈Bug/建议"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: -4.0d
+			y: 0.0d
+			shape: "circle"
+			size: 2.0d
+			can_repeat: true
+			id: "21592B035EBEA84A"
+			tasks: [{
+				id: "3D6E05D7D170E35C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "381BDB4FD6A7D78B"
+				type: "command"
+				title: "Github"
+				icon: "botania:cosmetic_questgiver_mark"
+				team_reward: true
+				auto: "enabled"
+				command: "/tellraw @p [\"\",{\"text\":\"点击链接进入整合包Github页面： \", \"color\":\"red\"},{\"text\":\"https://github.com/FalAut/0xUDF/issues\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/FalAut/0xUDF/issues\"}}]"
+			}]
+		}
+		{
+			title: "特别感谢"
+			icon: "minecraft:poppy"
+			x: 4.0d
+			y: 0.0d
+			shape: "heart"
+			description: ["&a&l作者：落秋\\n感谢\\n\\nKubeJS模组 - 大部分魔改\\n\\nLychee模组 - 世界合成\\n\\nMultiblocked模组 - 多方块机器\\n\\n所有的模组，教程/wiki制作者\\n\\n吕不才的Multiblocked示例\\n\\n秋明Sweet的直播和宣传\\n\\n肆a帮助我发现了许多bug\\n\\n游玩整合包的你"]
+			size: 2.0d
+			id: "3130F3DFD55397BC"
+			tasks: [{
+				id: "492D2609B13EBBFF"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "&4&l整合包不支持服务器！"
+			icon: "architects_palette:hazard_sign"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "&4&l服务端的问题无法的得到解决！"
+			size: 2.0d
+			id: "26000674E6CCAF96"
+			tasks: [{
+				id: "4C497409C303B6F9"
+				type: "checkmark"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,230 @@
+{
+  "version": 3,
+  "location": "multiblocked:runic_altar_core",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:runic_altar_core",
+        "type": "imodel",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "runic_altar_core",
+        "isGlobal": true,
+        "type": "geo",
+        "postRenderer": false
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "runic_altar",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "       ",
+        "       ",
+        "AAAAAAA",
+        "AAAAAAA",
+        "B     B",
+        "C     C"
+      ],
+      [
+        " AAAAA ",
+        "       ",
+        "AAAAAAA",
+        "ADADADA",
+        "       ",
+        "       "
+      ],
+      [
+        " AAEAA ",
+        "  EEE  ",
+        "AAEEEAA",
+        "AAEEEAA",
+        "       ",
+        "       "
+      ],
+      [
+        " AAAAA ",
+        "  EEE  ",
+        "AAEEEAA",
+        "ADE@EDA",
+        "   F   ",
+        "       "
+      ],
+      [
+        " AAAAA ",
+        "  EEE  ",
+        "AAEEEAA",
+        "AAEEEAA",
+        "       ",
+        "       "
+      ],
+      [
+        " AAAAA ",
+        "       ",
+        "AAAAAAA",
+        "ADADADA",
+        "       ",
+        "       "
+      ],
+      [
+        "       ",
+        "       ",
+        "AAAAAAA",
+        "AAAAAAA",
+        "B     B",
+        "C     C"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "botania:livingrock_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "multiblocked:runic_altar_core",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "botania:mana_pool"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "botania:mana_pylon"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "multiblocked:pedestal"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "botania:mana_diamond_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "multiblocked:pedestal"
+          }
+        ],
+        "type": "blocks"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+	id: "4D392BE4C0566E33"
+	order_index: 3
+	title: "铁币"
+	icon: "thermal:iron_coin"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:iron_coin", weight: 4 }
+		{ item: "thermal:iron_coin", count: 2, weight: 3 }
+		{ item: "thermal:iron_coin", count: 5, weight: 2 }
+		{ item: "thermal:iron_coin", count: 10 }
+	]
+}
