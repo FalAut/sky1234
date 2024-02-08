@@ -23,11 +23,8 @@ jobs:
         cp manifest.json modpack
         cp modlist.html modpack
 
-    - name: Get short SHA
-      run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
-
     - name: Upload ZIP artifact
       uses: actions/upload-artifact@v3
       with:
-        name: modpack-${{ github.run_number }}
+        name: 0xUDF-build.0.${{ github.run_number }}
         path: '**/modpack/'
