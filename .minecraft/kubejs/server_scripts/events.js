@@ -1,4 +1,4 @@
-// priority: 1
+// priority: 2
 
 onEvent('server.load', event => {
     const { server } = event
