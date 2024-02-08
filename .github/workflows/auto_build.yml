@@ -19,7 +19,7 @@ jobs:
     - name: Upload ZIP artifact
       uses: actions/upload-artifact@v3
       with:
-        name: 0xUDF-build.0.${{ github.run_number }}
+        name: 0xUDF-beta.0.${{ github.run_number }}
         path: |
           **/overrides/
           **/manifest.json
