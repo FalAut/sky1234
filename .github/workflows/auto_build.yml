@@ -11,16 +11,26 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Rename .minecraft to overrides
       run: mv .minecraft overrides
 
+    - name: Move files for artifact
+      run: |
+        mkdir modpack
+        cp -r overrides modpack
+        cp manifest.json modpack
+        cp modlist.html modpack
+
     - name: Create ZIP file
-      run: zip -r modpack.zip overrides manifest.json modlist.html
+      run: zip -r modpack.zip modpack
+
+    - name: Get short SHA
+      run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
 
     - name: Upload ZIP artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
-        name: modpack-${{ github.sha }}
+        name: modpack-${{ env.SHORT_SHA }}
         path: modpack.zip
