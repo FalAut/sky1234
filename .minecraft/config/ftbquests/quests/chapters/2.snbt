@@ -614,7 +614,7 @@
 				{
 					id: "4B395F2ED4CB9B64"
 					type: "item"
-					item: "multiblocked:stress_generator_controller"
+					item: "multiblocked:stress_generator_nosun"
 					consume_items: true
 				}
 				{
@@ -655,7 +655,7 @@
 					id: "42577D5B6A5ADF41"
 					type: "item"
 					item: "immersiveengineering:generator"
-					count: 26L
+					count: 27L
 					consume_items: true
 				}
 			]
