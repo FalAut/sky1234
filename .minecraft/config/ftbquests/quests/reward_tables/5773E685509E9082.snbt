@@ -2,13 +2,14 @@
 	id: "5773E685509E9082"
 	order_index: 0
 	title: "简单模式"
-	icon: "extendedexchange:arcane_tablet"
+	icon: "projecte:transmutation_tablet"
 	loot_size: 1
 	rewards: [
-		{ item: "extendedexchange:arcane_tablet" }
 		{ item: "projecte:transmutation_tablet" }
 		{ item: "projecte:transmutation_table" }
 		{ item: "torcherino:torcherino" }
 		{ item: "extendedexchange:personal_link" }
+		{ item: "projecte:condenser_mk1" }
+		{ item: "projecte:condenser_mk2" }
 	]
 }

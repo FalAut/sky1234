@@ -58,7 +58,7 @@ onEvent("recipes", (event) => {
 
   event
     .smithing(
-      "multiblocked:stress_generator_nosun",
+      "multiblocked:stress_generator_controller",
       "create:stressometer",
       "immersiveengineering:sheetmetal_steel"
     )

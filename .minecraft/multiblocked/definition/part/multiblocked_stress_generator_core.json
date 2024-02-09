@@ -21,21 +21,12 @@
     "unformed": {
       "renderer": {
         "baseTexture": "multiblocked:sun",
-        "frontTexture": "multiblocked:6",
+        "frontTexture": "multiblocked:sun",
         "type": "gregtech",
         "postRenderer": false
       }
     },
     "idle": {
-      "renderer": {
-        "shouldCull": true,
-        "texture": "multiblocked:start",
-        "isShader": true,
-        "scale": 3.0,
-        "light": 15,
-        "type": "particle",
-        "postRenderer": false
-      },
       "parent": "unformed"
     },
     "working": {

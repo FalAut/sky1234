@@ -614,7 +614,7 @@
 				{
 					id: "4B395F2ED4CB9B64"
 					type: "item"
-					item: "multiblocked:stress_generator_nosun"
+					item: "multiblocked:stress_generator_controller"
 					consume_items: true
 				}
 				{
@@ -681,6 +681,11 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 5564527076072386099L
+				}
+				{
+					id: "31A4043B32268702"
+					type: "item"
+					item: "trashcans:energy_trash_can"
 				}
 			]
 		}
@@ -3012,40 +3017,6 @@
 					table_id: 5564527076072386099L
 				}
 			]
-		}
-		{
-			icon: {
-				id: "mekanism:creative_energy_cube"
-				Count: 1b
-				tag: {
-					mekData: {
-						EnergyContainers: [{
-							Container: 0b
-							stored: "18446744073709551615.9999"
-						}]
-					}
-				}
-			}
-			x: 25.0d
-			y: -1.5d
-			id: "5840112D96F10D72"
-			tasks: [
-				{
-					id: "1A13405891DEE0A5"
-					type: "item"
-					item: "multiblocked:stress_generator_controller"
-				}
-				{
-					id: "058B9AC79FC7CB5B"
-					type: "item"
-					item: "multiblocked:stress_generator_core"
-				}
-			]
-			rewards: [{
-				id: "0470DEE8B2C843F5"
-				type: "item"
-				item: "trashcans:energy_trash_can"
-			}]
 		}
 		{
 			x: 24.0d

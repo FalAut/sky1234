@@ -11,7 +11,7 @@
 	quests: [
 		{
 			title: "&l【可选】&2&l降低游戏难度"
-			icon: "extendedexchange:arcane_tablet"
+			icon: "projecte:transmutation_tablet"
 			x: 0.0d
 			y: 4.0d
 			shape: "diamond"

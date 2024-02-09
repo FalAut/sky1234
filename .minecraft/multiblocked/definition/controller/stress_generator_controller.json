@@ -35,71 +35,22 @@
       "parent": "working"
     }
   },
-  "recipeMap": "creative_energy_cube",
+  "recipeMap": "stress_to_energy",
   "basePattern": {
-    "structureDir": [
-      "RIGHT",
-      "UP",
-      "FRONT"
-    ],
+    "structureDir": ["RIGHT", "UP", "FRONT"],
     "pattern": [
-      [
-        "AAAAA",
-        "ABBBA",
-        "ABFBA",
-        "ABBBA",
-        "AAAAA"
-      ],
-      [
-        "AAAAA",
-        "BDDDB",
-        "BDDDB",
-        "BDDDB",
-        "AEEEA"
-      ],
-      [
-        "AAAAA",
-        "BDDDB",
-        "FDGDF",
-        "BDDDB",
-        "AEEEA"
-      ],
-      [
-        "AAAAA",
-        "BDDDB",
-        "BDDDB",
-        "BDDDB",
-        "AEEEA"
-      ],
-      [
-        "AAAAA",
-        "ABBBA",
-        "ABCBA",
-        "ABBBA",
-        "AA@AA"
-      ]
+      ["AAAAA", "ABBBA", "ABFBA", "ABBBA", "AAAAA"],
+      ["AAAAA", "BDDDB", "BDDDB", "BDDDB", "AEEEA"],
+      ["AAAAA", "BDDDB", "FDDDF", "BDDDB", "AEEEA"],
+      ["AAAAA", "BDDDB", "BDDDB", "BDDDB", "AEEEA"],
+      ["AAAAA", "ABBBA", "ABCBA", "ABBBA", "AA@AA"]
     ],
     "aisleRepetitions": [
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ]
+      [1, 1],
+      [1, 1],
+      [1, 1],
+      [1, 1],
+      [1, 1]
     ],
     "predicates": {
       "A": {
@@ -136,8 +87,7 @@
             "id": "immersiveengineering:generator"
           }
         ],
-        "type": "blocks",
-        "disableRenderFormed": true
+        "type": "blocks"
       },
       "E": {
         "blocks": [
@@ -154,41 +104,16 @@
           }
         ],
         "type": "blocks"
-      },
-      "G": {
-        "blocks": [
-          {
-            "id": "multiblocked:stress_generator_core"
-          }
-        ],
-        "type": "blocks"
       }
     },
     "symbolMap": {
-      "@": [
-        "controller"
-      ],
-      "A": [
-        "A"
-      ],
-      "B": [
-        "B"
-      ],
-      "C": [
-        "C"
-      ],
-      "D": [
-        "D"
-      ],
-      "E": [
-        "E"
-      ],
-      "F": [
-        "F"
-      ],
-      "G": [
-        "G"
-      ]
+      "@": ["controller"],
+      "A": ["A"],
+      "B": ["B"],
+      "C": ["C"],
+      "D": ["D"],
+      "E": ["E"],
+      "F": ["F"]
     }
   }
 }
