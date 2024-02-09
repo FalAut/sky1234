@@ -27,7 +27,7 @@
 			rewards: [{
 				id: "67CDECF539A7CC2C"
 				type: "choice"
-				icon: "extendedexchange:arcane_tablet"
+				icon: "projecte:transmutation_tablet"
 				team_reward: true
 				exclude_from_claim_all: true
 				table_id: 6301633763879063682L
