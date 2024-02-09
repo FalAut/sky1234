@@ -4,6 +4,7 @@
 		power: 1
 		condition: "always_active"
 		"command.ie.mineral.put":true
+		"command.teleport":true		
 	}
 	vip: {
 		name: "VIP"

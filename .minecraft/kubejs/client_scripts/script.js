@@ -14,7 +14,7 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.add('naturesaura:animal_spawner', Text.green('不要将材料堆叠！一次只能召唤一个生物'))
 	tooltip.add('naturesaura:gold_fiber', Text.green('将黄金叶使用铁砧压碎'))
 	tooltip.add('naturesaura:token_anger', Text.green('将愉悦印记扔进火里'))
-	tooltip.add('kubejs:nether_eye', Text.green('将3个眼睛扔进火里'))
+	tooltip.add('kubejs:nether_eye', Text.green('将3个眼睛扔进岩浆里'))
 	tooltip.add([Item.of('immersiveengineering:metal_press').enchant('minecraft:vanishing_curse', 100), Item.of('thermal:machine_press').enchant('minecraft:vanishing_curse', 100)], [Text.red('这是一个假的序列合成'), Text.green('请查看红石通量线圈（未完成）的合成表'), Text.green('请查看红石伺服器（未完成）的合成表')])
 	// tooltip.add(Item.of('minecraft:enchanted_book').enchant('miniutilities:molten_head', 1), Text.green('不兼容时运附魔'))
 	// tooltip.add('occultism:storage_controller', [Text.red('警告：不要将大量物品传入维度存储！').bold(), Text.green('不建议当成抽屉使用')])

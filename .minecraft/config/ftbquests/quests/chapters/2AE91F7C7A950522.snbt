@@ -83,7 +83,7 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "heart"
-			description: ["&a&l作者：落秋\\n感谢\\n\\nKubeJS模组 - 大部分魔改\\n\\nLychee模组 - 世界合成\\n\\nMultiblocked模组 - 多方块机器\\n\\n所有的模组，教程/wiki制作者\\n\\n吕不才的Multiblocked示例\\n\\n秋明Sweet的直播和宣传\\n\\n肆a帮助我发现了许多bug\\n\\n游玩整合包的你"]
+			description: ["&a&l作者：落秋\\n感谢\\n\\nKubeJS模组 - 大部分魔改\\n\\nLychee模组 - 世界合成\\n\\nMultiblocked模组 - 多方块机器\\n\\n所有的模组，教程/wiki制作者\\n\\n吕不才的Multiblocked示例\\n\\n秋明Sweet的直播和宣传\\n\\n肆a、春夏冬明帮助我发现了许多bug\\n\\n游玩整合包的你"]
 			size: 2.0d
 			id: "3130F3DFD55397BC"
 			tasks: [{
@@ -92,7 +92,7 @@
 			}]
 		}
 		{
-			title: "&4&l整合包不支持服务器！"
+			title: "&4&l整合包支持联机，但不支持服务器！"
 			icon: "architects_palette:hazard_sign"
 			x: 0.0d
 			y: -3.0d
@@ -102,6 +102,40 @@
 			tasks: [{
 				id: "4C497409C303B6F9"
 				type: "checkmark"
+			}]
+		}
+		{
+			title: "虚空维度传送器"
+			icon: "kubejs:void_teleporters"
+			x: -5.0d
+			y: -3.0d
+			can_repeat: true
+			id: "10B3B4169D079F88"
+			tasks: [{
+				id: "5D4098A46AA443B5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "32AC61A58BA4A0A9"
+				type: "item"
+				item: "kubejs:void_teleporters"
+			}]
+		}
+		{
+			title: "超平坦维度传送器"
+			icon: "kubejs:surper_flat_teleporters"
+			x: -3.0d
+			y: -3.0d
+			can_repeat: true
+			id: "13167BABB85C44E6"
+			tasks: [{
+				id: "4B2C63C5E4F2843A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "17B2FFCE0654478F"
+				type: "item"
+				item: "kubejs:surper_flat_teleporters"
 			}]
 		}
 	]

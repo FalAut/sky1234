@@ -235,15 +235,15 @@ onEvent("recipes", (event) => {
     .custom({
       type: "immersiveengineering:mineral_mix",
       ores: [
-        { chance: 0.25, output: { item: "thermal:lead_ore" } },
-        { chance: 0.25, output: { item: "thermal:silver_ore" } },
-        { chance: 0.25, output: { item: "thermal:tin_ore" } },
-        { chance: 0.25, output: { item: "thermal:nickel_ore" } },
+        { chance: 0.2, output: { item: "ae2:quartz_ore" } },
+        { chance: 0.2, output: { item: "thermal:lead_ore" } },
+        { chance: 0.2, output: { item: "thermal:silver_ore" } },
+        { chance: 0.2, output: { item: "thermal:tin_ore" } },
+        { chance: 0.2, output: { item: "thermal:nickel_ore" } },
       ],
       spoils: [
         { chance: 0.4, output: { item: "immersiveengineering:ore_aluminum" } },
-        { chance: 0.3, output: { item: "immersiveengineering:ore_uranium" } },
-        { chance: 0.3, output: { item: "ae2:quartz_ore" } },
+        { chance: 0.6, output: { item: "ae2:quartz_ore" } },
       ],
       dimensions: ["minecraft:overworld"],
       weight: 0,

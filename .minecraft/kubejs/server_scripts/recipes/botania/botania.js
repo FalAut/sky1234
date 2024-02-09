@@ -20,8 +20,8 @@ onEvent("recipes", (event) => {
     `${id_prefix}livingwood`
   );
 
-  pure_daisy("botania:livingwood", "occultism:otherstone").id(
-    `${id_prefix}livingwood`
+  pure_daisy("botania:livingrock", "occultism:otherstone").id(
+    `${id_prefix}livingrock`
   );
 
   mana_infusion(

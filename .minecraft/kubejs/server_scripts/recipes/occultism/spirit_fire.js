@@ -15,6 +15,11 @@ onEvent('recipes', event => {
             ingredient: { tag: 'minecraft:logs' },
             result: { item: 'occultism:otherworld_log' },
             id: `${id_prefix}otherworld_log`
+        },
+        {
+            ingredient: { tag: 'forge:stone' },
+            result: { item: 'occultism:otherstone' },
+            id: `${id_prefix}otherstone`
         }
     ];
 

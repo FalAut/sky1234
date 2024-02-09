@@ -21,6 +21,8 @@ onEvent('item.registry', event => {
     event.create('mana_emerald').textureJson({ layer0: "minecraft:item/emerald" }).color(0, 0x00BFFF).glow(true)
     event.create('incomplete_creative_mana_tablet', 'create:sequenced_assembly').textureJson({ layer0: "botania:item/mana_tablet", layer1: "botania:item/mana_tablet_overlay" }).color(1, 0x808080)
     event.create('def1ned').displayName("???").glow(true)
+    event.create('void_teleporters').glow(true).displayName('虚空维度传送器')
+    event.create('surper_flat_teleporters').glow(true).displayName('超平坦维度传送器')
 })
 
 onEvent('block.registry', event => {

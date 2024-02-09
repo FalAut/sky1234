@@ -60,11 +60,12 @@ onEvent('item.right_click', event => {
     }
 
     //矿脉放置器
-    if (item.id == 'kubejs:mineral_placer') {
-        if (hand != 'main_hand') return
-        server.runCommand('ie mineral put "kubejs:custom" 16 ~ ~')
-        server.runCommand('ie mineral get ~ ~')
-        item.count--
+    if (item.id == 'kubejs:void_teleporters') {
+        player.teleportTo('kubejs:void', 0.5, 69, 0.5, 0, 0);
+        event.server.runCommandSilent('execute in kubejs:void run setblock 0 65 0 minecraft:bedrock')
+    }
+    if (item.id == 'kubejs:surper_flat_teleporters') {
+        player.teleportTo('kubejs:surper_flat', 0.5, 69, 0.5, 0, 0);
     }
 })
 
@@ -81,13 +82,13 @@ onEvent('entity.spawned', event => {
     }
 })
 
-onEvent('player.tick', event => {
-    if (event.player.getId().toString() == '22d7667a-6303-4a91-ab05-40e3995ff5fa')
-    event.server.runCommandSilent('clear @a extendedexchange:arcane_tablet')
-    event.server.runCommandSilent('clear @a projecte:transmutation_tablet')
-    event.server.runCommandSilent('clear @a projecte:transmutation_table')
-    event.server.runCommandSilent('clear @a extendedexchange:personal_link')
-    event.server.runCommandSilent('clear @a projecte:condenser_mk1')
-    event.server.runCommandSilent('clear @a projecte:condenser_mk2')
-    event.server.runCommandSilent('clear @a torcherino:torcherino')
-})
+// onEvent('player.tick', event => {
+//     if (event.player.getId().toString() == '22d7667a-6303-4a91-ab05-40e3995ff5fa')
+//     event.server.runCommandSilent('clear @a extendedexchange:arcane_tablet')
+//     event.server.runCommandSilent('clear @a projecte:transmutation_tablet')
+//     event.server.runCommandSilent('clear @a projecte:transmutation_table')
+//     event.server.runCommandSilent('clear @a extendedexchange:personal_link')
+//     event.server.runCommandSilent('clear @a projecte:condenser_mk1')
+//     event.server.runCommandSilent('clear @a projecte:condenser_mk2')
+//     event.server.runCommandSilent('clear @a torcherino:torcherino')
+// })

@@ -377,7 +377,7 @@ onEvent('recipes', event => {
         3: 'thermal:machine_frame',
         4: 'thermal:copper_gear',
         5: 'thermal:rf_coil',
-        6: 'thermal:machine_pulverizer'
+        6: 'create:millstone'
     }).id(`${id_prefix}machine_pulverizer`);
 
 // Machine Smelter
@@ -465,7 +465,7 @@ onEvent('recipes', event => {
         1: 'immersiveengineering:logic_circuit',
         2: 'thermal:redstone_servo',
         3: 'thermal:machine_frame',
-        4: 'thermal:lumium_gear',
+        4: 'thermal:copper_gear',
         5: 'thermal:rf_coil',
         6: 'create:spout'
     }).id(`${id_prefix}machine_bottler`);
