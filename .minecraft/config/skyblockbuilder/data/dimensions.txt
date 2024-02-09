@@ -1,5 +1,0 @@
-minecraft:overworld
-ae2:spatial_storage
-minecraft:the_end
-minecraft:the_nether
-assemblylinemachines:chaos_plane
