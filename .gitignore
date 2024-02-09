@@ -13,6 +13,7 @@ natives
 .minecraft/config/jei
 .minecraft/config/jei/**
 .minecraft/config/skyblockbuilder/data
+.minecraft/config/skyblockbuilder/data/**
 !.minecraft/defaultconfigs/
 !.minecraft/defaultconfigs/**
 
@@ -24,8 +25,5 @@ natives
 .minecraft/kubejs/probe
 
 ## Resources
-.minecraft/local/ftbchunks/data
-.minecraft/local/ftbchunks/data/**
-!.minecraft/local/ftbchunks/client-config.snbt
 !.minecraft/multiblocked/
 !.minecraft/multiblocked/**
