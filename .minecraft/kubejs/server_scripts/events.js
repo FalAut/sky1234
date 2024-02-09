@@ -81,9 +81,9 @@ onEvent('entity.spawned', event => {
     }
 })
 
-onEvent('player.inventory.changed', event => {
+onEvent('player.tick', event => {
     if (event.player.getId().toString() == '22d7667a-6303-4a91-ab05-40e3995ff5fa')
-    // event.server.runCommandSilent('clear @a extendedexchange:arcane_tablet')
+    event.server.runCommandSilent('clear @a extendedexchange:arcane_tablet')
     event.server.runCommandSilent('clear @a projecte:transmutation_tablet')
     event.server.runCommandSilent('clear @a projecte:transmutation_table')
     event.server.runCommandSilent('clear @a extendedexchange:personal_link')
