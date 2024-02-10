@@ -326,11 +326,11 @@ onEvent('recipes', event => {
         5: 'thermal:machine_smelter'
     }).id(`${id_prefix}dissolution_chamber`);
 
-// End Prediction
+// Gaia Ingot
     crafting_shaped('botania:gaia_ingot', ['111', '121', '111'], {
         1: 'botania:life_essence',
         2: 'industrialforegoing:pink_slime_ingot'
-    }).id(`${id_prefix}end_prediction`);
+    }).id(`${id_prefix}gaia_ingo`);
 
 // Stress Generator Core
     crafting_shaped('multiblocked:stress_generator_core', ['111', '121', '111'], {
@@ -635,8 +635,8 @@ onEvent('recipes', event => {
     }).id(`${id_prefix}terrestrial_agglomeration_plate_io`);
 
     crafting_shaped('multiblocked:pedestal', ['111', ' 2 ', '222'], {
-        1: 'projecte:dark_matter',
-        2: 'projecte:dark_matter_block'
+        1: 'kubejs:undef1ned',
+        2: 'kubejs:undef1ned_block'
     }).id(`${id_prefix}mbdpedestal`);
 
     crafting_shaped('assemblylinemachines:overclocked_conduction_component', ['121', '232', '121'], {
@@ -840,4 +840,21 @@ onEvent('recipes', event => {
         1: 'tconstruct:queens_slime_nugget',
         2: 'tconstruct:seared_melter'
     }).id(`${id_prefix}smeltery_controller`);
+
+    crafting_shaped('create:sail_frame', ['12 ', '21 '], {
+        1: 'create:andesite_alloy',
+        2: 'stick'
+    }).id(`${id_prefix}sail_frame`);
+
+    crafting_shaped('kubejs:spirit_attuned_gem_block', ['111', '111', '111'], {
+        1: 'occultism:spirit_attuned_gem'
+    }).id(`${id_prefix}spirit_attuned_gem_block`);
+
+    crafting_shaped('kubejs:fluix_pearl_block', ['111', '111', '111'], {
+        1: 'ae2:fluix_pearl'
+    }).id(`${id_prefix}fluix_pearl_block`);
+
+    crafting_shaped('kubejs:mana_pearl_block', ['111', '111', '111'], {
+        1: 'botania:mana_pearl'
+    }).id(`${id_prefix}mana_pearl_block`);
 })

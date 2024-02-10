@@ -7,7 +7,7 @@ onEvent("recipes", (event) => {
     {
       powerCost: 4096,
       powerRate: 256,
-      inputCount: 1024,
+      inputCount: 256,
       input: "ae2:matter_ball",
       icatalyst: "extendedcrafting:elite_catalyst",
       result: { item: "projecte:dark_matter" },

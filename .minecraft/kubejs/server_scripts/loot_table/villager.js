@@ -1,4 +1,11 @@
 onEvent('morejs.villager.trades', event => {
+    event.removeVanillaTrades(['leatherworker'], 1);
+    event.removeVanillaTrades(['leatherworker'], 2);
+    event.addTrade('leatherworker', 1, 'emerald', 'leather');
+    event.addTrade('leatherworker', 1, 'emerald', 'leather');
+    event.addTrade('leatherworker', 2, 'emerald', 'leather');
+    event.addTrade('leatherworker', 2, 'emerald', 'leather');
+
     event.removeVanillaTrades(['cleric'], 1);
     event.removeVanillaTrades(['cleric'], 3);
     event.addTrade('cleric', 1, 'naturesaura:infused_iron', 'emerald');

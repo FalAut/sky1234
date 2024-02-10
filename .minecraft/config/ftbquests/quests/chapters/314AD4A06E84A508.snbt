@@ -575,6 +575,25 @@
 				}
 			}]
 		}
+		{
+			title: "天使方块"
+			icon: "miniutilities:angel_block"
+			x: -2.0d
+			y: -4.0d
+			can_repeat: true
+			id: "4872A9A048484449"
+			tasks: [{
+				id: "75FAFB7FFB39105E"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "07406B11375A5598"
+				type: "item"
+				item: "miniutilities:angel_block"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

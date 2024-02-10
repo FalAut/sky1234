@@ -1,9 +1,5 @@
 // priority: 1
 
-onEvent('block.modification', event => {
-
-})
-
 onEvent('item.modification', event => {
     event.modify([
       'naturesaura:fortress_finder',
@@ -17,6 +13,15 @@ onEvent('item.modification', event => {
         item.fireResistant = true
     })
   event.modify('extendedexchange:final_star', item => {
+    item.maxStackSize = 64
+  })
+
+  event.modify([
+    'kubejs:incomplete_queens_slime_ingot',
+    'kubejs:incomplete_rf_coil',
+    'kubejs:incomplete_redstone_servo',
+    'kubejs:tainted_blend'
+  ], item => {
     item.maxStackSize = 64
   })
 })

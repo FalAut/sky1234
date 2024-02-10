@@ -27,4 +27,6 @@ onEvent('recipes', event => {
     minecraft.crafting_shapeless('thermal:machine_efficiency_creative_augment', 'assemblylinemachines:creative_upgrade_kit')
     minecraft.crafting_shapeless('thermal:rf_coil_creative_augment', 'assemblylinemachines:creative_upgrade_kit')
     minecraft.crafting_shapeless('thermal:fluid_tank_creative_augment', 'assemblylinemachines:creative_upgrade_kit')
+    minecraft.crafting_shapeless('4x minecraft:magma_cream', 'kubejs:congealed_magma_cream')
+    minecraft.crafting_shapeless('64x createendertransmission:energy_transmitter', ['kubejs:undef1ned_block', 'create:cogwheel'])
 })

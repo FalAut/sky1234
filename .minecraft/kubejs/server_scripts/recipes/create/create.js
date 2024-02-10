@@ -153,4 +153,86 @@ onEvent("recipes", (event) => {
     "immersiveengineering:wirecoil_copper",
     "thermal:cured_rubber",
   ]).id(`${id_prefix}energy_pipe`);
+
+  mixing(Fluid.of("tconstruct:earth_slime", 250), "minecraft:slime_ball");
+  mixing(Fluid.of("tconstruct:sky_slime", 250), "tconstruct:sky_slime_ball");
+  mixing(
+    Fluid.of("tconstruct:ender_slime", 250),
+    "tconstruct:ender_slime_ball"
+  );
+  mixing(Fluid.of("tconstruct:magma", 250), "minecraft:magma_cream");
+  mixing(Fluid.of("kubejs:ichor_slime", 250), "tconstruct:ichor_slime_ball");
+  mixing(Fluid.of("tconstruct:blood", 250), "tconstruct:blood_slime_ball");
+
+  filling(
+    Item.of(
+      "kubejs:incomplete_queens_slime_ingot",
+      '{SequencedAssembly:{Progress:0.16666667f,Step:1,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+    ),
+    ["naturesaura:tainted_gold", Fluid.of("tconstruct:earth_slime", 250)]
+  );
+
+  filling(
+    Item.of(
+      "kubejs:incomplete_queens_slime_ingot",
+      '{SequencedAssembly:{Progress:0.33333334f,Step:2,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+    ),
+    [
+      Item.of(
+        "kubejs:incomplete_queens_slime_ingot",
+        '{SequencedAssembly:{Progress:0.16666667f,Step:1,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+      ),
+      Fluid.of("tconstruct:sky_slime", 250),
+    ]
+  );
+
+  filling(
+    Item.of(
+      "kubejs:incomplete_queens_slime_ingot",
+      '{SequencedAssembly:{Progress:0.5f,Step:3,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+    ),
+    [
+      Item.of(
+        "kubejs:incomplete_queens_slime_ingot",
+        '{SequencedAssembly:{Progress:0.33333334f,Step:2,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+      ),
+      Fluid.of("tconstruct:ender_slime", 250),
+    ]
+  );
+
+  filling(
+    Item.of(
+      "kubejs:incomplete_queens_slime_ingot",
+      '{SequencedAssembly:{Progress:0.6666667f,Step:4,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+    ),
+    [
+      Item.of(
+        "kubejs:incomplete_queens_slime_ingot",
+        '{SequencedAssembly:{Progress:0.5f,Step:3,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+      ),
+      Fluid.of("tconstruct:magma", 250),
+    ]
+  );
+
+  filling(
+    Item.of(
+      "kubejs:incomplete_queens_slime_ingot",
+      '{SequencedAssembly:{Progress:0.8333333f,Step:5,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+    ),
+    [
+      Item.of(
+        "kubejs:incomplete_queens_slime_ingot",
+        '{SequencedAssembly:{Progress:0.6666667f,Step:4,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+      ),
+      Fluid.of("kubejs:ichor_slime", 250),
+    ]
+  );
+
+  filling("tconstruct:queens_slime_ingot", [
+    Item.of(
+      "kubejs:incomplete_queens_slime_ingot",
+      '{SequencedAssembly:{Progress:0.8333333f,Step:5,id:"kubejs:recipes/create/sequenced_assembly/queens_slime_ingot"}}'
+    ),
+    Fluid.of("tconstruct:blood", 250),
+  ]);
 });

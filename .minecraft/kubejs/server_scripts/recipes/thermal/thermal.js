@@ -115,7 +115,7 @@ onEvent("recipes", (event) => {
       "kubejs:incomplete_redstone_servo",
       '{SequencedAssembly:{Progress:0.2f,Step:1,id:"kubejs:recipes/create/sequenced_assembly/redstone_servo_thermal"}}'
     ),
-    ["iron_ingot", "kubejs:mold_rf_coil"]
+    ["iron_ingot", "kubejs:mold_redstone_servo"]
   ).id(`${id_prefix}incomplete_redstone_servo`);
 
   bottler("extendedcrafting:redstone_ingot", [
@@ -228,4 +228,6 @@ onEvent("recipes", (event) => {
     "assemblylinemachines:mystium_gear",
     "assemblylinemachines:mystium_ingot"
   ).id(`${id_prefix}mystium_gear`);
+
+  crystallizer("ae2:fluix_crystal", ["ae2:fluix_crystal_seed", Fluid.water()]);
 });

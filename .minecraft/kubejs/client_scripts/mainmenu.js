@@ -34,7 +34,7 @@ onEvent("ui.main_menu", (event) => {
       b.width = 70;
       b.x = 0;
       b.y = 200;
-      b.action = "https://gitee.com/FalAut/0xUDF/repository/archive/master.zip";
+      b.action = "https://www.lanzv.com/b023thcdc";
       b.hoverColor = 0x00ff00;
       b.shadow = false;
     });

@@ -23,6 +23,7 @@ onEvent('item.registry', event => {
     event.create('def1ned').displayName("???").glow(true)
     event.create('void_teleporters').glow(true).displayName('虚空维度传送器')
     event.create('surper_flat_teleporters').glow(true).displayName('超平坦维度传送器')
+    event.create('water_world_teleporters').glow(true).displayName('水世界传送器')
 })
 
 onEvent('block.registry', event => {

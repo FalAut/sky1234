@@ -30,7 +30,7 @@ onEvent('recipes', event => {
                 "item": 'naturesaura:sky_ingot'
             },
             start_item: {
-                "item": 'naturesaura:birth_spirit'
+                "item": 'naturesaura:calling_spirit'
             },
             output: {
                 "item": 'diamond'

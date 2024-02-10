@@ -4,86 +4,37 @@
   "traits": {
     "item": [
       {
-        "cIO": 0,
-        "gIO": 2,
-        "mIO": 0,
-        "x": 48,
-        "y": 53,
-        "autoIO": false
-      },
-      {
-        "cIO": 0,
-        "gIO": 2,
-        "mIO": 0,
-        "x": 24,
-        "y": 81,
-        "autoIO": false
-      },
-      {
         "cIO": 1,
         "gIO": 2,
         "mIO": 1,
-        "x": 127,
-        "y": 82,
+        "x": 145,
+        "y": 71,
         "autoIO": false
       },
       {
         "cIO": 0,
         "gIO": 2,
         "mIO": 0,
-        "x": 24,
-        "y": 53,
-        "autoIO": false
+        "x": 36,
+        "y": 43,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"botania:rune_mana\\\"}\""
+        ]
       },
       {
         "cIO": 0,
         "gIO": 2,
-        "mIO": 0,
-        "x": 73,
-        "y": 53,
-        "autoIO": false
-      },
-      {
-        "cIO": 0,
-        "gIO": 2,
-        "mIO": 0,
-        "x": 48,
-        "y": 80,
-        "autoIO": false
-      },
-      {
-        "cIO": 0,
-        "gIO": 2,
-        "mIO": 0,
-        "x": 74,
-        "y": 81,
-        "autoIO": false
-      },
-      {
-        "cIO": 0,
-        "gIO": 2,
-        "mIO": 0,
-        "x": 24,
-        "y": 109,
-        "autoIO": false
-      },
-      {
-        "cIO": 0,
-        "gIO": 2,
-        "mIO": 0,
-        "x": 50,
-        "y": 108,
-        "autoIO": false
-      },
-      {
-        "cIO": 0,
-        "gIO": 2,
-        "mIO": 0,
-        "x": 76,
-        "y": 108,
-        "autoIO": false
+        "mIO": 2,
+        "x": 36,
+        "y": 100,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"botania:mana_diamond\\\"}\""
+        ]
       }
-    ]
+    ],
+    "background": "multiblocked:textures/gui/gui_io.png"
   },
   "properties": {
     "rotationState": "ALL",

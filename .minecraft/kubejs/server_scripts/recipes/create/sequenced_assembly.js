@@ -19,7 +19,7 @@ onEvent('recipes', event => {
 		Item.of('raw_gold').withChance(33),
 		Item.of('raw_copper').withChance(33),
 		Item.of('create:raw_zinc').withChance(33), 
-		Item.of('minecraft:player_head', '{SkullOwner:"Fa1Aut"}').withChance(1)], 'barrier', [
+		Item.of('tiab:time_in_a_bottle', '{storedTime:2147483647}').withChance(1)], 'barrier', [
 		deploying(t, [t, 'create:millstone']),
 		deploying(t, [t, 'create:mechanical_mixer']),
 		deploying(t, [t, 'create:sand_paper']),

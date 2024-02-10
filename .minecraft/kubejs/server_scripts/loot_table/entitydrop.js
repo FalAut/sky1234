@@ -16,4 +16,8 @@ onEvent("lootjs", event => {
     event
         .addEntityLootModifier('minecraft:zombified_piglin')
         .removeLoot(['gold_ingot', 'gold_nugget']);
+    
+    event.addBlockLootModifier('kubejs:congealed_magma_cream')
+        .addLoot('4x minecraft:magma_cream')
+    .removeLoot('kubejs:congealed_magma_cream')
 })

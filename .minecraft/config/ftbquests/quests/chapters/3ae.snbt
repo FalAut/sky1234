@@ -1566,6 +1566,7 @@
 			x: 23.0d
 			y: 9.0d
 			shape: "pentagon"
+			subtitle: "&c&l使用胶囊放置后，请重新放置模块化内任意一个方块"
 			dependencies: ["0855B29DB0B91921"]
 			size: 2.0d
 			id: "3F398A5F9FE74F4B"

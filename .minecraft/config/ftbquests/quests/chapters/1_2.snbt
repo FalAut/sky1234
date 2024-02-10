@@ -611,6 +611,7 @@
 		{
 			x: 18.0d
 			y: 0.0d
+			subtitle: "融铁桶"
 			dependencies: ["3A220C3A8609602F"]
 			id: "23550D217AE0A3AE"
 			tasks: [{
@@ -2462,7 +2463,7 @@
 						}
 					}
 					team_reward: true
-					command: "/capsule giveLinked animal_spawner.nbt @p"
+					command: "/capsule fromExistingReward animal_spawner.nbt @p"
 				}
 				{
 					id: "26160E4AD71D65F2"
