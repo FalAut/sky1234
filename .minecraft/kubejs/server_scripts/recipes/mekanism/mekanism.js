@@ -425,4 +425,7 @@ onEvent("recipes", (event) => {
       output: { item: "extendedexchange:violet_matter" },
     })
     .id(`${id_prefix}violet_matter`);
+
+  enriching("kubejs:enriched_dragon_breath", "minecraft:dragon_breath");
+  enriching("kubejs:enriched_unobtanium", "architects_palette:unobtanium");
 });
