@@ -527,7 +527,7 @@
 				tag: { }
 			}
 			x: -2.0d
-			y: -7.0d
+			y: -8.0d
 			can_repeat: true
 			id: "3D4388605F356FA7"
 			tasks: [{
@@ -555,7 +555,7 @@
 				tag: { }
 			}
 			x: -2.0d
-			y: -5.5d
+			y: -6.5d
 			can_repeat: true
 			id: "6813CBAF74E7FA2B"
 			tasks: [{
@@ -579,7 +579,7 @@
 			title: "天使方块"
 			icon: "miniutilities:angel_block"
 			x: -2.0d
-			y: -4.0d
+			y: -5.0d
 			can_repeat: true
 			id: "4872A9A048484449"
 			tasks: [{
@@ -592,6 +592,687 @@
 				id: "07406B11375A5598"
 				type: "item"
 				item: "miniutilities:angel_block"
+			}]
+		}
+		{
+			icon: "miniutilities:speed_upgrade"
+			x: -2.0d
+			y: -3.5d
+			can_repeat: true
+			id: "54EDB4703DA45770"
+			tasks: [{
+				id: "3A2FBC401235E569"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3DA98FAB1AA01276"
+				type: "item"
+				item: "miniutilities:speed_upgrade"
+			}]
+		}
+		{
+			icon: "thermal:upgrade_augment_1"
+			x: -8.5d
+			y: -0.5d
+			can_repeat: true
+			id: "5864320968B645C0"
+			tasks: [{
+				id: "45B9CBD2705ACE69"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2BC71B7A1A70D68F"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+		}
+		{
+			icon: "thermal:upgrade_augment_2"
+			x: -7.0d
+			y: -0.5d
+			can_repeat: true
+			id: "3C100F5EA81E4414"
+			tasks: [{
+				id: "4AB19371AA8BB5CB"
+				type: "item"
+				disable_toast: true
+				item: "thermal:iron_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1586AA95B62D841F"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+		}
+		{
+			icon: "thermal:upgrade_augment_3"
+			x: -5.5d
+			y: -0.5d
+			can_repeat: true
+			id: "3E44369B2D501E1A"
+			tasks: [{
+				id: "2BE676058C05943C"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F543468AAC4784F"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+		}
+		{
+			icon: "thermal_extra:upgrade_augment"
+			x: -4.0d
+			y: -0.5d
+			can_repeat: true
+			id: "7C30E70D0C412984"
+			tasks: [{
+				id: "74C2BBAA3B6368B4"
+				type: "item"
+				item: "thermal:iron_coin"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15141FBE4D031302"
+				type: "item"
+				item: "thermal_extra:upgrade_augment"
+			}]
+		}
+		{
+			icon: "thermal:rf_coil_augment"
+			x: -8.5d
+			y: 1.0d
+			can_repeat: true
+			id: "0E74F47C818A7437"
+			tasks: [{
+				id: "4CF7AFEEB235464B"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5496D66A059B753E"
+				type: "item"
+				item: "thermal:rf_coil_augment"
+			}]
+		}
+		{
+			icon: "thermal:rf_coil_storage_augment"
+			x: -8.5d
+			y: 2.5d
+			can_repeat: true
+			id: "226D2FE1AC0C98D1"
+			tasks: [{
+				id: "6DA78CA80B6F1B59"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "72A6704FE6C73C57"
+				type: "item"
+				item: "thermal:rf_coil_storage_augment"
+			}]
+		}
+		{
+			icon: "thermal:rf_coil_xfer_augment"
+			x: -8.5d
+			y: 4.0d
+			can_repeat: true
+			id: "2899D27D7F64ACD1"
+			tasks: [{
+				id: "449DD385B279F6C7"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "08ABC7711F95C901"
+				type: "item"
+				item: "thermal:rf_coil_xfer_augment"
+			}]
+		}
+		{
+			icon: "thermal:item_filter_augment"
+			x: -7.0d
+			y: 4.0d
+			can_repeat: true
+			id: "1281160047079D08"
+			tasks: [{
+				id: "339CB00C3286E38C"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7FC23D32927EA442"
+				type: "item"
+				item: "thermal:item_filter_augment"
+			}]
+		}
+		{
+			icon: "thermal:fluid_filter_augment"
+			x: -5.5d
+			y: 4.0d
+			can_repeat: true
+			id: "569070F9F9CC3B8A"
+			tasks: [{
+				id: "204F6F52B0C57140"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D3C466711C43FB7"
+				type: "item"
+				item: "thermal:fluid_filter_augment"
+			}]
+		}
+		{
+			icon: "thermal:fluid_tank_augment"
+			x: -4.0d
+			y: 4.0d
+			can_repeat: true
+			id: "54341E415D1FB8AD"
+			tasks: [{
+				id: "41FDEFA0BD04E74B"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "24D2F40A2198629A"
+				type: "item"
+				item: "thermal:fluid_tank_augment"
+			}]
+		}
+		{
+			icon: "thermal:machine_speed_augment"
+			x: -4.0d
+			y: 2.5d
+			can_repeat: true
+			id: "2D6BFC8FCDF8C99E"
+			tasks: [{
+				id: "4454945901474A85"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "50E2E15B92564FDD"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+		}
+		{
+			icon: "thermal:machine_efficiency_augment"
+			x: -4.0d
+			y: 1.0d
+			can_repeat: true
+			id: "7633C80740658B89"
+			tasks: [{
+				id: "17DD3D7FC417E148"
+				type: "item"
+				item: "thermal:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20051D13A187890C"
+				type: "item"
+				item: "thermal:machine_efficiency_augment"
+			}]
+		}
+		{
+			icon: "botania:spark_upgrade_dispersive"
+			x: 10.5d
+			y: -1.0d
+			can_repeat: true
+			id: "2EEA0AE9F672C9D1"
+			tasks: [{
+				id: "1540A63E807E619B"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5DADD65C75CCA60C"
+				type: "item"
+				item: "botania:spark_upgrade_dispersive"
+			}]
+		}
+		{
+			icon: "botania:spark_upgrade_dominant"
+			x: 6.0d
+			y: -1.0d
+			can_repeat: true
+			id: "2D3C1DD12D6093B9"
+			tasks: [{
+				id: "5535F987D799ABC8"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3EA06E78376089F4"
+				type: "item"
+				item: "botania:spark_upgrade_dominant"
+			}]
+		}
+		{
+			icon: "botania:spark_upgrade_recessive"
+			x: 7.5d
+			y: -1.0d
+			can_repeat: true
+			id: "29C04D99B5B838DB"
+			tasks: [{
+				id: "01386E7342C4C1FB"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6943BED40624B467"
+				type: "item"
+				item: "botania:spark_upgrade_recessive"
+			}]
+		}
+		{
+			icon: "botania:spark_upgrade_isolated"
+			x: 9.0d
+			y: -1.0d
+			can_repeat: true
+			id: "2CEA444F9F92CDE1"
+			tasks: [{
+				id: "539AB5CCEE217374"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7B849B805CABE726"
+				type: "item"
+				item: "botania:spark_upgrade_isolated"
+			}]
+		}
+		{
+			icon: {
+				id: "industrialforegoing:range_addon11"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 11.0f
+					}
+				}
+			}
+			x: 12.0d
+			y: -1.0d
+			can_repeat: true
+			id: "1D48717019458691"
+			tasks: [{
+				id: "04CCC3160FDFE7B2"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "19C10AC869C2B7EB"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon11"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 11.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "industrialforegoing:efficiency_addon_1"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Efficiency: 0.9f
+					}
+				}
+			}
+			x: 6.0d
+			y: 2.0d
+			can_repeat: true
+			id: "5D3111CB8BFA92CC"
+			tasks: [{
+				id: "09ABDB842D829B26"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0B18C481299AD0AE"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "mekanism:upgrade_gas"
+			x: 2.5d
+			y: -1.0d
+			can_repeat: true
+			id: "5877775E4008A4DB"
+			tasks: [{
+				id: "5D16114D0B18F329"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15BE5EA17293E018"
+				type: "item"
+				item: "mekanism:upgrade_gas"
+			}]
+		}
+		{
+			icon: {
+				id: "industrialforegoing:speed_addon_1"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Speed: 2.0f
+					}
+				}
+			}
+			x: 6.0d
+			y: 0.5d
+			can_repeat: true
+			id: "5719D3D8A40A5498"
+			tasks: [{
+				id: "16DC50D9DB0562D0"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3C3402A325B8F8ED"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "industrialforegoing:speed_addon_2"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Speed: 3.0f
+					}
+				}
+			}
+			x: 7.5d
+			y: 0.5d
+			can_repeat: true
+			id: "0481C2408B535074"
+			tasks: [{
+				id: "298D5805D67D2D3E"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B2F78AA507676A5"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "industrialforegoing:processing_addon_1"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Processing: 2.0f
+					}
+				}
+			}
+			x: 6.0d
+			y: 3.5d
+			can_repeat: true
+			id: "338E44283914F6C5"
+			tasks: [{
+				id: "6BEDDF2F79C0AF99"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0C5C1A80EBDE88CC"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 2.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "industrialforegoing:processing_addon_2"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Processing: 3.0f
+					}
+				}
+			}
+			x: 7.5d
+			y: 3.5d
+			can_repeat: true
+			id: "6BB356445B64047B"
+			tasks: [{
+				id: "7FFB1C6E254721C0"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0BDFA84EC92434EF"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "industrialforegoing:efficiency_addon_2"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Efficiency: 0.8f
+					}
+				}
+			}
+			x: 7.5d
+			y: 2.0d
+			can_repeat: true
+			id: "19EFEB245FE4FA81"
+			tasks: [{
+				id: "663EBF605129F965"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "59B2C3E8F5225337"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "mekanism:upgrade_speed"
+			x: -1.5d
+			y: -1.0d
+			can_repeat: true
+			id: "6F8FC49C77F86EF4"
+			tasks: [{
+				id: "39886A1B850AA448"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3CB3F0F148241A5B"
+				type: "item"
+				item: "mekanism:upgrade_speed"
+			}]
+		}
+		{
+			icon: "mekanism:upgrade_energy"
+			x: -0.5d
+			y: -1.0d
+			can_repeat: true
+			id: "562333EB2173B814"
+			tasks: [{
+				id: "6A8418A16AD8B253"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2E7CCC0CCC522783"
+				type: "item"
+				item: "mekanism:upgrade_energy"
+			}]
+		}
+		{
+			icon: "mekanism:upgrade_filter"
+			x: 0.5d
+			y: -1.0d
+			can_repeat: true
+			id: "08CDD12D5E28146B"
+			tasks: [{
+				id: "6C584D36F36A140D"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7AA19364A576200B"
+				type: "item"
+				item: "mekanism:upgrade_filter"
+			}]
+		}
+		{
+			icon: "mekanism:upgrade_muffling"
+			x: 1.5d
+			y: -1.0d
+			can_repeat: true
+			id: "73529A68775F2E90"
+			tasks: [{
+				id: "7C1A64C52EDF4021"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "36CD6DE7ABB7EE57"
+				type: "item"
+				item: "mekanism:upgrade_muffling"
+			}]
+		}
+		{
+			icon: "mekanism:upgrade_anchor"
+			x: 3.5d
+			y: -1.0d
+			can_repeat: true
+			id: "243810B9133094E6"
+			tasks: [{
+				id: "5E4ED9B27FE293E3"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6DFDBDD635715556"
+				type: "item"
+				item: "mekanism:upgrade_anchor"
+			}]
+		}
+		{
+			icon: "mekanism:upgrade_stone_generator"
+			x: 4.5d
+			y: -1.0d
+			can_repeat: true
+			id: "043609757B8655F6"
+			tasks: [{
+				id: "240BE5E0C00CEE75"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D9399FD4E753C78"
+				type: "item"
+				item: "mekanism:upgrade_stone_generator"
 			}]
 		}
 	]
