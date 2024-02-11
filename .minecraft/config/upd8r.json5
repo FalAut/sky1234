@@ -13,7 +13,9 @@
 		   Where the version data JSON will be fetched from, KEEP http:// or https://
 		   Comparison will be attempted when multiple URLs are used
 		*/
-		"versionDataURL": ["https://gitee.com/FalAut/0xUDF/raw/master/.minecraft/config/server_config.json"],
+		"versionDataURL": [
+			"https://gitee.com/FalAut/0xUDF/raw/master/.minecraft/config/server_config.json"
+		],
 		/* 
 		   The url that is opened when the user clicks on update button, KEEP http:// or https://
 		   Comparison will be attempted when multiple URLs are used.
@@ -36,8 +38,8 @@
 		"versionCheckerReadTimeout": 5000
 	},
 	"currentVersion": {
-		"versionCode": 0,
+		"versionCode": 0.17,
 		"versionFormat": "%versionName%",
-		"versionName": "1.0.0"
+		"versionName": "beta0.17"
 	}
 }
