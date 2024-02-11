@@ -246,6 +246,7 @@
 			x: 6.0d
 			y: 0.0d
 			shape: "pentagon"
+			subtitle: "&e&l自动工作台会自动抽取上方的存储容器"
 			dependencies: [
 				"29DF39AF5FC82657"
 				"1A05FBAA5E2717BD"
@@ -269,6 +270,11 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 6710266488103255141L
+				}
+				{
+					id: "0C2870F7D8101468"
+					type: "item"
+					item: "extendedcrafting:elite_auto_table"
 				}
 			]
 		}
@@ -920,7 +926,11 @@
 		{
 			x: 24.0d
 			y: 4.0d
-			dependencies: ["29EC9D3B219B3DB6"]
+			dependencies: [
+				"29EC9D3B219B3DB6"
+				"4C4C49BDDCA4679C"
+			]
+			dependency_requirement: "one_completed"
 			id: "36DE4F1381C69B3C"
 			tasks: [
 				{
@@ -1001,6 +1011,7 @@
 		{
 			x: 4.0d
 			y: 9.0d
+			subtitle: "&c&l警告：浓缩虚空会破坏附近的方块！触碰会有非常强的负面效果！"
 			dependencies: ["69336AF7CCEF7541"]
 			id: "01D8133048FAB4D8"
 			tasks: [{
@@ -1059,6 +1070,7 @@
 		{
 			x: 2.0d
 			y: 9.0d
+			subtitle: "&c&l警告：浓缩虚空会破坏附近的方块！ 触碰会有非常强的负面效果！"
 			dependencies: ["01D8133048FAB4D8"]
 			id: "09B1E1CD14AD1527"
 			tasks: [{

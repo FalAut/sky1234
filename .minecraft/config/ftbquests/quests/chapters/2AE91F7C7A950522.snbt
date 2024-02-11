@@ -127,6 +127,7 @@
 			icon: "kubejs:surper_flat_teleporters"
 			x: 2.0d
 			y: 2.5d
+			subtitle: "&a&l超平坦无法使用自然祭坛，无法获得瓶装阳光"
 			description: ["&a&l我强烈建议把大型工厂（比如机械动力）之类的放到这个维度，然后使用FTB区块加载，这样你在主世界客户端就不会渲染这些方块，防止游戏卡顿"]
 			can_repeat: true
 			id: "13167BABB85C44E6"

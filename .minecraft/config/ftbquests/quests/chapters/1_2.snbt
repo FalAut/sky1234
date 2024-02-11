@@ -884,12 +884,20 @@
 				type: "item"
 				item: "naturesaura:token_joy"
 			}]
-			rewards: [{
-				id: "5BD05CDACA367D79"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "5BD05CDACA367D79"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "5DBC565B3E96A663"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -976,6 +984,12 @@
 					exclude_from_claim_all: true
 					table_id: 8772607192016285100L
 				}
+				{
+					id: "4F23DA256F71F6A0"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
 			]
 		}
 		{
@@ -1048,10 +1062,16 @@
 					command: "/capsule giveLinked altar.nbt @p"
 				}
 				{
-					id: "4A335ED382FAC7E3"
-					type: "choice"
+					id: "2261D41C5B61E914"
+					type: "random"
 					exclude_from_claim_all: true
 					table_id: 8772607192016285100L
+				}
+				{
+					id: "67549C162F2F8136"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
 				}
 			]
 		}
@@ -1065,12 +1085,20 @@
 				type: "item"
 				item: "naturesaura:infused_iron"
 			}]
-			rewards: [{
-				id: "1CF8EA30E274BB75"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "1CF8EA30E274BB75"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "4F1F2DCEE41C9AE9"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 24.0d
@@ -1081,12 +1109,20 @@
 				type: "item"
 				item: "naturesaura:token_euphoria"
 			}]
-			rewards: [{
-				id: "7C924724652A8F4B"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "7C924724652A8F4B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "7ED8D4303B8DE4EE"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 26.0d
@@ -1102,12 +1138,20 @@
 				type: "item"
 				item: "naturesaura:conversion_catalyst"
 			}]
-			rewards: [{
-				id: "4608A0CFE741A68D"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "4608A0CFE741A68D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "313B34BCC934B157"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 24.0d
@@ -1119,12 +1163,20 @@
 				type: "item"
 				item: "naturesaura:infused_stone"
 			}]
-			rewards: [{
-				id: "3582E73F08CAFFAC"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "3582E73F08CAFFAC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "4CE6D2FB5A54B95A"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 22.0d
@@ -1137,12 +1189,20 @@
 				type: "item"
 				item: "naturesaura:ancient_sapling"
 			}]
-			rewards: [{
-				id: "06D58EFDEF35AB42"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "06D58EFDEF35AB42"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "41AD157B7BBD2211"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -1365,6 +1425,12 @@
 					exclude_from_claim_all: true
 					table_id: 8772607192016285100L
 				}
+				{
+					id: "52707004002D1A4A"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
 			]
 		}
 		{
@@ -1389,12 +1455,20 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "5B968AD039BE0F11"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "5B968AD039BE0F11"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "2071D5AE5E9559CB"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 26.0d
@@ -1406,12 +1480,20 @@
 				type: "item"
 				item: "kubejs:infused_coal"
 			}]
-			rewards: [{
-				id: "70CD14F315466DDB"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "70CD14F315466DDB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "365AC2DFCF372AF8"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 28.0d
@@ -1429,12 +1511,20 @@
 					item: "compactcrafting:projector_dish"
 				}
 			]
-			rewards: [{
-				id: "0D04277C99DEB899"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "0D04277C99DEB899"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "5E38A454005389F7"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 26.0d
@@ -1450,12 +1540,26 @@
 				type: "item"
 				item: "compactcrafting:field_projector"
 			}]
-			rewards: [{
-				id: "58B8317F588EA2FD"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "58B8317F588EA2FD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "74189D63B5715FD3"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+				{
+					id: "41B1E2E49583D1B6"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 26.0d
@@ -1703,12 +1807,20 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "4565E77263DE08A0"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "4565E77263DE08A0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "0865B1CDF1EA956B"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			x: 24.0d
@@ -1918,9 +2030,9 @@
 			dependencies: ["0C666B5258D0A608"]
 			id: "3E132140A62ACA94"
 			tasks: [{
-				id: "1443721FCB4980E7"
+				id: "4FD2086F045FF66B"
 				type: "item"
-				item: "easy_villagers:villager"
+				item: "minecraft:villager_spawn_egg"
 			}]
 			rewards: [{
 				id: "42686B0294073B85"
@@ -2396,12 +2508,20 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "173235F5C924AD5E"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "173235F5C924AD5E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "34F2963EEEC905B6"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+			]
 		}
 		{
 			icon: {

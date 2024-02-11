@@ -86,13 +86,9 @@ onEvent('entity.spawned', event => {
     }
 })
 
-// onEvent('player.tick', event => {
-//     if (event.player.getId().toString() == '22d7667a-6303-4a91-ab05-40e3995ff5fa')
-//     event.server.runCommandSilent('clear @a extendedexchange:arcane_tablet')
-//     event.server.runCommandSilent('clear @a projecte:transmutation_tablet')
-//     event.server.runCommandSilent('clear @a projecte:transmutation_table')
-//     event.server.runCommandSilent('clear @a extendedexchange:personal_link')
-//     event.server.runCommandSilent('clear @a projecte:condenser_mk1')
-//     event.server.runCommandSilent('clear @a projecte:condenser_mk2')
-//     event.server.runCommandSilent('clear @a torcherino:torcherino')
-// })
+onEvent('block.right_click', event => {
+    if (event.item.id == 'industrialforegoing:infinity_nuke' && event.level.dimension == "minecraft:overworld") {
+        event.player.tell('主世界无法放置无限核弹，建议前往超平坦放置')
+        event.cancel()
+    }
+})

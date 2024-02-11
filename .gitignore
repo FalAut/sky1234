@@ -10,6 +10,7 @@ natives
 ## Config
 !.minecraft/config/
 !.minecraft/config/**
+.minecraft/config/sodium-extra-options.json
 .minecraft/config/jei
 .minecraft/config/jei/**
 .minecraft/config/skyblockbuilder/data

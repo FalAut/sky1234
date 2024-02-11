@@ -20,8 +20,16 @@ onEvent('item.modification', event => {
     'kubejs:incomplete_queens_slime_ingot',
     'kubejs:incomplete_rf_coil',
     'kubejs:incomplete_redstone_servo',
-    'kubejs:tainted_blend'
+    'kubejs:tainted_blend',
+    'immersiveengineering:logic_circuit',
+    'create:chromatic_compound'
   ], item => {
     item.maxStackSize = 64
+  })
+})
+
+onEvent('block.modification', event => {
+  event.modify('minecraft:end_portal_frame', block => {
+    block.destroySpeed = 1
   })
 })

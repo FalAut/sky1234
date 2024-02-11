@@ -983,7 +983,7 @@
 			tasks: [{
 				id: "5D16114D0B18F329"
 				type: "item"
-				item: "thermal:gold_coin"
+				item: "thermal:netherite_coin"
 				consume_items: true
 			}]
 			rewards: [{
@@ -1176,7 +1176,7 @@
 			tasks: [{
 				id: "39886A1B850AA448"
 				type: "item"
-				item: "thermal:gold_coin"
+				item: "thermal:netherite_coin"
 				consume_items: true
 			}]
 			rewards: [{
@@ -1194,7 +1194,7 @@
 			tasks: [{
 				id: "6A8418A16AD8B253"
 				type: "item"
-				item: "thermal:gold_coin"
+				item: "thermal:netherite_coin"
 				consume_items: true
 			}]
 			rewards: [{
@@ -1212,7 +1212,7 @@
 			tasks: [{
 				id: "6C584D36F36A140D"
 				type: "item"
-				item: "thermal:gold_coin"
+				item: "thermal:netherite_coin"
 				consume_items: true
 			}]
 			rewards: [{
@@ -1230,7 +1230,7 @@
 			tasks: [{
 				id: "7C1A64C52EDF4021"
 				type: "item"
-				item: "thermal:gold_coin"
+				item: "thermal:netherite_coin"
 				consume_items: true
 			}]
 			rewards: [{
@@ -1248,7 +1248,7 @@
 			tasks: [{
 				id: "5E4ED9B27FE293E3"
 				type: "item"
-				item: "thermal:gold_coin"
+				item: "thermal:netherite_coin"
 				consume_items: true
 			}]
 			rewards: [{
@@ -1266,7 +1266,7 @@
 			tasks: [{
 				id: "240BE5E0C00CEE75"
 				type: "item"
-				item: "thermal:gold_coin"
+				item: "thermal:netherite_coin"
 				consume_items: true
 			}]
 			rewards: [{

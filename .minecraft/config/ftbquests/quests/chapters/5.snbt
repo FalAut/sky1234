@@ -141,7 +141,7 @@
 		{
 			x: 16.0d
 			y: 8.0d
-			subtitle: "放置后右键前方中心成型"
+			subtitle: "&c&l放置后右键前方中心成型 在右边输入腐化碎片，后面输出产物"
 			dependencies: ["6F0B778CC68A56C5"]
 			size: 2.0d
 			can_repeat: true
@@ -292,6 +292,35 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 7689519158409826503L
+				}
+				{
+					id: "5B45816D93519939"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_nuke"
+						Count: 1b
+						tag: {
+							CanCharge: 1b
+							Special: 1b
+							Selected: "ARTIFACT"
+							Energy: 9223372036854775807L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 1000000
+							}
+						}
+					}
+				}
+				{
+					id: "3E348079204CA515"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -503,6 +532,7 @@
 			x: 14.0d
 			y: 7.0d
 			shape: "circle"
+			subtitle: "&e&l根据腐化碎片的种类产出的稀有物质 由于不太好做所以暂时没什么用"
 			dependencies: ["2ACCDA3A1059CEF5"]
 			id: "139134B1A5CE9A58"
 			tasks: [{
@@ -538,6 +568,7 @@
 			x: 14.0d
 			y: 8.0d
 			shape: "circle"
+			subtitle: "必定会出一个"
 			dependencies: ["2ACCDA3A1059CEF5"]
 			id: "449872BEB99FBBF5"
 			tasks: [{
@@ -556,6 +587,7 @@
 			x: 14.0d
 			y: 9.0d
 			shape: "circle"
+			subtitle: "&e&l根据腐化碎片的种类产出的稀有物质 由于不太好做所以暂时没什么用"
 			dependencies: ["2ACCDA3A1059CEF5"]
 			id: "1F684639C055E8A3"
 			tasks: [{
@@ -678,9 +710,9 @@
 			dependencies: ["43E716B98F82765E"]
 			id: "4546A9FAEF907FCC"
 			tasks: [{
-				id: "26C571F0BEEDF025"
+				id: "3B09776852801588"
 				type: "item"
-				item: "assemblylinemachines:corrupting_basin"
+				item: "assemblylinemachines:condensed_void_bucket"
 			}]
 			rewards: [{
 				id: "4F3C80021FFC7B32"

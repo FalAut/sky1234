@@ -37,7 +37,13 @@ onEvent('recipes', event => {
     event.replaceInput({ output: 'botanypotstiers:ultra_terracotta_botany_pot' }, 'minecraft:nether_star', 'diamond')
     event.replaceInput({ output: 'ae2:cell_component_256k' }, 'ae2:sky_dust', 'ae2:fluix_dust')
     event.replaceInput({ output: 'botanypotstiers:ultra_terracotta_hopper_botany_pot' }, 'minecraft:nether_star', 'diamond')
-    
+    event.replaceInput({ output: 'mekanism:sps_casing' }, 'mekanism:pellet_plutonium', 'mekanism:hdpe_sheet')
+    event.replaceInput({ output: 'mekanism:sps_port' }, 'mekanism:ultimate_control_circuit', 'mekaevolution:absolute_control_circuit')
+    event.replaceInput({ output: 'mekanism:supercharged_coil' }, 'mekanism:ultimate_control_circuit', 'mekaevolution:absolute_control_circuit')
+    event.replaceInput({ output: 'mekanism:supercharged_coil' }, 'minecraft:copper_ingot', 'assemblylinemachines:pure_copper_ingot')
+    event.replaceInput({ output: 'mekanismgenerators:fission_reactor_port' }, 'mekanism:elite_control_circuit', 'mekaevolution:absolute_control_circuit') 
+    event.replaceInput({ output: '#botanypots:all_botany_pots' }, 'minecraft:nether_star', 'minecraft:diamond') 
+
 // undef1ned Block
     crafting_shaped('kubejs:undef1ned_block', ['11', '11'], {
         1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()
@@ -857,4 +863,36 @@ onEvent('recipes', event => {
     crafting_shaped('kubejs:mana_pearl_block', ['111', '111', '111'], {
         1: 'botania:mana_pearl'
     }).id(`${id_prefix}mana_pearl_block`);
+
+    crafting_shaped('kubejs:pure_iron_block', ['111', '111', '111'], {
+        1: 'assemblylinemachines:pure_iron_ingot'
+    }).id(`${id_prefix}pure_iron_block`);
+
+    crafting_shaped('assemblylinemachines:internal_water_generator', ['121', '131', '121'], {
+        1: 'assemblylinemachines:pure_copper_plate',
+        2: 'assemblylinemachines:pure_copper_gear',
+        3: Item.of('mekanism:ultimate_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:256000,FluidName:"minecraft:water"}}]}}').weakNBT()
+    }).id(`${id_prefix}internal_water_generator`);
+
+    crafting_shaped('thermal:rf_coil_creative_augment', ['123'], {
+        1: 'thermal_extra:rf_coil_xfer_augment_5',
+        2: 'assemblylinemachines:creative_upgrade_kit',
+        3: 'thermal_extra:rf_coil_storage_augment_5'
+    }).id(`${id_prefix}rf_coil_creative_augment`);
+
+    crafting_shaped('thermal:machine_efficiency_creative_augment', ['123'], {
+        1: 'thermal_extra:machine_speed_augment_4',
+        2: 'assemblylinemachines:creative_upgrade_kit',
+        3: 'thermal_extra:machine_efficiency_augment_4'
+    }).id(`${id_prefix}machine_efficiency_creative_augment`);
+
+    crafting_shaped('thermal:fluid_tank_creative_augment', ['12 '], {
+        1: 'assemblylinemachines:creative_upgrade_kit',
+        2: 'thermal_extra:fluid_tank_augment_6'
+    }).id(`${id_prefix}fluid_tank_creative_augment`);
+
+    crafting_shaped('thermal:machine_catalyst_creative_augment', ['12 '], {
+        1: 'assemblylinemachines:creative_upgrade_kit',
+        2: 'thermal_extra:machine_catalyst_augment_3'
+    }).id(`${id_prefix}machine_catalyst_creative_augment`);
 })

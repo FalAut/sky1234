@@ -31,7 +31,7 @@ onEvent("recipes", (event) => {
         "tconstruct:blood_slime_ball", //←
         "tconstruct:blood_slime_ball", //→
         "hostilenetworks:empty_prediction", //↙
-        "industrialforegoing:machine_frame_supreme", //↓
+        "industrialforegoing:machine_frame_advanced", //↓
         "hostilenetworks:empty_prediction", //↘
       ],
       inputFluid: "industrialforegoing:pink_slime",

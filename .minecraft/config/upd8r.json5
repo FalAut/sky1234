@@ -1,0 +1,14 @@
+{
+	"baseCfg": {
+		"enableVersionChecking": true,
+		"versionDataURL": [],
+		"updateURL": { },
+		"versionCheckerConnectTimeout": 5000,
+		"versionCheckerReadTimeout": 5000
+	},
+	"currentVersion": {
+		"versionCode": 0,
+		"versionFormat": "%versionName%",
+		"versionName": "beta 0.18",
+	}
+}

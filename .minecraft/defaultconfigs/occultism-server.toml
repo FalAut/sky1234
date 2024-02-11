@@ -10,9 +10,9 @@
 	#The amount of slots the storage stabilizer tier 4 provides.
 	stabilizerTier4Slots = 2048
 	#The amount of slots the storage actuator provides.
-	controllerBaseSlots = 1001111
+	controllerBaseSlots = 8192
 	#The stack size the storage actuator uses.
-	controllerStackSize = 2147483647
+	controllerStackSize = 1024
 	#True to use the configured controllerStackSize for all items, instead of the stack sizes provided by item type (such as 16 for ender pearls, 64 for iron ingot). WARNING: Setting this to false may have a negative impact on performance.
 	overrideItemStackSizes = true
 

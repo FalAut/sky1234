@@ -529,12 +529,10 @@ onEvent("recipes", (event) => {
         G: {
           item: "assemblylinemachines:miniature_black_hole",
         },
-        H: {
-          type: "forge:nbt",
-          item: "mekanism:ultimate_chemical_tank",
-          count: 1,
-          nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:8192000L,gasName:"mekanism:steam"}}],InfusionTanks:[],Items:[],PigmentTanks:[],SlurryTanks:[],componentConfig:{config2:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config3:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config4:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config5:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config6:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},eject2:1b,eject3:1b,eject4:1b,eject5:1b,eject6:0b},componentEjector:{color0:-1,color1:-1,color2:-1,color3:-1,color4:-1,color5:-1,strictInput:0b},controlType:0,dumping:0,owner:[I;-1176636689,-74432454,-2003584141,1476401073],securityMode:0}}',
-        },
+        H: Item.of(
+          "mekanism:ultimate_chemical_tank",
+          '{mekData:{GasTanks:[{Tank:0b,stored:{amount:8192000L,gasName:"mekanism:steam"}}],InfusionTanks:[],Items:[],PigmentTanks:[],SlurryTanks:[]}}'
+        ).weakNBT(),
       },
       result: {
         item: "mekanism:creative_chemical_tank",
