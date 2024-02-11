@@ -13,9 +13,7 @@
 		   Where the version data JSON will be fetched from, KEEP http:// or https://
 		   Comparison will be attempted when multiple URLs are used
 		*/
-		"versionDataURL": [
-			"https://gitee.com/FalAut/0xUDF/raw/master/.minecraft/config/upd8r.json5"
-		],
+		"versionDataURL": [],
 		/* 
 		   The url that is opened when the user clicks on update button, KEEP http:// or https://
 		   Comparison will be attempted when multiple URLs are used.
@@ -23,9 +21,7 @@
 		   Format: "en_us": "www.awa.com"
 		   Note: This can be overridden by '
 		*/
-		"updateURL": {
-			"zh_cn": "https://www.lanzv.com/b023thcdc"
-		},
+		"updateURL": { },
 		/* 
 		   How much time to connect to the URL before the connection closes with a timeout error.
 		   A timeout of zero is interpreted as an infinite timeout.
@@ -42,6 +38,6 @@
 	"currentVersion": {
 		"versionCode": 0,
 		"versionFormat": "%versionName%",
-		"versionName": "beta 0.18"
+		"versionName": "1.0.0"
 	}
 }
