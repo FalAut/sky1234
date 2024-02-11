@@ -13,7 +13,7 @@
 		   Where the version data JSON will be fetched from, KEEP http:// or https://
 		   Comparison will be attempted when multiple URLs are used
 		*/
-		"versionDataURL": [],
+		"versionDataURL": ["https://gitee.com/FalAut/0xUDF/raw/master/.minecraft/config/server_config.json"],
 		/* 
 		   The url that is opened when the user clicks on update button, KEEP http:// or https://
 		   Comparison will be attempted when multiple URLs are used.
