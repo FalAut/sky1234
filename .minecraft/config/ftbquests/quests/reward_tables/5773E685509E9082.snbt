@@ -11,5 +11,6 @@
 		{ item: "extendedexchange:personal_link" }
 		{ item: "projecte:condenser_mk1" }
 		{ item: "projecte:condenser_mk2" }
+		{ item: "extendedexchange:arcane_tablet" }
 	]
 }
