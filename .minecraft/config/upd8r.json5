@@ -38,7 +38,7 @@
 		"versionCheckerReadTimeout": 5000
 	},
 	"currentVersion": {
-		"versionCode": 0.17,
+		"versionCode": 0,
 		"versionFormat": "%versionName%",
 		"versionName": "beta0.17"
 	}
