@@ -14,7 +14,7 @@
 		   Comparison will be attempted when multiple URLs are used
 		*/
 		"versionDataURL": [
-			"https://gitee.com/FalAut/0xUDF/raw/master/.minecraft/config/server_config.json"
+			"https://gitee.com/FalAut/0xUDF/raw/master/.minecraft/config/upd8r_pack.json"
 		],
 		/* 
 		   The url that is opened when the user clicks on update button, KEEP http:// or https://
