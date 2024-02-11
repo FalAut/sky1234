@@ -2,7 +2,7 @@ onForgeEvent('net.minecraftforge.event.world.BlockEvent$PortalSpawnEvent', event
 
 const CustomPortalBuilder = java('net.kyrptonaught.customportalapi.api.CustomPortalBuilder')
 
-onEvent('postinit', (event => {
+onEvent('postinit', event => {
     CustomPortalBuilder.beginPortal()
         ['frameBlock(net.minecraft.resources.ResourceLocation)'](new ResourceLocation('kubejs', 'nether_portal_frame_filled'))
         .destDimID(new ResourceLocation('minecraft', 'the_nether'))
@@ -14,4 +14,4 @@ onEvent('postinit', (event => {
         // .lightWithWater()
         .onlyLightInOverworld()
         .registerPortal();
-}));
+});
