@@ -157,12 +157,25 @@ onEvent('recipes', event => {
         filling(t, [t, Fluid.of('thermal:redstone', 100)]),
     ]).transitionalItem(t).loops(1).id(`${id_prefix}redstone_servo_thermal`)
 
-// undefined
+// undef1ned
     t = 'kubejs:undef1ned'
-	sequenced_assembly('kubejs:def1ned', t, [
+	sequenced_assembly(Item.of('kubejs:def1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:next"}}'), t, [
 		deploying(t, [t, 'create:andesite_alloy']),
 		deploying(t, [t, 'create:chromatic_compound']),
 		deploying(t, [t, 'architects_palette:unobtanium']),
-		deploying(t, [t, 'kubejs:def1ned']),
-	]).transitionalItem(t).loops(1).id(`kubejs:def1ned`)
+		deploying(t, [t, 'extendedexchange:final_star']),
+    ]).transitionalItem(t).loops(1).id(`kubejs:def1ned`)
+    
+// def1ned
+    t = 'kubejs:def1ned'
+	sequenced_assembly('extendedexchange:white_matter', t, [
+		deploying(t, [t, 'kubejs:fake_sky']),
+		deploying(t, [t, 'minecraft:lime_concrete']),
+		deploying(t, [t, 'minecraft:cyan_concrete']),
+        deploying(t, [t, 'minecraft:blue_concrete']),
+		deploying(t, [t, 'minecraft:yellow_concrete']),
+		deploying(t, [t, 'minecraft:orange_concrete']),
+        deploying(t, [t, 'minecraft:red_concrete']),
+		deploying(t, [t, 'minecraft:purple_concrete'])
+	]).transitionalItem(t).loops(1).id(`kubejs:next`)
 })

@@ -142,6 +142,7 @@
 			x: 16.0d
 			y: 8.0d
 			subtitle: "&c&l放置后右键前方中心成型 在右边输入腐化碎片，后面输出产物"
+			description: ["&a&l不要输入太快，会卡住！管道不用加升级，出一个物质就够用了"]
 			dependencies: ["6F0B778CC68A56C5"]
 			size: 2.0d
 			can_repeat: true
@@ -263,7 +264,6 @@
 			x: 0.0d
 			y: 8.0d
 			shape: "gear"
-			subtitle: "隐藏内容尚未制作"
 			dependencies: [
 				"09D28F6AB133C4F9"
 				"5F460B9C25FB7CC7"
@@ -569,7 +569,10 @@
 			y: 8.0d
 			shape: "circle"
 			subtitle: "必定会出一个"
-			dependencies: ["2ACCDA3A1059CEF5"]
+			dependencies: [
+				"2ACCDA3A1059CEF5"
+				"5C5AAC516F5CC09E"
+			]
 			id: "449872BEB99FBBF5"
 			tasks: [{
 				id: "0119E7CEB600D1AB"
@@ -605,6 +608,7 @@
 		{
 			x: 4.0d
 			y: 8.0d
+			subtitle: "&a&l到这里就算完结了，左边创造物品是可选的"
 			dependencies: ["68631AB695B48A45"]
 			id: "42EC432A76531316"
 			tasks: [{

@@ -23,12 +23,16 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.add(['minecraft:end_portal_frame'], Text.green('可以被破坏，但不会有掉落物'))
 	tooltip.add(['industrialforegoing:infinity_nuke'], Text.green('主世界无法放置无限核弹，建议去超平坦挖深一点放'))
 	tooltip.add(['extendedcrafting:elite_auto_table'], Text.green('自动工作台会自动抽取上方的存储容器'))
+	tooltip.add(['create:blaze_burner'], Text.green('不需要吸管也可以输入液体'))
+	tooltip.add(['minecraft:andesite'], Text.green('请查看JEI中的（玄武岩式生成）页面'))
+	tooltip.add(['minecraft:orange_dye'], Text.green('红色和黄色染料用花合成，花用骨粉催草方块'))
 	tooltip.add(['manaliquidizer:mana_liquidizer'], [Text.green('将液态魔力转化为魔力'), Text.green('1mb液态魔力=10000魔力'), Text.green('使用森林法杖调整魔力转换')])
 	tooltip.add(['@torcherino'], [Text.red('不要加速过快，否则会出现问题！').bold(), Text.green('尤其是机械动力').bold(), Text.red('在机器出现问题时首先检查附近有没有加速').bold()])
 	tooltip.add(['assemblylinemachines:condensed_void_bucket'], [Text.red('警告：浓缩虚空会破坏附近的方块！').bold(), Text.red('触碰会有非常强的负面效果！').bold()])
 	// tooltip.add(Item.of('minecraft:enchanted_book').enchant('miniutilities:molten_head', 1), Text.green('不兼容时运附魔'))
 	// tooltip.add('occultism:storage_controller', [Text.red('警告：不要将大量物品传入维度存储！').bold(), Text.green('不建议当成抽屉使用')])
 	tooltip.add(['assemblylinemachines:entropy_reactor_block', 'assemblylinemachines:entropy_reactor_core'], Text.red('非常危险！不建议放置在基地中！').bold())
+	tooltip.add(['kubejs:def1ned'], [Text.green('下个包的开局物品').bold(), Text.green('目前还没有用途').bold()])
 })
 
 onEvent('jei.remove.recipes', event => {
@@ -36,6 +40,7 @@ onEvent('jei.remove.recipes', event => {
 	event.remove('create:sequenced_assembly', 'kubejs:recipes/create/sequenced_assembly/queens_slime_ingot') 
 	event.remove('create:sequenced_assembly', 'kubejs:recipes/create/sequenced_assembly/tainted_blend')
 	event.remove('create:sequenced_assembly', 'kubejs:def1ned')
+	event.remove('create:sequenced_assembly', 'kubejs:next')
 	event.remove('create:crushing', 'kubejs:recipes/create/create/tainted_blend1')
 	event.remove('create:deploying', 'kubejs:recipes/create/create/tainted_blend3_using_deployer')
 	event.remove('create:draining', 'create:empty_mekanism_creative_fluid_tank_of_kubejs_mana')
@@ -116,7 +121,8 @@ onEvent('jei.hide.items', event => {
 		'projecte:watch_of_flowing_time',
 		Item.of('minecraft:enchanted_book').enchant('miniutilities:molten_head', 1),
 		'miniutilities:golden_lasso',
-		'kubejs:def1ned'
+		'kubejs:def1ned',
+		'kubejs:fake_sky'
 
 	])
 

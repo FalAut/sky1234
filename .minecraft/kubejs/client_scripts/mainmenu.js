@@ -67,7 +67,7 @@ onEvent("ui.main_menu", (event) => {
       b.width = 50;
       b.x = (ui.width - 150) / 2 + b.width + 5;
       b.y = ui.height / 2 + 30;
-      b.action = "https://gitee.com/FalAut/0xUDF/issues";
+      b.action = "https://gitee.com/FalAut/0xUDF/issues/new";
       b.hoverColor = 0x00ff00;
       b.shadow = false;
     });

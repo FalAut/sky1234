@@ -1274,6 +1274,12 @@
 					item: "mekanism:pressure_disperser"
 					consume_items: true
 				}
+				{
+					id: "12ED7D9005DEBF61"
+					type: "item"
+					item: "mekanism:resistive_heater"
+					consume_items: true
+				}
 			]
 			rewards: [
 				{
@@ -1292,11 +1298,6 @@
 					}
 					team_reward: true
 					command: "/capsule giveLinked boiler.nbt @p"
-				}
-				{
-					id: "07C1C9D312C2252F"
-					type: "item"
-					item: "mekanism:resistive_heater"
 				}
 				{
 					id: "43091CBD6F9CFDB8"
@@ -2265,6 +2266,47 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 6710266488103255141L
+			}]
+		}
+		{
+			icon: {
+				id: "capsule:capsule"
+				Count: 1b
+				tag: {
+					overpowered: 1
+					state: 0
+					color: 16777215
+					size: 1
+				}
+			}
+			x: 4.0d
+			y: 8.2d
+			shape: "pentagon"
+			can_repeat: true
+			id: "2D1630A329D7B463"
+			tasks: [{
+				id: "7BC3D9D61ECEA81D"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5136C271A3242A59"
+				type: "command"
+				title: "末地传送门"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
+					}
+				}
+				team_reward: true
+				command: "/capsule fromExistingReward end_portal.nbt @p"
 			}]
 		}
 	]

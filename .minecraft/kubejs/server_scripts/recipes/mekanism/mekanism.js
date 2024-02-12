@@ -49,7 +49,7 @@ onEvent("recipes", (event) => {
   combining(
     "mekanism:basic_control_circuit",
     "immersiveengineering:circuit_board",
-    "botania:terrasteel_ingot"
+    "botania:terrasteel_nugget"
   ).id(`${id_prefix}basic_control_circuit`);
 
   combining(

@@ -1,0 +1,20 @@
+{
+	id: "1FC8E4D012A5ADD3"
+	order_index: 6
+	title: "反馈bug/建议"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Gitee（国内可访问）"
+			icon: "minecraft:red_mushroom"
+			command: "/tellraw @p [\"\",{\"text\":\"点击链接进入整合包Gitee问题页面： \", \"color\":\"red\"},{\"text\":\"https://gitee.com/FalAut/0xUDF/issues/new\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://gitee.com/FalAut/0xUDF/issues/new\"}}]"
+			type: "command"
+		}
+		{
+			title: "Github（有时需要梯子）"
+			icon: "minecraft:ladder"
+			command: "/tellraw @p [\"\",{\"text\":\"点击链接进入整合包Github问题页面： \", \"color\":\"red\"},{\"text\":\"https://github.com/FalAut/0xUDF/issues/new\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/FalAut/0xUDF/issues/new\"}}]"
+			type: "command"
+		}
+	]
+}

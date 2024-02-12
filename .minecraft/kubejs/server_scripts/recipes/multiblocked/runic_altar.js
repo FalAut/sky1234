@@ -29,7 +29,7 @@ onEvent("recipes", (event) => {
         ])
         .inputMana(100000)
         
-        .duration(20)
+        .duration(1)
         .outputItem('botania:rune_mana')
     .id(`${id_prefix}rune_mana`)
     

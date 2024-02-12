@@ -3,7 +3,7 @@ onEvent('recipes', event => {
     const recipes = [
         {
             ingredients: [//N S W E NW SE NE SW
-                Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(),'kubejs:undef1ned_block','cobblestone','cobblestone',
+                'kubejs:undef1ned','kubejs:undef1ned_block','cobblestone','cobblestone',
                 'cobblestone','cobblestone','cobblestone','cobblestone'
             ],
             output: 'kubejs:earth_core',
@@ -13,8 +13,8 @@ onEvent('recipes', event => {
         },
         {
             ingredients: [//N S W E NW SE NE SW
-                Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(),'kubejs:undef1ned_block','kubejs:undef1ned_block',Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(),
-                Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(),Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(),'naturesaura:sky_ingot','naturesaura:ancient_stick'
+                'kubejs:undef1ned','kubejs:undef1ned_block','kubejs:undef1ned_block','kubejs:undef1ned',
+                'kubejs:undef1ned','kubejs:undef1ned','naturesaura:sky_ingot','naturesaura:ancient_stick'
             ],
             output: {
                 "type": "forge:nbt",

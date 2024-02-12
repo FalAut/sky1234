@@ -4,9 +4,9 @@ onEvent('recipes', event => {
     const id_prefix = 'kubejs:recipes/shapless/'
     let { minecraft } = event.recipes
 
-    minecraft.crafting_shapeless(Item.of('kubejs:undef1ned', 2, '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}'), Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()).id(`${id_prefix}undef1ned1`);
+    minecraft.crafting_shapeless(Item.of('kubejs:undef1ned', 2, '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}'), 'kubejs:undef1ned').id(`${id_prefix}undef1ned1`);
     minecraft.crafting_shapeless(Item.of('kubejs:undef1ned', 4, '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}'), 'kubejs:undef1ned_block').id(`${id_prefix}undef1ned2`);
-    minecraft.crafting_shapeless('kubejs:undef1ned_fluid_bucket', [Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(), 'water_bucket']).replaceIngredient('water_bucket', 'air').id(`${id_prefix}undef1ned_fluid_bucket`);
+    minecraft.crafting_shapeless('kubejs:undef1ned_fluid_bucket', ['kubejs:undef1ned', 'water_bucket']).replaceIngredient('water_bucket', 'air').id(`${id_prefix}undef1ned_fluid_bucket`);
     minecraft.crafting_shapeless('grass_block', ['water_bucket', 'dirt']).id(`${id_prefix}grass_block`);
     minecraft.crafting_shapeless('black_dye', '#coals').id(`${id_prefix}black_dye`);
     minecraft.crafting_shapeless('miniutilities:feather_angel_ring', ['naturesaura:pet_reviver', 'naturesaura:death_ring']).id(`${id_prefix}feather_angel_ring`);

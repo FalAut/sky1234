@@ -29,7 +29,7 @@ onEvent('item.modification', event => {
 })
 
 onEvent('block.modification', event => {
-  event.modify('minecraft:end_portal_frame', block => {
+  event.modify(['minecraft:end_portal_frame', 'minecraft:end_portal'], block => {
     block.destroySpeed = 1
   })
 })

@@ -46,41 +46,41 @@ onEvent('recipes', event => {
 
 // undef1ned Block
     crafting_shaped('kubejs:undef1ned_block', ['11', '11'], {
-        1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()
+        1: 'kubejs:undef1ned'
     }).id(`${id_prefix}undef1ned_block`);
 
 // undef1ned Pickaxe
     crafting_shaped(Item.of('kubejs:undef1ned_pickaxe', '{Unbreakable:1b}'), ['111', ' 2 ', ' 2 '], {
         1: 'kubejs:undef1ned_block',
-        2: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()
+        2: 'kubejs:undef1ned'
     }).id(`${id_prefix}undef1ned_pickaxe`);
 
 // undef1ned Axe
     crafting_shaped(Item.of('kubejs:undef1ned_axe', '{Unbreakable:1b}'), ['11 ', '12 ', ' 2 '], {
         1: 'kubejs:undef1ned_block',
-        2: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()
+        2: 'kubejs:undef1ned'
     }).id(`${id_prefix}undef1ned_axe`);
 
 // undef1ned Shovel
     crafting_shaped(Item.of('kubejs:undef1ned_shovel', '{Unbreakable:1b}'), [' 1 ', ' 2 ', ' 2 '], {
         1: 'kubejs:undef1ned_block',
-        2: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()
+        2: 'kubejs:undef1ned'
     }).id(`${id_prefix}undef1ned_shovel`);
     
 // Bucket
     crafting_shaped('bucket', ['1 1', ' 1 '], {
-        1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()
+        1: 'kubejs:undef1ned'
     }).id(`${id_prefix}bucket`);
 
 // Water Bucket
     crafting_shaped('water_bucket', ['111', ' 2 ', '   '], {
-        1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(), 
+        1: 'kubejs:undef1ned', 
         2: 'bucket'
     }).id(`${id_prefix}water_bucket`);
 
 // Lava Bucket
     crafting_shaped('lava_bucket', ['   ', ' 2 ', '111'], {
-        1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(), 
+        1: 'kubejs:undef1ned', 
         2: 'bucket'
     }).id(`${id_prefix}lava_bucket`);
 
@@ -107,26 +107,26 @@ onEvent('recipes', event => {
 
 // Storge Controller
     crafting_shaped('occultism:storage_controller', ['111', ' 2 ', '222'], {
-        1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(),
+        1: 'kubejs:undef1ned',
         2: 'kubejs:undef1ned_block'
     }).id(`${id_prefix}storage_controller`);
 
 // Storge Remote
     crafting_shaped('occultism:storage_remote', ['212', '222', '222'], {
-        1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(), 
+        1: 'kubejs:undef1ned', 
         2: 'kubejs:undef1ned_block'
     }).id(`${id_prefix}storage_remote`);
 
 // Stable Wormhole
     crafting_shaped('occultism:stable_wormhole', ['222', '212', '222'], {
-        1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(), 
+        1: 'kubejs:undef1ned', 
         2: 'kubejs:undef1ned_block'
     }).id(`${id_prefix}stable_wormhole`);
 
 // Megatorch
     crafting_shaped('torchmaster:megatorch', ['111', '232', '434'], {
         1: 'torch', 
-        2: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(), 
+        2: 'kubejs:undef1ned', 
         3: '#logs', 
         4: 'kubejs:undef1ned_block'
     }).id(`${id_prefix}megatorch`);
@@ -134,7 +134,7 @@ onEvent('recipes', event => {
 // Gold Leaf
     crafting_shaped('8x naturesaura:gold_leaf', ['111', '121', '111'], {
         1: '#leaves', 
-        2: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()
+        2: 'kubejs:undef1ned'
     }).id(`${id_prefix}gold_leaf`);
 
 // Token Euphoria
@@ -244,7 +244,7 @@ onEvent('recipes', event => {
 
 // Infinity Wand
     crafting_shaped('constructionwand:infinity_wand', ['  1', ' 2 ', '2  '], {
-        1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(),
+        1: 'kubejs:undef1ned',
         2: 'naturesaura:ancient_stick',
     }).id(`${id_prefix}infinity_wand`);
 
@@ -341,7 +341,7 @@ onEvent('recipes', event => {
 // Stress Generator Core
     crafting_shaped('multiblocked:stress_generator_core', ['111', '121', '111'], {
         1: 'minecraft:glowstone',
-        2: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()
+        2: 'kubejs:undef1ned'
     }).id(`${id_prefix}stress_generator_core`);
 
 // RF Coil Mold
@@ -559,7 +559,7 @@ onEvent('recipes', event => {
 // muffling_block
     crafting_shaped('bettermuffling:muffling_block', ['111', '121', '111'], {
         1: '#minecraft:planks',
-        2: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT()
+        2: 'kubejs:undef1ned'
     }).id(`${id_prefix}muffling_block`);
 
 // muffling_block_advanced
@@ -781,7 +781,7 @@ onEvent('recipes', event => {
     }).id(`${id_prefix}entropy_reactor_upgrade_variety`);
 
     crafting_shaped('assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser', ['111', '121', '111'], {
-        1: Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}').weakNBT(),
+        1: 'kubejs:undef1ned',
         2: 'assemblylinemachines:reality_crystal'
     }).id(`${id_prefix}entropy_reactor_upgrade_entropic_harnesser`);
 
@@ -895,4 +895,16 @@ onEvent('recipes', event => {
         1: 'assemblylinemachines:creative_upgrade_kit',
         2: 'thermal_extra:machine_catalyst_augment_3'
     }).id(`${id_prefix}machine_catalyst_creative_augment`);
+
+    crafting_shaped('projecte:alchemical_coal', ['111', '111', '111'], {
+        1: 'coal'
+    }).id(`${id_prefix}alchemical_coal`);
+
+    crafting_shaped('projecte:mobius_fuel', ['111', '111', '111'], {
+        1: 'projecte:alchemical_coal'
+    }).id(`${id_prefix}mobius_fuel`);
+
+    crafting_shaped('projecte:aeternalis_fuel', ['111', '111', '111'], {
+        1: 'projecte:mobius_fuel'
+    }).id(`${id_prefix}aeternalis_fuel`);
 })

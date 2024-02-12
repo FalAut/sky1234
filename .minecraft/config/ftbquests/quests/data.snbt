@@ -7,7 +7,17 @@
 	default_autoclaim_rewards: "disabled"
 	default_quest_shape: "rsquare"
 	default_quest_disable_jei: false
-	emergency_items: [{ id: "kubejs:undef1ned", Count: 1b }]
+	emergency_items: [{
+		id: "kubejs:undef1ned"
+		Count: 1b
+		tag: {
+			SequencedAssembly: {
+				Progress: 0
+				Step: 0
+				id: "kubejs:def1ned"
+			}
+		}
+	}]
 	emergency_items_cooldown: 1
 	drop_loot_crates: false
 	loot_crate_no_drop: {
