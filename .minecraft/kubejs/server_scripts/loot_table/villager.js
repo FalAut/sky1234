@@ -28,7 +28,7 @@ onEvent('morejs.villager.trades', event => {
 
     event.removeVanillaTrades(['librarian'], 4);
     event.addTrade('librarian', 4, 'emerald', 
-    Item.of('minecraft:written_book', '{author:"Fa1Aut",pages:[\'{"text":"0xBGR"}\'],resolved:1b,title:"nothing"}'));
+    Item.of('minecraft:written_book', '{author:"Fa1Aut",pages:[\'{"text":"0xGBR"}\'],resolved:1b,title:"nothing"}'));
     // event.removeTrades({
     //     firstItem: 'emerald',
     //     firstCount: 5,
