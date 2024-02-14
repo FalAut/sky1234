@@ -81,7 +81,7 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "heart"
-			description: ["&a&l作者：落秋\\n感谢\\n\\nKubeJS模组 - 大部分魔改\\n\\nLychee模组 - 世界合成\\n\\nMultiblocked模组 - 多方块机器\\n\\n所有的模组，教程/wiki制作者\\n\\n吕不才的Multiblocked示例\\n\\n秋明Sweet的直播和宣传\\n\\n肆a、春夏冬明、晓阳、洛神主动、秋明和他直播间的观众们帮助我发现了许多bug\\n\\n游玩整合包的你"]
+			description: ["&a&l作者：落秋\\n感谢\\n\\nKubeJS模组 - 大部分魔改\\n\\nLychee模组 - 世界合成\\n\\nMultiblocked模组 - 多方块机器\\n\\n所有的模组，教程/wiki制作者\\n\\n吕不才的Multiblocked示例\\n\\n秋明Sweet的直播和宣传\\n\\n肆a、春夏冬明、晓阳、洛神主动、fish-旦、秋明和他直播间的观众们帮助我发现了许多bug\\n\\n游玩整合包的你"]
 			size: 2.0d
 			id: "3130F3DFD55397BC"
 			tasks: [{
