@@ -24,7 +24,6 @@ onEvent('item.registry', event => {
     event.create('fake_sky').displayName("虚假的天空")
     event.create('void_teleporters').glow(true).displayName('虚空维度传送器')
     event.create('surper_flat_teleporters').glow(true).displayName('超平坦维度传送器')
-    event.create('water_world_teleporters').glow(true).displayName('水世界传送器')
 })
 
 onEvent('block.registry', event => {

@@ -896,15 +896,20 @@ onEvent('recipes', event => {
         2: 'thermal_extra:machine_catalyst_augment_3'
     }).id(`${id_prefix}machine_catalyst_creative_augment`);
 
-    crafting_shaped('projecte:alchemical_coal', ['111', '111', '111'], {
+    crafting_shaped('projecte:alchemical_coal', ['11 ', '11 '], {
         1: 'coal'
     }).id(`${id_prefix}alchemical_coal`);
 
-    crafting_shaped('projecte:mobius_fuel', ['111', '111', '111'], {
+    crafting_shaped('projecte:mobius_fuel', ['11 ', '11 '], {
         1: 'projecte:alchemical_coal'
     }).id(`${id_prefix}mobius_fuel`);
 
-    crafting_shaped('projecte:aeternalis_fuel', ['111', '111', '111'], {
+    crafting_shaped('projecte:aeternalis_fuel', ['11 ', '11 '], {
         1: 'projecte:mobius_fuel'
     }).id(`${id_prefix}aeternalis_fuel`);
+
+    crafting_shaped('8x ae2:sky_stone_block', ['111', '121', '111'], {
+        1: 'stone',
+        2: 'kubejs:undef1ned'
+    }).id(`${id_prefix}sky_stone_block`);
 })

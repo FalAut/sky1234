@@ -264,6 +264,7 @@
 			x: 0.0d
 			y: 8.0d
 			shape: "gear"
+			subtitle: "&a&l创造物品是可选的，做出终极之星就算完结"
 			dependencies: [
 				"09D28F6AB133C4F9"
 				"5F460B9C25FB7CC7"
@@ -573,6 +574,7 @@
 				"2ACCDA3A1059CEF5"
 				"5C5AAC516F5CC09E"
 			]
+			dependency_requirement: "one_completed"
 			id: "449872BEB99FBBF5"
 			tasks: [{
 				id: "0119E7CEB600D1AB"

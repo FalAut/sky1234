@@ -952,16 +952,6 @@
 					item: "thermal:nickel_ore"
 				}
 				{
-					id: "674F988A42DD0D94"
-					type: "item"
-					item: "immersiveengineering:ore_aluminum"
-				}
-				{
-					id: "0B53D11866FDF16E"
-					type: "item"
-					item: "immersiveengineering:ore_uranium"
-				}
-				{
 					id: "02B5F8A385BC02DA"
 					type: "item"
 					item: "ae2:quartz_ore"

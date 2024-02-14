@@ -5,7 +5,7 @@
 
   "block.multiblocked.stress_generator_controller": "应力发电机",
   "multiblocked.stress_generator_controller.description": "应力发电机",
-  "block.multiblocked.stress_generator_core": "-",
+  "block.multiblocked.stress_generator_core": "霊知の太陽信仰",
   "block.multiblocked.stress_generator_input": "应力输入口",
   "block.multiblocked.stress_generator_output": "能量输出口",
   "multiblocked.recipe_map.stress_to_energy": "应力发电机",

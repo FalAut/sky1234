@@ -21,8 +21,10 @@ onEvent('tags.blocks', event => {
 })
 
 onEvent('tags.items', event => {
+	// event.add('kubejs:all', '@*')
+	// Item.getTypeList().forEach((item) => event.add('kubejs:everything', item));
+	// event.remove('kubejs:everything', ['kubejs:undef1ned', 'extendedexchange:final_star'])
 	event.add('kubejs:all', '@kubejs')
-	// event.add('forge:all', '@*')
 	event.add('create:all', '@create')
 	event.add('immersiveengineering:all', '@immersiveengineering')
 	event.add('ae2:all', '@ae2')
@@ -37,10 +39,8 @@ onEvent('tags.items', event => {
 	event.add('mekanism:all', '@mekanism')
 	event.add('mekanismgenerators:all', '@mekanismgenerators')
 	event.add('miniutilities:all', '@miniutilities')
-    // Item.getTypeList().forEach((item) => event.add('kubejs:everything', item));
 	event.add('thermal:crafting/dies', 'kubejs:mold_rf_coil')
 	event.add('thermal:crafting/dies', 'kubejs:mold_redstone_servo')
-	// event.remove('kubejs:everything', ['kubejs:undef1ned', 'extendedexchange:final_star'])
 })
 onEvent('tags.mekanism.gas', event => {
 	event.add('mekanism:waste_barrel_decay_blacklist', 'mekanism:polonium')

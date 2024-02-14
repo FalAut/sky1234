@@ -32,7 +32,7 @@ onEvent('item.tooltip', tooltip => {
 	// tooltip.add(Item.of('minecraft:enchanted_book').enchant('miniutilities:molten_head', 1), Text.green('不兼容时运附魔'))
 	// tooltip.add('occultism:storage_controller', [Text.red('警告：不要将大量物品传入维度存储！').bold(), Text.green('不建议当成抽屉使用')])
 	tooltip.add(['assemblylinemachines:entropy_reactor_block', 'assemblylinemachines:entropy_reactor_core'], Text.red('非常危险！不建议放置在基地中！').bold())
-	tooltip.add(['kubejs:def1ned'], [Text.green('下个包的开局物品').bold(), Text.green('目前还没有用途').bold()])
+	tooltip.add(['kubejs:def1ned'], [Text.green('目前还没有用途').bold()])
 })
 
 onEvent('jei.remove.recipes', event => {

@@ -25,4 +25,6 @@ onEvent('recipes', event => {
     minecraft.crafting_shapeless('minecraft:crimson_nylium', ['minecraft:crimson_fungus', 'minecraft:netherrack']).id(`${id_prefix}crimson_nylium`);
     minecraft.crafting_shapeless('4x minecraft:magma_cream', 'kubejs:congealed_magma_cream').id(`${id_prefix}magma_cream`)
     minecraft.crafting_shapeless('64x createendertransmission:energy_transmitter', ['kubejs:undef1ned_block', 'create:cogwheel']).id(`${id_prefix}energy_transmitter`)
+    minecraft.crafting_shapeless('immersiveengineering:ore_aluminum', 'minecraft:raw_iron').id(`${id_prefix}ore_aluminum`);
+    minecraft.crafting_shapeless('immersiveengineering:ore_uranium', 'minecraft:raw_gold').id(`${id_prefix}ore_uranium`);
 })

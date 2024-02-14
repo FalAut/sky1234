@@ -64,10 +64,7 @@ onEvent('item.right_click', event => {
         player.teleportTo('kubejs:void', 0.5, 69, 0.5, 0, 0);
         event.server.runCommandSilent('execute in kubejs:void run setblock 0 65 0 minecraft:bedrock')
     }
-    if (item.id == 'kubejs:water_world_teleporters') {
-        player.teleportTo('kubejs:water', 0.5, 73, 0.5, 0, 0);
-        event.server.runCommandSilent('execute in kubejs:water run setblock 0 69 0 minecraft:bedrock')
-    }
+    
     if (item.id == 'kubejs:surper_flat_teleporters') {
         player.teleportTo('kubejs:surper_flat', 0.5, 69, 0.5, 0, 0);
     }

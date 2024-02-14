@@ -1,13 +1,13 @@
 {
-  "versionName": "beta 0.19",
+  "versionName": "beta 0.20",
   "versionCode": 2,
   "versionFormat": "%versionName%",
   "updateURL": {
     "zh_cn": "https://www.lanzv.com/b023thcdc"
   },
   "changelogs": {
-    "beta 0.19": [
-      "§a将开局物品的序列装配中的???替换为终极之星，并添加已定义的变量（下个包的开局物品）\n添加了一些我忘了有多少的提示\n电路板现在可以用泰拉钢粒做\n等价的3个燃料现在通过合成就可以获得\n更新感谢名单\n为末地传送门添加了胶囊\n热力锅炉胶囊现在自带加热器\n\n点击更新链接下载↓"
+    "beta 0.20": [
+      "§a添加陨石的来法\n删除水世界\n铝土和铀矿石现在不需要斗轮\n添加一些提示\n炼金煤炭现在可以用4个煤炭合成"
     ]
   }
 }

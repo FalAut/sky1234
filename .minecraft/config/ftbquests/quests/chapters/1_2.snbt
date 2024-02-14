@@ -70,19 +70,12 @@
 				type: "item"
 				item: "minecraft:oak_sapling"
 			}]
-			rewards: [
-				{
-					id: "09AB397D6A82BE3F"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "6693336FC2877937"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "09AB397D6A82BE3F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			icon: {
@@ -129,11 +122,6 @@
 					exclude_from_claim_all: true
 					table_id: 8772607192016285100L
 				}
-				{
-					id: "6525B51B23F13D6D"
-					type: "item"
-					item: "minecraft:composter"
-				}
 			]
 		}
 		{
@@ -147,7 +135,7 @@
 				item: "naturesaura:wood_stand"
 			}]
 			rewards: [{
-				id: "6D02F9157CC30083"
+				id: "5C0D5428B8A4814F"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 8772607192016285100L
@@ -175,24 +163,12 @@
 					item: "tconstruct:tinker_station"
 				}
 			]
-			rewards: [
-				{
-					id: "2AA12FDD22AA6FDA"
-					type: "item"
-					item: "tconstruct:part_chest"
-				}
-				{
-					id: "6D790A1BF45B3C03"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "4A7603CE85CFFB33"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "1FC8088C6EED556B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 8.0d
@@ -291,19 +267,12 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "35B2176E39DB866D"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "2DCA9B4B40269BAA"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "1B6A0FA8CC6C9040"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 8.0d
@@ -322,7 +291,7 @@
 				}
 			}]
 			rewards: [{
-				id: "4D214665887CF219"
+				id: "77C9C159C6643BB4"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 8772607192016285100L
@@ -360,31 +329,12 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "45338C94D95A297E"
-					type: "command"
-					title: "森林仪式"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
-					}
-					team_reward: true
-					command: "/capsule fromExistingReward tree_ritual.nbt @p"
-				}
-				{
-					id: "6BCD367A5BBEE063"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+			rewards: [{
+				id: "1B425E6D6D8BD5A3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 8.0d
@@ -397,7 +347,7 @@
 				item: "naturesaura:gold_leaf"
 			}]
 			rewards: [{
-				id: "31DA94FF87C68437"
+				id: "37DEE9CA2107D5BA"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 8772607192016285100L
@@ -420,19 +370,12 @@
 					item: "kubejs:undef1ned_fluid_bucket"
 				}
 			]
-			rewards: [
-				{
-					id: "62858AA2975785D7"
-					type: "item"
-					item: "bettermuffling:muffling_block_advanced"
-				}
-				{
-					id: "45CC9C21DCA144F1"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+			rewards: [{
+				id: "1A60625AC61C2CF7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 14.0d
@@ -455,19 +398,12 @@
 					item: "tconstruct:seared_brick"
 				}
 			]
-			rewards: [
-				{
-					id: "3A27500CF9C8124F"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "7995C5C1DD690729"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "3A99F274EC4403FC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 12.0d
@@ -480,24 +416,12 @@
 				type: "item"
 				item: "minecraft:clay_ball"
 			}]
-			rewards: [
-				{
-					id: "160FD301137CD3D9"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "1E3CBDD475C2B616"
-					type: "item"
-					item: "minecraft:composter"
-				}
-				{
-					id: "1F9FF8AD005885E6"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "7ED1795B3A29A68D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 12.0d
@@ -510,19 +434,12 @@
 				type: "item"
 				item: "minecraft:sand"
 			}]
-			rewards: [
-				{
-					id: "4F9017FD1AF5A809"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "304DEF6E0F507579"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "155543F8F9763C18"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 12.0d
@@ -535,19 +452,12 @@
 				type: "item"
 				item: "minecraft:gravel"
 			}]
-			rewards: [
-				{
-					id: "185C7A8DEDFC4862"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "5F9C85F2418B1794"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "3B3128B8D6FC962F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 2.0d
@@ -601,7 +511,7 @@
 				item: "cobblefordays:tier_1"
 			}]
 			rewards: [{
-				id: "0CF23E4635C04586"
+				id: "437F259F0C830FD6"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 8772607192016285100L
@@ -617,19 +527,12 @@
 				type: "item"
 				item: "minecraft:glass"
 			}]
-			rewards: [
-				{
-					id: "47E579B2BAC00174"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "2CE5DCCE3FDE14F8"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "55E48375A00ECE71"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 16.0d
@@ -641,19 +544,12 @@
 				type: "item"
 				item: "naturesaura:bottle_two_the_rebottling"
 			}]
-			rewards: [
-				{
-					id: "739BE6E0ABC279A8"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "5CF45E4803D3FB54"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "660E28ABFBCA503B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 16.0d
@@ -672,19 +568,12 @@
 					item: "tconstruct:seared_heater"
 				}
 			]
-			rewards: [
-				{
-					id: "00465CE1AEB8F0E4"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "38416A2E2DBD0817"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "61DAC65C8AFA0DD4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 18.0d
@@ -697,24 +586,12 @@
 				type: "item"
 				item: "minecraft:iron_ingot"
 			}]
-			rewards: [
-				{
-					id: "4BECC00627942580"
-					type: "item"
-					item: "bettermuffling:muffling_block_advanced"
-				}
-				{
-					id: "1FB5152AD749D369"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "5C2F676B8EB28DAA"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "58D3FDA311AC3B6F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 12.0d
@@ -726,19 +603,12 @@
 				type: "item"
 				item: "minecraft:dirt"
 			}]
-			rewards: [
-				{
-					id: "5B1A8D6516C76A95"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "4A8CC110D1C53906"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "57C5C0D3E61E9FBA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 18.0d
@@ -756,19 +626,12 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "0A04DA896E702C3B"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "3A5B0761767EC409"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "31D9E7ACC2D2929D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			title: "手册"
@@ -789,45 +652,28 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "1AEFE674A005E961"
+				id: "45E9D12E22B340A4"
 				type: "item"
 				item: {
 					id: "eccentrictome:tome"
 					Count: 1b
 					tag: {
 						"eccentrictome:mods": {
-							tconstruct: {
-								0: {
-									id: "tconstruct:puny_smelting"
-									Count: 1b
-								}
-								1: {
-									id: "tconstruct:materials_and_you"
-									Count: 1b
-								}
-								2: {
-									id: "tconstruct:mighty_smelting"
-									Count: 1b
-								}
-								3: {
-									id: "tconstruct:tinkers_gadgetry"
-									Count: 1b
-								}
-								4: {
-									id: "tconstruct:encyclopedia"
-									Count: 1b
-								}
-								5: {
-									id: "tconstruct:fantastic_foundry"
-									Count: 1b
-								}
-							}
 							extendedcrafting: {
 								0: {
 									id: "patchouli:guide_book"
 									Count: 1b
 									tag: {
 										"patchouli:book": "extendedcrafting:guide"
+									}
+								}
+							}
+							industrialforegoing: {
+								0: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
 									}
 								}
 							}
@@ -840,13 +686,30 @@
 									}
 								}
 							}
-							industrialforegoing: {
+							tconstruct: {
 								0: {
-									id: "patchouli:guide_book"
+									id: "tconstruct:fantastic_foundry"
 									Count: 1b
-									tag: {
-										"patchouli:book": "industrialforegoing:industrial_foregoing"
-									}
+								}
+								1: {
+									id: "tconstruct:tinkers_gadgetry"
+									Count: 1b
+								}
+								2: {
+									id: "tconstruct:mighty_smelting"
+									Count: 1b
+								}
+								3: {
+									id: "tconstruct:encyclopedia"
+									Count: 1b
+								}
+								4: {
+									id: "tconstruct:puny_smelting"
+									Count: 1b
+								}
+								5: {
+									id: "tconstruct:materials_and_you"
+									Count: 1b
 								}
 							}
 							assemblylinemachines: {
@@ -865,6 +728,12 @@
 									tag: {
 										"botania:elven_unlock": 1b
 									}
+								}
+							}
+							ftbquests: {
+								0: {
+									id: "ftbquests:book"
+									Count: 1b
 								}
 							}
 							immersiveengineering: {
@@ -920,24 +789,12 @@
 					tag: { }
 				}
 			}]
-			rewards: [
-				{
-					id: "76E932EA2260E96B"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "4B761DB976E60931"
-					type: "item"
-					item: "minecraft:composter"
-				}
-				{
-					id: "2BC7F609F15F662B"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "5D744C26AE9C5ADC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 14.0d
@@ -956,19 +813,12 @@
 					item: "botanypots:terracotta_hopper_botany_pot"
 				}
 			]
-			rewards: [
-				{
-					id: "391C0EA856ECB11E"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "4BE66EBF755A5985"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "6D3B6ED66C76719C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 12.0d
@@ -980,19 +830,12 @@
 				type: "item"
 				item: "minecraft:andesite"
 			}]
-			rewards: [
-				{
-					id: "4E2119F435A69E06"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "2BAFA28BFA1542ED"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "5D53FA011252A22A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 20.0d
@@ -1007,31 +850,12 @@
 				type: "item"
 				item: "naturesaura:token_joy"
 			}]
-			rewards: [
-				{
-					id: "5BD05CDACA367D79"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "5DBC565B3E96A663"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "19BEE41B9FB98E87"
-					type: "item"
-					item: "minecraft:composter"
-				}
-				{
-					id: "3B3E3D53A29C99CD"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "5BD05CDACA367D79"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 2.0d
@@ -1088,19 +912,12 @@
 					item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
 				}
 			]
-			rewards: [
-				{
-					id: "5EFC83FAF004BED6"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "5D21A9876ADE37EB"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "488B308CCC4A36A8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 22.0d
@@ -1124,18 +941,6 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 8772607192016285100L
-				}
-				{
-					id: "4F23DA256F71F6A0"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "094E9864DF3EB20B"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
 				}
 			]
 		}
@@ -1214,18 +1019,6 @@
 					exclude_from_claim_all: true
 					table_id: 8772607192016285100L
 				}
-				{
-					id: "67549C162F2F8136"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "29FF9B9C92AD65A0"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
 			]
 		}
 		{
@@ -1238,26 +1031,12 @@
 				type: "item"
 				item: "naturesaura:infused_iron"
 			}]
-			rewards: [
-				{
-					id: "1CF8EA30E274BB75"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "4F1F2DCEE41C9AE9"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "084AB032FE5854F3"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "1CF8EA30E274BB75"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 24.0d
@@ -1268,26 +1047,12 @@
 				type: "item"
 				item: "naturesaura:token_euphoria"
 			}]
-			rewards: [
-				{
-					id: "7C924724652A8F4B"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "7ED8D4303B8DE4EE"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "060C2BD53D299285"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "7C924724652A8F4B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 26.0d
@@ -1303,26 +1068,12 @@
 				type: "item"
 				item: "naturesaura:conversion_catalyst"
 			}]
-			rewards: [
-				{
-					id: "4608A0CFE741A68D"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "313B34BCC934B157"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "6C2510EC42B1E4E5"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "4608A0CFE741A68D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 24.0d
@@ -1334,26 +1085,12 @@
 				type: "item"
 				item: "naturesaura:infused_stone"
 			}]
-			rewards: [
-				{
-					id: "3582E73F08CAFFAC"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "4CE6D2FB5A54B95A"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "2E472B7BF5811F47"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "3582E73F08CAFFAC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 22.0d
@@ -1366,26 +1103,12 @@
 				type: "item"
 				item: "naturesaura:ancient_sapling"
 			}]
-			rewards: [
-				{
-					id: "06D58EFDEF35AB42"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "41AD157B7BBD2211"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "38A0036579AC5C8F"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "06D58EFDEF35AB42"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 4.0d
@@ -1608,18 +1331,6 @@
 					exclude_from_claim_all: true
 					table_id: 8772607192016285100L
 				}
-				{
-					id: "52707004002D1A4A"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "433526B47C9ABF2B"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
 			]
 		}
 		{
@@ -1644,26 +1355,12 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "5B968AD039BE0F11"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "2071D5AE5E9559CB"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "60E4D301831242D2"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "5B968AD039BE0F11"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 26.0d
@@ -1675,26 +1372,12 @@
 				type: "item"
 				item: "kubejs:infused_coal"
 			}]
-			rewards: [
-				{
-					id: "70CD14F315466DDB"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "365AC2DFCF372AF8"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "33B8A8E2546A1751"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "70CD14F315466DDB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 28.0d
@@ -1712,26 +1395,12 @@
 					item: "compactcrafting:projector_dish"
 				}
 			]
-			rewards: [
-				{
-					id: "0D04277C99DEB899"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "5E38A454005389F7"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "5E6543B1175288BA"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "0D04277C99DEB899"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 26.0d
@@ -1747,26 +1416,12 @@
 				type: "item"
 				item: "compactcrafting:field_projector"
 			}]
-			rewards: [
-				{
-					id: "58B8317F588EA2FD"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "74189D63B5715FD3"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "2E3BA704D96AEB24"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "58B8317F588EA2FD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 26.0d
@@ -2014,26 +1669,12 @@
 					tag: { }
 				}
 			}]
-			rewards: [
-				{
-					id: "4565E77263DE08A0"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "0865B1CDF1EA956B"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "4CBF429E8A9AFDDB"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "4565E77263DE08A0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 24.0d
@@ -2544,29 +2185,12 @@
 				type: "item"
 				item: "miniutilities:mechanical_miner"
 			}]
-			rewards: [
-				{
-					id: "03D06A3810B98C6A"
-					type: "item"
-					item: "miniutilities:speed_upgrade"
-				}
-				{
-					id: "1A77E0F9CAB8744D"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "6CA130A4B7A78F57"
-					type: "item"
-					item: "minecraft:composter"
-				}
-				{
-					id: "54FE27BA2BA9CAA3"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "41319F04D7BBB7DC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 21.0d
@@ -2732,26 +2356,12 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "173235F5C924AD5E"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "34F2963EEEC905B6"
-					type: "item"
-					item: "minecraft:poppy"
-					count: 64
-				}
-				{
-					id: "578E0E754A7EBF5E"
-					type: "item"
-					item: "minecraft:dandelion"
-					count: 64
-				}
-			]
+			rewards: [{
+				id: "173235F5C924AD5E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			icon: {
@@ -2857,19 +2467,12 @@
 					item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
 				}
 			]
-			rewards: [
-				{
-					id: "1833123A456AD9FF"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-				{
-					id: "34C745F2F110AE73"
-					type: "item"
-					item: "minecraft:composter"
-				}
-			]
+			rewards: [{
+				id: "27F616A746E19BEF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 18.0d

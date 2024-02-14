@@ -46,7 +46,7 @@
 			y: 0.0d
 			shape: "gear"
 			subtitle: "&4&l整合包处于测试阶段，出现问题是难免的，请保持耐心或等待整合包完善后再游玩"
-			description: ["&a&l这是一个半专家空岛整合包，需要你对模组有一定的了解。\\n\\n&c&l个人能力有限，无法迎合每个人的口味，如果你感到困难，随时可以退出，去寻找适合你的整合包。"]
+			description: ["&a&l这是一个半专家空岛整合包，需要你对模组有一定的了解。\\n\\n&c&l个人能力有限，无法迎合每个人的口味，如果你不喜欢这个整合包，随时可以退出，去寻找适合你的整合包。"]
 			size: 2.0d
 			id: "66B2B046668C4983"
 			tasks: [{
@@ -106,8 +106,8 @@
 			title: "虚空维度传送器"
 			icon: "kubejs:void_teleporters"
 			x: 0.0d
-			y: 2.5d
-			description: ["&a&l我强烈建议把大型工厂（比如机械动力）之类的放到这个维度，然后使用FTB区块加载，这样你在主世界客户端就不会渲染这些方块，防止游戏卡顿"]
+			y: 1.5d
+			subtitle: "&a&l虚空维度无法使用自然祭坛，无法获得瓶装阳光"
 			can_repeat: true
 			id: "10B3B4169D079F88"
 			tasks: [{
@@ -115,45 +115,11 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "32AC61A58BA4A0A9"
-				type: "item"
-				item: "kubejs:void_teleporters"
-			}]
-		}
-		{
-			title: "超平坦维度传送器"
-			icon: "kubejs:surper_flat_teleporters"
-			x: 2.0d
-			y: 2.5d
-			subtitle: "&a&l超平坦无法使用自然祭坛，无法获得瓶装阳光"
-			description: ["&a&l我强烈建议把大型工厂（比如机械动力）之类的放到这个维度，然后使用FTB区块加载，这样你在主世界客户端就不会渲染这些方块，防止游戏卡顿"]
-			can_repeat: true
-			id: "13167BABB85C44E6"
-			tasks: [{
-				id: "4B2C63C5E4F2843A"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "17B2FFCE0654478F"
-				type: "item"
-				item: "kubejs:surper_flat_teleporters"
-			}]
-		}
-		{
-			title: "水世界传送器"
-			icon: "kubejs:water_world_teleporters"
-			x: -2.0d
-			y: 2.5d
-			can_repeat: true
-			id: "39F33BF18A315755"
-			tasks: [{
-				id: "5DF6847CD060AB3E"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "310B7BF705C37148"
-				type: "item"
-				item: "kubejs:water_world_teleporters"
+				id: "088A99F3E59FB77B"
+				type: "choice"
+				icon: "kubejs:void_teleporters"
+				exclude_from_claim_all: true
+				table_id: 2567768166186685044L
 			}]
 		}
 	]
