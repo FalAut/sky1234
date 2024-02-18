@@ -222,10 +222,10 @@ onEvent("recipes", (event) => {
         ingredient: { tag: "minecraft:flowers" },
       },
       fluidInput: {
-        amount: 1,
+        amount: 1000,
         fluid: "assemblylinemachines:condensed_void",
       },
-      gasInput: { amount: 1, gas: "mekanism:steam" },
+      gasInput: { amount: 1000, gas: "mekanism:steam" },
       duration: 100,
       itemOutput: { item: "assemblylinemachines:prism_rose" },
     })
@@ -238,10 +238,10 @@ onEvent("recipes", (event) => {
         ingredient: { item: "minecraft:bone_meal" },
       },
       fluidInput: {
-        amount: 1,
+        amount: 1000,
         fluid: "assemblylinemachines:dark_energy",
       },
-      gasInput: { amount: 1, gas: "mekanism:steam" },
+      gasInput: { amount: 1000, gas: "mekanism:steam" },
       duration: 100,
       itemOutput: { item: "assemblylinemachines:chaotic_fertilizer" },
     })
@@ -270,18 +270,18 @@ onEvent("recipes", (event) => {
     })
     .id(`${id_prefix}violet`);
 
-  event
-    .custom({
-      type: "mekanism:painting",
-      itemInput: {
-        ingredient: {
-          item: "projecte:dark_matter",
-        },
-      },
-      chemicalInput: { amount: 256, pigment: "mekanism:red" },
-      output: { item: "projecte:red_matter" },
-    })
-    .id(`${id_prefix}red_matter`);
+  // event
+  //   .custom({
+  //     type: "mekanism:painting",
+  //     itemInput: {
+  //       ingredient: {
+  //         item: "projecte:dark_matter",
+  //       },
+  //     },
+  //     chemicalInput: { amount: 256, pigment: "mekanism:red" },
+  //     output: { item: "projecte:red_matter" },
+  //   })
+  //   .id(`${id_prefix}red_matter`);
 
   event
     .custom({

@@ -151,7 +151,7 @@ onEvent("recipes", (event) => {
   );
 
   crucible(
-    Fluid.of("assemblylinemachines:dark_energy", 10000),
+    Fluid.of("assemblylinemachines:dark_energy", 1000),
     "extendedexchange:fading_matter"
   ).id(`${id_prefix}dark_energy`);
 

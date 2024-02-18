@@ -785,10 +785,20 @@ onEvent('recipes', event => {
         2: 'assemblylinemachines:reality_crystal'
     }).id(`${id_prefix}entropy_reactor_upgrade_entropic_harnesser`);
 
-    crafting_shaped('64x extendedexchange:fading_matter', ['111', '121', '111'], {
-        1: 'projecte:dark_matter',
+    crafting_shaped('extendedexchange:fading_matter', ['111', '121', '111'], {
+        1: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:antimatter"}'),
         2: 'assemblylinemachines:semi_dense_neutron_matter'
-    }).id(`${id_prefix}fading_matter`);
+    }).id(`${id_prefix}fading_matter1`);
+
+    crafting_shaped('5x extendedexchange:fading_matter', ['111', '121', '111'], {
+        1: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:antimatter"}'),
+        2: 'assemblylinemachines:quark_matter'
+    }).id(`${id_prefix}fading_matter2`);
+
+    crafting_shaped('10x extendedexchange:fading_matter', ['111', '121', '111'], {
+        1: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:antimatter"}'),
+        2: 'assemblylinemachines:strange_matter'
+    }).id(`${id_prefix}fading_matter3`);
 
     crafting_shaped('assemblylinemachines:electrified_netherite_blend', ['121', '232', '121'], {
         1: 'thermal:netherite_dust',

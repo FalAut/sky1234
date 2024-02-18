@@ -501,7 +501,6 @@
 			x: 14.0d
 			y: 7.0d
 			shape: "circle"
-			subtitle: "&e&l根据腐化碎片的种类产出的稀有物质 由于不太好做所以暂时没什么用"
 			dependencies: ["2ACCDA3A1059CEF5"]
 			id: "139134B1A5CE9A58"
 			tasks: [{
@@ -537,7 +536,6 @@
 			x: 14.0d
 			y: 8.0d
 			shape: "circle"
-			subtitle: "必定会出一个"
 			dependencies: [
 				"2ACCDA3A1059CEF5"
 				"5C5AAC516F5CC09E"
@@ -560,7 +558,6 @@
 			x: 14.0d
 			y: 9.0d
 			shape: "circle"
-			subtitle: "&e&l根据腐化碎片的种类产出的稀有物质 由于不太好做所以暂时没什么用"
 			dependencies: ["2ACCDA3A1059CEF5"]
 			id: "1F684639C055E8A3"
 			tasks: [{

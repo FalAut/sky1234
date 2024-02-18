@@ -94,29 +94,6 @@
 				item: "minecraft:poppy"
 			}]
 		}
-		{
-			title: "传送器"
-			icon: "kubejs:void_teleporter"
-			x: 0.0d
-			y: -4.0d
-			shape: "diamond"
-			subtitle: "&a右键传送，再次右键返回"
-			description: ["&a虚空维度和超平坦维度无法使用自然祭坛，无法获得瓶装阳光"]
-			size: 2.0d
-			can_repeat: true
-			id: "10B3B4169D079F88"
-			tasks: [{
-				id: "5D4098A46AA443B5"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "088A99F3E59FB77B"
-				type: "choice"
-				icon: "kubejs:void_teleporter"
-				exclude_from_claim_all: true
-				table_id: 2567768166186685044L
-			}]
-		}
 	]
 	quest_links: [ ]
 }
