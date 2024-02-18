@@ -979,7 +979,6 @@
 		{
 			x: 17.5d
 			y: 5.5d
-			subtitle: "{chapter.5.quest.33.subtitle}"
 			min_required_dependencies: 1
 			dependencies: [
 				"3C12EA9E5432FB50"
@@ -1135,7 +1134,7 @@
 				{
 					id: "186AC64B46F017CC"
 					type: "command"
-					title: "{chapter.5.quest.35.reward.1.title}"
+					title: "{block.immersiveengineering.refinery}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b

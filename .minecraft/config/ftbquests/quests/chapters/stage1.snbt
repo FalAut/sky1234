@@ -939,7 +939,6 @@
 		{
 			x: 22.0d
 			y: -1.5d
-			subtitle: "{chapter.4.quest.32.subtitle}"
 			dependencies: ["478D194B34308AC2"]
 			id: "22035E1744E58D12"
 			tasks: [{
@@ -1294,7 +1293,6 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.48.title}"
 			x: 4.0d
 			y: 7.0d
 			shape: "circle"
