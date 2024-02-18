@@ -16,12 +16,12 @@
     "other": {}
   },
   "detail_settings": {
-    "sky": true,
-    "sun_moon": true,
-    "stars": true,
-    "rain_snow": true,
-    "biome_colors": true,
-    "sky_colors": true
+    "sky": false,
+    "sun_moon": false,
+    "stars": false,
+    "rain_snow": false,
+    "biome_colors": false,
+    "sky_colors": false
   },
   "render_settings": {
     "fog_distance": 0,
