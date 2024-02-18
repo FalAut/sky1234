@@ -1,7 +1,6 @@
 {
 	id: "79BE8FC30A2AEDAC"
-	order_index: 2
-	title: "{loot_table.3}"
+	order_index: 1
 	icon: "thermal:copper_coin"
 	loot_size: 1
 	rewards: [

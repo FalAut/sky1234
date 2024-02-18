@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "shop"
-	title: "{chapter.2.title}"
+	title: "{shop.title}"
 	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

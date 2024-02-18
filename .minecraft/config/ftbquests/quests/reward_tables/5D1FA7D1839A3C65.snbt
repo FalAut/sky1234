@@ -1,7 +1,6 @@
 {
 	id: "5D1FA7D1839A3C65"
-	order_index: 4
-	title: "{loot_table.5}"
+	order_index: 3
 	icon: "thermal:gold_coin"
 	loot_size: 1
 	rewards: [

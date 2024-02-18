@@ -3,20 +3,20 @@
 	group: ""
 	order_index: 0
 	filename: "welcome"
-	title: "{chapter.1.title}"
+	title: "{welcome.title}"
 	icon: "extendedexchange:arcane_tablet"
 	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.1.quest.1.title}"
+			title: "{welcome.projecte.title}"
 			icon: "projecte:transmutation_tablet"
 			x: 0.0d
 			y: 4.0d
 			shape: "diamond"
-			subtitle: "{chapter.1.quest.1.subtitle}"
-			description: ["{chapter.1.quest.1.description.1}"]
+			subtitle: "{welcome.projecte.subtitle}"
+			description: ["{welcome.projecte.description}"]
 			size: 2.0d
 			can_repeat: true
 			id: "65ACED33E32205EC"
@@ -34,7 +34,7 @@
 			}]
 		}
 		{
-			title: "{chapter.1.quest.2.title}"
+			title: "{welcome.pack.title}"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -45,7 +45,8 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
-			description: ["{chapter.1.quest.2.description.1}"]
+			subtitle: "{welcome.pack.subtitle}"
+			description: ["{welcome.pack.description}"]
 			size: 2.0d
 			id: "66B2B046668C4983"
 			tasks: [{
@@ -54,7 +55,7 @@
 			}]
 		}
 		{
-			title: "{chapter.1.quest.3.title}"
+			title: "{welcome.bug.title}"
 			icon: "botania:cosmetic_questgiver_mark"
 			x: -4.0d
 			y: 0.0d
@@ -71,16 +72,15 @@
 				type: "choice"
 				icon: "botania:cosmetic_questgiver_mark"
 				exclude_from_claim_all: true
-				table_id: 2290331992835075539L
 			}]
 		}
 		{
-			title: "{chapter.1.quest.4.title}"
+			title: "{welcome.thanks.title}"
 			icon: "minecraft:poppy"
 			x: 4.0d
 			y: 0.0d
 			shape: "heart"
-			description: ["{chapter.1.quest.4.description.1}"]
+			description: ["{welcome.thanks.description}"]
 			size: 2.0d
 			can_repeat: true
 			id: "3130F3DFD55397BC"

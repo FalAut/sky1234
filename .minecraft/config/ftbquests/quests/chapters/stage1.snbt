@@ -3,7 +3,7 @@
 	group: "11E1478976DD7E05"
 	order_index: 0
 	filename: "stage1"
-	title: "{chapter.4.title}"
+	title: "{stage1.title}"
 	icon: "kubejs:undef1ned"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -329,12 +329,30 @@
 					consume_items: true
 				}
 			]
-			rewards: [{
-				id: "1B425E6D6D8BD5A3"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "49D4246B79B1C2F0"
+					type: "command"
+					icon: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							overpowered: 1
+							state: 0
+							color: 16777215
+							size: 1
+						}
+					}
+					team_reward: true
+					command: "/capsule fromExistingReward tree_ritual.nbt @p"
+				}
+				{
+					id: "7021418EF17338C2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -578,7 +596,7 @@
 		{
 			x: 18.0d
 			y: 0.0d
-			subtitle: "{chapter.4.quest.22.subtitle}"
+			subtitle: "{stage1.iron.subtitle}"
 			dependencies: ["3A220C3A8609602F"]
 			id: "23550D217AE0A3AE"
 			tasks: [{
@@ -634,7 +652,6 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.25.title}"
 			icon: {
 				id: "eccentrictome:tome"
 				Count: 1b
@@ -999,7 +1016,6 @@
 				{
 					id: "08A011B82B022997"
 					type: "command"
-					title: "{chapter.4.quest.33.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1200,7 +1216,6 @@
 		{
 			x: 1.5d
 			y: 10.0d
-			subtitle: "{chapter.4.quest.43.subtitle}"
 			id: "6ACB4181C7F78CBA"
 			tasks: [{
 				id: "246A5962E0E97163"
@@ -1217,7 +1232,6 @@
 		{
 			x: 3.5d
 			y: 10.0d
-			subtitle: "{chapter.4.quest.44.subtitle}"
 			id: "2270ACDD17D049E3"
 			tasks: [{
 				id: "6A58DAC148DE3C50"
@@ -1234,7 +1248,6 @@
 		{
 			x: 2.5d
 			y: 10.0d
-			subtitle: "{chapter.4.quest.45.subtitle}"
 			id: "7C84FE62C0A22696"
 			tasks: [{
 				id: "291DB6DF3F8BB93C"
@@ -1251,7 +1264,6 @@
 		{
 			x: 6.5d
 			y: 10.0d
-			subtitle: "{chapter.4.quest.46.subtitle}"
 			id: "0022221531A0708D"
 			tasks: [{
 				id: "3CDFE7D530E564DD"
@@ -1268,7 +1280,6 @@
 		{
 			x: 4.5d
 			y: 10.0d
-			subtitle: "{chapter.4.quest.47.subtitle}"
 			id: "5391C1159EA10156"
 			tasks: [{
 				id: "33AF346A5902E5FD"
@@ -1311,7 +1322,7 @@
 		{
 			x: 26.0d
 			y: 0.5d
-			subtitle: "{chapter.4.quest.49.subtitle}"
+			subtitle: "{stage1.coal.subtitle}"
 			dependencies: ["3101DC47800151F3"]
 			id: "7118AD306AA67336"
 			tasks: [{
@@ -1559,7 +1570,7 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.61.title}"
+			title: "{stage1.nether_altar.title}"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1569,6 +1580,7 @@
 			}
 			x: 8.0d
 			y: 8.5d
+			subtitle: "{stage1.nether_altar.subtitle}"
 			dependencies: [
 				"7BF6EBDDB400D31A"
 				"3275E7BF3045629A"
@@ -1742,7 +1754,7 @@
 		{
 			x: 20.0d
 			y: 8.5d
-			subtitle: "{chapter.4.quest.68.subtitle}"
+			subtitle: "{stage1.animal_spawner.subtitle}"
 			dependencies: ["72C99865BEC67A74"]
 			id: "0C666B5258D0A608"
 			tasks: [{
@@ -1967,7 +1979,7 @@
 			}]
 		}
 		{
-			title: "{chapter.4.quest.79.title}"
+			title: "{stage1.nether_altar.title}"
 			icon: {
 				id: "capsule:capsule"
 				Count: 1b
@@ -2021,7 +2033,6 @@
 				{
 					id: "526496F4CD6D0A5A"
 					type: "command"
-					title: "{chapter.4.quest.79.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2078,7 +2089,6 @@
 		{
 			x: 5.5d
 			y: 10.0d
-			subtitle: "{chapter.4.quest.81.subtitle}"
 			id: "21992CEC6B0C5D4E"
 			tasks: [{
 				id: "4ADF557FBAC81384"
@@ -2309,7 +2319,6 @@
 				{
 					id: "73C765C48AB71353"
 					type: "command"
-					title: "{chapter.4.quest.89.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2403,7 +2412,6 @@
 				{
 					id: "682F70B75C8960D4"
 					type: "command"
-					title: "{chapter.4.quest.91.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b

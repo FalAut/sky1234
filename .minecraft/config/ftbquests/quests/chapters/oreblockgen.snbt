@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "oreblockgen"
-	title: "{chapter.3.title}"
+	title: "{oreblockgen.title}"
 	subtitle: ["{chapter.3.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

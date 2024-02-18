@@ -3,7 +3,7 @@
 	group: "11E1478976DD7E05"
 	order_index: 2
 	filename: "stage3"
-	title: "{chapter.6.title}"
+	title: "{stage3.title}"
 	icon: {
 		id: "create:chromatic_compound"
 		Count: 1b
@@ -247,7 +247,6 @@
 			x: 6.0d
 			y: 0.0d
 			shape: "pentagon"
-			subtitle: "{chapter.6.quest.10.subtitle}"
 			dependencies: [
 				"29DF39AF5FC82657"
 				"1A05FBAA5E2717BD"
@@ -374,7 +373,6 @@
 				{
 					id: "47F37BCC1E78B844"
 					type: "command"
-					title: "{chapter.6.quest.13.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -486,7 +484,6 @@
 		{
 			x: 14.0d
 			y: -1.0d
-			subtitle: "{chapter.6.quest.18.subtitle}"
 			dependencies: ["0029C6A07C9DA04D"]
 			id: "7704930D0F82B4A7"
 			tasks: [{
@@ -660,8 +657,8 @@
 			]
 			rewards: [
 				{
-					id: "162692641E9DF361"
-					type: "choice"
+					id: "1DDF208FD90BB48D"
+					type: "command"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -673,11 +670,10 @@
 						}
 					}
 					team_reward: true
-					exclude_from_claim_all: true
-					table_id: 6622359795599984392L
+					command: "/capsule giveLinked alfheim_portal.nbt @p"
 				}
 				{
-					id: "5F05165C1192FD95"
+					id: "7DE316669AB7DCA7"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 6710266488103255141L
@@ -1012,7 +1008,6 @@
 		{
 			x: 4.0d
 			y: 9.0d
-			subtitle: "{chapter.6.quest.41.subtitle}"
 			dependencies: ["69336AF7CCEF7541"]
 			id: "01D8133048FAB4D8"
 			tasks: [{
@@ -1071,7 +1066,6 @@
 		{
 			x: 2.0d
 			y: 9.0d
-			subtitle: "{chapter.6.quest.44.subtitle}"
 			dependencies: ["01D8133048FAB4D8"]
 			id: "09B1E1CD14AD1527"
 			tasks: [{
@@ -1286,7 +1280,6 @@
 				{
 					id: "239327C04D527C8D"
 					type: "command"
-					title: "{chapter.6.quest.53.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1313,7 +1306,7 @@
 			x: 18.0d
 			y: 0.0d
 			shape: "pentagon"
-			subtitle: "{chapter.6.quest.54.subtitle}"
+			subtitle: "{tooltip.capsule.multiblock}"
 			dependencies: [
 				"2CAE2E5EE9ED0D84"
 				"2492647061147447"
@@ -1369,7 +1362,6 @@
 				{
 					id: "56B96FCB322D8326"
 					type: "command"
-					title: "{chapter.6.quest.54.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1501,7 +1493,7 @@
 			x: 22.0d
 			y: 0.0d
 			shape: "pentagon"
-			subtitle: "{chapter.6.quest.60.subtitle}"
+			subtitle: "{tooltip.capsule.multiblock}"
 			dependencies: [
 				"4E454CF6AEAB486E"
 				"702550DC4581AA4E"
@@ -1552,7 +1544,6 @@
 				{
 					id: "243673FF933E5E21"
 					type: "command"
-					title: "{chapter.6.quest.60.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1579,7 +1570,7 @@
 			x: 23.0d
 			y: 9.0d
 			shape: "pentagon"
-			subtitle: "{chapter.6.quest.61.subtitle}"
+			subtitle: "{tooltip.capsule.multiblock}"
 			dependencies: ["0855B29DB0B91921"]
 			size: 2.0d
 			id: "3F398A5F9FE74F4B"
@@ -1647,7 +1638,6 @@
 				{
 					id: "637D1249B861BE0E"
 					type: "command"
-					title: "{chapter.6.quest.61.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2179,7 +2169,7 @@
 			]
 		}
 		{
-			title: "{chapter.6.quest.82.title}"
+			title: "{stage3.mana_tablet.title}"
 			x: 1.0d
 			y: 3.5d
 			can_repeat: true
@@ -2295,7 +2285,6 @@
 			rewards: [{
 				id: "5136C271A3242A59"
 				type: "command"
-				title: "{chapter.6.quest.86.reward.1.title}"
 				icon: {
 					id: "capsule:capsule"
 					Count: 1b

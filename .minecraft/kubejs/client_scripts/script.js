@@ -39,6 +39,10 @@ onEvent('item.tooltip', tooltip => {
 
 	tooltip.add('create:blaze_burner', Text.translate('tooltip.kubejs.blaze_burner').green())
 
+	tooltip.add('create:blaze_cake', Text.translate('tooltip.kubejs.blaze_cake').green())
+
+	tooltip.add(['kubejs:smoked_iron_block', 'extendedcrafting:black_iron_ingot'], [Text.translate('tooltip.kubejs.black_iron1').green(), Text.translate('tooltip.kubejs.black_iron2').green()])
+
 	tooltip.add('manaliquidizer:mana_liquidizer', [Text.translate('tooltip.kubejs.mana_liquidizer1').green(), Text.translate('tooltip.kubejs.mana_liquidizer2').green(), Text.translate('tooltip.kubejs.mana_liquidizer3').green()])
 
 	tooltip.add('@torcherino', [Text.translate('tooltip.kubejs.torcherino1').red(), Text.translate('tooltip.kubejs.torcherino2').red()])
