@@ -1,0 +1,37 @@
+{
+  "welcome.title": "歡迎",
+  "shop.title": "商店",
+  "oreblockgen.title": "礦物/方塊生成",
+  "mainline.title": "主線",
+  "stage1.title": "第一階段",
+  "stage2.title": "第二階段",
+  "stage3.title": "第三階段",
+  "stage4.title": "第四階段",
+
+  "tooltip.capsule.multiblock": "&c&l使用膠囊放置後，請重新放置模組化內任意一個方塊",
+
+  "welcome.pack.title": "sky1234",
+  "welcome.pack.subtitle": "&a這是一個魔改空島整合包，需要您對模組有一定的了解",
+  "welcome.pack.description": "&c個人能力有限，無法迎合每個人的口味，如果您不喜歡這個整合包，隨時可以退出，去尋找適合您的整合包。",
+  "welcome.projecte.title": "&l【可選】&2&l降低遊戲難度",
+  "welcome.projecte.subtitle": "&c&l適度使用",
+  "welcome.projecte.description": "等價團隊指令：/team_projecte",
+  "welcome.bug.title": "&6&l回報Bug/建議",
+  "welcome.thanks.title": "特別感謝",
+  "welcome.thanks.description": "&a作者：落秋（FalAut）\n感謝\n\n所有的模組，教程/wiki製作者\n\n秋明Sweet的直播和宣傳\n\n肆a、春夏冬明、晓阳、洛神主动、fish-旦、秋明和他直播間的觀眾們幫助我發現了許多bug\n\n遊玩整合包的你",
+
+  "stage1.iron.subtitle": "&a鎢鐵桶",
+  "stage1.coal.subtitle": "&a木炭轉煤炭",
+  "stage1.animal_spawner.subtitle": "&a在JEI搜索刷怪蛋來查看合成",
+  "stage1.nether_altar.title": "猩紅祭壇",
+  "stage1.nether_altar.subtitle": "&a在下界放置的自然祭壇會變成猩紅祭壇",
+
+  "stage2.mineral.title": "在當前位置放置一個半徑16的礦脈",
+
+  "stage3.mana_tablet.title": "跳過",
+
+  "stage4.fission_reactor.title": "不用水 沒有輻射 燃燒速率最高9999",
+  "stage4.sps.title": "1mb釙=1mb反物質 能量僅需40FE/t",
+  "stage4.entropy_reactor.subtitle": "&c&l放置後右鍵前方中心成型 在右邊輸入腐化碎片，後面輸出產物",
+  "stage4.entropy_reactor.description": "&a&l不要輸入太快，會卡住！"
+}

@@ -1,10 +1,6 @@
 {
   "singularity.extendedcrafting.antimatter": "反物质",
 
-  "mainmenu.download": "下载最新版本",
-  "mainmenu.update": "更新最新版本",
-  "mainmenu.bug": "Bug/建议",
-
   "item.kubejs.undef1ned": "1234",
   "item.kubejs.undef1ned_pickaxe": "1234镐",
   "item.kubejs.undef1ned_axe": "1234斧",

@@ -28,31 +28,31 @@ onEvent("ui.main_menu", (event) => {
       b.shadow = false;
     });
 
-    //下载最新版本
-    ui.button((b) => {
-      b.name = Text.translate("mainmenu.download");
-      b.width = 70;
-      b.x = 0;
-      b.y = 200;
-      b.action = "https://www.lanzv.com/b023thcdc";
-      b.hoverColor = 0x00ff00;
-      b.shadow = false;
-    });
+    // //下载最新版本
+    // ui.button((b) => {
+    //   b.name = Text.translate("mainmenu.download");
+    //   b.width = 70;
+    //   b.x = 0;
+    //   b.y = 200;
+    //   b.action = "https://www.lanzv.com/b023thcdc";
+    //   b.hoverColor = 0x00ff00;
+    //   b.shadow = false;
+    // });
 
-    //如何更新版本？
-    ui.button((b) => {
-      b.name = Text.translate("mainmenu.update");
-      b.width = 70;
-      b.x = 0;
-      b.y = 230;
-      b.action = "https://gitee.com/FalAut/0xUDF";
-      b.hoverColor = 0x00ff00;
-      b.shadow = false;
-    });
+    // //如何更新版本？
+    // ui.button((b) => {
+    //   b.name = Text.translate("mainmenu.update");
+    //   b.width = 70;
+    //   b.x = 0;
+    //   b.y = 230;
+    //   b.action = "https://gitee.com/FalAut/0xUDF";
+    //   b.hoverColor = 0x00ff00;
+    //   b.shadow = false;
+    // });
 
-    //Gitee
+    //QQ频道
     ui.button((b) => {
-      b.name = Text.of("Gitee");
+      b.name = Text.of("QQ频道");
       b.width = 50;
       b.x = (ui.width - 150) / 2;
       b.y = ui.height / 2 + 30;
@@ -61,9 +61,9 @@ onEvent("ui.main_menu", (event) => {
       b.shadow = false;
     });
 
-    //Bug/建议
+    //Github
     ui.button((b) => {
-      b.name = Text.translate("mainmenu.bug");
+      b.name = Text.of("Github");
       b.width = 50;
       b.x = (ui.width - 150) / 2 + b.width + 5;
       b.y = ui.height / 2 + 30;
@@ -72,9 +72,9 @@ onEvent("ui.main_menu", (event) => {
       b.shadow = false;
     });
 
-    //Github
+    //Discord
     ui.button((b) => {
-      b.name = Text.of("GitHub");
+      b.name = Text.of("Discord");
       b.width = 50;
       b.x = (ui.width - 150) / 2 + b.width + 60;
       b.y = ui.height / 2 + 30;

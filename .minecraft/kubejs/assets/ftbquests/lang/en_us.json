@@ -1,0 +1,37 @@
+{
+  "welcome.title": "Welcome",
+  "shop.title": "Shop",
+  "oreblockgen.title": "Mineral/Block Generator",
+  "mainline.title": "Mainline",
+  "stage1.title": "Stage 1",
+  "stage2.title": "Stage 2",
+  "stage3.title": "Stage 3",
+  "stage4.title": "Stage 4",
+
+  "tooltip.capsule.multiblock": "&c&lAfter placing the capsule, please re-place any block in the modular interior.",
+
+  "welcome.pack.title": "sky1234",
+  "welcome.pack.subtitle": "&aThis is a modded Skyblock pack that requires some knowledge of mods.",
+  "welcome.pack.description": "&cI'm limited in my abilities and can't cater to everyone's taste. If you don't like this pack, feel free to quit and find another one that suits you.",
+  "welcome.projecte.title": "&l[Optional]&2&l Lower Game Difficulty",
+  "welcome.projecte.subtitle": "&c&lUse in moderation.",
+  "welcome.projecte.description": "Equivalent Team Command:/team_projecte",
+  "welcome.bug.title": "&6&lReport Bugs/Suggestions",
+  "welcome.thanks.title": "Special Thanks",
+  "welcome.thanks.description": "&aAuthor:落秋(FalAut) \nThanks\n\nTo all mod creators, tutorial/wiki makers\n\n秋明Sweet's live streaming and promotion\n\n肆a、春夏冬明、晓阳、洛神主动、fish-旦、秋明 and his live stream audience for helping me discover many bugs\n\nYou for playing this pack.",
+
+  "stage1.iron.subtitle": "&aMolten Iron Bucket",
+  "stage1.coal.subtitle": "&aCharcoal to Coal",
+  "stage1.animal_spawner.subtitle": "&aSearch for Spawn Eggs in JEI to see the recipe.",
+  "stage1.nether_altar.title": "Crimson Altar",
+  "stage1.nether_altar.subtitle": "&aNatural altars placed in the Nether will turn into crimson altars.",
+
+  "stage2.mineral.title": "Place a vein with a radius of 16 at your current location.",
+
+  "stage3.mana_tablet.title": "Skip",
+
+  "stage4.fission_reactor.title": "No Need Add Water,No Radiation, Burn Speed Up to 9999",
+  "stage4.sps.title": "1mb Polonium = 1mb Antimatter, Energy Only Requires 40FE/t",
+  "stage4.entropy_reactor.subtitle": "&c&lAfter placing it, right-click the center of the front to form the structure. Input corruption fragments on the right, and output products on the back.",
+  "stage4.entropy_reactor.description": "&a&lDon't input too fast, or it will get stuck!"
+}

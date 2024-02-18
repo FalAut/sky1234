@@ -2899,7 +2899,6 @@
 			x: 11.5d
 			y: 6.0d
 			shape: "circle"
-			subtitle: "{stage2.blackiron.subtitle}"
 			id: "36DB1E93EEA9DA95"
 			tasks: [{
 				id: "311FDE7F6D102177"

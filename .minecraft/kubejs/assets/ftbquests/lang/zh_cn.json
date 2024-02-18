@@ -27,11 +27,10 @@
   "stage1.nether_altar.subtitle": "&a在下界放置的自然祭坛会变成猩红祭坛",
 
   "stage2.mineral.title": "在当前位置放置一个半径16的矿脉",
-  "stage2.blackiron.subtitle": "&a在超级加热的燃烧室上放置烟熏的铁块会缓慢地生成黑铁锭，烟熏的铁块有10%的几率消失",
 
   "stage3.mana_tablet.title": "跳过",
 
-  "stage4.fission_reactor.title": "不要水 没有辐射 燃烧速率最高9999",
+  "stage4.fission_reactor.title": "不用水 没有辐射 燃烧速率最高9999",
   "stage4.sps.title": "1mb钋=1mb反物质 能量仅需40FE/t",
 
   "stage4.entropy_reactor.subtitle": "&c&l放置后右键前方中心成型 在右边输入腐化碎片，后面输出产物",
