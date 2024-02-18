@@ -7,27 +7,25 @@
           "*": [
             {
               "id": "minecraft:sand",
-              "weight": 25.0,
+              "weight": 20.0,
             },
             {
               "id": "minecraft:gravel",
-              "weight": 25.0,
+              "weight": 20.0,
             },
             {
               "id": "minecraft:clay",
-              "weight": 25.0,
+              "weight": 20.0,
             },
             {
               "id": "minecraft:dirt",
-              "weight": 25.0,
+              "weight": 20.0,
             },
-			    ],
-          "minecraft:iron_block": [
             {
               "id": "minecraft:andesite",
-              "weight": 100.0,
+              "weight": 20.0,
             }
-          ]
+			    ]
         }
       },
       "b:tconstruct:queens_slime_block": {
@@ -221,6 +219,17 @@
           "*": [
             {
               "id": "minecraft:glowstone",
+              "weight": 100.0,
+            }
+          ]
+        }
+      },
+      "b:minecraft:crying_obsidian": {
+        "silent": true,
+        "results": {
+          "*": [
+            {
+              "id": "minecraft:obsidian",
               "weight": 100.0,
             }
           ]

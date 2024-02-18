@@ -1760,7 +1760,6 @@
 		{
 			x: 18.0d
 			y: 8.5d
-			subtitle: "&a&l红色和黄色染料用花合成，花用骨粉催草方块"
 			dependencies: ["0C666B5258D0A608"]
 			id: "2ECE30F1E00B4B9F"
 			tasks: [{
@@ -1793,19 +1792,12 @@
 				type: "item"
 				item: "kubejs:ghast_eye"
 			}]
-			rewards: [
-				{
-					id: "22AC04EAB96AFEDA"
-					type: "item"
-					item: "minecraft:composter"
-				}
-				{
-					id: "3FF44F3AA7D9156E"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+			rewards: [{
+				id: "3FF44F3AA7D9156E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 18.0d
@@ -1880,14 +1872,14 @@
 			}]
 		}
 		{
+			icon: "minecraft:villager_spawn_egg"
 			x: 20.0d
 			y: 10.0d
 			dependencies: ["0C666B5258D0A608"]
 			id: "3E132140A62ACA94"
 			tasks: [{
-				id: "4FD2086F045FF66B"
-				type: "item"
-				item: "minecraft:villager_spawn_egg"
+				id: "50E204CB68421EFD"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "42686B0294073B85"
@@ -2296,7 +2288,6 @@
 			x: 27.0d
 			y: 6.5d
 			shape: "pentagon"
-			subtitle: "&a左边的任务会送花/骨粉用堆肥桶制作"
 			can_repeat: true
 			id: "38369E0F18E06A2A"
 			tasks: [

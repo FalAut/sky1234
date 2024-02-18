@@ -3,6 +3,7 @@ allowAdventureTwerking: true
 chance: 1.0
 debug: false
 enableMysticalCrops: true
-ignoreList: ['#minecraft:saplings', '#minecraft:crops', 'naturesaura:ancient_sapling', 'minecraft:crimson_fungus', 'minecraft:warped_fungus']
+ignoreList: ['#minecraft:saplings', '#minecraft:crops', 'naturesaura:ancient_sapling',
+  'minecraft:crimson_fungus', 'minecraft:warped_fungus']
 range: 3
 useWhitelist: true

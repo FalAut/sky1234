@@ -1,38 +1,51 @@
 // priority: 0
 
 onEvent('item.tooltip', tooltip => {
-	tooltip.add('kubejs:undef1ned', Text.green('可以通过合成复制'))
-	tooltip.add('minecraft:oak_sapling', Text.green('按住 [w] 开始思索'))
-	tooltip.add('naturesaura:ancient_sapling', Text.green('可用于恢复灵气，详情见自然灵气之书'))
-	tooltip.add(['naturesaura:infused_stone', 'naturesaura:infused_iron', 'kubejs:infused_coal', 'naturesaura:ancient_sapling', 'naturesaura:tainted_gold'], Text.green('灌注不消耗灵气'))
-	tooltip.add('naturesaura:birth_spirit', Text.green('右键灵魂匕首获得'))
-	tooltip.add(['naturesaura:fortress_finder', 'kubejs:wither_skeleton_eye', 'kubejs:ghast_eye'], Text.green('使用灵魂匕首击杀对应的生物获得'))
-	tooltip.add('farmingforblockheads:market', Text.green('将凡俗解脱之物扔进下界的熔岩获得'))
-	tooltip.add('assemblylinemachines:corrupted_shard', Text.green('将任意物品扔进浓缩虚空'))
-	tooltip.add('multiblocked:pedestal', Text.red('破坏基座后不会保留物品！').bold())
-	tooltip.add('miniutilities:speed_upgrade', Text.green('右键安装，Shift+右键取出'))
-	tooltip.add('naturesaura:animal_spawner', Text.green('不要将材料堆叠！一次只能召唤一个生物'))
-	tooltip.add('naturesaura:gold_fiber', Text.green('将黄金叶使用铁砧压碎'))
-	tooltip.add('naturesaura:token_anger', Text.green('将愉悦印记扔进火里'))
-	tooltip.add('kubejs:nether_eye', Text.green('将3个眼睛扔进熔岩里'))
-	tooltip.add([Item.of('immersiveengineering:metal_press').enchant('minecraft:vanishing_curse', 100), Item.of('thermal:machine_press').enchant('minecraft:vanishing_curse', 100)], [Text.red('这是一个假的序列合成'), Text.green('请查看红石通量线圈（未完成）的合成表'), Text.green('请查看红石伺服器（未完成）的合成表')])
-	tooltip.add(['thermal:rf_coil', 'thermal:redstone_servo'], Text.green('请注意有两个配方，沉浸和热力'))
-	tooltip.add(['create:refined_radiance'], Text.green('将异彩化合物扔入信标光束或吸收光源'))
-	tooltip.add(['create:shadow_steel'], Text.green('将异彩化合物扔入虚空'))
-	tooltip.add(['createendertransmission:energy_transmitter'], Text.green('远程传输应力 6个面都可以输出'))
-	tooltip.add(['minecraft:end_portal_frame'], Text.green('可以被破坏，但不会有掉落物'))
-	tooltip.add(['industrialforegoing:infinity_nuke'], Text.green('主世界无法放置无限核弹，建议去超平坦挖深一点放'))
-	tooltip.add(['extendedcrafting:elite_auto_table'], Text.green('自动工作台会自动抽取上方的存储容器'))
-	tooltip.add(['create:blaze_burner'], Text.green('不需要吸管也可以输入液体'))
-	tooltip.add(['minecraft:andesite'], Text.green('请查看JEI中的（玄武岩式生成）页面'))
-	tooltip.add(['minecraft:orange_dye'], Text.green('红色和黄色染料用花合成，花用骨粉催草方块'))
-	tooltip.add(['manaliquidizer:mana_liquidizer'], [Text.green('将液态魔力转化为魔力'), Text.green('1mb液态魔力=10000魔力'), Text.green('使用森林法杖调整魔力转换')])
-	tooltip.add(['@torcherino'], [Text.red('不要加速过快，否则会出现问题！').bold(), Text.green('尤其是机械动力').bold(), Text.red('在机器出现问题时首先检查附近有没有加速').bold()])
-	tooltip.add(['assemblylinemachines:condensed_void_bucket'], [Text.red('警告：浓缩虚空会破坏附近的方块！').bold(), Text.red('触碰会有非常强的负面效果！').bold()])
-	// tooltip.add(Item.of('minecraft:enchanted_book').enchant('miniutilities:molten_head', 1), Text.green('不兼容时运附魔'))
-	// tooltip.add('occultism:storage_controller', [Text.red('警告：不要将大量物品传入维度存储！').bold(), Text.green('不建议当成抽屉使用')])
-	tooltip.add(['assemblylinemachines:entropy_reactor_block', 'assemblylinemachines:entropy_reactor_core'], Text.red('非常危险！不建议放置在基地中！').bold())
-	tooltip.add(['kubejs:def1ned'], [Text.green('目前还没有用途').bold()])
+	tooltip.add('kubejs:undef1ned', Text.translate('tooltip.kubejs.1234').green())
+
+	tooltip.add('minecraft:oak_sapling', Text.translate('tooltip.kubejs.oak_sapling').green())
+
+	tooltip.add('naturesaura:ancient_sapling', Text.translate('tooltip.kubejs.ancient_sapling').green())
+
+	tooltip.add('naturesaura:birth_spirit', Text.translate('tooltip.kubejs.birth_spirit').green())
+
+	tooltip.add(['naturesaura:fortress_finder', 'kubejs:wither_skeleton_eye', 'kubejs:ghast_eye'], Text.translate('tooltip.kubejs.eyes').green())
+
+	tooltip.add('farmingforblockheads:market', Text.translate('tooltip.kubejs.market').green())
+
+	tooltip.add('assemblylinemachines:corrupted_shard', Text.translate('tooltip.kubejs.corrupted_shard').green())
+
+	tooltip.add('multiblocked:pedestal', Text.translate('tooltip.kubejs.pedestal').red())
+
+	tooltip.add('miniutilities:speed_upgrade', Text.translate('tooltip.kubejs.speed_upgrade').green())
+
+	tooltip.add('naturesaura:animal_spawner', Text.translate('tooltip.kubejs.animal_spawner').green())
+
+	tooltip.add('naturesaura:gold_fiber', Text.translate('tooltip.kubejs.gold_fiber').green())
+
+	tooltip.add('naturesaura:token_anger', Text.translate('tooltip.kubejs.token_anger').green())
+	
+	tooltip.add('kubejs:nether_eye', Text.translate('tooltip.kubejs.nether_eye').green())
+
+	tooltip.add('create:refined_radiance', Text.translate('tooltip.kubejs.refined_radiance').green())
+
+	tooltip.add('create:shadow_steel', Text.translate('tooltip.kubejs.shadow_steel').green())
+
+	tooltip.add('createendertransmission:energy_transmitter', Text.translate('tooltip.kubejs.energy_transmitter').green())
+
+	tooltip.add('minecraft:end_portal_frame', Text.translate('tooltip.kubejs.end_portal_frame').green())
+
+	tooltip.add('extendedcrafting:elite_auto_table', Text.translate('tooltip.kubejs.auto_table').green())
+
+	tooltip.add('create:blaze_burner', Text.translate('tooltip.kubejs.blaze_burner').green())
+
+	tooltip.add('manaliquidizer:mana_liquidizer', [Text.translate('tooltip.kubejs.mana_liquidizer1').green(), Text.translate('tooltip.kubejs.mana_liquidizer2').green(), Text.translate('tooltip.kubejs.mana_liquidizer3').green()])
+
+	tooltip.add('@torcherino', [Text.translate('tooltip.kubejs.torcherino1').red(), Text.translate('tooltip.kubejs.torcherino2').red()])
+
+	tooltip.add('assemblylinemachines:condensed_void_bucket', [Text.translate('tooltip.kubejs.condensed_void_bucket1').red(), Text.translate('tooltip.kubejs.condensed_void_bucket2').red()])
+
+	tooltip.add(['assemblylinemachines:entropy_reactor_block', 'assemblylinemachines:entropy_reactor_core'], [Text.translate('tooltip.kubejs.entropy_reactor1').red(), Text.translate('tooltip.kubejs.entropy_reactor2').red()])
 })
 
 onEvent('jei.remove.recipes', event => {

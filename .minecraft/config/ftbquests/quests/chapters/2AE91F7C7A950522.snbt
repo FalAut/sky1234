@@ -80,12 +80,18 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "heart"
-			description: ["&a作者：落秋\\n感谢\\n\\n所有的模组，教程/wiki制作者\\n\\n吕不才的Multiblocked示例\\n\\n秋明Sweet的直播和宣传\\n\\n肆a、春夏冬明、晓阳、洛神主动、fish-旦、秋明和他直播间的观众们帮助我发现了许多bug\\n\\n游玩整合包的你"]
+			description: ["&a作者：落秋\\n感谢\\n\\n所有的模组，教程/wiki制作者\\n\\n秋明Sweet的直播和宣传\\n\\n肆a、春夏冬明、晓阳、洛神主动、fish-旦、秋明和他直播间的观众们帮助我发现了许多bug\\n\\n游玩整合包的你"]
 			size: 2.0d
+			can_repeat: true
 			id: "3130F3DFD55397BC"
 			tasks: [{
 				id: "492D2609B13EBBFF"
 				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7B84BBE3535F6A93"
+				type: "item"
+				item: "minecraft:poppy"
 			}]
 		}
 		{

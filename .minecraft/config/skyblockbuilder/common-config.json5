@@ -30,7 +30,7 @@
     "clearInv": false,
     
     // Should players' items be dropped when leaving a team? [default: true]
-    "dropItems": true
+    "dropItems": false
   },
   
   "Spawn": {
@@ -105,7 +105,7 @@
   "Utility": {
   
     // Should players be able to create their own team? [default: false]
-    "createOwnTeam": false,
+    "createOwnTeam": true,
     
     // Should players be able to leave their team or invite others? [default: true]
     "selfManage": true,
@@ -113,7 +113,7 @@
     "Spawns": {
     
       // Should players be able to modify their spawn positions? [default: false]
-      "modifySpawns": false,
+      "modifySpawns": true,
       
       // The range from island center for possible spawns to add. [default: 50]
       "range": 50
@@ -131,13 +131,13 @@
       "home": true,
       
       // Cooldown in ticks for teleporting back home. [default: 3600 = 3min]
-      "homeCooldown": 3600,
+      "homeCooldown": 0,
       
       // Should players be able to teleport to spawn? [default: true]
       "spawn": true,
       
       // Cooldown in ticks for teleporting to spawn. [default: 3600 = 3min]
-      "spawnCooldown": 3600,
+      "spawnCooldown": 0,
       
       // Dimensions in this list are not allowed for executing teleportation commands. Inverted behaviour if you set "allow_list" to true.
       // This is a resource list. See https://noeppi-noeppi.github.io/LibX/io/github/noeppi_noeppi/libx/util/ResourceList.html#use_resource_lists_in_configs
