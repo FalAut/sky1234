@@ -28,7 +28,7 @@ onEvent('recipes', event => {
     event.replaceInput({ output: 'mekanism:upgrade_gas' }, '#forge:glass', 'thermal_extra:dragonsteel_plate')
     event.replaceInput({ output: 'mekanism:upgrade_anchor' }, '#forge:glass', 'thermal_extra:dragonsteel_plate')
     event.replaceInput({ output: 'mekanism:upgrade_stone_generator' }, '#forge:glass', 'thermal_extra:dragonsteel_plate')
-    event.replaceInput({ output: 'mekanism:basic_fluid_tank' }, 'iron_ingot', 'botania:terrasteel_ingot')
+    event.replaceInput({ output: 'mekanism:basic_fluid_tank' }, 'iron_ingot', 'botania:terrasteel_nugget')
     event.replaceInput({ output: 'thermal:device_tree_extractor' }, 'thermal:iron_gear', 'create:cogwheel')
     event.replaceInput({ output: 'mekanism:thermal_evaporation_valve' }, 'mekanism:advanced_control_circuit', 'mekaevolution:absolute_control_circuit')
     event.replaceInput({ output: 'mekanism:thermal_evaporation_controller' }, 'mekanism:advanced_control_circuit', 'mekaevolution:absolute_control_circuit')
