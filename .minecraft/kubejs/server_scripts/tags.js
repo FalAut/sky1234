@@ -1,4 +1,4 @@
-// priority: 9999
+// priority: 999
 
 onEvent('tags.fluids', event => {
 	event.removeAll('minecraft:water')
