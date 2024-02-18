@@ -1,5 +1,6 @@
 {
   "singularity.extendedcrafting.antimatter": "反物質",
+
   "item.kubejs.undef1ned": "1234",
   "item.kubejs.undef1ned_pickaxe": "1234鎬",
   "item.kubejs.undef1ned_axe": "1234斧",
@@ -23,8 +24,7 @@
   "item.kubejs.ichor_slime_bucket": "靈漿桶",
   "item.kubejs.molten_andesite_bucket": "熔融安山岩桶",
   "item.kubejs.molten_andesite_alloy_bucket": "熔融安山合金桶",
-  "item.kubejs.void_teleporter": "虛空維度傳送器",
-  "item.kubejs.surper_flat_teleporter": "超平坦維度傳送器",
+
   "block.kubejs.undef1ned_block": "1234塊",
   "block.kubejs.nether_portal_frame": "下界傳送門框架",
   "block.kubejs.nether_portal_frame_filled": "下界傳送門框架",
@@ -35,15 +35,19 @@
   "block.kubejs.pure_iron_block": "純鐵塊",
   "block.kubejs.fluix_pearl_block": "福魯伊克斯珍珠塊",
   "block.kubejs.mana_pearl_block": "魔力珍珠塊",
+
   "fluid.kubejs.undef1ned_fluid": "1234液體",
   "fluid.kubejs.ichor_slime": "靈漿",
   "fluid.kubejs.molten_andesite": "熔融安山岩",
   "fluid.kubejs.molten_andesite_alloy": "熔融安山合金",
   "fluid.kubejs.mana": "魔力池的魔力",
+
   "infuse_type.kubejs.dragon_breath": "龍息",
   "infuse_type.kubejs.unobtanium": "難得素",
+
   "slurry.kubejs.dirty_titanium": "污濁鈦漿液",
   "slurry.kubejs.clean_titanium": "純淨鈦漿液",
+
   "pigment.kubejs.violet": "紫羅蘭顏料",
   "pigment.kubejs.lime": "黃綠顏料",
 

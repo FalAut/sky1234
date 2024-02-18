@@ -3,8 +3,8 @@
 	group: ""
 	order_index: 2
 	filename: "blockgen"
-	title: "矿物/方块生成"
-	subtitle: ["类似刷石机"]
+	title: "{chapter.3.title}"
+	subtitle: ["{chapter.3.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{

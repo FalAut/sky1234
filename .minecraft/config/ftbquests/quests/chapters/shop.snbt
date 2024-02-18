@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "314AD4A06E84A508"
-	title: "商店"
+	title: "{chapter.2.title}"
 	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -692,6 +692,7 @@
 				id: "339CB00C3286E38C"
 				type: "item"
 				item: "thermal:iron_coin"
+				count: 8L
 				consume_items: true
 			}]
 			rewards: [{
@@ -710,6 +711,7 @@
 				id: "204F6F52B0C57140"
 				type: "item"
 				item: "thermal:iron_coin"
+				count: 8L
 				consume_items: true
 			}]
 			rewards: [{

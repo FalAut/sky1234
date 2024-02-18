@@ -1,7 +1,7 @@
 {
 	id: "1FC8E4D012A5ADD3"
 	order_index: 6
-	title: "反馈bug/建议"
+	title: "{loot_table.7}"
 	loot_size: 1
 	rewards: [
 		{

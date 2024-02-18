@@ -3,7 +3,7 @@
 	group: "11E1478976DD7E05"
 	order_index: 0
 	filename: "1_2"
-	title: "第一阶段"
+	title: "{chapter.4.title}"
 	icon: "kubejs:undef1ned"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -578,7 +578,7 @@
 		{
 			x: 18.0d
 			y: 0.0d
-			subtitle: "融铁桶"
+			subtitle: "{chapter.4.quest.22.subtitle}"
 			dependencies: ["3A220C3A8609602F"]
 			id: "23550D217AE0A3AE"
 			tasks: [{
@@ -634,7 +634,7 @@
 			}]
 		}
 		{
-			title: "手册"
+			title: "{chapter.4.quest.25.title}"
 			icon: {
 				id: "eccentrictome:tome"
 				Count: 1b
@@ -922,7 +922,7 @@
 		{
 			x: 22.0d
 			y: -1.5d
-			subtitle: "灵气失衡的负面影响已移除 只有合成需要灵气"
+			subtitle: "{chapter.4.quest.32.subtitle}"
 			dependencies: ["478D194B34308AC2"]
 			id: "22035E1744E58D12"
 			tasks: [{
@@ -999,7 +999,7 @@
 				{
 					id: "08A011B82B022997"
 					type: "command"
-					title: "自然祭坛"
+					title: "{chapter.4.quest.33.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1200,7 +1200,7 @@
 		{
 			x: 1.5d
 			y: 10.0d
-			subtitle: "在下界生成"
+			subtitle: "{chapter.4.quest.43.subtitle}"
 			id: "6ACB4181C7F78CBA"
 			tasks: [{
 				id: "246A5962E0E97163"
@@ -1217,7 +1217,7 @@
 		{
 			x: 3.5d
 			y: 10.0d
-			subtitle: "在下界生成"
+			subtitle: "{chapter.4.quest.44.subtitle}"
 			id: "2270ACDD17D049E3"
 			tasks: [{
 				id: "6A58DAC148DE3C50"
@@ -1234,7 +1234,7 @@
 		{
 			x: 2.5d
 			y: 10.0d
-			subtitle: "在下界生成"
+			subtitle: "{chapter.4.quest.45.subtitle}"
 			id: "7C84FE62C0A22696"
 			tasks: [{
 				id: "291DB6DF3F8BB93C"
@@ -1251,7 +1251,7 @@
 		{
 			x: 6.5d
 			y: 10.0d
-			subtitle: "在下界生成"
+			subtitle: "{chapter.4.quest.46.subtitle}"
 			id: "0022221531A0708D"
 			tasks: [{
 				id: "3CDFE7D530E564DD"
@@ -1268,7 +1268,7 @@
 		{
 			x: 4.5d
 			y: 10.0d
-			subtitle: "在下界生成"
+			subtitle: "{chapter.4.quest.47.subtitle}"
 			id: "5391C1159EA10156"
 			tasks: [{
 				id: "33AF346A5902E5FD"
@@ -1283,7 +1283,7 @@
 			}]
 		}
 		{
-			title: "生成"
+			title: "{chapter.4.quest.48.title}"
 			x: 4.0d
 			y: 7.0d
 			shape: "circle"
@@ -1311,7 +1311,7 @@
 		{
 			x: 26.0d
 			y: 0.5d
-			subtitle: "木炭转煤炭"
+			subtitle: "{chapter.4.quest.49.subtitle}"
 			dependencies: ["3101DC47800151F3"]
 			id: "7118AD306AA67336"
 			tasks: [{
@@ -1559,7 +1559,7 @@
 			}]
 		}
 		{
-			title: "猩红祭坛"
+			title: "{chapter.4.quest.61.title}"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1742,7 +1742,7 @@
 		{
 			x: 20.0d
 			y: 8.5d
-			subtitle: "在JEI搜索刷怪蛋来查看合成"
+			subtitle: "{chapter.4.quest.68.subtitle}"
 			dependencies: ["72C99865BEC67A74"]
 			id: "0C666B5258D0A608"
 			tasks: [{
@@ -1967,7 +1967,7 @@
 			}]
 		}
 		{
-			title: "猩红祭坛"
+			title: "{chapter.4.quest.79.title}"
 			icon: {
 				id: "capsule:capsule"
 				Count: 1b
@@ -2021,7 +2021,7 @@
 				{
 					id: "526496F4CD6D0A5A"
 					type: "command"
-					title: "猩红祭坛"
+					title: "{chapter.4.quest.79.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2078,7 +2078,7 @@
 		{
 			x: 5.5d
 			y: 10.0d
-			subtitle: "在下界生成"
+			subtitle: "{chapter.4.quest.81.subtitle}"
 			id: "21992CEC6B0C5D4E"
 			tasks: [{
 				id: "4ADF557FBAC81384"
@@ -2309,7 +2309,7 @@
 				{
 					id: "73C765C48AB71353"
 					type: "command"
-					title: "祭祀台"
+					title: "{chapter.4.quest.89.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2403,7 +2403,7 @@
 				{
 					id: "682F70B75C8960D4"
 					type: "command"
-					title: "降生祭坛"
+					title: "{chapter.4.quest.91.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b

@@ -57,24 +57,24 @@ onEvent('item.right_click', event => {
         player.give('naturesaura:birth_spirit');
     }
 
-    //虚空维度传送器
-    if (item.id == 'kubejs:void_teleporter' && level.dimension != 'kubejs:void') {
-        player.teleportTo('kubejs:void', 0.5, 69, 0.5, 0, 0);
-        event.server.runCommandSilent('execute in kubejs:void run setblock 0 65 0 minecraft:bedrock')
-    }
+    // //虚空维度传送器
+    // if (item.id == 'kubejs:void_teleporter' && level.dimension != 'kubejs:void') {
+    //     player.teleportTo('kubejs:void', 0.5, 69, 0.5, 0, 0);
+    //     event.server.runCommandSilent('execute in kubejs:void run setblock 0 65 0 minecraft:bedrock')
+    // }
 
-    if (item.id == 'kubejs:void_teleporter' && level.dimension == "kubejs:void") {
-        event.player.runCommandSilent('skyblock home')
-    }
+    // if (item.id == 'kubejs:void_teleporter' && level.dimension == "kubejs:void") {
+    //     event.player.runCommandSilent('skyblock home')
+    // }
 
-    //超平坦维度传送器
-    if (item.id == 'kubejs:surper_flat_teleporter' && level.dimension != 'kubejs:surper_flat') {
-        player.teleportTo('kubejs:surper_flat', 0.5, 69, 0.5, 0, 0);
-    }
+    // //超平坦维度传送器
+    // if (item.id == 'kubejs:surper_flat_teleporter' && level.dimension != 'kubejs:surper_flat') {
+    //     player.teleportTo('kubejs:surper_flat', 0.5, 69, 0.5, 0, 0);
+    // }
 
-    if (item.id == 'kubejs:surper_flat_teleporter' && level.dimension == "kubejs:surper_flat") {
-        event.player.runCommandSilent('skyblock home')
-    }
+    // if (item.id == 'kubejs:surper_flat_teleporter' && level.dimension == "kubejs:surper_flat") {
+    //     event.player.runCommandSilent('skyblock home')
+    // }
 })
 
 onEvent('entity.spawned', event => {

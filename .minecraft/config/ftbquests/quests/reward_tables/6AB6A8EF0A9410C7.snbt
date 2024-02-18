@@ -1,7 +1,7 @@
 {
 	id: "6AB6A8EF0A9410C7"
 	order_index: 5
-	title: "下界合金币"
+	title: "{loot_table.6}"
 	loot_size: 1
 	rewards: [
 		{ item: "thermal:netherite_coin", weight: 4 }

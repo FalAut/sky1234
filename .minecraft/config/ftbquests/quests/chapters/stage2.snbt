@@ -3,7 +3,7 @@
 	group: "11E1478976DD7E05"
 	order_index: 1
 	filename: "2"
-	title: "第二阶段"
+	title: "{chapter.5.title}"
 	icon: "create:andesite_alloy"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -420,7 +420,7 @@
 		{
 			x: 18.0d
 			y: -3.0d
-			subtitle: "烈焰血灌入烈焰燃烧室进行超级加热"
+			subtitle: "{chapter.5.quest.16.subtitle}"
 			id: "32DDEA6D08245DD9"
 			tasks: [{
 				id: "714F169DC33DF762"
@@ -454,7 +454,7 @@
 		{
 			x: 19.0d
 			y: -1.5d
-			subtitle: "烈焰血灌入烈焰燃烧室进行超级加热"
+			subtitle: "{chapter.5.quest.18.subtitle}"
 			dependencies: [
 				"32DDEA6D08245DD9"
 				"1D99C11900079142"
@@ -751,12 +751,12 @@
 			}]
 		}
 		{
-			title: "应力发电机"
+			title: "{chapter.5.quest.29.title}"
 			icon: "multiblocked:stress_generator_controller"
 			x: 25.0d
 			y: 0.0d
 			shape: "pentagon"
-			subtitle: "&c&l使用胶囊放置后，请重新放置模块化内任意一个方块"
+			subtitle: "{chapter.5.quest.29.subtitle}"
 			dependencies: ["22614C741CBF3AB8"]
 			size: 2.0d
 			can_repeat: true
@@ -960,7 +960,7 @@
 			}]
 		}
 		{
-			title: "在当前位置放置一个半径16的矿脉"
+			title: "{chapter.5.quest.32.title}"
 			x: 23.0d
 			y: 1.5d
 			can_repeat: true
@@ -980,7 +980,7 @@
 		{
 			x: 17.5d
 			y: 5.5d
-			subtitle: "是乙（醛）而不是乙醇！！！！"
+			subtitle: "{chapter.5.quest.33.subtitle}"
 			min_required_dependencies: 1
 			dependencies: [
 				"3C12EA9E5432FB50"
@@ -1003,7 +1003,7 @@
 			}]
 		}
 		{
-			title: "工业发酵机"
+			title: "{chapter.5.quest.34.title}"
 			icon: "immersiveengineering:fermenter"
 			x: 16.5d
 			y: 4.0d
@@ -1058,7 +1058,7 @@
 				{
 					id: "7AC1402C4C24A6D0"
 					type: "command"
-					title: "工业发酵机"
+					title: "{chapter.5.quest.34.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1081,7 +1081,7 @@
 			]
 		}
 		{
-			title: "炼油厂"
+			title: "{chapter.5.quest.35.title}"
 			icon: "immersiveengineering:refinery"
 			x: 18.5d
 			y: 4.0d
@@ -1136,7 +1136,7 @@
 				{
 					id: "186AC64B46F017CC"
 					type: "command"
-					title: "炼油厂"
+					title: "{chapter.5.quest.35.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1159,7 +1159,7 @@
 			]
 		}
 		{
-			title: "工业挤压机"
+			title: "{chapter.5.quest.36.title}"
 			icon: "immersiveengineering:squeezer"
 			x: 19.5d
 			y: 4.0d
@@ -1220,7 +1220,7 @@
 				{
 					id: "2A0853298FD049A4"
 					type: "command"
-					title: "工业挤压机"
+					title: "{chapter.5.quest.36.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1243,7 +1243,7 @@
 			]
 		}
 		{
-			title: "电弧炉"
+			title: "{chapter.5.quest.37.title}"
 			icon: "immersiveengineering:arc_furnace"
 			x: 21.5d
 			y: 4.0d
@@ -1318,7 +1318,7 @@
 				{
 					id: "7D89B4870E9C61CA"
 					type: "command"
-					title: "电弧炉"
+					title: "{chapter.5.quest.37.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1341,7 +1341,7 @@
 			]
 		}
 		{
-			title: "灌装机"
+			title: "{chapter.5.quest.38.title}"
 			icon: "immersiveengineering:bottling_machine"
 			x: 17.5d
 			y: 4.0d
@@ -1395,7 +1395,7 @@
 				{
 					id: "1D60D46412484B67"
 					type: "command"
-					title: "灌装机"
+					title: "{chapter.5.quest.38.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2110,7 +2110,7 @@
 			]
 		}
 		{
-			title: "{block.immersiveengineering.mixer}"
+			title: "{chapter.5.quest.69.title}"
 			icon: "immersiveengineering:mixer"
 			x: 21.5d
 			y: 10.0d
@@ -2163,7 +2163,7 @@
 				{
 					id: "379CBD43523C9E1B"
 					type: "command"
-					title: "混合器"
+					title: "{chapter.5.quest.69.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2207,7 +2207,7 @@
 			}]
 		}
 		{
-			title: "{block.immersiveengineering.assembler}"
+			title: "{chapter.5.quest.71.title}"
 			icon: "immersiveengineering:assembler"
 			x: 21.5d
 			y: 7.0d
@@ -2262,7 +2262,7 @@
 				{
 					id: "1274CE302A2BF27E"
 					type: "command"
-					title: "装配机"
+					title: "{chapter.5.quest.71.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2285,7 +2285,7 @@
 			]
 		}
 		{
-			title: "{block.immersiveengineering.auto_workbench}"
+			title: "{chapter.5.quest.72.title}"
 			icon: "immersiveengineering:auto_workbench"
 			x: 23.0d
 			y: 7.0d
@@ -2339,7 +2339,7 @@
 				{
 					id: "560CDCADD3804591"
 					type: "command"
-					title: "自动化工程师装配台"
+					title: "{chapter.5.quest.72.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2362,7 +2362,7 @@
 			]
 		}
 		{
-			title: "{block.immersiveengineering.crusher}"
+			title: "{chapter.5.quest.73.title}"
 			icon: "immersiveengineering:crusher"
 			x: 24.5d
 			y: 7.0d
@@ -2409,7 +2409,7 @@
 				{
 					id: "21B2E6EF2E7A4C1F"
 					type: "command"
-					title: "粉碎机"
+					title: "{chapter.5.quest.73.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2432,7 +2432,7 @@
 			]
 		}
 		{
-			title: "{block.immersiveengineering.diesel_generator}"
+			title: "{chapter.5.quest.74.title}"
 			icon: "immersiveengineering:diesel_generator"
 			x: 21.5d
 			y: 8.5d
@@ -2486,7 +2486,7 @@
 				{
 					id: "1FAD91CAFF8D3115"
 					type: "command"
-					title: "柴油发电机"
+					title: "{chapter.5.quest.74.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2535,7 +2535,7 @@
 			}]
 		}
 		{
-			title: "{block.immersiveengineering.metal_press}"
+			title: "{chapter.5.quest.76.title}"
 			icon: "immersiveengineering:metal_press"
 			x: 23.0d
 			y: 8.5d
@@ -2580,7 +2580,7 @@
 				{
 					id: "2FD8688DAA1226F0"
 					type: "command"
-					title: "金属冲压机"
+					title: "{chapter.5.quest.76.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2603,7 +2603,7 @@
 			]
 		}
 		{
-			title: "{block.immersiveengineering.sawmill}"
+			title: "{chapter.5.quest.77.title}"
 			icon: "immersiveengineering:sawmill"
 			x: 24.5d
 			y: 8.5d
@@ -2657,7 +2657,7 @@
 				{
 					id: "7408E9B12FC65D24"
 					type: "command"
-					title: "锯木机"
+					title: "{chapter.5.quest.77.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2680,7 +2680,7 @@
 			]
 		}
 		{
-			title: "{block.immersiveengineering.tank}"
+			title: "{chapter.5.quest.78.title}"
 			icon: "immersiveengineering:tank"
 			x: 23.0d
 			y: 10.0d
@@ -2707,7 +2707,7 @@
 				{
 					id: "46782C14C885119F"
 					type: "command"
-					title: "流体储罐"
+					title: "{chapter.5.quest.78.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2730,7 +2730,7 @@
 			]
 		}
 		{
-			title: "{block.immersiveengineering.silo}"
+			title: "{chapter.5.quest.79.title}"
 			icon: "immersiveengineering:silo"
 			x: 24.5d
 			y: 10.0d
@@ -2757,7 +2757,7 @@
 				{
 					id: "14ADA33B8D81CAF1"
 					type: "command"
-					title: "储物筒仓"
+					title: "{chapter.5.quest.79.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2901,7 +2901,7 @@
 			x: 11.5d
 			y: 6.0d
 			shape: "circle"
-			subtitle: "在超级加热的燃烧室上放置烟熏的铁块会缓慢地生成黑铁锭，烟熏的铁块有10%的几率消失"
+			subtitle: "{chapter.5.quest.85.subtitle}"
 			id: "36DB1E93EEA9DA95"
 			tasks: [{
 				id: "311FDE7F6D102177"

@@ -3,20 +3,20 @@
 	group: ""
 	order_index: 0
 	filename: "2AE91F7C7A950522"
-	title: "欢迎"
+	title: "{chapter.1.title}"
 	icon: "extendedexchange:arcane_tablet"
 	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "&l【可选】&2&l降低游戏难度"
+			title: "{chapter.1.quest.1.title}"
 			icon: "projecte:transmutation_tablet"
 			x: 0.0d
 			y: 4.0d
 			shape: "diamond"
-			subtitle: "&c&l适度使用"
-			description: ["等价团队指令：\\n\\n主要指令：/team_projecte\\n邀请玩家加入团队：/team_projecte invite\\n列出团队成员：/team_projecte members\\n踢出团队成员：/team_projecte kick\\n离开团队：/team_projecte leave\\n转让队长：/team_projecte transfer_ownership\\n设置是否可以共享EMC（默认: true）：/team_projecte settings share_emc false/true\\n设置是否可以共享知识（默认: true）：/team_projecte settings share_knowledge false/true"]
+			subtitle: "{chapter.1.quest.1.subtitle}"
+			description: ["{chapter.1.quest.1.description.1}"]
 			size: 2.0d
 			can_repeat: true
 			id: "65ACED33E32205EC"
@@ -34,7 +34,7 @@
 			}]
 		}
 		{
-			title: "sky1234"
+			title: "{chapter.1.quest.2.title}"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -45,7 +45,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
-			description: ["&a这是一个魔改空岛整合包，需要你对模组有一定的了解。\\n\\n&c个人能力有限，无法迎合每个人的口味，如果你不喜欢这个整合包，随时可以退出，去寻找适合你的整合包。\\n\\n整合包处于测试阶段，出现问题是难免的，请保持耐心或等待整合包完善后再游玩"]
+			description: ["{chapter.1.quest.2.description.1}"]
 			size: 2.0d
 			id: "66B2B046668C4983"
 			tasks: [{
@@ -54,7 +54,7 @@
 			}]
 		}
 		{
-			title: "&6&l反馈Bug/建议"
+			title: "{chapter.1.quest.3.title}"
 			icon: "botania:cosmetic_questgiver_mark"
 			x: -4.0d
 			y: 0.0d
@@ -75,12 +75,12 @@
 			}]
 		}
 		{
-			title: "特别感谢"
+			title: "{chapter.1.quest.4.title}"
 			icon: "minecraft:poppy"
 			x: 4.0d
 			y: 0.0d
 			shape: "heart"
-			description: ["&a作者：落秋\\n感谢\\n\\n所有的模组，教程/wiki制作者\\n\\n秋明Sweet的直播和宣传\\n\\n肆a、春夏冬明、晓阳、洛神主动、fish-旦、秋明和他直播间的观众们帮助我发现了许多bug\\n\\n游玩整合包的你"]
+			description: ["{chapter.1.quest.4.description.1}"]
 			size: 2.0d
 			can_repeat: true
 			id: "3130F3DFD55397BC"

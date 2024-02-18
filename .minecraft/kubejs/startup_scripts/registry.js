@@ -20,8 +20,6 @@ onEvent('item.registry', event => {
     event.create('incomplete_redstone_servo', 'create:sequenced_assembly')
     event.create('mana_emerald').textureJson({ layer0: "minecraft:item/emerald" }).color(0, 0x00BFFF).glow(true)
     event.create('incomplete_creative_mana_tablet', 'create:sequenced_assembly').textureJson({ layer0: "botania:item/mana_tablet", layer1: "botania:item/mana_tablet_overlay" }).color(1, 0x808080)
-    event.create('void_teleporter').glow(true)
-    event.create('surper_flat_teleporter').glow(true)
 })
 
 onEvent('block.registry', event => {

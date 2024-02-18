@@ -1,7 +1,7 @@
 {
 	id: "4D392BE4C0566E33"
 	order_index: 3
-	title: "铁币"
+	title: "{loot_table.4}"
 	icon: "thermal:iron_coin"
 	loot_size: 1
 	rewards: [

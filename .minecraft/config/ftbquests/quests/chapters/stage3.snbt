@@ -3,7 +3,7 @@
 	group: "11E1478976DD7E05"
 	order_index: 2
 	filename: "3ae"
-	title: "第三阶段"
+	title: "{chapter.6.title}"
 	icon: {
 		id: "create:chromatic_compound"
 		Count: 1b
@@ -247,7 +247,7 @@
 			x: 6.0d
 			y: 0.0d
 			shape: "pentagon"
-			subtitle: "&e&l自动工作台会自动抽取上方的存储容器"
+			subtitle: "{chapter.6.quest.10.subtitle}"
 			dependencies: [
 				"29DF39AF5FC82657"
 				"1A05FBAA5E2717BD"
@@ -374,7 +374,7 @@
 				{
 					id: "47F37BCC1E78B844"
 					type: "command"
-					title: "斯特里格高等束缚"
+					title: "{chapter.6.quest.13.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -486,7 +486,7 @@
 		{
 			x: 14.0d
 			y: -1.0d
-			subtitle: "1mb液体魔力=10000魔力 使用森林法杖调整输入输出"
+			subtitle: "{chapter.6.quest.18.subtitle}"
 			dependencies: ["0029C6A07C9DA04D"]
 			id: "7704930D0F82B4A7"
 			tasks: [{
@@ -1012,7 +1012,7 @@
 		{
 			x: 4.0d
 			y: 9.0d
-			subtitle: "&c&l警告：浓缩虚空会破坏附近的方块！触碰会有非常强的负面效果！"
+			subtitle: "{chapter.6.quest.41.subtitle}"
 			dependencies: ["69336AF7CCEF7541"]
 			id: "01D8133048FAB4D8"
 			tasks: [{
@@ -1071,7 +1071,7 @@
 		{
 			x: 2.0d
 			y: 9.0d
-			subtitle: "&c&l警告：浓缩虚空会破坏附近的方块！ 触碰会有非常强的负面效果！"
+			subtitle: "{chapter.6.quest.44.subtitle}"
 			dependencies: ["01D8133048FAB4D8"]
 			id: "09B1E1CD14AD1527"
 			tasks: [{
@@ -1286,7 +1286,7 @@
 				{
 					id: "239327C04D527C8D"
 					type: "command"
-					title: "热力锅炉"
+					title: "{chapter.6.quest.53.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1313,7 +1313,7 @@
 			x: 18.0d
 			y: 0.0d
 			shape: "pentagon"
-			subtitle: "&c&l使用胶囊放置后，请重新放置模块化内任意一个方块"
+			subtitle: "{chapter.6.quest.54.subtitle}"
 			dependencies: [
 				"2CAE2E5EE9ED0D84"
 				"2492647061147447"
@@ -1369,7 +1369,7 @@
 				{
 					id: "56B96FCB322D8326"
 					type: "command"
-					title: "符文祭坛"
+					title: "{chapter.6.quest.54.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1501,7 +1501,7 @@
 			x: 22.0d
 			y: 0.0d
 			shape: "pentagon"
-			subtitle: "&c&l使用胶囊放置后，请重新放置模块化内任意一个方块"
+			subtitle: "{chapter.6.quest.60.subtitle}"
 			dependencies: [
 				"4E454CF6AEAB486E"
 				"702550DC4581AA4E"
@@ -1552,7 +1552,7 @@
 				{
 					id: "243673FF933E5E21"
 					type: "command"
-					title: "泰拉凝聚祭坛"
+					title: "{chapter.6.quest.60.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1579,7 +1579,7 @@
 			x: 23.0d
 			y: 9.0d
 			shape: "pentagon"
-			subtitle: "&c&l使用胶囊放置后，请重新放置模块化内任意一个方块"
+			subtitle: "{chapter.6.quest.61.subtitle}"
 			dependencies: ["0855B29DB0B91921"]
 			size: 2.0d
 			id: "3F398A5F9FE74F4B"
@@ -1647,7 +1647,7 @@
 				{
 					id: "637D1249B861BE0E"
 					type: "command"
-					title: "盖亚守护者之墓"
+					title: "{chapter.6.quest.61.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -2179,7 +2179,7 @@
 			]
 		}
 		{
-			title: "跳过"
+			title: "{chapter.6.quest.82.title}"
 			x: 1.0d
 			y: 3.5d
 			can_repeat: true
@@ -2295,7 +2295,7 @@
 			rewards: [{
 				id: "5136C271A3242A59"
 				type: "command"
-				title: "末地传送门"
+				title: "{chapter.6.quest.86.reward.1.title}"
 				icon: {
 					id: "capsule:capsule"
 					Count: 1b

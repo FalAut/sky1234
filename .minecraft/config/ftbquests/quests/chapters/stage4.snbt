@@ -3,7 +3,7 @@
 	group: "11E1478976DD7E05"
 	order_index: 3
 	filename: "5"
-	title: "第四阶段"
+	title: "{chapter.7.title}"
 	icon: "architects_palette:unobtanium"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -141,8 +141,8 @@
 		{
 			x: 16.0d
 			y: 8.0d
-			subtitle: "&c&l放置后右键前方中心成型 在右边输入腐化碎片，后面输出产物"
-			description: ["&a&l不要输入太快，会卡住！管道不用加升级，出一个物质就够用了"]
+			subtitle: "{chapter.7.quest.8.subtitle}"
+			description: ["{chapter.7.quest.8.description.1}"]
 			dependencies: ["6F0B778CC68A56C5"]
 			size: 2.0d
 			can_repeat: true
@@ -166,7 +166,7 @@
 				{
 					id: "1B8E24609B5B7630"
 					type: "command"
-					title: "熵反应堆"
+					title: "{chapter.7.quest.8.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -441,7 +441,7 @@
 		{
 			x: 8.5d
 			y: -1.0d
-			subtitle: "套"
+			subtitle: "{chapter.7.quest.22.subtitle}"
 			dependencies: [
 				"2841FADE0F3C71FD"
 				"2A46A7F9DBFB21CA"
@@ -462,7 +462,7 @@
 		{
 			x: 8.5d
 			y: 1.0d
-			subtitle: "娃"
+			subtitle: "{chapter.7.quest.23.subtitle}"
 			dependencies: [
 				"2A46A7F9DBFB21CA"
 				"23F1AE9935BBF3A9"
@@ -615,7 +615,7 @@
 		{
 			x: 6.5d
 			y: 0.0d
-			subtitle: "纯"
+			subtitle: "{chapter.7.quest.31.subtitle}"
 			dependencies: ["772290735BD27CD0"]
 			id: "2A46A7F9DBFB21CA"
 			tasks: [{
@@ -631,7 +631,7 @@
 			}]
 		}
 		{
-			title: "氘氚燃料"
+			title: "{chapter.7.quest.32.title}"
 			icon: "mekanismgenerators:fusion_fuel_bucket"
 			x: 20.0d
 			y: 0.0d
@@ -654,7 +654,7 @@
 			}]
 		}
 		{
-			title: "盐水"
+			title: "{chapter.7.quest.33.title}"
 			icon: "mekanism:brine_bucket"
 			x: 14.0d
 			y: 0.0d
@@ -696,7 +696,7 @@
 		{
 			x: 6.5d
 			y: -2.0d
-			subtitle: "纯"
+			subtitle: "{chapter.7.quest.35.subtitle}"
 			dependencies: ["772290735BD27CD0"]
 			id: "2841FADE0F3C71FD"
 			tasks: [{
@@ -714,7 +714,7 @@
 		{
 			x: 6.5d
 			y: 2.0d
-			subtitle: "的"
+			subtitle: "{chapter.7.quest.36.subtitle}"
 			dependencies: ["772290735BD27CD0"]
 			id: "23F1AE9935BBF3A9"
 			tasks: [{
@@ -985,7 +985,7 @@
 				{
 					id: "07DC7573527B6133"
 					type: "command"
-					title: "热力蒸馏塔"
+					title: "{chapter.7.quest.47.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1010,7 +1010,7 @@
 		{
 			x: 24.0d
 			y: 2.0d
-			subtitle: "不要水 没有辐射 燃烧速率最高9999"
+			subtitle: "{chapter.7.quest.48.subtitle}"
 			dependencies: ["5E2DEB1777A51818"]
 			size: 2.0d
 			can_repeat: true
@@ -1056,7 +1056,7 @@
 				{
 					id: "0BBC5B5243517036"
 					type: "command"
-					title: "裂变反应堆"
+					title: "{chapter.7.quest.48.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1081,7 +1081,7 @@
 		{
 			x: 24.0d
 			y: 6.0d
-			subtitle: "1mb钋=1mb反物质 能量仅需40FE/t"
+			subtitle: "{chapter.7.quest.49.subtitle}"
 			dependencies: ["5E2DEB1777A51818"]
 			size: 2.0d
 			can_repeat: true
@@ -1141,7 +1141,7 @@
 				{
 					id: "641DE18577CD9343"
 					type: "command"
-					title: "超临界移相器"
+					title: "{chapter.7.quest.49.reward.1.title}"
 					icon: {
 						id: "capsule:capsule"
 						Count: 1b
@@ -1164,7 +1164,7 @@
 			]
 		}
 		{
-			title: "锂"
+			title: "{chapter.7.quest.50.title}"
 			icon: "mekanism:lithium_bucket"
 			x: 16.0d
 			y: 1.5d
@@ -1204,7 +1204,7 @@
 			}]
 		}
 		{
-			title: "重水"
+			title: "{chapter.7.quest.52.title}"
 			icon: "mekanism:heavy_water_bucket"
 			x: 16.0d
 			y: -1.5d
@@ -1227,7 +1227,7 @@
 			}]
 		}
 		{
-			title: "氘"
+			title: "{chapter.7.quest.53.title}"
 			icon: "mekanismgenerators:deuterium_bucket"
 			x: 18.0d
 			y: -1.5d
@@ -1249,7 +1249,7 @@
 			}]
 		}
 		{
-			title: "氚"
+			title: "{chapter.7.quest.54.title}"
 			icon: "mekanismgenerators:tritium_bucket"
 			x: 18.0d
 			y: 1.5d

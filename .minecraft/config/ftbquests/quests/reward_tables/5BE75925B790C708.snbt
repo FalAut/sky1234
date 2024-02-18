@@ -1,7 +1,7 @@
 {
 	id: "5BE75925B790C708"
 	order_index: 1
-	title: "精灵传送门"
+	title: "{loot_table.2}"
 	icon: {
 		id: "capsule:capsule"
 		Count: 1b

@@ -1,7 +1,7 @@
 {
 	id: "23A28B8AE31D1274"
 	order_index: 7
-	title: "传送器"
+	title: "{loot_table.8}"
 	loot_size: 1
 	rewards: [
 		{ item: "kubejs:void_teleporter" }
