@@ -3,7 +3,7 @@
 	group: "11E1478976DD7E05"
 	order_index: 1
 	filename: "2"
-	title: "2.未定义的色彩"
+	title: "第二阶段"
 	icon: "create:andesite_alloy"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -833,11 +833,6 @@
 					exclude_from_claim_all: true
 					table_id: 5564527076072386099L
 				}
-				{
-					id: "31A4043B32268702"
-					type: "item"
-					item: "trashcans:energy_trash_can"
-				}
 			]
 		}
 		{
@@ -1090,7 +1085,6 @@
 			icon: "immersiveengineering:refinery"
 			x: 18.5d
 			y: 4.0d
-			subtitle: "是乙（醛）而不是乙醇！！！！"
 			dependencies: ["5E116288DA5ED172"]
 			dependency_requirement: "all_started"
 			can_repeat: true
@@ -1740,7 +1734,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 8.0d
 			y: 3.0d
 			shape: "diamond"
 			size: 2.0d
@@ -3087,25 +3081,6 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 3.0d
-			shape: "circle"
-			subtitle: "远程传输应力 6个面都可以输出"
-			size: 2.0d
-			id: "38266A3998416CB2"
-			tasks: [{
-				id: "58085F41DDB884BC"
-				type: "item"
-				item: "createendertransmission:energy_transmitter"
-			}]
-			rewards: [{
-				id: "35D4C48A8D648F43"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5564527076072386099L
-			}]
-		}
-		{
 			x: 16.0d
 			y: -2.5d
 			shape: "circle"
@@ -3184,24 +3159,6 @@
 			]
 		}
 		{
-			x: 24.0d
-			y: 4.0d
-			subtitle: "对的，就是这个"
-			dependencies: ["594F8C1AC073562B"]
-			id: "7700FD35D79A5FFA"
-			tasks: [{
-				id: "61A5E7B2EC52C1B5"
-				type: "item"
-				item: "immersiveengineering:acetaldehyde_bucket"
-			}]
-			rewards: [{
-				id: "0F9C16A870213AD2"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5564527076072386099L
-			}]
-		}
-		{
 			x: 19.0d
 			y: 10.0d
 			dependencies: [
@@ -3214,6 +3171,35 @@
 				id: "18AA81BA1738546F"
 				type: "item"
 				item: "immersiveengineering:redstone_acid_bucket"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 3.0d
+			shape: "diamond"
+			size: 2.0d
+			id: "403C138203A8A7CD"
+			tasks: [{
+				id: "6113C10C45A3A21D"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "436517398BA26BA8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
 			}]
 		}
 	]

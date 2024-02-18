@@ -235,4 +235,61 @@ onEvent("recipes", (event) => {
     ),
     Fluid.of("tconstruct:blood", 250),
   ]);
+
+  event
+    .custom({
+      type: "create:item_application",
+      ingredients: [
+        {
+          tag: "forge:stripped_logs",
+        },
+        {
+          item: "create:shadow_steel",
+        },
+      ],
+      results: [
+        {
+          item: "create:shadow_steel_casing",
+        },
+      ],
+    })
+    .id(`${id_prefix}shadow_steel_casing`);
+
+  event
+    .custom({
+      type: "create:item_application",
+      ingredients: [
+        {
+          tag: "forge:stripped_logs",
+        },
+        {
+          item: "create:refined_radiance",
+        },
+      ],
+      results: [
+        {
+          item: "create:refined_radiance_casing",
+        },
+      ],
+    })
+    .id(`${id_prefix}refined_radiance_casing`);
+
+  event
+    .custom({
+      type: "create:item_application",
+      ingredients: [
+        {
+          item: "minecraft:obsidian",
+        },
+        {
+          item: "minecraft:ghast_tear",
+        },
+      ],
+      results: [
+        {
+          item: "minecraft:crying_obsidian",
+        },
+      ],
+    })
+    .id(`${id_prefix}crying_obsidian`);
 });

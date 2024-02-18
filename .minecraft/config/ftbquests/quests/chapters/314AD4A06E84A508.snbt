@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "314AD4A06E84A508"
-	title: "商店（未完成）"
+	title: "商店"
 	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -835,8 +835,8 @@
 		}
 		{
 			icon: "botania:spark_upgrade_dispersive"
-			x: 10.5d
-			y: -1.0d
+			x: 12.0d
+			y: -4.0d
 			can_repeat: true
 			id: "2EEA0AE9F672C9D1"
 			tasks: [{
@@ -853,8 +853,8 @@
 		}
 		{
 			icon: "botania:spark_upgrade_dominant"
-			x: 6.0d
-			y: -1.0d
+			x: 12.0d
+			y: -7.0d
 			can_repeat: true
 			id: "2D3C1DD12D6093B9"
 			tasks: [{
@@ -871,8 +871,8 @@
 		}
 		{
 			icon: "botania:spark_upgrade_recessive"
-			x: 7.5d
-			y: -1.0d
+			x: 12.0d
+			y: -6.0d
 			can_repeat: true
 			id: "29C04D99B5B838DB"
 			tasks: [{
@@ -889,8 +889,8 @@
 		}
 		{
 			icon: "botania:spark_upgrade_isolated"
-			x: 9.0d
-			y: -1.0d
+			x: 12.0d
+			y: -5.0d
 			can_repeat: true
 			id: "2CEA444F9F92CDE1"
 			tasks: [{
@@ -915,8 +915,8 @@
 					}
 				}
 			}
-			x: 12.0d
-			y: -1.0d
+			x: 17.0d
+			y: 0.0d
 			can_repeat: true
 			id: "1D48717019458691"
 			tasks: [{
@@ -949,8 +949,8 @@
 					}
 				}
 			}
-			x: 6.0d
-			y: 2.0d
+			x: 14.0d
+			y: 1.5d
 			can_repeat: true
 			id: "5D3111CB8BFA92CC"
 			tasks: [{
@@ -976,7 +976,7 @@
 		}
 		{
 			icon: "mekanism:upgrade_gas"
-			x: 2.5d
+			x: 8.0d
 			y: -1.0d
 			can_repeat: true
 			id: "5877775E4008A4DB"
@@ -1002,8 +1002,8 @@
 					}
 				}
 			}
-			x: 6.0d
-			y: 0.5d
+			x: 14.0d
+			y: 0.0d
 			can_repeat: true
 			id: "5719D3D8A40A5498"
 			tasks: [{
@@ -1037,8 +1037,8 @@
 					}
 				}
 			}
-			x: 7.5d
-			y: 0.5d
+			x: 15.5d
+			y: 0.0d
 			can_repeat: true
 			id: "0481C2408B535074"
 			tasks: [{
@@ -1072,8 +1072,8 @@
 					}
 				}
 			}
-			x: 6.0d
-			y: 3.5d
+			x: 14.0d
+			y: 3.0d
 			can_repeat: true
 			id: "338E44283914F6C5"
 			tasks: [{
@@ -1107,8 +1107,8 @@
 					}
 				}
 			}
-			x: 7.5d
-			y: 3.5d
+			x: 15.5d
+			y: 3.0d
 			can_repeat: true
 			id: "6BB356445B64047B"
 			tasks: [{
@@ -1142,8 +1142,8 @@
 					}
 				}
 			}
-			x: 7.5d
-			y: 2.0d
+			x: 15.5d
+			y: 1.5d
 			can_repeat: true
 			id: "19EFEB245FE4FA81"
 			tasks: [{
@@ -1169,7 +1169,7 @@
 		}
 		{
 			icon: "mekanism:upgrade_speed"
-			x: -1.5d
+			x: 4.0d
 			y: -1.0d
 			can_repeat: true
 			id: "6F8FC49C77F86EF4"
@@ -1187,7 +1187,7 @@
 		}
 		{
 			icon: "mekanism:upgrade_energy"
-			x: -0.5d
+			x: 5.0d
 			y: -1.0d
 			can_repeat: true
 			id: "562333EB2173B814"
@@ -1205,7 +1205,7 @@
 		}
 		{
 			icon: "mekanism:upgrade_filter"
-			x: 0.5d
+			x: 6.0d
 			y: -1.0d
 			can_repeat: true
 			id: "08CDD12D5E28146B"
@@ -1223,7 +1223,7 @@
 		}
 		{
 			icon: "mekanism:upgrade_muffling"
-			x: 1.5d
+			x: 7.0d
 			y: -1.0d
 			can_repeat: true
 			id: "73529A68775F2E90"
@@ -1241,7 +1241,7 @@
 		}
 		{
 			icon: "mekanism:upgrade_anchor"
-			x: 3.5d
+			x: 9.0d
 			y: -1.0d
 			can_repeat: true
 			id: "243810B9133094E6"
@@ -1259,7 +1259,7 @@
 		}
 		{
 			icon: "mekanism:upgrade_stone_generator"
-			x: 4.5d
+			x: 10.0d
 			y: -1.0d
 			can_repeat: true
 			id: "043609757B8655F6"
@@ -1273,6 +1273,46 @@
 				id: "6D9399FD4E753C78"
 				type: "item"
 				item: "mekanism:upgrade_stone_generator"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			id: "09BD80E09CA876EE"
+			tasks: [{
+				id: "40AD4BB68D092649"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			id: "3BE09BFDD8DE6FF6"
+			tasks: [{
+				id: "6CE7E94941F859CC"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			id: "4535BE48F5C46648"
+			tasks: [{
+				id: "331CF44A9058855E"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			id: "33B95F7C0F0EAB02"
+			tasks: [{
+				id: "7786F7EECE2754C2"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
 			}]
 		}
 	]

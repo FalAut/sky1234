@@ -28,7 +28,6 @@
     "idle": {
       "renderer": {
         "modelName": "runic_crystal",
-        "isGlobal": true,
         "type": "geo",
         "postRenderer": false
       },
@@ -37,7 +36,6 @@
     "working": {
       "renderer": {
         "modelName": "runic_crystal",
-        "isGlobal": true,
         "type": "geo",
         "postRenderer": false
       },
@@ -49,20 +47,69 @@
   },
   "recipeMap": "runic_crystal",
   "basePattern": {
-    "structureDir": ["BACK", "UP", "RIGHT"],
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
     "pattern": [
-      ["AAAAA", "B   B", "C   C", "E   E", "     "],
-      ["AAAAA", "     ", "     ", "     ", "     "],
-      ["AAAAA", "  D  ", "     ", "     ", "  @  "],
-      ["AAAAA", "     ", "     ", "     ", "     "],
-      ["AAAAA", "B   B", "C   C", "E   E", "     "]
+      [
+        "AAAAA",
+        "B   B",
+        "C   C",
+        "E   E",
+        "     "
+      ],
+      [
+        "AAAAA",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "AAAAA",
+        "  D  ",
+        "     ",
+        "     ",
+        "  @  "
+      ],
+      [
+        "AAAAA",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "AAAAA",
+        "B   B",
+        "C   C",
+        "E   E",
+        "     "
+      ]
     ],
     "aisleRepetitions": [
-      [1, 1],
-      [1, 1],
-      [1, 1],
-      [1, 1],
-      [1, 1]
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
     ],
     "predicates": {
       "A": {
@@ -117,14 +164,30 @@
       }
     },
     "symbolMap": {
-      "@": ["controller"],
-      " ": ["any"],
-      "A": ["A"],
-      "B": ["B"],
-      "C": ["C"],
-      "D": ["D"],
-      "E": ["E"],
-      "-": ["air"]
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "-": [
+        "air"
+      ]
     }
   }
 }

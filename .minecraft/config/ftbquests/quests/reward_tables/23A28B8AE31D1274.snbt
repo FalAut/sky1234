@@ -4,7 +4,7 @@
 	title: "传送器"
 	loot_size: 1
 	rewards: [
-		{ item: "kubejs:void_teleporters" }
-		{ item: "kubejs:surper_flat_teleporters" }
+		{ item: "kubejs:void_teleporter" }
+		{ icon: "kubejs:surper_flat_teleporter", item: "kubejs:surper_flat_teleporter" }
 	]
 }

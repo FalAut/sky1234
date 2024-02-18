@@ -48,25 +48,32 @@ onEvent('player.tick', event => {
 })
 
 onEvent('item.right_click', event => {
-    const { item, hand, player, server } = event
+    const { item, level, player, server } = event
 
     //降生之魂
     if (item.id == 'botania:ender_dagger') {
-        if (hand != 'main_hand') return
         player.addItemCooldown('botania:ender_dagger', 200);
         player.attack('void', 19);
         player.give('naturesaura:birth_spirit');
-        // player.damageHeldItem("main_hand", 1);
     }
 
-    //传送器
-    if (item.id == 'kubejs:void_teleporters') {
+    //虚空维度传送器
+    if (item.id == 'kubejs:void_teleporter' && level.dimension != 'kubejs:void') {
         player.teleportTo('kubejs:void', 0.5, 69, 0.5, 0, 0);
         event.server.runCommandSilent('execute in kubejs:void run setblock 0 65 0 minecraft:bedrock')
     }
-    
-    if (item.id == 'kubejs:surper_flat_teleporters') {
+
+    if (item.id == 'kubejs:void_teleporter' && level.dimension == "kubejs:void") {
+        event.player.runCommandSilent('skyblock home')
+    }
+
+    //超平坦维度传送器
+    if (item.id == 'kubejs:surper_flat_teleporter' && level.dimension != 'kubejs:surper_flat') {
         player.teleportTo('kubejs:surper_flat', 0.5, 69, 0.5, 0, 0);
+    }
+
+    if (item.id == 'kubejs:surper_flat_teleporter' && level.dimension == "kubejs:surper_flat") {
+        event.player.runCommandSilent('skyblock home')
     }
 })
 
@@ -83,9 +90,9 @@ onEvent('entity.spawned', event => {
     }
 })
 
-onEvent('block.right_click', event => {
-    if (event.item.id == 'industrialforegoing:infinity_nuke' && event.level.dimension == "minecraft:overworld") {
-        event.player.tell('主世界无法放置无限核弹，建议前往超平坦放置')
-        event.cancel()
-    }
-})
+// onEvent('block.right_click', event => {
+//     if (event.item.id == 'industrialforegoing:infinity_nuke' && event.level.dimension == "minecraft:overworld") {
+//         event.player.tell('主世界无法放置无限核弹，建议前往超平坦放置')
+//         event.cancel()
+//     }
+// })

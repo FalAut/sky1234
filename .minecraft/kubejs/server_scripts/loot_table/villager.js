@@ -1,4 +1,5 @@
 onEvent('morejs.villager.trades', event => {
+    // event.removeVanillaTrades(['leatherworker'], [1, 2]);
     event.removeVanillaTrades(['leatherworker'], 1);
     event.removeVanillaTrades(['leatherworker'], 2);
     event.addTrade('leatherworker', 1, 'emerald', 'leather');
@@ -26,9 +27,22 @@ onEvent('morejs.villager.trades', event => {
     event.addTrade('weaponsmith', 2, '4x iron_ingot', 'emerald');
     event.addTrade('weaponsmith', 2, '2x emerald', 'naturesaura:infused_iron_sword');
 
+    event.removeVanillaTrades(['librarian'], 1);
+    event.removeVanillaTrades(['librarian'], 2);
+    event.removeVanillaTrades(['librarian'], 3);
     event.removeVanillaTrades(['librarian'], 4);
-    event.addTrade('librarian', 4, 'emerald', 
-    Item.of('minecraft:written_book', '{author:"Fa1Aut",pages:[\'{"text":"0xGBR"}\'],resolved:1b,title:"nothing"}'));
+    event.removeVanillaTrades(['librarian'], 5);
+    // event.addTrade('librarian', 4, 'emerald', 
+    // Item.of('minecraft:written_book', '{author:"Fa1Aut",pages:[\'{"text":"你好"}\'],resolved:1b,title:"nothing"}'));
+    
+    // event.removeTrades({
+    //     firstItem: 'emerald',
+    //     secondItem: 'book',
+    //     outputItem: Item.of('minecraft:enchanted_book').enchant('miniutilities:molten_head', 1),
+    //     types: ['emeraldforitems'],
+    //     professions: ['librarian']
+    // });
+
     // event.removeTrades({
     //     firstItem: 'emerald',
     //     firstCount: 5,

@@ -1,7 +1,7 @@
 /** @format */
 
 onEvent("recipes", (event) => {
-  const id_prefix = "chroma:pack/industrialforegoing/laser_drill_ore/";
+  const id_prefix = "kubejs:recipe/industrialforegoing/laser_drill_ore/";
 
   const recipes = [
     {
@@ -15,7 +15,7 @@ onEvent("recipes", (event) => {
           weight: 50,
         },
       ],
-      catalyst: { item: "botania:lens_flare" },
+      catalyst: { item: "industrialforegoing:laser_lens0" },
       id: `${id_prefix}osmium_ore`,
     },
     {
@@ -29,7 +29,7 @@ onEvent("recipes", (event) => {
           weight: 25,
         },
       ],
-      catalyst: { item: "botania:lens_flare" },
+      catalyst: { item: "industrialforegoing:laser_lens1" },
       id: `${id_prefix}fluorite_ore`,
     },
     {
@@ -43,7 +43,7 @@ onEvent("recipes", (event) => {
           weight: 25,
         },
       ],
-      catalyst: { item: "botania:lens_flare" },
+      catalyst: { item: "industrialforegoing:laser_lens2" },
       id: `${id_prefix}titanium_ore`,
     },
   ];

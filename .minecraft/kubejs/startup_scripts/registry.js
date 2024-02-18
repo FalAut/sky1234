@@ -1,10 +1,10 @@
 // priority: 0
 
 onEvent('item.registry', event => {
-    event.create('undef1ned').displayName('§kundef1ned').glow(true);
-    event.create('undef1ned_pickaxe', 'pickaxe').displayName('§kundef1ned').tier('netherite').speed(15).glow(true);
-    event.create('undef1ned_axe', 'axe').displayName('§kundef1ned').tier('netherite').speed(15).glow(true);
-    event.create('undef1ned_shovel', 'shovel').displayName('§kundef1ned').tier('netherite').speed(15).glow(true);
+    event.create('undef1ned').glow(true).displayName('1234');
+    event.create('undef1ned_pickaxe', 'pickaxe').tier('netherite').speed(15).glow(true).displayName('1234 Pickaxe');
+    event.create('undef1ned_axe', 'axe').tier('netherite').speed(15).glow(true).displayName('1234 Axe');
+    event.create('undef1ned_shovel', 'shovel').tier('netherite').speed(15).glow(true).displayName('1234 Shovel');
     event.create('infused_coal');
     event.create('ghast_eye');
     event.create('wither_skeleton_eye');
@@ -20,16 +20,14 @@ onEvent('item.registry', event => {
     event.create('incomplete_redstone_servo', 'create:sequenced_assembly')
     event.create('mana_emerald').textureJson({ layer0: "minecraft:item/emerald" }).color(0, 0x00BFFF).glow(true)
     event.create('incomplete_creative_mana_tablet', 'create:sequenced_assembly').textureJson({ layer0: "botania:item/mana_tablet", layer1: "botania:item/mana_tablet_overlay" }).color(1, 0x808080)
-    event.create('def1ned').displayName("已定义的变量").glow(true).rarity('epic')
-    event.create('fake_sky').displayName("虚假的天空")
-    event.create('void_teleporters').glow(true).displayName('虚空维度传送器')
-    event.create('surper_flat_teleporters').glow(true).displayName('超平坦维度传送器')
+    event.create('void_teleporter').glow(true)
+    event.create('surper_flat_teleporter').glow(true)
 })
 
 onEvent('block.registry', event => {
     event.create("nether_portal_frame").material('stone');
     event.create("nether_portal_frame_filled").material('stone');
-    event.create("undef1ned_block").displayName('§kundef1ned').material("amethyst").hardness(0.1);
+    event.create("undef1ned_block").material("amethyst").hardness(0.1).displayName('1234 Block');
     event.create("earth_core").material("amethyst").hardness(0.1);
     event.create("smoked_iron_block").material('metal').randomTick(tick => global.smokedironblock(tick));
     event.create('congealed_magma_cream').material('slime');
@@ -40,7 +38,7 @@ onEvent('block.registry', event => {
 })
 
 onEvent('fluid.registry', event => {
-    let undef1ned_fluid = event.create("undef1ned_fluid").displayName('§kundef1ned').stillTexture('kubejs:fluid/undef1ned_fluid').flowingTexture('kubejs:fluid/undef1ned_fluid');
+    let undef1ned_fluid = event.create("undef1ned_fluid").displayName('1234 Fluid').stillTexture('kubejs:fluid/undef1ned_fluid').flowingTexture('kubejs:fluid/undef1ned_fluid');
     let AAttributes = undef1ned_fluid.createAttributes();
     AAttributes.tickDelay(1);
     undef1ned_fluid.attributes = AAttributes;
@@ -48,7 +46,7 @@ onEvent('fluid.registry', event => {
     event.create("ichor_slime").stillTexture("tconstruct:block/fluid/ichor/still").flowingTexture("tconstruct:block/fluid/ichor/flowing").bucketColor(0xFF7F50);
     event.create("molten_andesite").thickTexture(0xDCDCDC);
     event.create("molten_andesite_alloy").thickTexture(0xBEBEBE);
-    event.create('mana').thinTexture(0x87CEEB).noBucket()
+    event.create('mana').thinTexture(0x87CEEB).noBucket().displayName('Mana in Mana Pool')
 })
 
 onEvent('mekanism.infuse_type.registry', event => {

@@ -112,7 +112,6 @@
     "working": {
       "renderer": {
         "modelName": "dimensional_matrix",
-        "isGlobal": true,
         "type": "geo",
         "postRenderer": false
       },

@@ -30,7 +30,7 @@ onEvent("ui.main_menu", (event) => {
 
     //下载最新版本
     ui.button((b) => {
-      b.name = Text.of("下载最新版本");
+      b.name = Text.translate("mainmenu.download");
       b.width = 70;
       b.x = 0;
       b.y = 200;
@@ -41,7 +41,7 @@ onEvent("ui.main_menu", (event) => {
 
     //如何更新版本？
     ui.button((b) => {
-      b.name = Text.of("如何更新版本？");
+      b.name = Text.translate("mainmenu.update");
       b.width = 70;
       b.x = 0;
       b.y = 230;
@@ -63,7 +63,7 @@ onEvent("ui.main_menu", (event) => {
 
     //Bug/建议
     ui.button((b) => {
-      b.name = Text.of("Bug/建议");
+      b.name = Text.translate("mainmenu.bug");
       b.width = 50;
       b.x = (ui.width - 150) / 2 + b.width + 5;
       b.y = ui.height / 2 + 30;
@@ -118,9 +118,9 @@ onEvent("ui.main_menu", (event) => {
 
     //Logo
     ui.image((i) => {
-      i.width = 1024 * 0.45;
-      i.height = 256 * 0.45;
-      i.x = (ui.width - 150) / 2 - 140;
+      i.width = 1023 * 0.3;
+      i.height = 273 * 0.3;
+      i.x = (ui.width - 150) / 2 - 75;
       i.y = ui.height / 2 - 115;
       i.texture = "kubejs:textures/image/logo.png";
     });

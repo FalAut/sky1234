@@ -28,7 +28,6 @@
     "idle": {
       "renderer": {
         "modelName": "runic_altar_core",
-        "isGlobal": true,
         "type": "geo",
         "postRenderer": false
       },

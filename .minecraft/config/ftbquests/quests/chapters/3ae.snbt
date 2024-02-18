@@ -3,12 +3,13 @@
 	group: "11E1478976DD7E05"
 	order_index: 2
 	filename: "3ae"
-	title: "3.无意义的色彩"
+	title: "第三阶段"
 	icon: {
 		id: "create:chromatic_compound"
 		Count: 1b
 		tag: { }
 	}
+	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -1308,7 +1309,6 @@
 			]
 		}
 		{
-			title: "符文祭坛"
 			icon: "multiblocked:runic_altar_core"
 			x: 18.0d
 			y: 0.0d
@@ -2110,7 +2110,7 @@
 		}
 		{
 			x: 1.0d
-			y: 4.0d
+			y: 4.5d
 			id: "3F02FEDC8FF42CDA"
 			tasks: [{
 				id: "42D13EA69405D8E3"
@@ -2179,9 +2179,9 @@
 			]
 		}
 		{
-			title: "太难了？"
-			x: 5.0d
-			y: 4.0d
+			title: "跳过"
+			x: 1.0d
+			y: 3.5d
 			can_repeat: true
 			id: "318D4F1A442D4C4A"
 			tasks: [{
@@ -2195,6 +2195,7 @@
 					}
 				}
 				consume_items: true
+				match_nbt: true
 			}]
 			rewards: [
 				{

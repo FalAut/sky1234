@@ -108,14 +108,6 @@ onEvent('recipes', event => {
         deploying(t, [t, 'immersiveengineering:screwdriver']).keepHeldItem()
     ]).transitionalItem(t).loops(1).id(`${id_prefix}logic_circuit`)
 
-// //component_electronic_adv
-//     t = 'immersiveengineering:component_electronic'
-//     sequenced_assembly('immersiveengineering:component_electronic_adv', t, [
-//         deploying(t, [t, 'immersiveengineering:plate_duroplast']),
-//         deploying(t, [t, 'immersiveengineering:wire_aluminum']),
-//         deploying(t, [t, 'immersiveengineering:screwdriver']).keepHeldItem()
-//     ]).transitionalItem(t).loops(1).id(`${id_prefix}component_electronic_adv`)
-
 // Creative Motor
     t = 'create:gearbox'
     sequenced_assembly('create:creative_motor', t, [
@@ -156,26 +148,4 @@ onEvent('recipes', event => {
         filling(t, [t, Fluid.of('thermal:redstone', 100)]),
         filling(t, [t, Fluid.of('thermal:redstone', 100)]),
     ]).transitionalItem(t).loops(1).id(`${id_prefix}redstone_servo_thermal`)
-
-// undef1ned
-    t = 'kubejs:undef1ned'
-	sequenced_assembly(Item.of('kubejs:def1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:next"}}'), t, [
-		deploying(t, [t, 'create:andesite_alloy']),
-		deploying(t, [t, 'create:chromatic_compound']),
-		deploying(t, [t, 'architects_palette:unobtanium']),
-		deploying(t, [t, 'extendedexchange:final_star']),
-    ]).transitionalItem(t).loops(1).id(`kubejs:def1ned`)
-    
-// def1ned
-    t = 'kubejs:def1ned'
-	sequenced_assembly('extendedexchange:white_matter', t, [
-		deploying(t, [t, 'kubejs:fake_sky']),
-		deploying(t, [t, 'minecraft:lime_concrete']),
-		deploying(t, [t, 'minecraft:cyan_concrete']),
-        deploying(t, [t, 'minecraft:blue_concrete']),
-		deploying(t, [t, 'minecraft:yellow_concrete']),
-		deploying(t, [t, 'minecraft:orange_concrete']),
-        deploying(t, [t, 'minecraft:red_concrete']),
-		deploying(t, [t, 'minecraft:purple_concrete'])
-	]).transitionalItem(t).loops(1).id(`kubejs:next`)
 })

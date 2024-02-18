@@ -3,7 +3,7 @@
 	group: "11E1478976DD7E05"
 	order_index: 0
 	filename: "1_2"
-	title: "1.未定义的变量"
+	title: "第一阶段"
 	icon: "kubejs:undef1ned"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -2296,6 +2296,7 @@
 			x: 27.0d
 			y: 6.5d
 			shape: "pentagon"
+			subtitle: "&a左边的任务会送花/骨粉用堆肥桶制作"
 			can_repeat: true
 			id: "38369E0F18E06A2A"
 			tasks: [

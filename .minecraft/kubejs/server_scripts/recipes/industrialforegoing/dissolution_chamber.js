@@ -162,6 +162,202 @@ onEvent("recipes", (event) => {
       outputFluidAmount: 0,
       id: `${id_prefix}microprocessor`,
     },
+    {
+      inputs: [
+        "thermal:nickel_plate", //↖
+        "immersiveengineering:wire_copper", //↑
+        "minecraft:redstone", //↗
+        "#forge:glass", //←
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:electron_tube",
+        count: 3,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}electron_tube1`,
+    },
+    {
+      inputs: [
+        "thermal:nickel_plate", //↖
+        "immersiveengineering:wire_copper", //↑
+        "minecraft:redstone", //↗
+        "#forge:glass", //←
+        "#forge:glass", //→
+        "thermal:nickel_plate", //↙
+        "immersiveengineering:wire_copper", //↓
+        "minecraft:redstone", //↘
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:electron_tube",
+        count: 6,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}electron_tube2`,
+    },
+    {
+      inputs: [
+        "immersiveengineering:slab_treated_wood_horizontal", //↖
+        "immersiveengineering:wire_copper", //↑
+        "immersiveengineering:plate_duroplast", //↗
+        "create:electron_tube", //←
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:component_electronic",
+        count: 1,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}component_electronic1`,
+    },
+    {
+      inputs: [
+        "immersiveengineering:slab_treated_wood_horizontal", //↖
+        "immersiveengineering:wire_copper", //↑
+        "immersiveengineering:plate_duroplast", //↗
+        "create:electron_tube", //←
+        "create:electron_tube", //→
+        "immersiveengineering:slab_treated_wood_horizontal", //↙
+        "immersiveengineering:wire_copper", //↓
+        "immersiveengineering:plate_duroplast", //↘
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:component_electronic",
+        count: 2,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}component_electronic2`,
+    },
+    {
+      inputs: [
+        "immersiveengineering:electron_tube", //↖
+        "immersiveengineering:wire_copper", //↑
+        "immersiveengineering:component_electronic", //↗
+        "immersiveengineering:circuit_board", //←
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:logic_circuit",
+        count: 1,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}logic_circuit1`,
+    },
+    {
+      inputs: [
+        "immersiveengineering:electron_tube", //↖
+        "immersiveengineering:wire_copper", //↑
+        "immersiveengineering:component_electronic", //↗
+        "immersiveengineering:circuit_board", //←
+        "immersiveengineering:circuit_board", //→
+        "immersiveengineering:electron_tube", //↙
+        "immersiveengineering:wire_copper", //↓
+        "immersiveengineering:component_electronic", //↘
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:logic_circuit",
+        count: 2,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}logic_circui2`,
+    },
+    {
+      inputs: [
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:circuit_board",
+        count: 1,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}circuit_board1`,
+    },
+    {
+      inputs: [
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:circuit_board",
+        count: 2,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}circuit_board2`,
+    },
+    {
+      inputs: [
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:circuit_board",
+        count: 3,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}circuit_board3`,
+    },
+    {
+      inputs: [
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+        "immersiveengineering:plate_duroplast",
+        "immersiveengineering:insulating_glass",
+      ],
+      inputFluid: "",
+      inputFluidAmount: 0,
+      processingTime: 300,
+      outputItem: {
+        item: "immersiveengineering:circuit_board",
+        count: 4,
+      },
+      outputFluid: "",
+      outputFluidAmount: 0,
+      id: `${id_prefix}circuit_board4`,
+    },
   ];
 
   recipes.forEach((recipe) => {

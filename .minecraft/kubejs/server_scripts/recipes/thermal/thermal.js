@@ -102,6 +102,11 @@ onEvent("recipes", (event) => {
     "2x create:shadow_steel",
   ]).id(`${id_prefix}machine_frame_simple`);
 
+  smelter("immersiveengineering:circuit_board", [
+    "immersiveengineering:plate_duroplast",
+    "immersiveengineering:insulating_glass",
+  ]).id(`${id_prefix}circuit_board`);
+
   press(
     Item.of(
       "kubejs:incomplete_rf_coil",
@@ -149,6 +154,7 @@ onEvent("recipes", (event) => {
     Fluid.of("assemblylinemachines:dark_energy", 10000),
     "extendedexchange:fading_matter"
   ).id(`${id_prefix}dark_energy`);
+
   press(
     "assemblylinemachines:pure_copper_plate",
     "assemblylinemachines:pure_copper_ingot"
