@@ -2,7 +2,7 @@
 	id: "7EB3BC58529A8BB0"
 	group: "11E1478976DD7E05"
 	order_index: 0
-	filename: "1_2"
+	filename: "stage1"
 	title: "{chapter.4.title}"
 	icon: "kubejs:undef1ned"
 	default_quest_shape: ""

@@ -2,7 +2,7 @@
 	id: "2AE91F7C7A950522"
 	group: ""
 	order_index: 0
-	filename: "2AE91F7C7A950522"
+	filename: "welcome"
 	title: "{chapter.1.title}"
 	icon: "extendedexchange:arcane_tablet"
 	disable_toast: true

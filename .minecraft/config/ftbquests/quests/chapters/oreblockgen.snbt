@@ -2,7 +2,7 @@
 	id: "2AFEB60309A861B2"
 	group: ""
 	order_index: 2
-	filename: "blockgen"
+	filename: "oreblockgen"
 	title: "{chapter.3.title}"
 	subtitle: ["{chapter.3.subtitle}"]
 	default_quest_shape: ""

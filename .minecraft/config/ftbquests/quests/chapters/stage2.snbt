@@ -2,7 +2,7 @@
 	id: "74FB6FB74DB3CD9C"
 	group: "11E1478976DD7E05"
 	order_index: 1
-	filename: "2"
+	filename: "stage2"
 	title: "{chapter.5.title}"
 	icon: "create:andesite_alloy"
 	default_quest_shape: ""
