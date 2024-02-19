@@ -6,7 +6,7 @@ key_key.back:key.keyboard.s:NONE
 key_key.right:key.keyboard.d:NONE
 key_key.jump:key.keyboard.space:NONE
 key_key.sneak:key.keyboard.left.shift:NONE
-key_key.sprint:key.keyboard.r:NONE
+key_key.sprint:key.keyboard.left.control:NONE
 key_key.drop:key.keyboard.q:NONE
 key_key.inventory:key.keyboard.e:NONE
 key_key.chat:key.keyboard.t:NONE
@@ -82,9 +82,9 @@ key_key.industrialforegoing.backpack.desc:key.keyboard.unknown:NONE
 key_key.botania_corporea_request:key.keyboard.c:NONE
 key_key.curios.open.desc:key.keyboard.g:NONE
 key_key.ftbultimine:key.keyboard.grave.accent:NONE
-key_key.observable.profile:key.keyboard.end:NONE
-key_key.spirit.toggle:key.keyboard.v:NONE
 key_key.ftbquests.quests:key.keyboard.unknown:NONE
+key_key.spirit.toggle:key.keyboard.v:NONE
+key_key.observable.profile:key.keyboard.end:NONE
 key_key.plonk.place:key.keyboard.p:NONE
 key_key.mekanism.mode:key.keyboard.n:NONE
 key_key.mekanism.head_mode:key.keyboard.v:NONE

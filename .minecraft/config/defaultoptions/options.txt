@@ -36,10 +36,10 @@ ao:0
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:
+resourcePacks:["file/Minecraft-Mod-Language-Modpack-Converted-1.18.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:
+lang:zh_cn
 soundDevice:
 chatVisibility:0
 chatOpacity:1.0
