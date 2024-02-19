@@ -68,10 +68,10 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "175835D98C4282CA"
-				type: "choice"
-				icon: "botania:cosmetic_questgiver_mark"
-				exclude_from_claim_all: true
+				id: "710A3261EA891BDD"
+				type: "command"
+				title: "Github"
+				command: "/tellraw @p [{\"text\":\"https://github.com/FalAut/sky1234/issues/new\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/FalAut/0xUDF/issues/new\"}}]"
 			}]
 		}
 		{
