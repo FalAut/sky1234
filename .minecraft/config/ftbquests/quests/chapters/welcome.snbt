@@ -68,10 +68,10 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "710A3261EA891BDD"
-				type: "command"
-				title: "Github"
-				command: "/tellraw @p [{\"text\":\"https://github.com/FalAut/sky1234/issues/new\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/FalAut/0xUDF/issues/new\"}}]"
+				id: "317B84EBD474C80C"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8158792574383079618L
 			}]
 		}
 		{

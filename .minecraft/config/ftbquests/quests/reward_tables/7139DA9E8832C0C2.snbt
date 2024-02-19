@@ -1,0 +1,23 @@
+{
+	id: "7139DA9E8832C0C2"
+	order_index: 5
+	icon: "minecraft:command_block"
+	loot_size: 1
+	rewards: [
+		{
+			title: "QQ频道"
+			command: "/tellraw @p [{\"text\":\"https://pd.qq.com/s/d9m9mzv1c\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://pd.qq.com/s/d9m9mzv1c\"}}]"
+			type: "command"
+		}
+		{
+			title: "Github"
+			command: "/tellraw @p [{\"text\":\"https://github.com/FalAut/sky1234/issues/new\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/FalAut/0xUDF/issues/new\"}}]"
+			type: "command"
+		}
+		{
+			title: "Discord"
+			command: "/tellraw @p [{\"text\":\"https://discord.gg/dECQZNNngD\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/dECQZNNngD\"}}]"
+			type: "command"
+		}
+	]
+}

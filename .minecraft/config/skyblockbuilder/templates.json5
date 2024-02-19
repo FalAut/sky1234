@@ -24,6 +24,13 @@
       "file": "default.nbt",
       "spawns": "default",
       "direction": "south"
+    },
+    {
+      "name": "only grass block",
+      "desc": "",
+      "file": "only_grass_block.nbt",
+      "spawns": "default",
+      "direction": "south"
     }
   ]
 }
