@@ -67,7 +67,7 @@ onEvent("ui.main_menu", (event) => {
       b.width = 50;
       b.x = (ui.width - 150) / 2 + b.width + 5;
       b.y = ui.height / 2 + 30;
-      b.action = "https://github.com/FalAut/sky1234w";
+      b.action = "https://github.com/FalAut/sky1234";
       b.hoverColor = 0x00ff00;
       b.shadow = false;
     });
