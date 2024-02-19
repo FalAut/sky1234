@@ -56,7 +56,7 @@ onEvent("ui.main_menu", (event) => {
       b.width = 50;
       b.x = (ui.width - 150) / 2;
       b.y = ui.height / 2 + 30;
-      b.action = "https://gitee.com/FalAut/0xUDF";
+      b.action = "https://pd.qq.com/s/d9m9mzv1c";
       b.hoverColor = 0x00ff00;
       b.shadow = false;
     });
@@ -67,7 +67,7 @@ onEvent("ui.main_menu", (event) => {
       b.width = 50;
       b.x = (ui.width - 150) / 2 + b.width + 5;
       b.y = ui.height / 2 + 30;
-      b.action = "https://gitee.com/FalAut/0xUDF/issues/new";
+      b.action = "https://github.com/FalAut/sky1234w";
       b.hoverColor = 0x00ff00;
       b.shadow = false;
     });
@@ -78,7 +78,7 @@ onEvent("ui.main_menu", (event) => {
       b.width = 50;
       b.x = (ui.width - 150) / 2 + b.width + 60;
       b.y = ui.height / 2 + 30;
-      b.action = "https://github.com/FalAut/0xUDF";
+      b.action = "https://discord.gg/dECQZNNngD";
       b.hoverColor = 0x00ff00;
       b.shadow = false;
     });
