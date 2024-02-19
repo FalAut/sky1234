@@ -1,13 +1,11 @@
 {
-  "versionName": "beta 0.20",
-  "versionCode": 3,
+  "versionName": "1.0",
+  "versionCode": 1,
   "versionFormat": "%versionName%",
   "updateURL": {
-    "zh_cn": "https://www.lanzv.com/b023thcdc"
+    "zh_cn": ""
   },
   "changelogs": {
-    "beta 0.20": [
-      "§a添加陨石的来法\n删除水世界\n铝土和铀矿石现在不需要斗轮\n添加一些提示\n炼金煤炭现在可以用4个煤炭合成"
-    ]
+    "": [""]
   }
 }
