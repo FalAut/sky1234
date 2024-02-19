@@ -56,7 +56,7 @@ onEvent('recipes', event => {
           }
         ],
         catalyst: {
-            id: 'minecraft:poppy',
+            id: 'naturesaura:infused_iron',
             Count: 1
         },
         components: {
