@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'kubejs:recipes/naturesaura/animal_spawner/'
+    const id_prefix = 'naturesaura:animal_spawner/'
     const recipes = [
         {
             inputs: [

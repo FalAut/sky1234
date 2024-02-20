@@ -162,13 +162,13 @@ onEvent('recipes', event => {
     crafting_shaped('naturesaura:death_ring', [' 1 ', '2 2', ' 2 '], {
         1: 'naturesaura:token_euphoria', 
         2: 'naturesaura:sky_ingot'
-    }).id(`${id_prefix}death_ring`);
+    }).id(`naturesaura:death_ring`);
 
 // Pet Reviver
     crafting_shaped('naturesaura:pet_reviver', [' 1 ', '121', ' 1 '], {
         1: 'naturesaura:sky_ingot',
         2: 'naturesaura:token_euphoria',
-    }).id(`${id_prefix}pet_reviver`);
+    }).id(`naturesaura:pet_reviver`);
 
 // Coke Brick
     crafting_shaped('3x immersiveengineering:cokebrick', ['121', '232', '121'], {

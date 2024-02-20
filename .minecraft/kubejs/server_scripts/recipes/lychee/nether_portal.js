@@ -2,7 +2,6 @@ onEvent('recipes', event => {
   event.custom(
     {
       "type": "lychee:item_inside",
-      "ghost": true,
       "post": [
         {
           "type": "drop_item",

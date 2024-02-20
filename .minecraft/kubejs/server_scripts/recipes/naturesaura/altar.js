@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-    const id_prefix = 'kubejs:recipes/naturesaura/altar/'
+    const id_prefix = 'naturesaura:altar/'
     const recipes = [
         {
             input: 'iron_ingot',

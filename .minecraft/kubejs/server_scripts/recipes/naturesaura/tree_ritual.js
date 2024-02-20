@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-    const id_prefix = 'kubejs:recipes/naturesaura/tree_ritual/'
+    const id_prefix = 'naturesaura:tree_ritual/'
     const recipes = [
         {
             ingredients: [//N S W E NW SE NE SW

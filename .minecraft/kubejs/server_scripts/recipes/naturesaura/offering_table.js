@@ -11,7 +11,7 @@ onEvent('recipes', event => {
             output: {
                 "item": 'naturesaura:animal_spawner'
             },
-            id: `${id_prefix}animal_spawner`
+            id: `naturesaura:animal_spawner1`
         },
         {
             input: {
@@ -23,7 +23,7 @@ onEvent('recipes', event => {
             output: {
                 "item": 'naturesaura:clock_hand'
             },
-            id: `${id_prefix}clock_hand`
+            id: `naturesaura:offering/clock_hand`
         },
         {
             input: {
@@ -35,7 +35,7 @@ onEvent('recipes', event => {
             output: {
                 "item": 'diamond'
             },
-            id: `${id_prefix}diamond`
+            id: `${id_prefix}diamond1`
         }
     ];
     recipes.forEach((recipe) => {

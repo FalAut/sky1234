@@ -3,7 +3,7 @@ onEvent('recipes', event => {
         {
             "type": "lychee:item_inside",
             "ghost": true,
-            "comment": "下界的岩浆",
+            "comment": "Lava in Nether",
             "post": [
               {
                 "type": "drop_item",
