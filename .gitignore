@@ -24,6 +24,7 @@ natives
 .minecraft/kubejs/README.txt
 .minecraft/kubejs/exported
 .minecraft/kubejs/probe
+.minecraft/kubejs/config/probejs.json
 
 ## Resources
 !.minecraft/multiblocked/

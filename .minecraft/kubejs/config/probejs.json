@@ -1,8 +1,8 @@
 {
-  "dumpMethod": true,
+  "dumpMethod": false,
   "noAggressiveProbing": false,
   "vanillaOrder": false,
-  "exportClassNames": true,
+  "exportClassNames": false,
   "allowObfuscated": false,
   "docsTimestamp": 1704042050518
 }
