@@ -95,9 +95,12 @@
 			}]
 		}
 		{
+			title: "{welcome.switchsky.title}"
 			icon: "botania:white_floating_flower"
 			x: 0.0d
 			y: -4.0d
+			subtitle: "{welcome.switchsky.subtitle}"
+			description: ["{welcome.switchsky.description}"]
 			size: 2.0d
 			can_repeat: true
 			id: "14CF3257184911F7"
