@@ -5,13 +5,6 @@ onEvent("recipes", (event) => {
     .multiblock("prediction_chamber")
     .duration(60)
     .id("kubejs:recipes/multiblocked/prediction")
-    // .setChance(1)
-    // .outputItem(
-    //   Item.of(
-    //     "hostilenetworks:prediction",
-    //     '{data_model:{id:"hostilenetworks:ender_dragon"}}'
-    //   )
-    // )
     .setChance(0.25)
     .outputItems([
       Item.of(

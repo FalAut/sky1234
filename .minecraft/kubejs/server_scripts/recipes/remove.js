@@ -32,10 +32,8 @@ onEvent("recipes", (event) => {
     "occultism:ritual/craft_storage_remote",
     "occultism:ritual/craft_stable_wormhole",
     "torchmaster:megatorch",
-
     "naturesaura:tree_ritual/token_anger",
     "naturesaura:tree_ritual/ancient_sapling",
-
     "naturesaura:pet_reviver",
     "naturesaura:death_ring",
     "naturesaura:calling_spirit",
@@ -45,7 +43,6 @@ onEvent("recipes", (event) => {
     "naturesaura:rf_converter",
     "naturesaura:animal_spawner",
     "naturesaura:animal_generator",
-
     "botania:ender_dagger",
     "compactcrafting:projector_dish",
     "compactcrafting:base",

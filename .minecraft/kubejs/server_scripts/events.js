@@ -20,7 +20,7 @@ onEvent('server.load', event => {
 onEvent('player.logged_in', event => {
     if (!event.player.stages.has('starting_items')) {
       event.player.stages.add('starting_items')
-      event.player.give(Item.of('kubejs:undef1ned', '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}'))
+      event.player.give('kubejs:undef1ned')
     }
 })
 

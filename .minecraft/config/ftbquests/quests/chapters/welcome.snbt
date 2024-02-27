@@ -94,6 +94,24 @@
 				item: "minecraft:poppy"
 			}]
 		}
+		{
+			icon: "botania:white_floating_flower"
+			x: 0.0d
+			y: -4.0d
+			size: 2.0d
+			can_repeat: true
+			id: "14CF3257184911F7"
+			tasks: [{
+				id: "4504055E0F27ECD3"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0C6E75E7EC683485"
+				type: "command"
+				command: "/skyblock gui"
+				player_command: true
+			}]
+		}
 	]
 	quest_links: [ ]
 }

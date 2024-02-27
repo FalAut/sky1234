@@ -31,6 +31,13 @@
       "file": "only_grass_block.nbt",
       "spawns": "default",
       "direction": "south"
+    },
+    {
+      "name": "smooth_stone",
+      "desc": "",
+      "file": "smooth_stone.nbt",
+      "spawns": "default",
+      "direction": "south"
     }
   ]
 }

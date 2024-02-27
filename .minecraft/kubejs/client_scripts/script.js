@@ -69,11 +69,7 @@ onEvent('jei.remove.recipes', event => {
 	event.remove('immersiveengineering:arcfurnace_recycling', 'immersiveengineering:recycling/pure_iron_plate')
 	event.remove('immersiveengineering:arcfurnace_recycling', 'immersiveengineering:recycling/pure_gold_plate')
 	event.remove('immersiveengineering:arcfurnace_recycling', 'immersiveengineering:recycling/pure_gold_gear')
-	// event.remove('lychee:item_burning', 'lychee:kubejs/recipes/lychee/burning/token_anger')
-	// event.remove('lychee:block_crushing', 'lychee:kjs_1h7x9a75c5ovchfib89d3wsqx')
-	// event.remove('lychee:item_inside', 'lychee:kubejs/recipes/lychee/market_ghost')
-	// event.remove('lychee:item_inside', 'lychee:kubejs/recipes/lychee/nether_portal/nether_eye_ghost')
-	// event.remove('lychee:item_inside', 'lychee:kubejs/recipes/lychee/undef1ned_fluid')
+
 })
 onEvent('jei.remove.categories', event => {
 	console.log(event.getCategoryIds())
@@ -142,6 +138,7 @@ onEvent('jei.hide.items', event => {
 		'kubejs:fake_sky'
 
 	])
+})
 
 onEvent('jei.add.items', event => {
 	event.add('create:chromatic_compound');
@@ -154,6 +151,4 @@ onEvent('jei.add.items', event => {
 	event.add('kubejs:incomplete_redstone_servo'); 
 	event.add('kubejs:tainted_blend'); 
 	event.add('kubejs:incomplete_creative_mana_tablet'); 
-	
-})
 })
