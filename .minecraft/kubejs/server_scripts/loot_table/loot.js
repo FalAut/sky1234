@@ -20,4 +20,8 @@ onEvent("lootjs", event => {
     event.addBlockLootModifier('kubejs:congealed_magma_cream')
         .addLoot('4x minecraft:magma_cream')
         .removeLoot('kubejs:congealed_magma_cream')
+    
+    event.addBlockLootModifier('kubejs:nether_portal_frame_filled')
+        .addLoot('kubejs:nether_portal_frame')
+        .removeLoot('kubejs:nether_portal_frame_filled')
 })

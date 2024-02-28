@@ -47,24 +47,4 @@ onEvent('recipes', event => {
       "block_in": "minecraft:lava"
     }    
   ).id('lychee:kubejs/recipes/lychee/nether_portal/nether_eye')
-  event.custom(
-    {
-      "type": "lychee:block_interacting",
-      "hide_in_viewer": true,
-      "post": [
-        {
-          "type": "execute",
-          "command": "playsound minecraft:block.end_portal_frame.fill block @p"
-        },
-        {
-          "type": "place",
-          "block": 'kubejs:nether_portal_frame_filled'
-        }
-      ],
-      "item_in": {
-        "item": 'kubejs:nether_eye'
-      },
-      "block_in": 'kubejs:nether_portal_frame'
-    }
-  ).id('lychee:kubejs/recipes/lychee/nether_portal/nether_portal_frame_filled')
 })

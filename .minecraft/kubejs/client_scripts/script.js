@@ -134,9 +134,7 @@ onEvent('jei.hide.items', event => {
 		'projecte:watch_of_flowing_time',
 		Item.of('minecraft:enchanted_book').enchant('miniutilities:molten_head', 1),
 		'miniutilities:golden_lasso',
-		'kubejs:def1ned',
-		'kubejs:fake_sky'
-
+		'kubejs:nether_portal_frame_filled'
 	])
 })
 

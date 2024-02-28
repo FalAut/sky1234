@@ -90,9 +90,23 @@ onEvent('entity.spawned', event => {
     }
 })
 
-// onEvent('block.right_click', event => {
-//     if (event.item.id == 'industrialforegoing:infinity_nuke' && event.level.dimension == "minecraft:overworld") {
-//         event.player.tell('主世界无法放置无限核弹，建议前往超平坦放置')
-//         event.cancel()
-//     }
-// })
+onEvent('block.right_click', event => {
+    const { item, block, player } = event
+    
+    // if (event.item.id == 'industrialforegoing:infinity_nuke' && event.level.dimension == "minecraft:overworld") {
+    //     event.player.tell('主世界无法放置无限核弹，建议前往超平坦放置')
+    //     event.cancel()
+    // }
+    
+    if (item.id == 'kubejs:nether_eye' && block.id == 'kubejs:nether_portal_frame') {
+        block.set('kubejs:nether_portal_frame_filled')
+        player.playSound("minecraft:block.end_portal_frame.fill")
+        player.swingArm(event.hand)
+        item.count--
+    }
+
+    if (item.id == 'naturesaura:token_anger' && block.id == 'kubejs:nether_portal_frame_filled') {
+        player.playSound("minecraft:block.end_portal.spawn")
+        player.swingArm(event.hand)
+    }
+})

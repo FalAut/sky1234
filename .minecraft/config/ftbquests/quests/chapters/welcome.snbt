@@ -111,6 +111,7 @@
 			rewards: [{
 				id: "0C6E75E7EC683485"
 				type: "command"
+				team_reward: true
 				command: "/skyblock gui"
 				player_command: true
 			}]
