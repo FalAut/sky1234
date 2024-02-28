@@ -1,0 +1,15 @@
+{
+  "kubejs.ponder.tag.ponder": "教學",
+  "kubejs.ponder.tag.ponder.description": "整合包中所有的教學",
+  "kubejs.ponder.-.header": "-",
+  "kubejs.ponder.nether_portal_frame.header": "下界傳送門",
+  "kubejs.ponder.oak_sapling.header": "第一顆樹",
+  "kubejs.ponder.tree_ritual.header": "森林儀式",
+  "kubejs.ponder.tree_ritual.text_1": "§l首先在木基座上放置\n§a§l儀式需要的物品\n§e§l擺放順序任意",
+  "kubejs.ponder.tree_ritual.text_2": "§e§l像這樣擺放金葉粉",
+  "kubejs.ponder.tree_ritual.text_3": "§l可在下方放置方塊來\n§a§l標記位置",
+  "kubejs.ponder.tree_ritual.text_4": "§l然後放置§e§l儀式配方中\n§a§l指定的樹苗",
+  "kubejs.ponder.tree_ritual.text_5": "§l等待樹苗§a§l生長§f§l或直接§a§l催熟",
+  "kubejs.ponder.tree_ritual.text_6": "§l如果放置的物品正確，此時會進行儀式\n§e§l並消耗金葉粉、樹和基座上的物品",
+  "kubejs.ponder.tree_ritual.text_7": "§a§l儀式結束後，會出現產物"
+}

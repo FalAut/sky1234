@@ -1,12 +1,5 @@
 onEvent("ponder.tag", event => {
-    /**
-     * "kubejs:getting_started" -> the tag name
-     * "minecraft:paper"        -> the icon
-     * "Getting Started"        -> the title
-     * "This is a description"  -> the description
-     * [...items]               -> default items
-     */
-    event.createTag("kubejs:getting_started", "minecraft:paper", "Getting started.", "We ponder now!", [
-        'minecraft:oak_sapling'
+    event.createTag("kubejs:ponder", 'botania:cosmetic_thinking_hand', "ModPack Ponder", "All Ponder in the Modpack", [
+        'minecraft:oak_sapling','naturesaura:wood_stand','kubejs:nether_portal_frame'
     ]);
 });

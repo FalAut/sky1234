@@ -3,7 +3,7 @@
 onEvent("ponder.registry", (ponder) => {
   ponder
     .create("kubejs:nether_portal_frame")
-    .scene("nether_portal_frame", "Nether Portal Frame", (scene, util) => {
+    .scene("nether_portal_frame", "Nether Portal", (scene, util) => {
       scene.showStructure();
       scene.idle(10);
       for (let x = 2; x >= 1; x--) {

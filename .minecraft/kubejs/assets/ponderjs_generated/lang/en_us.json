@@ -1,7 +1,15 @@
 {
-  "kubejs.ponder.tag.getting_started": "Getting started.",
-  "kubejs.ponder.tag.getting_started.description": "We ponder now!",
+  "kubejs.ponder.tag.ponder": "ModPack Ponder",
+  "kubejs.ponder.tag.ponder.description": "All Ponder in the Modpack",
   "kubejs.ponder.-.header": "-",
-  "kubejs.ponder.nether_portal_frame.header": "Nether Portal Frame",
-  "kubejs.ponder.oak_sapling.header": "Simulated Oak Tree"
+  "kubejs.ponder.nether_portal_frame.header": "Nether Portal",
+  "kubejs.ponder.oak_sapling.header": "Frist Tree",
+  "kubejs.ponder.tree_ritual.header": "Tree Ritual",
+  "kubejs.ponder.tree_ritual.text_1": "Firstly, place the items needed for the ritual on the Wooden Stand.The order of placement is arbitrary",
+  "kubejs.ponder.tree_ritual.text_2": "Place the Golden Powder like this",
+  "kubejs.ponder.tree_ritual.text_3": "You can place blocks to mark the position",
+  "kubejs.ponder.tree_ritual.text_4": "Then place lthe sapling specified in the ritual recipe",
+  "kubejs.ponder.tree_ritual.text_5": "Wait for the sapling to grow or force it to grow",
+  "kubejs.ponder.tree_ritual.text_6": "If the placed items are correct, the ritual will begin and consume the Golden Powder, Tree, and Items on the Wooden Stand",
+  "kubejs.ponder.tree_ritual.text_7": "After the ritual is complete, the product will appear"
 }
