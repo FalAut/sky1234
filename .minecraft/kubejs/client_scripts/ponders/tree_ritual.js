@@ -10,7 +10,7 @@ onEvent("ponder.registry", (event) => {
 
       //放置木基座物品
       scene
-        .text(60, "Firstly, place the items needed for the ritual on the Wooden Stand.The order of placement is arbitrary")
+        .text(100, "Firstly, place the items needed for the ritual on the Wooden Stand.The order of placement is arbitrary")
         .attachKeyFrame();
       let WoodStandPos = [
         [7, 1, 1],
@@ -36,13 +36,14 @@ onEvent("ponder.registry", (event) => {
             };
           }
         );
-        scene.idle(5);
+        scene.idle(10);
       }
       scene.idle(40);
 
       //金叶粉
-      scene.text(30, "Place the Golden Powder like this", [3, 0, 5]).attachKeyFrame();
-      scene.idle(40);
+      scene.text(80, "Place the Golden Powder like this", [3, 0, 7]).attachKeyFrame();
+      scene.idle(20);
+
 
       let StoneBricksPos = [
         [3, 0, 2],
@@ -63,12 +64,12 @@ onEvent("ponder.registry", (event) => {
         [3, 0, 3],
       ];
       scene
-        .text(40, "You can place blocks to mark the position", [3, 0, 5])
+        .text(60, "You can place blocks to mark the position", [3, 0, 5])
         .attachKeyFrame();
       StoneBricksPos.forEach((block) => {
         scene.world.setBlock(block, "minecraft:stone_bricks", true);
       });
-      scene.idle(40);
+      scene.idle(80);
 
       //催熟树苗
       scene
@@ -76,7 +77,7 @@ onEvent("ponder.registry", (event) => {
         .attachKeyFrame();
       scene.world.setBlock([4, 1, 4], "oak_sapling", true);
       scene.idle(40);
-      scene.text(60, "Wait for the sapling to grow or force it to grow").attachKeyFrame();
+      scene.text(40, "Wait for the sapling to grow or force it to grow").attachKeyFrame();
       for (let j = 0; j < 3; j++) {
         scene
           .showControls(1, [4.5, 1.5, 4.5], "right")
@@ -104,12 +105,11 @@ onEvent("ponder.registry", (event) => {
       LeavesPos.forEach((block) => {
         scene.world.setBlock(block, "oak_leaves", false);
       });
-      scene.idle(40);
+      scene.idle(30);
 
       //进行仪式
-      scene.text(40,"If the placed items are correct, the ritual will begin and consume the Golden Powder, Tree, and Items on the Wooden Stand")
+      scene.text(100,"If the placed items are correct, the ritual will begin and consume the Golden Powder, Tree, and Items on the Wooden Stand")
         .attachKeyFrame();
-      scene.idle(40);
       //清除物品
       WoodStandPos.forEach((block) => {
         scene.world.modifyBlockEntityNBT(block, BlockEntityClass, (nbt) => {
@@ -128,7 +128,7 @@ onEvent("ponder.registry", (event) => {
       //金叶粉
       scene.world.replaceBlocks([6, 1, 2, 2, 1, 6], "air", true);
 
-      scene.idle(40);
+      scene.idle(120);
       scene.text(40, "After the ritual is complete, the product will appear").attachKeyFrame();
       scene.world.createItemEntity(
         [4.5, 3, 4.5],
