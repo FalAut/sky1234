@@ -2185,12 +2185,19 @@
 				type: "item"
 				item: "miniutilities:mechanical_miner"
 			}]
-			rewards: [{
-				id: "41319F04D7BBB7DC"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
+			rewards: [
+				{
+					id: "41319F04D7BBB7DC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8772607192016285100L
+				}
+				{
+					id: "61810B71D8FCF281"
+					type: "item"
+					item: "miniutilities:speed_upgrade"
+				}
+			]
 		}
 		{
 			x: 21.0d
