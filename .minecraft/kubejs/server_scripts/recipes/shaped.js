@@ -640,7 +640,7 @@ onEvent('recipes', event => {
         2: 'chest'
     }).id(`${id_prefix}terrestrial_agglomeration_plate_io`);
 
-    crafting_shaped('multiblocked:pedestal', ['111', ' 2 ', '222'], {
+    crafting_shaped('multiblocked:pedestal', ['222', ' 1 ', '222'], {
         1: 'kubejs:undef1ned',
         2: 'kubejs:undef1ned_block'
     }).id(`${id_prefix}mbdpedestal`);
