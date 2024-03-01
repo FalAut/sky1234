@@ -3,9 +3,9 @@
   "versionCode": 2,
   "versionFormat": "%versionName%",
   "updateURL": {
-    "zh_cn": "https://legacy.curseforge.com/minecraft/modpacks/sky1234/files",
-    "zh_tw": "https://legacy.curseforge.com/minecraft/modpacks/sky1234/files",
-    "zh_hk": "https://legacy.curseforge.com/minecraft/modpacks/sky1234/files",
-    "en_us": "https://legacy.curseforge.com/minecraft/modpacks/sky1234/files"
+    "zh_cn": "https://www.curseforge.com/minecraft/modpacks/sky1234/files",
+    "zh_tw": "https://www.curseforge.com/minecraft/modpacks/sky1234/files",
+    "zh_hk": "https://www.curseforge.com/minecraft/modpacks/sky1234/files",
+    "en_us": "https://www.curseforge.com/minecraft/modpacks/sky1234/files"
   }
 }
