@@ -23,7 +23,7 @@
 		   Format: "en_us": "www.awa.com"
 		   Note: This can be overridden by '
 		*/
-		"updateURL": {},
+		"updateURL": { },
 		/* 
 		   How much time to connect to the URL before the connection closes with a timeout error.
 		   A timeout of zero is interpreted as an infinite timeout.
