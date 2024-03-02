@@ -13,10 +13,9 @@ onEvent('recipes', (event) => {
       'kubejs:undef1ned_block'
     )
     .id(`${id_prefix}undef1ned2`);
-  minecraft
-    .crafting_shapeless('kubejs:undef1ned_fluid_bucket', ['kubejs:undef1ned', 'water_bucket'])
-    .replaceIngredient('water_bucket', 'air')
-    .id(`${id_prefix}undef1ned_fluid_bucket`);
+
+  minecraft.crafting_shapeless('kubejs:undef1ned_fluid_bucket', ['kubejs:undef1ned', 'bucket']).id(`${id_prefix}undef1ned_fluid_bucket`);
+
   minecraft.crafting_shapeless('grass_block', ['water_bucket', 'dirt']).id(`${id_prefix}grass_block`);
   minecraft.crafting_shapeless('black_dye', '#coals').id(`${id_prefix}black_dye`);
   minecraft
