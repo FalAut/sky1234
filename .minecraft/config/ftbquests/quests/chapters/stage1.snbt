@@ -100,29 +100,21 @@
 				count: 67L
 				consume_items: true
 			}]
-			rewards: [
-				{
-					id: "66DEAFD3C1E34F21"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							state: 0
-							color: 1972267
-							size: 9
-						}
+			rewards: [{
+				id: "66DEAFD3C1E34F21"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						state: 0
+						color: 1972267
+						size: 9
 					}
-					team_reward: true
-					command: "/capsule fromExistingReward oak_tree.nbt @p"
 				}
-				{
-					id: "71C99D43E3E2D761"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+				team_reward: true
+				command: "/capsule fromExistingReward oak_tree.nbt @p"
+			}]
 		}
 		{
 			x: 10.0d
@@ -329,30 +321,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "49D4246B79B1C2F0"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "49D4246B79B1C2F0"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule fromExistingReward tree_ritual.nbt @p"
 				}
-				{
-					id: "7021418EF17338C2"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+				team_reward: true
+				command: "/capsule fromExistingReward tree_ritual.nbt @p"
+			}]
 		}
 		{
 			x: 8.0d
@@ -1011,30 +995,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "08A011B82B022997"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "08A011B82B022997"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked altar.nbt @p"
 				}
-				{
-					id: "2261D41C5B61E914"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked altar.nbt @p"
+			}]
 		}
 		{
 			x: 24.0d
@@ -2027,30 +2003,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "526496F4CD6D0A5A"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "526496F4CD6D0A5A"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked nether_altar.nbt @p"
 				}
-				{
-					id: "4D8A4D810501348A"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked nether_altar.nbt @p"
+			}]
 		}
 		{
 			x: 2.0d
@@ -2320,30 +2288,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "73C765C48AB71353"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "73C765C48AB71353"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked offering_table.nbt @p"
 				}
-				{
-					id: "67DAAAF7BB80E60F"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked offering_table.nbt @p"
+			}]
 		}
 		{
 			x: 22.0d
@@ -2413,30 +2373,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "682F70B75C8960D4"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "682F70B75C8960D4"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule fromExistingReward animal_spawner.nbt @p"
 				}
-				{
-					id: "26160E4AD71D65F2"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+				team_reward: true
+				command: "/capsule fromExistingReward animal_spawner.nbt @p"
+			}]
 		}
 		{
 			x: 14.0d

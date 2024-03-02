@@ -368,31 +368,56 @@
 					item: "occultism:golden_sacrificial_bowl"
 					consume_items: true
 				}
-			]
-			rewards: [
 				{
-					id: "47F37BCC1E78B844"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
+					id: "00EB29704640970D"
+					type: "item"
+					item: {
+						id: "occultism:chalk_white"
 						Count: 1b
 						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
+							Damage: 0
 						}
 					}
-					team_reward: true
-					command: "/capsule giveLinked strigeor_higher_binding.nbt @p"
 				}
 				{
-					id: "71DDDD3FC463703F"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6710266488103255141L
+					id: "38858F29CCAB8D0D"
+					type: "item"
+					item: {
+						id: "occultism:chalk_gold"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3119B6CE1768EABB"
+					type: "item"
+					item: {
+						id: "occultism:chalk_purple"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
+			rewards: [{
+				id: "47F37BCC1E78B844"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
+					}
+				}
+				team_reward: true
+				command: "/capsule giveLinked strigeor_higher_binding.nbt @p"
+			}]
 		}
 		{
 			x: 12.0d
@@ -1276,30 +1301,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "239327C04D527C8D"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "239327C04D527C8D"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked boiler.nbt @p"
 				}
-				{
-					id: "43091CBD6F9CFDB8"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6710266488103255141L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked boiler.nbt @p"
+			}]
 		}
 		{
 			icon: "multiblocked:runic_altar_core"
@@ -1358,30 +1375,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "56B96FCB322D8326"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "56B96FCB322D8326"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked runic_altar.nbt @p"
 				}
-				{
-					id: "3816C264F0FC54B8"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6710266488103255141L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked runic_altar.nbt @p"
+			}]
 		}
 		{
 			x: 20.0d
@@ -1540,30 +1549,22 @@
 					count: 4L
 				}
 			]
-			rewards: [
-				{
-					id: "243673FF933E5E21"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "243673FF933E5E21"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked terrestrial_agglomeration_altar.nbt @p"
 				}
-				{
-					id: "0301D40949D3E475"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6710266488103255141L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked terrestrial_agglomeration_altar.nbt @p"
+			}]
 		}
 		{
 			icon: "multiblocked:gaia_killer"
@@ -1634,30 +1635,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "637D1249B861BE0E"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "637D1249B861BE0E"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked gaia_killer.nbt @p"
 				}
-				{
-					id: "1099F5EBABE88B8F"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6710266488103255141L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked gaia_killer.nbt @p"
+			}]
 		}
 		{
 			x: 25.0d
@@ -2187,26 +2180,18 @@
 				consume_items: true
 				match_nbt: true
 			}]
-			rewards: [
-				{
-					id: "151CF1FCE1C84AAA"
-					type: "item"
-					item: {
-						id: "botania:mana_tablet"
-						Count: 1b
-						tag: {
-							mana: 500000
-							creative: 1b
-						}
+			rewards: [{
+				id: "151CF1FCE1C84AAA"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
 					}
 				}
-				{
-					id: "10935AC463172AB0"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6710266488103255141L
-				}
-			]
+			}]
 		}
 		{
 			x: 9.0d

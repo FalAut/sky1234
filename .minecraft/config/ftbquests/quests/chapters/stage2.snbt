@@ -807,30 +807,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "274D2717C1728507"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "274D2717C1728507"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked stress_generator.nbt @p"
 				}
-				{
-					id: "72A6905781D7AA4C"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked stress_generator.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.excavator}"
@@ -890,30 +882,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "5CB981CBDDC60C17"
-					type: "command"
-					title: "{block.immersiveengineering.excavator}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							state: 0
-							color: 8096694
-							size: 5
-						}
+			rewards: [{
+				id: "5CB981CBDDC60C17"
+				type: "command"
+				title: "{block.immersiveengineering.excavator}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						state: 0
+						color: 8096694
+						size: 5
 					}
-					team_reward: true
-					command: "/capsule giveLinked excavator_full.nbt @p"
 				}
-				{
-					id: "2BD556380F89B6EF"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked excavator_full.nbt @p"
+			}]
 		}
 		{
 			x: 24.0d
@@ -1052,31 +1036,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "7AC1402C4C24A6D0"
-					type: "command"
-					title: "{block.immersiveengineering.fermenter}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "7AC1402C4C24A6D0"
+				type: "command"
+				title: "{block.immersiveengineering.fermenter}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked fermenter.nbt @p"
 				}
-				{
-					id: "55F293232D9EC0AC"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked fermenter.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.refinery}"
@@ -1130,31 +1106,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "186AC64B46F017CC"
-					type: "command"
-					title: "{block.immersiveengineering.refinery}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "186AC64B46F017CC"
+				type: "command"
+				title: "{block.immersiveengineering.refinery}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked refinery.nbt @p"
 				}
-				{
-					id: "1E55C63366818A78"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked refinery.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.squeezer}"
@@ -1214,31 +1182,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "2A0853298FD049A4"
-					type: "command"
-					title: "{block.immersiveengineering.squeezer}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "2A0853298FD049A4"
+				type: "command"
+				title: "{block.immersiveengineering.squeezer}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked squeezer.nbt @p"
 				}
-				{
-					id: "29473D128F73AB54"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked squeezer.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.arc_furnace}"
@@ -1312,31 +1272,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "7D89B4870E9C61CA"
-					type: "command"
-					title: "{block.immersiveengineering.arc_furnace}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "7D89B4870E9C61CA"
+				type: "command"
+				title: "{block.immersiveengineering.arc_furnace}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked arcfurnace.nbt @p"
 				}
-				{
-					id: "3D8635F9C4B272AD"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked arcfurnace.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.bottling_machine}"
@@ -1389,30 +1341,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "1D60D46412484B67"
-					type: "command"
-					title: "{block.immersiveengineering.bottling_machine}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "1D60D46412484B67"
+				type: "command"
+				title: "{block.immersiveengineering.bottling_machine}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					command: "/capsule giveLinked bottling_machine.nbt @p"
 				}
-				{
-					id: "031995849A356990"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				command: "/capsule giveLinked bottling_machine.nbt @p"
+			}]
 		}
 		{
 			x: 20.5d
@@ -2157,31 +2101,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "379CBD43523C9E1B"
-					type: "command"
-					title: "{block.immersiveengineering.mixer}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "379CBD43523C9E1B"
+				type: "command"
+				title: "{block.immersiveengineering.mixer}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked mixer.nbt @p"
 				}
-				{
-					id: "13DE0F7B419D4459"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked mixer.nbt @p"
+			}]
 		}
 		{
 			x: 16.5d
@@ -2256,31 +2192,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "1274CE302A2BF27E"
-					type: "command"
-					title: "{block.immersiveengineering.assembler}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "1274CE302A2BF27E"
+				type: "command"
+				title: "{block.immersiveengineering.assembler}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked assembler.nbt @p"
 				}
-				{
-					id: "7CB25DECB5DA0C99"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked assembler.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.auto_workbench}"
@@ -2333,31 +2261,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "560CDCADD3804591"
-					type: "command"
-					title: "{block.immersiveengineering.auto_workbench}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "560CDCADD3804591"
+				type: "command"
+				title: "{block.immersiveengineering.auto_workbench}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked auto_workbench.nbt @p"
 				}
-				{
-					id: "6F7ED15DB5984ECA"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked auto_workbench.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.crusher}"
@@ -2403,31 +2323,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "21B2E6EF2E7A4C1F"
-					type: "command"
-					title: "{block.immersiveengineering.crusher}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "21B2E6EF2E7A4C1F"
+				type: "command"
+				title: "{block.immersiveengineering.crusher}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked crusher.nbt @p"
 				}
-				{
-					id: "6E468785758819AE"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked crusher.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.diesel_generator}"
@@ -2480,31 +2392,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "1FAD91CAFF8D3115"
-					type: "command"
-					title: "{block.immersiveengineering.diesel_generator}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "1FAD91CAFF8D3115"
+				type: "command"
+				title: "{block.immersiveengineering.diesel_generator}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked diesel_generator.nbt @p"
 				}
-				{
-					id: "789255D4A3AC4447"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked diesel_generator.nbt @p"
+			}]
 		}
 		{
 			icon: "immersiveengineering:advanced_blast_furnace"
@@ -2574,31 +2478,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "2FD8688DAA1226F0"
-					type: "command"
-					title: "{block.immersiveengineering.metal_press}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "2FD8688DAA1226F0"
+				type: "command"
+				title: "{block.immersiveengineering.metal_press}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked metal_press.nbt @p"
 				}
-				{
-					id: "2395530F47B4A9DA"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked metal_press.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.sawmill}"
@@ -2651,31 +2547,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "7408E9B12FC65D24"
-					type: "command"
-					title: "{block.immersiveengineering.sawmill}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "7408E9B12FC65D24"
+				type: "command"
+				title: "{block.immersiveengineering.sawmill}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked sawmill.nbt @p"
 				}
-				{
-					id: "24ACA074DB5F0619"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked sawmill.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.tank}"
@@ -2701,31 +2589,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "46782C14C885119F"
-					type: "command"
-					title: "{block.immersiveengineering.tank}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "46782C14C885119F"
+				type: "command"
+				title: "{block.immersiveengineering.tank}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked sheetmetal_tank.nbt @p"
 				}
-				{
-					id: "11AE1F58CB85B23B"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked sheetmetal_tank.nbt @p"
+			}]
 		}
 		{
 			title: "{block.immersiveengineering.silo}"
@@ -2751,31 +2631,23 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "14ADA33B8D81CAF1"
-					type: "command"
-					title: "{block.immersiveengineering.silo}"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "14ADA33B8D81CAF1"
+				type: "command"
+				title: "{block.immersiveengineering.silo}"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked silo.nbt @p"
 				}
-				{
-					id: "32D72672DCEC7E17"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked silo.nbt @p"
+			}]
 		}
 		{
 			x: 14.5d

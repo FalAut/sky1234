@@ -162,30 +162,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "1B8E24609B5B7630"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "1B8E24609B5B7630"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked entropy_reactor.nbt @p"
 				}
-				{
-					id: "509ED9ADF10894DD"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 7689519158409826503L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked entropy_reactor.nbt @p"
+			}]
 		}
 		{
 			x: 16.0d
@@ -973,30 +965,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "07DC7573527B6133"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "07DC7573527B6133"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked thermal_evaporation.nbt @p"
 				}
-				{
-					id: "636891B4F4E77AE4"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 7689519158409826503L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked thermal_evaporation.nbt @p"
+			}]
 		}
 		{
 			x: 24.0d
@@ -1043,30 +1027,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "0BBC5B5243517036"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "0BBC5B5243517036"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked fission_reactor.nbt @p"
 				}
-				{
-					id: "1164A0EE29A15A2C"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 7689519158409826503L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked fission_reactor.nbt @p"
+			}]
 		}
 		{
 			x: 24.0d
@@ -1127,30 +1103,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "641DE18577CD9343"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "641DE18577CD9343"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked sps.nbt @p"
 				}
-				{
-					id: "40861DFEF64F1841"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 7689519158409826503L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked sps.nbt @p"
+			}]
 		}
 		{
 			icon: "mekanism:lithium_bucket"
