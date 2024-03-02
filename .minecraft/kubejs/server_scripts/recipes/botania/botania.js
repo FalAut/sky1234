@@ -1,7 +1,5 @@
-/** @format */
-
-onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/botania/";
+onEvent('recipes', (event) => {
+  const id_prefix = 'kubejs:recipes/botania/';
   const {
     mana_infusion,
     elven_trade,
@@ -14,43 +12,17 @@ onEvent("recipes", (event) => {
     orechid_ignem,
     marimorphosis,
   } = event.recipes.botania;
-  // marimorphosis('occultism:otherstone', 'stone')
+  pure_daisy('botania:livingwood', 'occultism:otherworld_log').id(`${id_prefix}livingwood`);
 
-  pure_daisy("botania:livingwood", "occultism:otherworld_log").id(
-    `${id_prefix}livingwood`
-  );
+  pure_daisy('botania:livingrock', 'occultism:otherstone').id(`${id_prefix}livingrock`);
 
-  pure_daisy("botania:livingrock", "occultism:otherstone").id(
-    `${id_prefix}livingrock`
-  );
+  mana_infusion('botania:mana_diamond', 'occultism:spirit_attuned_gem', 10000).id(`${id_prefix}mana_diamond`);
 
-  mana_infusion(
-    "botania:mana_diamond",
-    "occultism:spirit_attuned_gem",
-    10000
-  ).id(`${id_prefix}mana_diamond`);
+  mana_infusion('botania:mana_diamond_block', 'kubejs:spirit_attuned_gem_block', 90000).id(`${id_prefix}mana_diamond_block`);
 
-  mana_infusion(
-    "botania:mana_diamond_block",
-    "kubejs:spirit_attuned_gem_block",
-    90000
-  ).id(`${id_prefix}mana_diamond_block`);
+  mana_infusion('botania:mana_pearl', 'ae2:fluix_pearl', 6000).id(`${id_prefix}mana_pearl`);
 
-  // mana_infusion("botania:manasteel_ingot", "occultism:iesnium_ingot", 3000).id(
-  //   `${id_prefix}manasteel_ingot`
-  // );
+  mana_infusion('kubejs:mana_pearl_block', 'kubejs:fluix_pearl_block', 36000).id(`${id_prefix}mana_pearl_block`);
 
-  mana_infusion("botania:mana_pearl", "ae2:fluix_pearl", 6000).id(
-    `${id_prefix}mana_pearl`
-  );
-
-  mana_infusion(
-    "kubejs:mana_pearl_block",
-    "kubejs:fluix_pearl_block",
-    36000
-  ).id(`${id_prefix}mana_pearl_block`);
-
-  mana_infusion("kubejs:mana_emerald", "emerald", 10000).id(
-    `${id_prefix}mana_emerald`
-  );
+  mana_infusion('kubejs:mana_emerald', 'emerald', 10000).id(`${id_prefix}mana_emerald`);
 });
