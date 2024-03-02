@@ -2,11 +2,9 @@
  * 自然灵气-自然祭坛与猩红祭坛的思索
  */
 
-const BlockEntityClass = java('net.minecraft.world.level.block.entity.BlockEntity');
-
 //修改祭坛物品
 function ModifyAltarItem(scene, input) {
-  scene.world.modifyBlockEntityNBT([4, 2, 4], BlockEntityClass, (nbt) => {
+  scene.world.modifyBlockEntityNBT([4, 2, 4], (nbt) => {
     nbt.items = {
       Items: [{ Count: 1, id: input }],
     };

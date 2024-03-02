@@ -27,7 +27,7 @@ onEvent('ponder.registry', (event) => {
     });
     for (let i = 0; i < WoodStandPos.length; i++) {
       scene.showControls(10, ClickPos[i], 'right').rightClick();
-      scene.world.modifyBlockEntityNBT(WoodStandPos[i], BlockEntityClass, (nbt) => {
+      scene.world.modifyBlockEntityNBT(WoodStandPos[i], (nbt) => {
         nbt.items = {
           Items: [{ Count: 1, id: 'cobblestone' }],
         };
@@ -104,7 +104,7 @@ onEvent('ponder.registry', (event) => {
       .attachKeyFrame();
     //清除物品
     WoodStandPos.forEach((block) => {
-      scene.world.modifyBlockEntityNBT(block, BlockEntityClass, (nbt) => {
+      scene.world.modifyBlockEntityNBT(block, (nbt) => {
         nbt.items = {
           Items: [{ Count: 1, id: 'air' }],
         };
