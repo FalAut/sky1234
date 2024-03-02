@@ -2,6 +2,7 @@ onEvent('recipes', (event) => {
   event
     .custom({
       type: 'lychee:item_inside',
+      hide_in_viewer: true,
       ghost: true,
       comment: 'Lava in Nether',
       post: [
