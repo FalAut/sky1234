@@ -15,9 +15,6 @@ onEvent("item.modification", (event) => {
       item.fireResistant = true;
     }
   );
-  event.modify("extendedexchange:final_star", (item) => {
-    item.maxStackSize = 64;
-  });
 
   event.modify(
     [
@@ -26,6 +23,7 @@ onEvent("item.modification", (event) => {
       "kubejs:incomplete_redstone_servo",
       "kubejs:tainted_blend",
       "immersiveengineering:logic_circuit",
+      "extendedexchange:final_star",
       "create:chromatic_compound",
     ],
     (item) => {
