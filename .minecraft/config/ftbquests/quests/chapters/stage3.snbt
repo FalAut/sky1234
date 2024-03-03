@@ -1518,35 +1518,41 @@
 					id: "3CB7E403DB0BC24E"
 					type: "item"
 					item: "multiblocked:runic_crystal"
+					consume_items: true
 				}
 				{
 					id: "46EE58111C9FEB60"
 					type: "item"
 					item: "multiblocked:terrestrial_agglomeration_plate_io"
+					consume_items: true
 				}
 				{
 					id: "118CA148FCE0043A"
 					type: "item"
 					item: "architects_palette:chiseled_abyssaline_bricks"
 					count: 4L
+					consume_items: true
 				}
 				{
 					id: "09D3FE361C22327B"
 					type: "item"
 					item: "architects_palette:abyssaline_plating"
 					count: 25L
+					consume_items: true
 				}
 				{
 					id: "38A47E6C5C62B82C"
 					type: "item"
 					item: "botania:natura_pylon"
 					count: 4L
+					consume_items: true
 				}
 				{
 					id: "2D5BED34B9BACDD7"
 					type: "item"
 					item: "botania:mana_pool"
 					count: 4L
+					consume_items: true
 				}
 			]
 			rewards: [{

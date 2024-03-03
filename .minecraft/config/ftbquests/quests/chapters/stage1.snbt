@@ -1861,6 +1861,7 @@
 			icon: "minecraft:villager_spawn_egg"
 			x: 20.0d
 			y: 10.0d
+			subtitle: "{stage1.animal_spawner.subtitle}"
 			dependencies: ["0C666B5258D0A608"]
 			id: "3E132140A62ACA94"
 			tasks: [{
