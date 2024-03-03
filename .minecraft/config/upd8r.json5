@@ -13,7 +13,7 @@
 		   Where the version data JSON will be fetched from, KEEP http:// or https://
 		   Comparison will be attempted when multiple URLs are used
 		*/
-    versionDataURL: ['https://gitee.com/FalAut/0xUDF/raw/master/.minecraft/config/upd8r_pack.json'],
+    versionDataURL: ["https://gitee.com/FalAut/sky1234/raw/master/.minecraft/config/upd8r_pack.json"],
     /* 
 		   The url that is opened when the user clicks on update button, KEEP http:// or https://
 		   Comparison will be attempted when multiple URLs are used.
@@ -37,7 +37,7 @@
   },
   currentVersion: {
     versionCode: 4,
-    versionFormat: '%versionName%',
-    versionName: '1.3',
+    versionFormat: "%versionName%",
+    versionName: "1.3",
   },
 }
