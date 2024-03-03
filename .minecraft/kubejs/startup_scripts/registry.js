@@ -38,8 +38,8 @@ onEvent('item.registry', (event) => {
 });
 
 onEvent('block.registry', (event) => {
-  event.create('nether_portal_frame').material('stone');
-  event.create('nether_portal_frame_filled').material('stone');
+  event.create('nether_portal_frame').material('stone').lightLevel(1).box(0, 0, 0, 16, 13, 16).defaultCutout();
+  event.create('nether_portal_frame_filled').material('stone').lightLevel(1).box(0, 0, 0, 16, 13, 16).box(4, 12, 4, 12, 16, 12).defaultCutout();
   event.create('undef1ned_block').material('amethyst').hardness(0.1).displayName('1234 Block');
   event.create('earth_core').material('amethyst').hardness(0.1);
   event
