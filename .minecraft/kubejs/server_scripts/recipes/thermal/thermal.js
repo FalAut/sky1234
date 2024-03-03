@@ -129,4 +129,6 @@ onEvent("recipes", (event) => {
   press("assemblylinemachines:mystium_gear", "assemblylinemachines:mystium_ingot").id(`${id_prefix}mystium_gear`);
 
   crystallizer("ae2:fluix_crystal", ["ae2:fluix_crystal_seed", Fluid.water()]);
+
+  press("immersiveengineering:plate_steel", "immersiveengineering:ingot_steel").id(`${id_prefix}plate_steel`);
 });

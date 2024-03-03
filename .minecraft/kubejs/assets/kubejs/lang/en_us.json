@@ -66,7 +66,7 @@
   "tooltip.kubejs.nether_eye": "Throw 3 eyes into lava",
   "tooltip.kubejs.refined_radiance": "Throw Radiant Alloy into a Beacon Beam",
   "tooltip.kubejs.shadow_steel": "Throw Radiant Alloy into the void",
-  "tooltip.kubejs.energy_transmitter": "Remote transmission, outputs on all 6 sides with a stress of 6",
+  "tooltip.kubejs.energy_transmitter": "Remote transmission, outputs on all 6 sides with a stress of 6.Unable to cross dimension",
   "tooltip.kubejs.end_portal_frame": "Can be destroyed but will not drop any items",
   "tooltip.kubejs.auto_table": "The automatic workbench will automatically extract from the storage container above it",
   "tooltip.kubejs.blaze_burner": "Liquid can be input without a straw",

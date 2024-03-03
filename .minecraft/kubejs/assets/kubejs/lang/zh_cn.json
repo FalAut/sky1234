@@ -66,7 +66,7 @@
   "tooltip.kubejs.nether_eye": "将3个眼睛扔进熔岩里",
   "tooltip.kubejs.refined_radiance": "将异彩化合物扔入信标光束",
   "tooltip.kubejs.shadow_steel": "将异彩化合物扔入虚空",
-  "tooltip.kubejs.energy_transmitter": "远程传输应力 6个面都可以输出",
+  "tooltip.kubejs.energy_transmitter": "远程传输应力 6个面都可以输出 无法跨维度",
   "tooltip.kubejs.end_portal_frame": "可以被破坏，但不会有掉落物",
   "tooltip.kubejs.auto_table": "自动工作台会自动抽取上方的存储容器",
   "tooltip.kubejs.blaze_burner": "不需要吸管也可以输入液体",
