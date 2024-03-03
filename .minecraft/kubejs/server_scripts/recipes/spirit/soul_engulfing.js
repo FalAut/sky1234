@@ -1,40 +1,40 @@
-onEvent('recipes', (event) => {
-  const id_prefix = 'kubejs:recipe/spirit/soul_engulfing/';
+onEvent("recipes", (event) => {
+  const id_prefix = "kubejs:recipe/spirit/soul_engulfing/";
   const recipes = [
     {
-      ingredient: { item: 'immersiveengineering:ingot_steel' },
+      ingredient: { item: "immersiveengineering:ingot_steel" },
       multiblock: {
         pattern: [
-          ['   ', ' @ ', '   '],
-          [' S ', 'S&S', ' S '],
+          ["   ", " @ ", "   "],
+          [" S ", "S&S", " S "],
         ],
         keys: {
           S: {
-            block: 'spirit:soul_powder_block',
+            block: "spirit:soul_powder_block",
           },
         },
       },
       duration: 0,
       destroysStructure: false,
-      outputItem: 'spirit:soul_steel_ingot',
+      outputItem: "spirit:soul_steel_ingot",
       id: `${id_prefix}soul_steel_ingot1`,
     },
     {
-      ingredient: { item: 'minecraft:iron_ingot' },
+      ingredient: { item: "minecraft:iron_ingot" },
       multiblock: {
         pattern: [
-          ['   ', ' @ ', '   '],
-          [' S ', 'S&S', ' S '],
+          ["   ", " @ ", "   "],
+          [" S ", "S&S", " S "],
         ],
         keys: {
           S: {
-            block: 'spirit:soul_powder_block',
+            block: "spirit:soul_powder_block",
           },
         },
       },
       duration: 0,
       destroysStructure: true,
-      outputItem: 'spirit:soul_steel_block',
+      outputItem: "spirit:soul_steel_block",
       id: `${id_prefix}soul_steel_ingot2`,
     },
   ];
@@ -42,7 +42,7 @@ onEvent('recipes', (event) => {
   recipes.forEach((recipe) => {
     event
       .custom({
-        type: 'spirit:soul_engulfing',
+        type: "spirit:soul_engulfing",
         input: {
           ingredient: recipe.ingredient,
           multiblock: recipe.multiblock,

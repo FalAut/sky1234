@@ -1,9 +1,9 @@
-onEvent('recipes', (event) => {
-  const id_prefix = 'kubejs:recipe/industrialforegoing/laser_drill_ore/';
+onEvent("recipes", (event) => {
+  const id_prefix = "kubejs:recipe/industrialforegoing/laser_drill_ore/";
 
   const recipes = [
     {
-      output: { item: 'mekanism:osmium_ore' },
+      output: { item: "mekanism:osmium_ore" },
       rarity: [
         {
           whitelist: {},
@@ -13,11 +13,11 @@ onEvent('recipes', (event) => {
           weight: 50,
         },
       ],
-      catalyst: { item: 'industrialforegoing:laser_lens0' },
+      catalyst: { item: "industrialforegoing:laser_lens0" },
       id: `${id_prefix}osmium_ore`,
     },
     {
-      output: { item: 'mekanism:fluorite_ore' },
+      output: { item: "mekanism:fluorite_ore" },
       rarity: [
         {
           whitelist: {},
@@ -27,11 +27,11 @@ onEvent('recipes', (event) => {
           weight: 25,
         },
       ],
-      catalyst: { item: 'industrialforegoing:laser_lens1' },
+      catalyst: { item: "industrialforegoing:laser_lens1" },
       id: `${id_prefix}fluorite_ore`,
     },
     {
-      output: { item: 'assemblylinemachines:titanium_ore' },
+      output: { item: "assemblylinemachines:titanium_ore" },
       rarity: [
         {
           whitelist: {},
@@ -41,14 +41,14 @@ onEvent('recipes', (event) => {
           weight: 25,
         },
       ],
-      catalyst: { item: 'industrialforegoing:laser_lens2' },
+      catalyst: { item: "industrialforegoing:laser_lens2" },
       id: `${id_prefix}titanium_ore`,
     },
   ];
   recipes.forEach((recipe) => {
     event
       .custom({
-        type: 'industrialforegoing:laser_drill_ore',
+        type: "industrialforegoing:laser_drill_ore",
         output: recipe.output,
         rarity: recipe.rarity,
         pointer: 0,
