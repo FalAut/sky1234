@@ -1144,7 +1144,6 @@
 			}]
 		}
 		{
-			title: "{stage1.iron.nether.title}"
 			x: 14.0d
 			y: 8.5d
 			dependencies: [
