@@ -1,11 +1,11 @@
 {
   "singularity.extendedcrafting.antimatter": "Antimatter",
 
-  "item.kubejs.undef1ned": "1234",
-  "item.kubejs.undef1ned_pickaxe": "1234 Pickaxe",
-  "item.kubejs.undef1ned_axe": "1234 Axe",
-  "item.kubejs.undef1ned_shovel": "1234 Shovel",
-  "item.kubejs.undef1ned_fluid_bucket": "1234 Fluid Bucket",
+  "item.kubejs.undef1ned": "Star of Creation",
+  "item.kubejs.undef1ned_pickaxe": "Pickaxe of Creation",
+  "item.kubejs.undef1ned_axe": "Axe of Creation",
+  "item.kubejs.undef1ned_shovel": "Shovel  of Creation",
+  "item.kubejs.undef1ned_fluid_bucket": "Fluid Bucket of Creation",
   "item.kubejs.infused_coal": "Infused Coal",
   "item.kubejs.ghast_eye": "Ghast Eye",
   "item.kubejs.wither_skeleton_eye": "Wither Skeleton Eye",
@@ -25,7 +25,7 @@
   "item.kubejs.molten_andesite_bucket": "Molten Andesite Bucket",
   "item.kubejs.molten_andesite_alloy_bucket": "Molten Andesite Alloy Bucket",
 
-  "block.kubejs.undef1ned_block": "1234 Block",
+  "block.kubejs.undef1ned_block": "Block of Creation",
   "block.kubejs.nether_portal_frame": "Nether Portal Frame",
   "block.kubejs.nether_portal_frame_filled": "Nether Portal Frame",
   "block.kubejs.earth_core": "Earth Core",
@@ -36,7 +36,7 @@
   "block.kubejs.fluix_pearl_block": "Fluix Pearl Block",
   "block.kubejs.mana_pearl_block": "Mana Pearl Block",
 
-  "fluid.kubejs.undef1ned_fluid": "1234 Fluid",
+  "fluid.kubejs.undef1ned_fluid": "Fluid of Creation",
   "fluid.kubejs.ichor_slime": "Ichor Slime",
   "fluid.kubejs.molten_andesite": "Molten Andesite",
   "fluid.kubejs.molten_andesite_alloy": "Molten Andesite Alloy",
