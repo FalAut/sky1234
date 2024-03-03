@@ -38,7 +38,10 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("minecraft:end_portal_frame", Text.translate("tooltip.kubejs.end_portal_frame").green());
 
-  tooltip.add("extendedcrafting:elite_auto_table", Text.translate("tooltip.kubejs.auto_table").green());
+  tooltip.add(
+    ["extendedcrafting:elite_auto_table", "extendedcrafting:ultimate_auto_table"],
+    Text.translate("tooltip.kubejs.auto_table").green()
+  );
 
   tooltip.add("create:blaze_burner", Text.translate("tooltip.kubejs.blaze_burner").green());
 
