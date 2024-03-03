@@ -78,8 +78,12 @@ onEvent("item.right_click", (event) => {
 
 onEvent("entity.spawned", (event) => {
   const { entity, server, level } = event;
-  if (level.dimension == "minecraft:the_nether" && entity.type != 'minecraft:player' && entity.type != 'minecraft:item') {
-    event.cancel()
+  if (
+    (level.dimension == "minecraft:the_nether" && entity.type === "minecraft:piglin") ||
+    entity.type === "minecraft:zombified_piglin" ||
+    entity.type === "minecraft:magma_cube"
+  ) {
+    event.cancel();
   }
 
   if (entity.type == "minecraft:ender_dragon") {
