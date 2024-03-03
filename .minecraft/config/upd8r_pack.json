@@ -9,16 +9,13 @@
     "en_us": "https://www.curseforge.com/minecraft/modpacks/sky1234/files"
   },
   "changelogs": {
-    "zh_cn": [
+    "简体中文": [
       "§a修改符文祭坛的一些配方，为了防止合成时材料被吞\n修复创造型ME存储元件不能制作和一些任务的问题，关闭#12\n隐藏荔枝配方因为有些人会因此崩游戏，关闭#11\n修复1234液体桶合成配方复制铁桶bug，关闭#7\n为整合包制作了服务端，发布在CurseForge每次更新的附加包\n如果是服务器请同时更新服务端！"
     ],
-    "zh_tw": [
+    "繁体中文": [
       "§a修改符文祭壇的一些配方，為了防止合成時材料被吞\n修復創造型ME存儲元件不能製作和一些任務的問題，關閉#12\n隱藏荔枝配方因為有些人會因此崩遊戲，關閉#11\n修復1234液體桶合成配方復製鐵桶bug，關閉#7\n為整合包製作了服務端，發布在CurseForge每次更新的附加包\n如果是服務器請同時更新服務端！"
     ],
-    "zh_hk": [
-      "§a修改符文祭壇的一些配方，為了防止合成時材料被吞\n修復創造型ME存儲元件不能製作和一些任務的問題，關閉#12\n隱藏荔枝配方因為有些人會因此崩遊戲，關閉#11\n修復1234液體桶合成配方復製鐵桶bug，關閉#7\n為整合包製作了服務端，發布在CurseForge每次更新的附加包\n如果是服務器請同時更新服務端！"
-    ],
-    "en_us": [
+    "English": [
       "§a Fixed some recipe of Rune altar, in order to prevent material from being swallowed during synthesis fixed creative ME memory element can not be made and some quests, turned off #12\n hidden lychee recipe because some people will crash the game, closed #11\n fixed 1234 liquid bucket recipe copy iron bucket bug, Close #7\n Made a server for the integration package, published in CurseForge every update of the add-on package \n if the server please update the server at the same time!"
     ]
   }
