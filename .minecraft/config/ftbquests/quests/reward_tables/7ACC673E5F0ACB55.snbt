@@ -1,0 +1,18 @@
+{
+	id: "7ACC673E5F0ACB55"
+	order_index: 6
+	icon: "minecraft:clock"
+	loot_size: 1
+	rewards: [
+		{
+			icon: "minecraft:sunflower"
+			command: "/time set noon"
+			type: "command"
+		}
+		{
+			icon: "minecraft:black_bed"
+			command: "/time set midnight"
+			type: "command"
+		}
+	]
+}

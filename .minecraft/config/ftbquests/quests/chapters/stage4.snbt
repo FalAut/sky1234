@@ -198,7 +198,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 12.0d
 			y: 4.0d
 			shape: "diamond"
 			size: 2.0d
@@ -233,7 +233,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 5.0d
 			y: 4.0d
 			shape: "diamond"
 			size: 2.0d
@@ -302,7 +302,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 18.0d
 			y: 4.0d
 			shape: "diamond"
 			size: 2.0d

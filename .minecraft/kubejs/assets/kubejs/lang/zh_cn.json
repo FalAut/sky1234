@@ -1,11 +1,11 @@
 {
   "singularity.extendedcrafting.antimatter": "反物质",
 
-  "item.kubejs.undef1ned": "1234",
-  "item.kubejs.undef1ned_pickaxe": "1234镐",
-  "item.kubejs.undef1ned_axe": "1234斧",
-  "item.kubejs.undef1ned_shovel": "1234锹",
-  "item.kubejs.undef1ned_fluid_bucket": "1234液体桶",
+  "item.kubejs.undef1ned": "创世之星",
+  "item.kubejs.undef1ned_pickaxe": "创世之镐",
+  "item.kubejs.undef1ned_axe": "创世之斧",
+  "item.kubejs.undef1ned_shovel": "创世之锹",
+  "item.kubejs.undef1ned_fluid_bucket": "创世源液桶",
   "item.kubejs.infused_coal": "灌注煤炭",
   "item.kubejs.ghast_eye": "恶魂之眼",
   "item.kubejs.wither_skeleton_eye": "凋灵骷髅之眼",
@@ -25,7 +25,7 @@
   "item.kubejs.molten_andesite_bucket": "熔融安山岩桶",
   "item.kubejs.molten_andesite_alloy_bucket": "熔融安山合金桶",
 
-  "block.kubejs.undef1ned_block": "1234块",
+  "block.kubejs.undef1ned_block": "创世之块",
   "block.kubejs.nether_portal_frame": "下界传送门框架",
   "block.kubejs.nether_portal_frame_filled": "下界传送门框架",
   "block.kubejs.earth_core": "大地之核",
@@ -36,7 +36,7 @@
   "block.kubejs.fluix_pearl_block": "福鲁伊克斯珍珠块",
   "block.kubejs.mana_pearl_block": "魔力珍珠块",
 
-  "fluid.kubejs.undef1ned_fluid": "1234液体",
+  "fluid.kubejs.undef1ned_fluid": "创世源液",
   "fluid.kubejs.ichor_slime": "灵浆",
   "fluid.kubejs.molten_andesite": "熔融安山岩",
   "fluid.kubejs.molten_andesite_alloy": "熔融安山合金",

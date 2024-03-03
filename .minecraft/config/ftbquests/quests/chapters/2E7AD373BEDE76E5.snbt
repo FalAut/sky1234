@@ -1,0 +1,27 @@
+{
+	id: "2E7AD373BEDE76E5"
+	group: ""
+	order_index: 3
+	filename: "2E7AD373BEDE76E5"
+	title: "规则/设置开关"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		can_repeat: true
+		id: "0406DBAE0B003C7B"
+		tasks: [{
+			id: "4EBCD8DC22B4C9FA"
+			type: "checkmark"
+		}]
+		rewards: [{
+			id: "2F8218440765E916"
+			type: "choice"
+			team_reward: true
+			exclude_from_claim_all: true
+			table_id: 8848560885456358229L
+		}]
+	}]
+	quest_links: [ ]
+}
