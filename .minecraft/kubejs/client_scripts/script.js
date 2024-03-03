@@ -44,6 +44,8 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("create:blaze_cake", Text.translate("tooltip.kubejs.blaze_cake").green());
 
+  tooltip.add("minecraft:netherite_ingot", Text.translate("tooltip.kubejs.netherite_ingot").green());
+
   tooltip.add(
     ["kubejs:smoked_iron_block", "extendedcrafting:black_iron_ingot"],
     [Text.translate("tooltip.kubejs.black_iron1").green(), Text.translate("tooltip.kubejs.black_iron2").green()]
