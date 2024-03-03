@@ -1,8 +1,4 @@
 {
-  "customCategories": {
-    "runes": { "name": "Runes", "icon": { "item": "kubejs:undef1ned" } }
-  },
-
   "customEntries": [
     {
       "output": { "item": "minecraft:sunflower", "count": 1 },
