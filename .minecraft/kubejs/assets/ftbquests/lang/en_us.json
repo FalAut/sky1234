@@ -21,11 +21,13 @@
   "welcome.thanks.description": "&aAuthor:落秋(FalAut) \nThanks\n\nTo all mod creators, tutorial/wiki makers\n\n秋明Sweet's live streaming and promotion\n\n肆a、春夏冬明、晓阳、洛神主动、fish-旦、工具人二号、秋明 and his live stream audience for helping me discover many bugs\n\nYou for playing this pack.",
   "welcome.switchsky.title": "Switching island",
   "welcome.switchsky.subtitle": "Don't like the island now?",
-  "welcome.switchsky.description": "The respawn point will not change \n enter /skyblock home to return to the island",
+  "welcome.switchsky.description": "The respawn point will not change \n enter /skyblock spawn to return to the island",
 
   "stage1.iron.subtitle": "&aMolten Iron Bucket",
   "stage1.coal.subtitle": "&aCharcoal to Coal",
   "stage1.animal_spawner.subtitle": "&aSearch for Spawn Eggs in JEI to see the recipe.",
+  "stage1.iron.nether.title": "&4The Nether will not spawn creatures but will spawn all the slime islands of the Tinkers' Construct",
+  "stage1.iron.slime.subtitle": "&aGenerated in the Nether",
   "stage1.nether_altar.title": "Crimson Altar",
   "stage1.nether_altar.subtitle": "&aNatural altars placed in the Nether will turn into crimson altars.",
 

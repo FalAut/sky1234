@@ -77,10 +77,10 @@ onEvent("item.right_click", (event) => {
 });
 
 onEvent("entity.spawned", (event) => {
-  const { entity, server } = event;
-  // if (event.level.dimension == "minecraft:the_nether" && event.entity.type != 'minecraft:player' && event.entity.type != 'minecraft:item') {
-  //     event.cancel()
-  // }
+  const { entity, server, level } = event;
+  if (level.dimension == "minecraft:the_nether" && entity.type != 'minecraft:player' && entity.type != 'minecraft:item') {
+    event.cancel()
+  }
 
   if (entity.type == "minecraft:ender_dragon") {
     server.scheduleInTicks(20, (callback) => {

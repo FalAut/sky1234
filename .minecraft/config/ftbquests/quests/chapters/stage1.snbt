@@ -1144,6 +1144,7 @@
 			}]
 		}
 		{
+			title: "{stage1.iron.nether.title}"
 			x: 14.0d
 			y: 8.5d
 			dependencies: [
@@ -1191,11 +1192,12 @@
 		{
 			x: 1.5d
 			y: 10.0d
+			subtitle: "{stage1.iron.slime.subtitle}"
 			id: "6ACB4181C7F78CBA"
 			tasks: [{
-				id: "246A5962E0E97163"
+				id: "3C5990DA9DA55768"
 				type: "item"
-				item: "minecraft:slime_ball"
+				item: "tconstruct:earth_congealed_slime"
 			}]
 			rewards: [{
 				id: "6694D5C36E2A4177"
@@ -1207,11 +1209,12 @@
 		{
 			x: 3.5d
 			y: 10.0d
+			subtitle: "{stage1.iron.slime.subtitle}"
 			id: "2270ACDD17D049E3"
 			tasks: [{
-				id: "6A58DAC148DE3C50"
+				id: "555EB48C4CCB02F4"
 				type: "item"
-				item: "tconstruct:ender_slime_ball"
+				item: "tconstruct:ender_congealed_slime"
 			}]
 			rewards: [{
 				id: "7E0BFDC21DD408BD"
@@ -1223,11 +1226,12 @@
 		{
 			x: 2.5d
 			y: 10.0d
+			subtitle: "{stage1.iron.slime.subtitle}"
 			id: "7C84FE62C0A22696"
 			tasks: [{
-				id: "291DB6DF3F8BB93C"
+				id: "6E1130930F854BAD"
 				type: "item"
-				item: "tconstruct:sky_slime_ball"
+				item: "tconstruct:sky_congealed_slime"
 			}]
 			rewards: [{
 				id: "0604E2F9CE1A8F7E"
@@ -1239,11 +1243,12 @@
 		{
 			x: 6.5d
 			y: 10.0d
+			subtitle: "{stage1.iron.slime.subtitle}"
 			id: "0022221531A0708D"
 			tasks: [{
-				id: "3CDFE7D530E564DD"
+				id: "650AE73B70AD4496"
 				type: "item"
-				item: "tconstruct:blood_slime_ball"
+				item: "tconstruct:blood_congealed_slime"
 			}]
 			rewards: [{
 				id: "4D9A87F7D35C7C57"
@@ -1255,11 +1260,12 @@
 		{
 			x: 4.5d
 			y: 10.0d
+			subtitle: "{stage1.iron.slime.subtitle}"
 			id: "5391C1159EA10156"
 			tasks: [{
-				id: "33AF346A5902E5FD"
+				id: "5FF8F5BEB47FB204"
 				type: "item"
-				item: "minecraft:magma_cream"
+				item: "kubejs:congealed_magma_cream"
 			}]
 			rewards: [{
 				id: "10AF4B192CC8FCFE"
@@ -2056,11 +2062,12 @@
 		{
 			x: 5.5d
 			y: 10.0d
+			subtitle: "{stage1.iron.slime.subtitle}"
 			id: "21992CEC6B0C5D4E"
 			tasks: [{
-				id: "4ADF557FBAC81384"
+				id: "7FE495C7CB316E91"
 				type: "item"
-				item: "tconstruct:ichor_slime_ball"
+				item: "tconstruct:ichor_congealed_slime"
 			}]
 			rewards: [{
 				id: "451C559242550ED8"

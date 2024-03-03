@@ -945,4 +945,8 @@ onEvent("recipes", (event) => {
     1: "stone",
     2: "kubejs:undef1ned",
   }).id(`${id_prefix}sky_stone_block`);
+
+  crafting_shaped("kubejs:congealed_magma_cream", ["11 ", "11 "], {
+    1: "minecraft:magma_cream",
+  }).id(`${id_prefix}congealed_magma_cream`);
 });
