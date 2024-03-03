@@ -7,11 +7,11 @@ onEvent('recipes', (event) => {
       'botania:fabulous_pool',
       Item.of('botania:mana_tablet', '{mana:500000}'),
       'botania:overgrowth_seed',
-      Item.of('botania:mana_tablet', '{mana:500000}'),
+      'botania:rune_mana',
       'botania:blacker_lotus',
-      Item.of('botania:mana_tablet', '{mana:500000}'),
+      'botania:terrasteel_block',
       'botania:dice',
-      Item.of('botania:mana_tablet', '{mana:500000}'),
+      'botania:open_bucket',
     ])
     .inputMana(4000000)
 
@@ -22,12 +22,14 @@ onEvent('recipes', (event) => {
   event.recipes.multiblocked
     .multiblock('runic_altar')
     .inputItems([
-      'botania:manasteel_ingot',
-      'botania:manasteel_ingot',
-      'botania:manasteel_ingot',
-      'botania:manasteel_ingot',
       'botania:mana_pearl',
+      'botania:mana_diamond',
+      'botania:mana_powder',
       'botania:manasteel_ingot',
+      'botania:quartz_mana',
+      'botania:mana_string',
+      'kubejs:mana_emerald',
+      'botania:mana_glass',
     ])
     .inputMana(100000)
 

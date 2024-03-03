@@ -1580,6 +1580,7 @@
 			subtitle: "{tooltip.capsule.multiblock}"
 			dependencies: ["0855B29DB0B91921"]
 			size: 2.0d
+			can_repeat: true
 			id: "3F398A5F9FE74F4B"
 			tasks: [
 				{

@@ -490,7 +490,11 @@
 			x: 14.0d
 			y: 7.0d
 			shape: "circle"
-			dependencies: ["2ACCDA3A1059CEF5"]
+			dependencies: [
+				"2ACCDA3A1059CEF5"
+				"5C5AAC516F5CC09E"
+			]
+			dependency_requirement: "one_completed"
 			id: "139134B1A5CE9A58"
 			tasks: [{
 				id: "68D781D053E47BF9"
@@ -547,7 +551,11 @@
 			x: 14.0d
 			y: 9.0d
 			shape: "circle"
-			dependencies: ["2ACCDA3A1059CEF5"]
+			dependencies: [
+				"2ACCDA3A1059CEF5"
+				"5C5AAC516F5CC09E"
+			]
+			dependency_requirement: "one_completed"
 			id: "1F684639C055E8A3"
 			tasks: [{
 				id: "3FC4E83B0420DC6B"
