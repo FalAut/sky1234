@@ -894,6 +894,7 @@
 				id: "5D16114D0B18F329"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 4L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1087,6 +1088,7 @@
 				id: "39886A1B850AA448"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 4L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1105,6 +1107,7 @@
 				id: "6A8418A16AD8B253"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 4L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1123,6 +1126,7 @@
 				id: "6C584D36F36A140D"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 4L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1141,6 +1145,7 @@
 				id: "7C1A64C52EDF4021"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 4L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1159,6 +1164,7 @@
 				id: "5E4ED9B27FE293E3"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 4L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1177,6 +1183,7 @@
 				id: "60D34D8082F89DA2"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 4L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1195,6 +1202,7 @@
 				id: "7B2599BE2611B01E"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 8L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1213,6 +1221,7 @@
 				id: "378E6531A68B23E2"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 6L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1231,6 +1240,7 @@
 				id: "44FC1C572EB6BF5E"
 				type: "item"
 				item: "thermal:netherite_coin"
+				count: 10L
 				consume_items: true
 			}]
 			rewards: [{
@@ -1431,6 +1441,267 @@
 						color2: 0
 					}
 				}
+			}]
+		}
+		{
+			icon: "ae2wtlib:wireless_universal_terminal"
+			x: 7.0d
+			y: -0.5d
+			can_repeat: true
+			id: "628629A0F46B13E8"
+			tasks: [{
+				id: "73EB6BEEB5F01398"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "219950D4A54EF1B8"
+				type: "item"
+				item: "ae2wtlib:wireless_universal_terminal"
+			}]
+		}
+		{
+			icon: "ae2wtlib:infinity_booster_card"
+			x: 8.5d
+			y: -0.5d
+			can_repeat: true
+			id: "5F4CBD1A5910DC3D"
+			tasks: [{
+				id: "69A1B28418961A86"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "14F20948237FDDAE"
+				type: "item"
+				item: "ae2wtlib:infinity_booster_card"
+			}]
+		}
+		{
+			icon: "ae2:64k_crafting_storage"
+			x: 7.0d
+			y: 2.5d
+			can_repeat: true
+			id: "27278F421A282E7C"
+			tasks: [{
+				id: "5210644A4A9DC354"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "022AEADD1AC6A842"
+				type: "item"
+				item: "ae2:64k_crafting_storage"
+			}]
+		}
+		{
+			icon: { id: "ae2:fluix_glass_cable", Count: 16b }
+			x: 11.5d
+			y: -0.5d
+			can_repeat: true
+			id: "5EFDB8C5F5FCB8ED"
+			tasks: [{
+				id: "1E8B1F8E53A02DD4"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7C7CBA231EABDC00"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+				count: 16
+			}]
+		}
+		{
+			icon: "ae2:molecular_assembler"
+			x: 10.0d
+			y: 2.5d
+			can_repeat: true
+			id: "6D165B82392109A2"
+			tasks: [{
+				id: "5AC0F000D1683CBD"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "231C4D0EE8A20AAE"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+		}
+		{
+			icon: "ae2:crafting_accelerator"
+			x: 8.5d
+			y: 2.5d
+			can_repeat: true
+			id: "7F3CAF547178C968"
+			tasks: [{
+				id: "149A71844A2F0113"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D78BD6C44B26438"
+				type: "item"
+				item: "ae2:crafting_accelerator"
+			}]
+		}
+		{
+			icon: {
+				id: "ae2:item_storage_cell_16k"
+				Count: 1b
+				tag: { }
+			}
+			x: 7.0d
+			y: 1.0d
+			can_repeat: true
+			id: "57B392354698B7A7"
+			tasks: [{
+				id: "11FC3CAA0F5E8417"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "349D56AAB6BC751A"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ae2:item_storage_cell_64k"
+				Count: 1b
+				tag: { }
+			}
+			x: 8.5d
+			y: 1.0d
+			can_repeat: true
+			id: "1A9041D950F25B99"
+			tasks: [{
+				id: "73FE4456A848323E"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3C3ADB9A4A70C995"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ae2:item_storage_cell_256k"
+				Count: 1b
+				tag: { }
+			}
+			x: 10.0d
+			y: 1.0d
+			can_repeat: true
+			id: "40A0736EC6E37110"
+			tasks: [{
+				id: "3EBD955609B5F5C9"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5C3B01123A53FF2E"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ae2:fluid_storage_cell_256k"
+				Count: 1b
+				tag: { }
+			}
+			x: 11.5d
+			y: 1.0d
+			can_repeat: true
+			id: "50EAF2111EFCBDFC"
+			tasks: [{
+				id: "56B55D63B5463E69"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "377840B0548FD083"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: "ae2:interface"
+			x: 10.0d
+			y: -0.5d
+			can_repeat: true
+			id: "0A6A7039038CF7E0"
+			tasks: [{
+				id: "5255D2A5D6A7A854"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5EDEA20B496BB6D8"
+				type: "item"
+				item: "ae2:interface"
+			}]
+		}
+		{
+			icon: "ae2:controller"
+			x: 11.5d
+			y: 2.5d
+			can_repeat: true
+			id: "77FEE013F61BC1F1"
+			tasks: [{
+				id: "7F243E45258A3B54"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "198779EEAA3142B2"
+				type: "item"
+				item: "ae2:controller"
 			}]
 		}
 	]
