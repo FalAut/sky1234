@@ -9,12 +9,12 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("naturesaura:birth_spirit", Text.translate("tooltip.kubejs.birth_spirit").green());
 
-  tooltip.add(
-    ["naturesaura:fortress_finder", "kubejs:wither_skeleton_eye", "kubejs:ghast_eye"],
-    Text.translate("tooltip.kubejs.eyes").green()
-  );
+  // tooltip.add(
+  //   ["naturesaura:fortress_finder", "kubejs:wither_skeleton_eye", "kubejs:ghast_eye"],
+  //   Text.translate("tooltip.kubejs.eyes").green()
+  // );
 
-  tooltip.add("farmingforblockheads:market", Text.translate("tooltip.kubejs.market").green());
+  // tooltip.add("farmingforblockheads:market", Text.translate("tooltip.kubejs.market").green());
 
   tooltip.add("assemblylinemachines:corrupted_shard", Text.translate("tooltip.kubejs.corrupted_shard").green());
 
@@ -22,13 +22,13 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("miniutilities:speed_upgrade", Text.translate("tooltip.kubejs.speed_upgrade").green());
 
-  tooltip.add("naturesaura:animal_spawner", Text.translate("tooltip.kubejs.animal_spawner").green());
+  // tooltip.add("naturesaura:animal_spawner", Text.translate("tooltip.kubejs.animal_spawner").green());
 
-  tooltip.add("naturesaura:gold_fiber", Text.translate("tooltip.kubejs.gold_fiber").green());
+  // tooltip.add("naturesaura:gold_fiber", Text.translate("tooltip.kubejs.gold_fiber").green());
 
-  tooltip.add("naturesaura:token_anger", Text.translate("tooltip.kubejs.token_anger").green());
+  // tooltip.add("naturesaura:token_anger", Text.translate("tooltip.kubejs.token_anger").green());
 
-  tooltip.add("kubejs:nether_eye", Text.translate("tooltip.kubejs.nether_eye").green());
+  // tooltip.add("kubejs:nether_eye", Text.translate("tooltip.kubejs.nether_eye").green());
 
   tooltip.add("create:refined_radiance", Text.translate("tooltip.kubejs.refined_radiance").green());
 

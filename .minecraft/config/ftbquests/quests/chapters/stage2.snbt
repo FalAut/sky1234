@@ -2768,6 +2768,7 @@
 			}]
 		}
 		{
+			title: "&a{tooltip.kubejs.black_iron1}"
 			x: 11.5d
 			y: 6.0d
 			shape: "circle"
