@@ -4,18 +4,9 @@ onEvent("recipes", (event) => {
   const id_prefix = "kubejs:recipes/shapless/";
   let { minecraft } = event.recipes;
 
-  minecraft
-    .crafting_shapeless(Item.of("kubejs:undef1ned", 2, '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}'), "kubejs:undef1ned")
-    .id(`${id_prefix}undef1ned1`);
-  minecraft
-    .crafting_shapeless(
-      Item.of("kubejs:undef1ned", 4, '{SequencedAssembly:{Progress:0,Step:0,id:"kubejs:def1ned"}}'),
-      "kubejs:undef1ned_block"
-    )
-    .id(`${id_prefix}undef1ned2`);
-
+  minecraft.crafting_shapeless("2x kubejs:undef1ned", "kubejs:undef1ned").id(`${id_prefix}undef1ned1`);
+  minecraft.crafting_shapeless("4x kubejs:undef1ned", "kubejs:undef1ned_block").id(`${id_prefix}undef1ned2`);
   minecraft.crafting_shapeless("kubejs:undef1ned_fluid_bucket", ["kubejs:undef1ned", "bucket"]).id(`${id_prefix}undef1ned_fluid_bucket`);
-
   minecraft.crafting_shapeless("grass_block", ["water_bucket", "dirt"]).id(`${id_prefix}grass_block`);
   minecraft.crafting_shapeless("black_dye", "#coals").id(`${id_prefix}black_dye`);
   minecraft
