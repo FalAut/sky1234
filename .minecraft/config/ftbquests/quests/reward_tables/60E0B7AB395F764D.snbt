@@ -1,0 +1,10 @@
+{
+	id: "60E0B7AB395F764D"
+	order_index: 7
+	icon: "create:empty_schematic"
+	loot_size: 1
+	rewards: [
+		{ item: "create:schematic_table" }
+		{ item: "create:empty_schematic", count: 64 }
+	]
+}

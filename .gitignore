@@ -18,6 +18,8 @@ natives
 .minecraft/config/skyblockbuilder/data/**
 !.minecraft/defaultconfigs/
 !.minecraft/defaultconfigs/**
+!.minecraft/schematics/
+!.minecraft/schematics/**
 
 ## KubeJS
 !.minecraft/kubejs/

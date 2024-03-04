@@ -116,6 +116,23 @@
 				player_command: true
 			}]
 		}
+		{
+			title: "胶囊用不了？蓝图自取~"
+			x: 3.5d
+			y: -4.0d
+			can_repeat: true
+			id: "62E1C37575E56C34"
+			tasks: [{
+				id: "5401427DE1691B04"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "42321B32E7572957"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 6980781368454116941L
+			}]
+		}
 	]
 	quest_links: [ ]
 }
