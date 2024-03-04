@@ -93,6 +93,29 @@
             "value": false
         }
     },
+    "ScrollSettings": {
+        "scroll_full_stack": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_leave_last": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_spread": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_throw": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_auto_pickup_next_for_single": false
+    },
     "Hotkeys": {
         "sort_inventory": {
             "main": {

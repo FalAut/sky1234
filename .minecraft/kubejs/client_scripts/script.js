@@ -49,14 +49,11 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("minecraft:netherite_ingot", Text.translate("tooltip.kubejs.netherite_ingot").green());
 
-  tooltip.add(
-    "tiab:time_in_a_bottle",
-    [
-      Text.translate("tooltip.kubejs.time_in_a_bottle1"),
-      Text.translate("tooltip.kubejs.time_in_a_bottle2"),
-      Text.translate("tooltip.kubejs.time_in_a_bottle3"),
-    ].green()
-  );
+  tooltip.add("tiab:time_in_a_bottle", [
+    Text.translate("tooltip.kubejs.time_in_a_bottle1").green(),
+    Text.translate("tooltip.kubejs.time_in_a_bottle2").green(),
+    Text.translate("tooltip.kubejs.time_in_a_bottle3").green(),
+  ]);
   
   tooltip.add(
     ["kubejs:smoked_iron_block", "extendedcrafting:black_iron_ingot"],
