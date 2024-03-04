@@ -37,7 +37,7 @@ onEvent("ponder.registry", (ponder) => {
       scene.idle(3);
     }
     scene.idle(20);
-    scene.showControls(20, [4, 0.5, 4], "left").withItem("kubejs:undef1ned").rightClick();
+    scene.showControls(20, [4, 0.5, 4], "left").rightClick();
     // scene
     //   .text(20, "Use this item to right-click on the bottom block")
     //   .colored(PonderPalette.RED)

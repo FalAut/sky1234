@@ -1,10 +1,10 @@
 // priority: 0
 
 onEvent("item.registry", (event) => {
-  event.create("undef1ned").glow(true).displayName("1234");
-  event.create("undef1ned_pickaxe", "pickaxe").tier("netherite").speed(15).glow(true).displayName("1234 Pickaxe");
-  event.create("undef1ned_axe", "axe").tier("netherite").speed(15).glow(true).displayName("1234 Axe");
-  event.create("undef1ned_shovel", "shovel").tier("netherite").speed(15).glow(true).displayName("1234 Shovel");
+  event.create("undef1ned").glow(true);
+  event.create("undef1ned_pickaxe", "pickaxe").tier("netherite").speed(15).glow(true);
+  event.create("undef1ned_axe", "axe").tier("netherite").speed(15).glow(true);
+  event.create("undef1ned_shovel", "shovel").tier("netherite").speed(15).glow(true);
   event.create("infused_coal");
   event.create("ghast_eye");
   event.create("wither_skeleton_eye");
@@ -38,7 +38,7 @@ onEvent("item.registry", (event) => {
 });
 
 onEvent("block.registry", (event) => {
-  event.create("undef1ned_block").material("amethyst").hardness(0.1).displayName("1234 Block");
+  event.create("undef1ned_block").material("amethyst").displayName("Block of Creation").hardness(0.1);
   event.create("earth_core").material("amethyst").hardness(0.1);
   event.create("nether_portal_frame").material("stone").lightLevel(1).box(0, 0, 0, 16, 13, 16).defaultCutout();
   event
@@ -62,7 +62,6 @@ onEvent("block.registry", (event) => {
 onEvent("fluid.registry", (event) => {
   let undef1ned_fluid = event
     .create("undef1ned_fluid")
-    .displayName("1234 Fluid")
     .stillTexture("kubejs:fluid/undef1ned_fluid")
     .flowingTexture("kubejs:fluid/undef1ned_fluid");
   let AAttributes = undef1ned_fluid.createAttributes();
@@ -76,7 +75,7 @@ onEvent("fluid.registry", (event) => {
     .bucketColor(0xff7f50);
   event.create("molten_andesite").thickTexture(0xdcdcdc);
   event.create("molten_andesite_alloy").thickTexture(0xbebebe);
-  event.create("mana").thinTexture(0x87ceeb).noBucket().displayName("Mana in Mana Pool");
+  event.create("mana").thinTexture(0x87ceeb).noBucket();
 });
 
 onEvent("mekanism.infuse_type.registry", (event) => {
