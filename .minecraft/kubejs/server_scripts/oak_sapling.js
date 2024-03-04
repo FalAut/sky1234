@@ -21,7 +21,7 @@ onEvent("block.right_click", (event) => {
   let y1 = block.y + 6;
   let z1 = block.z - 2;
 
-  if (blockpos.every((pos) => block.offset(pos[0], pos[1], pos[2]).id == input) && hand == "main_hand") {
+  if (hand == "main_hand" && blockpos.every((pos) => block.offset(pos[0], pos[1], pos[2]).id == input)) {
     block.popItem("oak_sapling");
     player.swingArm(hand);
     server.runCommandSilent(`fill ${x} ${y} ${z} ${x1} ${y1} ${z1} air replace ${input}`);
