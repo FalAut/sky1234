@@ -49,7 +49,7 @@ onEvent("recipes", (event) => {
       aura_type: "naturesaura:nether",
       aura: 0,
       time: 80,
-      id: `${id_prefix}tainted_gold1`,
+      id: `${id_prefix}tainted_gold`,
     },
     {
       input: "naturesaura:infused_iron",
@@ -58,7 +58,7 @@ onEvent("recipes", (event) => {
       aura_type: "naturesaura:nether",
       aura: 0,
       time: 80,
-      id: `${id_prefix}tainted_gold2`,
+      id: `${id_prefix}tainted_gold1`,
     },
   ];
 
