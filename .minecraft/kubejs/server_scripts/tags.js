@@ -21,6 +21,9 @@ onEvent('tags.blocks', (event) => {
 });
 
 onEvent('tags.items', (event) => {
+  event.add("forge:pickaxes", "kubejs:undef1ned_pickaxe");
+  event.add("forge:axes", "kubejs:undef1ned_axe");
+  event.add("forge:shovels", "kubejs:undef1ned_shovel");
   event.add('thermal:crafting/dies', 'kubejs:mold_rf_coil');
   event.add('thermal:crafting/dies', 'kubejs:mold_redstone_servo');
 });

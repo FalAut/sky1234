@@ -4,11 +4,37 @@ onEvent("recipes", (event) => {
   const id_prefix = "kubejs:recipes/shapless/";
   let { minecraft } = event.recipes;
 
+  event
+    .shapeless("naturesaura:gold_fiber", ["naturesaura:gold_leaf", "#forge:axes"])
+    .damageIngredient("#forge:axes")
+    .id(`${id_prefix}gold_fiber`);
+  
+  event
+    .shapeless("naturesaura:token_anger", ["naturesaura:token_joy", "flint_and_steel"])
+    .damageIngredient("flint_and_steel")
+    .id(`${id_prefix}token_anger`);
+  
+  event
+    .shapeless("farmingforblockheads:market", ["naturesaura:animal_generator", "kubejs:undef1ned_fluid_bucket"])
+    .replaceIngredient("kubejs:undef1ned_fluid_bucket", "bucket")
+    .id(`${id_prefix}market`);
+
   minecraft.crafting_shapeless("2x kubejs:undef1ned", "kubejs:undef1ned").id(`${id_prefix}undef1ned1`);
   minecraft.crafting_shapeless("4x kubejs:undef1ned", "kubejs:undef1ned_block").id(`${id_prefix}undef1ned2`);
-  minecraft.crafting_shapeless("kubejs:undef1ned_fluid_bucket", ["kubejs:undef1ned", "bucket"]).id(`${id_prefix}undef1ned_fluid_bucket`);
+  minecraft
+    .crafting_shapeless("kubejs:undef1ned_fluid_bucket", ["naturesaura:gold_leaf", "bucket"])
+    .id(`${id_prefix}undef1ned_fluid_bucket`);
   minecraft.crafting_shapeless("grass_block", ["water_bucket", "dirt"]).id(`${id_prefix}grass_block`);
   minecraft.crafting_shapeless("black_dye", "#coals").id(`${id_prefix}black_dye`);
+  minecraft
+    .crafting_shapeless("8x kubejs:nether_eye", [
+      "naturesaura:fortress_finder",
+      "kubejs:ghast_eye",
+      "kubejs:wither_skeleton_eye",
+      "lava_bucket",
+    ])
+    .id(`${id_prefix}nether_eye`);
+
   minecraft
     .crafting_shapeless("miniutilities:feather_angel_ring", ["naturesaura:pet_reviver", "naturesaura:death_ring"])
     .id(`${id_prefix}feather_angel_ring`);
