@@ -169,6 +169,7 @@ onEvent("jei.hide.items", (event) => {
     Item.of("minecraft:enchanted_book").enchant("miniutilities:molten_head", 1),
     "miniutilities:golden_lasso",
     "kubejs:nether_portal_frame_filled",
+    "kubejs:air"
   ]);
 });
 

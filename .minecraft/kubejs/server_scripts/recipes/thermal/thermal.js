@@ -131,4 +131,6 @@ onEvent("recipes", (event) => {
   crystallizer("ae2:fluix_crystal", ["ae2:fluix_crystal_seed", Fluid.water()]);
 
   press("immersiveengineering:plate_steel", "immersiveengineering:ingot_steel").id(`${id_prefix}plate_steel`);
+
+  press(Fluid.of("manaliquidizer:mana_fluid", 100), "#botania:mystical_flowers").id(`${id_prefix}mana_fluid`);
 });

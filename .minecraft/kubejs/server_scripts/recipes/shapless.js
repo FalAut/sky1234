@@ -8,17 +8,18 @@ onEvent("recipes", (event) => {
     .shapeless("naturesaura:gold_fiber", ["naturesaura:gold_leaf", "#forge:axes"])
     .damageIngredient("#forge:axes")
     .id(`${id_prefix}gold_fiber`);
-  
+
   event
     .shapeless("naturesaura:token_anger", ["naturesaura:token_joy", "flint_and_steel"])
     .damageIngredient("flint_and_steel")
     .id(`${id_prefix}token_anger`);
-  
+
   event
     .shapeless("farmingforblockheads:market", ["naturesaura:animal_generator", "kubejs:undef1ned_fluid_bucket"])
     .replaceIngredient("kubejs:undef1ned_fluid_bucket", "bucket")
     .id(`${id_prefix}market`);
 
+  minecraft.crafting_shapeless("64x kubejs:air", ["kubejs:undef1ned", "apple"]).id(`${id_prefix}airair`);
   minecraft.crafting_shapeless("2x kubejs:undef1ned", "kubejs:undef1ned").id(`${id_prefix}undef1ned1`);
   minecraft.crafting_shapeless("4x kubejs:undef1ned", "kubejs:undef1ned_block").id(`${id_prefix}undef1ned2`);
   minecraft.crafting_shapeless("kubejs:undef1ned_fluid_bucket", ["kubejs:undef1ned", "bucket"]).id(`${id_prefix}undef1ned_fluid_bucket`);

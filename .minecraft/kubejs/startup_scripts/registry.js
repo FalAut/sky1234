@@ -35,6 +35,7 @@ onEvent("item.registry", (event) => {
     .create("incomplete_creative_mana_tablet", "create:sequenced_assembly")
     .textureJson({ layer0: "botania:item/mana_tablet", layer1: "botania:item/mana_tablet_overlay" })
     .color(1, 0x808080);
+  event.create("air").displayName("")
 });
 
 onEvent("block.registry", (event) => {

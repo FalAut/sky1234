@@ -13,7 +13,7 @@ onEvent("recipes", (event) => {
           weight: 50,
         },
       ],
-      catalyst: { item: "industrialforegoing:laser_lens0" },
+      catalyst: { item: "kubejs:air" },
       id: `${id_prefix}osmium_ore`,
     },
     {
@@ -27,7 +27,7 @@ onEvent("recipes", (event) => {
           weight: 25,
         },
       ],
-      catalyst: { item: "industrialforegoing:laser_lens1" },
+      catalyst: { item: "kubejs:air" },
       id: `${id_prefix}fluorite_ore`,
     },
     {
@@ -41,7 +41,7 @@ onEvent("recipes", (event) => {
           weight: 25,
         },
       ],
-      catalyst: { item: "industrialforegoing:laser_lens2" },
+      catalyst: { item: "kubejs:air" },
       id: `${id_prefix}titanium_ore`,
     },
   ];
