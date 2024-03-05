@@ -38,8 +38,8 @@
 		"versionCheckerReadTimeout": 5000
 	},
 	"currentVersion": {
-		"versionCode": 6,
+		"versionCode": 7,
 		"versionFormat": "%versionName%",
-		"versionName": "1.5"
+		"versionName": "1.6"
 	}
 }
