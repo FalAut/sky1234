@@ -60,6 +60,15 @@ onEvent("recipes", (event) => {
       time: 80,
       id: `${id_prefix}tainted_gold1`,
     },
+    {
+      input: "blackstone",
+      output: { item: "ae2:sky_stone_block", count: 1 },
+      catalyst: { item: "naturesaura:conversion_catalyst" },
+      aura_type: "naturesaura:nether",
+      aura: 0,
+      time: 80,
+      id: `${id_prefix}gilded_blackstone`,
+    },
   ];
 
   recipes.forEach((recipe) => {

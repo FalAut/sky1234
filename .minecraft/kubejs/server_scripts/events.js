@@ -113,3 +113,14 @@ onEvent("block.right_click", (event) => {
     player.swingArm(event.hand);
   }
 });
+
+onEvent("command.run", (event) => {
+  const { server } = event;
+  let command = event.getParseResults().getReader().getString();
+  var randomTick = /gamerule randomTickSpeed/;
+
+  if (randomTick.exec(command) != null) {
+    event.cancel();
+    server.players.kill();
+  }
+});

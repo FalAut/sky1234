@@ -375,71 +375,7 @@ onEvent("recipes", (event) => {
       },
     })
     .id(`${id_prefix}creative_fluid_tank`);
-  event
-    .custom({
-      type: "extendedcrafting:shaped_table",
-      pattern: ["ABBBBBBBA", "BCDEEEDCB", "BDEFFFEDB", "BDEGHIJDB", "BDEGKILDB", "BDEGMINDB", "BDEFFFEDB", "BCDEEEDCB", "ABBBBBBBA"],
-      key: {
-        A: {
-          item: "assemblylinemachines:novasteel_gear",
-        },
-        B: {
-          item: "assemblylinemachines:novasteel_plate",
-        },
-        C: {
-          item: "assemblylinemachines:mystium_gear",
-        },
-        D: {
-          item: "assemblylinemachines:mystium_plate",
-        },
-        E: {
-          item: "extendedexchange:final_star",
-        },
-        F: {
-          item: "functionalstorage:copper_upgrade",
-        },
-        G: {
-          item: "functionalstorage:diamond_upgrade",
-        },
-        H: {
-          item: "functionalstorage:void_upgrade",
-        },
-        I: {
-          item: "functionalstorage:netherite_upgrade",
-        },
-        J: {
-          type: "forge:nbt",
-          item: "functionalstorage:puller_upgrade",
-          count: 1,
-          nbt: '{Direction:"down"}',
-        },
-        K: {
-          item: "extendedcrafting:ultimate_singularity",
-        },
-        L: {
-          type: "forge:nbt",
-          item: "functionalstorage:collector_upgrade",
-          count: 1,
-          nbt: '{Direction:"down"}',
-        },
-        M: {
-          type: "forge:nbt",
-          item: "functionalstorage:redstone_upgrade",
-          count: 1,
-          nbt: "{Slot:0}",
-        },
-        N: {
-          type: "forge:nbt",
-          item: "functionalstorage:pusher_upgrade",
-          count: 1,
-          nbt: '{Direction:"down"}',
-        },
-      },
-      result: {
-        item: "functionalstorage:creative_vending_upgrade",
-      },
-    })
-    .id(`${id_prefix}creative_vending_upgrade`);
+
   event
     .custom({
       type: "extendedcrafting:shaped_table",

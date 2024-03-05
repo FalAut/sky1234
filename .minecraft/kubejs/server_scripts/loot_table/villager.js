@@ -19,19 +19,27 @@ onEvent("morejs.villager.trades", (event) => {
   event.addTrade("armorer", 2, "4x iron_ingot", "emerald");
   event.addTrade("armorer", 2, "5x emerald", "naturesaura:infused_iron_pants");
 
-  event.removeVanillaTrades(["toolsmith"], 2);
-  event.addTrade("toolsmith", 2, "4x iron_ingot", "emerald");
-  event.addTrade("toolsmith", 2, "3x emerald", "naturesaura:infused_iron_pickaxe");
+  // event.removeVanillaTrades(["toolsmith"], 2);
+  // event.addTrade("toolsmith", 2, "4x iron_ingot", "emerald");
+  // event.addTrade("toolsmith", 2, "3x emerald", "naturesaura:infused_iron_pickaxe");
 
   event.removeVanillaTrades(["weaponsmith"], 2);
   event.addTrade("weaponsmith", 2, "4x iron_ingot", "emerald");
   event.addTrade("weaponsmith", 2, "2x emerald", "naturesaura:infused_iron_sword");
 
+  event.removeVanillaTrades(["farmer"], 5);
+  
   event.removeVanillaTrades(["librarian"], 1);
   event.removeVanillaTrades(["librarian"], 2);
   event.removeVanillaTrades(["librarian"], 3);
   event.removeVanillaTrades(["librarian"], 4);
   event.removeVanillaTrades(["librarian"], 5);
+
+  event.removeVanillaTrades(["toolsmith"], 1);
+  event.removeVanillaTrades(["toolsmith"], 2);
+  event.removeVanillaTrades(["toolsmith"], 3);
+  event.removeVanillaTrades(["toolsmith"], 4);
+  event.removeVanillaTrades(["toolsmith"], 5);
   // event.addTrade('librarian', 4, 'emerald',
   // Item.of('minecraft:written_book', '{author:"Fa1Aut",pages:[\'{"text":"你好"}\'],resolved:1b,title:"nothing"}'));
 
