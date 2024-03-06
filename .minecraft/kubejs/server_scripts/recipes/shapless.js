@@ -19,7 +19,6 @@ onEvent("recipes", (event) => {
     .replaceIngredient("kubejs:undef1ned_fluid_bucket", "bucket")
     .id(`${id_prefix}market`);
 
-  minecraft.crafting_shapeless("64x kubejs:air", ["kubejs:undef1ned", "apple"]).id(`${id_prefix}airair`);
   minecraft.crafting_shapeless("2x kubejs:undef1ned", "kubejs:undef1ned").id(`${id_prefix}undef1ned1`);
   minecraft.crafting_shapeless("4x kubejs:undef1ned", "kubejs:undef1ned_block").id(`${id_prefix}undef1ned2`);
   minecraft.crafting_shapeless("kubejs:undef1ned_fluid_bucket", ["kubejs:undef1ned", "bucket"]).id(`${id_prefix}undef1ned_fluid_bucket`);

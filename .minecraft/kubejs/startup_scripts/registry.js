@@ -1,10 +1,10 @@
 // priority: 0
 
 onEvent("item.registry", (event) => {
-  event.create("undef1ned").glow(true);
-  event.create("undef1ned_pickaxe", "pickaxe").tier("netherite").speed(15).glow(true);
-  event.create("undef1ned_axe", "axe").tier("netherite").speed(15).glow(true);
-  event.create("undef1ned_shovel", "shovel").tier("netherite").speed(15).glow(true);
+  event.create("undef1ned").glow(true).displayName("Star of Creation");
+  event.create("undef1ned_pickaxe", "pickaxe").tier("netherite").speed(15).glow(true).displayName("Pickaxe of Creation");
+  event.create("undef1ned_axe", "axe").tier("netherite").speed(15).glow(true).displayName("Axe of Creation");
+  event.create("undef1ned_shovel", "shovel").tier("netherite").speed(15).glow(true).displayName("Shovel of Creation");
   event.create("infused_coal");
   event.create("ghast_eye");
   event.create("wither_skeleton_eye");
@@ -35,7 +35,6 @@ onEvent("item.registry", (event) => {
     .create("incomplete_creative_mana_tablet", "create:sequenced_assembly")
     .textureJson({ layer0: "botania:item/mana_tablet", layer1: "botania:item/mana_tablet_overlay" })
     .color(1, 0x808080);
-  event.create("air").displayName("")
 });
 
 onEvent("block.registry", (event) => {
@@ -63,6 +62,7 @@ onEvent("block.registry", (event) => {
 onEvent("fluid.registry", (event) => {
   let undef1ned_fluid = event
     .create("undef1ned_fluid")
+    .displayName("Fluid of Creation")
     .stillTexture("kubejs:fluid/undef1ned_fluid")
     .flowingTexture("kubejs:fluid/undef1ned_fluid");
   let AAttributes = undef1ned_fluid.createAttributes();

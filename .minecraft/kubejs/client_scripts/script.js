@@ -54,9 +54,9 @@ onEvent("item.tooltip", (tooltip) => {
     Text.translate("tooltip.kubejs.time_in_a_bottle2").green(),
     Text.translate("tooltip.kubejs.time_in_a_bottle3").green(),
   ]);
-  
+
   tooltip.add("minecraft:quartz", Text.translate("tooltip.kubejs.quartz").green());
-  
+
   tooltip.add(
     ["kubejs:smoked_iron_block", "extendedcrafting:black_iron_ingot"],
     [Text.translate("tooltip.kubejs.black_iron1").green(), Text.translate("tooltip.kubejs.black_iron2").green()]
@@ -169,7 +169,7 @@ onEvent("jei.hide.items", (event) => {
     Item.of("minecraft:enchanted_book").enchant("miniutilities:molten_head", 1),
     "miniutilities:golden_lasso",
     "kubejs:nether_portal_frame_filled",
-    "kubejs:air"
+    "kubejs:air",
   ]);
 });
 
