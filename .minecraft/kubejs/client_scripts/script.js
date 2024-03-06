@@ -9,10 +9,10 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("naturesaura:birth_spirit", Text.translate("tooltip.kubejs.birth_spirit").green());
 
-  // tooltip.add(
-  //   ["naturesaura:fortress_finder", "kubejs:wither_skeleton_eye", "kubejs:ghast_eye"],
-  //   Text.translate("tooltip.kubejs.eyes").green()
-  // );
+  tooltip.add(
+    ["naturesaura:fortress_finder", "kubejs:wither_skeleton_eye", "kubejs:ghast_eye"],
+    Text.translate("tooltip.kubejs.eyes").green()
+  );
 
   // tooltip.add("farmingforblockheads:market", Text.translate("tooltip.kubejs.market").green());
 
