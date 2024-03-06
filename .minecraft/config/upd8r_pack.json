@@ -1,6 +1,6 @@
 {
-  "versionName": "1.6",
-  "versionCode": 7,
+  "versionName": "1.6.2",
+  "versionCode": 8,
   "versionFormat": "%versionName%",
   "updateURL": {
     "zh_cn": "https://www.curseforge.com/minecraft/modpacks/sky1234/files",
@@ -9,8 +9,6 @@
     "en_us": "https://www.curseforge.com/minecraft/modpacks/sky1234/files"
   },
   "changelogs": {
-    "更新日志 Changlog": [
-      "无 None"
-    ]
+    "": ["修复流体镭射钻问题\n没了"]
   }
 }
