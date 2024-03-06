@@ -13,7 +13,7 @@ onEvent("recipes", (event) => {
       ],
       pointer: 0,
       catalyst: {
-        item: "kubejs:air",
+        item: "industrialforegoing:laser_lens6",
       },
       entity: "botania:pink_wither",
       type: "industrialforegoing:laser_drill_fluid",
@@ -34,7 +34,7 @@ onEvent("recipes", (event) => {
       ],
       pointer: 0,
       catalyst: {
-        item: "kubejs:air",
+        item: "industrialforegoing:laser_lens15",
       },
       entity: "wither",
       type: "industrialforegoing:laser_drill_fluid",
