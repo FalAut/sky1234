@@ -85,6 +85,8 @@ onEvent("recipes", (event) => {
 
   pressing("extendedcrafting:black_iron_slate", "extendedcrafting:black_iron_ingot").id(`${id_prefix}black_iron_slate`);
 
+  pressing("immersiveengineering:plate_steel", "immersiveengineering:ingot_steel").id(`${id_prefix}plate_steel`);
+
   mixing("2x extendedcrafting:luminessence", ["minecraft:redstone", "minecraft:glowstone_dust"]).id(`${id_prefix}luminessence`);
 
   compacting(Fluid.of("manaliquidizer:mana_fluid", 100), "#botania:mystical_flowers").id(`${id_prefix}mana_fluid`);
