@@ -34,7 +34,10 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("create:shadow_steel", Text.translate("tooltip.kubejs.shadow_steel").green());
 
-  tooltip.add("createendertransmission:energy_transmitter", Text.translate("tooltip.kubejs.energy_transmitter").green());
+  tooltip.add("createendertransmission:energy_transmitter", [
+    Text.translate("tooltip.kubejs.energy_transmitter1").green(),
+    Text.translate("tooltip.kubejs.energy_transmitter2").red(),
+  ]);
 
   tooltip.add("minecraft:end_portal_frame", Text.translate("tooltip.kubejs.end_portal_frame").green());
 
@@ -66,6 +69,7 @@ onEvent("item.tooltip", (tooltip) => {
     Text.translate("tooltip.kubejs.mana_liquidizer1").green(),
     Text.translate("tooltip.kubejs.mana_liquidizer2").green(),
     Text.translate("tooltip.kubejs.mana_liquidizer3").green(),
+    Text.translate("tooltip.kubejs.mana_liquidizer4").red(),
   ]);
 
   tooltip.add("@torcherino", [Text.translate("tooltip.kubejs.torcherino1").red(), Text.translate("tooltip.kubejs.torcherino2").red()]);
