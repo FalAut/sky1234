@@ -118,8 +118,10 @@
 		}
 		{
 			title: "胶囊用不了？蓝图自取~"
-			x: 3.5d
-			y: -4.0d
+			icon: "create:empty_schematic"
+			x: 3.0d
+			y: -3.0d
+			size: 2.0d
 			can_repeat: true
 			id: "62E1C37575E56C34"
 			tasks: [{
@@ -132,6 +134,15 @@
 				exclude_from_claim_all: true
 				table_id: 6980781368454116941L
 			}]
+		}
+		{
+			title: "&4本整合包不支持服务器，任何关于服务器的问题不会得到解决"
+			icon: "architects_palette:hazard_sign"
+			x: -3.0d
+			y: -3.0d
+			subtitle: "&4本整合包不支持服务器，任何关于服务器的问题不会得到解决\\n&4本整合包不支持服务器，任何关于服务器的问题不会得到解决\\n&4本整合包不支持服务器，任何关于服务器的问题不会得到解决\\n&4本整合包不支持服务器，任何关于服务器的问题不会得到解决\\n&4本整合包不支持服务器，任何关于服务器的问题不会得到解决"
+			size: 2.0d
+			id: "10C5A6CEE9F76852"
 		}
 	]
 	quest_links: [ ]

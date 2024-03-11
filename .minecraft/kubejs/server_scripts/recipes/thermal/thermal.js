@@ -114,19 +114,33 @@ onEvent("recipes", (event) => {
 
   press("assemblylinemachines:mystium_plate", "assemblylinemachines:mystium_ingot").id(`${id_prefix}mystium_plate`);
 
-  press("assemblylinemachines:pure_copper_gear", "assemblylinemachines:pure_copper_ingot").id(`${id_prefix}pure_copper_gear`);
+  press("assemblylinemachines:pure_copper_gear", ["4x assemblylinemachines:pure_copper_ingot", "thermal:press_gear_die"]).id(
+    `${id_prefix}pure_copper_gear`
+  );
 
-  press("assemblylinemachines:pure_gold_gear", "assemblylinemachines:pure_gold_ingot").id(`${id_prefix}pure_gold_gear`);
+  press("assemblylinemachines:pure_gold_gear", ["4x assemblylinemachines:pure_gold_ingot", "thermal:press_gear_die"]).id(
+    `${id_prefix}pure_gold_gear`
+  );
 
-  press("assemblylinemachines:pure_iron_gear", "assemblylinemachines:pure_iron_ingot").id(`${id_prefix}pure_iron_gear`);
+  press("assemblylinemachines:pure_iron_gear", ["4x assemblylinemachines:pure_iron_ingot", "thermal:press_gear_die"]).id(
+    `${id_prefix}pure_iron_gear`
+  );
 
-  press("assemblylinemachines:pure_steel_gear", "assemblylinemachines:pure_steel_ingot").id(`${id_prefix}pure_steel_gear`);
+  press("assemblylinemachines:pure_steel_gear", ["4x assemblylinemachines:pure_steel_ingot", "thermal:press_gear_die"]).id(
+    `${id_prefix}pure_steel_gear`
+  );
 
-  press("assemblylinemachines:pure_titanium_gear", "assemblylinemachines:pure_titanium_ingot").id(`${id_prefix}pure_titanium_gear`);
+  press("assemblylinemachines:pure_titanium_gear", ["4x assemblylinemachines:pure_titanium_ingot", "thermal:press_gear_die"]).id(
+    `${id_prefix}pure_titanium_gear`
+  );
 
-  press("assemblylinemachines:novasteel_gear", "assemblylinemachines:novasteel_ingot").id(`${id_prefix}novasteel_gear`);
+  press("assemblylinemachines:novasteel_gear", ["4x assemblylinemachines:novasteel_ingot", "thermal:press_gear_die"]).id(
+    `${id_prefix}novasteel_gear`
+  );
 
-  press("assemblylinemachines:mystium_gear", "assemblylinemachines:mystium_ingot").id(`${id_prefix}mystium_gear`);
+  press("assemblylinemachines:mystium_gear", ["4x assemblylinemachines:mystium_ingot", "thermal:press_gear_die"]).id(
+    `${id_prefix}mystium_gear`
+  );
 
   crystallizer("ae2:fluix_crystal", ["ae2:fluix_crystal_seed", Fluid.water()]);
 

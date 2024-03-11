@@ -680,30 +680,22 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "1DDF208FD90BB48D"
-					type: "command"
-					icon: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							overpowered: 1
-							state: 0
-							color: 16777215
-							size: 1
-						}
+			rewards: [{
+				id: "1DDF208FD90BB48D"
+				type: "command"
+				icon: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						overpowered: 1
+						state: 0
+						color: 16777215
+						size: 1
 					}
-					team_reward: true
-					command: "/capsule giveLinked alfheim_portal.nbt @p"
 				}
-				{
-					id: "7DE316669AB7DCA7"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6710266488103255141L
-				}
-			]
+				team_reward: true
+				command: "/capsule giveLinked alfheim_portal.nbt @p"
+			}]
 		}
 		{
 			x: 21.0d
@@ -1657,23 +1649,6 @@
 				}
 				team_reward: true
 				command: "/capsule giveLinked gaia_killer.nbt @p"
-			}]
-		}
-		{
-			x: 25.0d
-			y: 9.0d
-			dependencies: ["3F398A5F9FE74F4B"]
-			id: "0DDC99AC6CB19E6A"
-			tasks: [{
-				id: "0563FF99F0D224A3"
-				type: "item"
-				item: "botania:life_essence"
-			}]
-			rewards: [{
-				id: "3B7A640A799BD780"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6710266488103255141L
 			}]
 		}
 		{

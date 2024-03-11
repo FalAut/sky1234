@@ -6,5 +6,7 @@
 	rewards: [
 		{ item: "create:schematic_table" }
 		{ item: "create:empty_schematic", count: 64 }
+		{ item: "create:schematicannon" }
+		{ item: "minecraft:gunpowder", count: 64 }
 	]
 }
