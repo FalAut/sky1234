@@ -10,7 +10,7 @@ onEvent("recipes", (event) => {
     .id(`${id_prefix}gold_fiber`);
 
   event
-    .shapeless("naturesaura:token_anger", ["naturesaura:token_joy", "flint_and_steel"])
+    .shapeless("naturesaura:token_anger", ["naturesaura:token_joy", Item.of("minecraft:flint_and_steel").ignoreNBT()])
     .damageIngredient("flint_and_steel")
     .id(`${id_prefix}token_anger`);
 
