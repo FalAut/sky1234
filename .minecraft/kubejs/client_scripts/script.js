@@ -22,7 +22,7 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("miniutilities:speed_upgrade", Text.translate("tooltip.kubejs.speed_upgrade").green());
 
-  // tooltip.add("naturesaura:animal_spawner", Text.translate("tooltip.kubejs.animal_spawner").green());
+  tooltip.add("naturesaura:animal_spawner", Text.translate("tooltip.kubejs.animal_spawner").green());
 
   // tooltip.add("naturesaura:gold_fiber", Text.translate("tooltip.kubejs.gold_fiber").green());
 
