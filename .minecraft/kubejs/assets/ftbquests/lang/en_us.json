@@ -37,6 +37,6 @@
 
   "stage4.fission_reactor.title": "No Need Add Water,No Radiation, Burn Speed Up to 9999",
   "stage4.sps.title": "1mb Polonium = 1mb Antimatter, Energy Only Requires 40FE/t",
-  "stage4.entropy_reactor.subtitle": "&c&lAfter placing it, right-click the center of the front to form the structure. Input corruption fragments on the right, and output products on the back.",
+  "stage4.entropy_reactor.subtitle": "&c&lAfter placing it, shift + right-click the center of the front to form the structure. Input corruption fragments on the right, and output products on the back.",
   "stage4.entropy_reactor.description": "&a&lDon't input too fast, or it will get stuck!"
 }
