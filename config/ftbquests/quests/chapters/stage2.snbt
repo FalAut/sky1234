@@ -19,19 +19,12 @@
 				type: "item"
 				item: "create:andesite_alloy"
 			}]
-			rewards: [
-				{
-					id: "44E35813FCD94CAB"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "448FA1F72BE04154"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "7B73CEDE94782070"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 2.0d
@@ -43,19 +36,12 @@
 				type: "item"
 				item: "create:mechanical_mixer"
 			}]
-			rewards: [
-				{
-					id: "7E1CEB8E3CEBD12F"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "1B91E47047832A86"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "187FC439DDF41B22"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 4.0d
@@ -85,19 +71,12 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "3CFAE853DC8AE50C"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "66CAF24E049B5552"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "373734A65EC5AF97"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 2.0d
@@ -109,19 +88,12 @@
 				type: "item"
 				item: "create:mechanical_press"
 			}]
-			rewards: [
-				{
-					id: "704E7D5E8EA5AF2A"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "4A3E3573949A9001"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "70630D9B32029D50"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 2.0d
@@ -133,19 +105,12 @@
 				type: "item"
 				item: "create:mechanical_saw"
 			}]
-			rewards: [
-				{
-					id: "274556232B3C93CC"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "0BE1A5F76405B911"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "428CEF6A35EF4438"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 2.0d
@@ -157,19 +122,12 @@
 				type: "item"
 				item: "create:millstone"
 			}]
-			rewards: [
-				{
-					id: "71B4D6AB3A1B3560"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "4615F13CBFA31188"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "6131714E7FDC2D65"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 2.0d
@@ -186,19 +144,12 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "30FC406FBFEDAF7A"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "2DEC1B6920CE5137"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "769FC672AA94DFA4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 6.0d
@@ -222,19 +173,12 @@
 					item: "create:raw_zinc"
 				}
 			]
-			rewards: [
-				{
-					id: "0C81196C00E7A49D"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "22873CC9DABD16DA"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "24CED9F4FBDDD8BF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 8.0d
@@ -246,19 +190,12 @@
 				type: "item"
 				item: "create:brass_ingot"
 			}]
-			rewards: [
-				{
-					id: "29D4C13BCC7485B0"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "3FF3273F91B5CBC8"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "6EA5D58968C292EF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 10.0d
@@ -270,25 +207,12 @@
 				type: "item"
 				item: "create:deployer"
 			}]
-			rewards: [
-				{
-					id: "179CD56D4B7EC35A"
-					type: "item"
-					item: "create:belt_connector"
-					count: 64
-				}
-				{
-					id: "2EA8ED4751119012"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "621C861A653A9B7C"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "4AB83D5DBA0EDB87"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 10.0d
@@ -300,19 +224,12 @@
 				type: "item"
 				item: "create:mechanical_crafter"
 			}]
-			rewards: [
-				{
-					id: "16D892519CDCD35D"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "02CC93D998C63944"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "3B486BBD20A74725"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 10.0d
@@ -324,19 +241,12 @@
 				type: "item"
 				item: "create:precision_mechanism"
 			}]
-			rewards: [
-				{
-					id: "7F776E4A85C83607"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "0F4D438CD16BDF13"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "4EBF22832EC33904"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 2.0d
@@ -355,19 +265,12 @@
 					item: "create:large_water_wheel"
 				}
 			]
-			rewards: [
-				{
-					id: "698ABBDDAA8B0AB7"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "1C78706CFA9C993E"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "05327AA4869519A4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 5.0d
@@ -379,19 +282,12 @@
 				type: "item"
 				item: "create:steam_engine"
 			}]
-			rewards: [
-				{
-					id: "71128EFF4EAC15AD"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "23C62C59D37C6846"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "70EAF86CAE0DB340"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			icon: "immersiveengineering:coke_oven"
@@ -457,19 +353,12 @@
 				type: "item"
 				item: "kubejs:ferro_coke_blend"
 			}]
-			rewards: [
-				{
-					id: "123AC11A81F7E0F8"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "2B2905D4B43DFD27"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "123AC11A81F7E0F8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 20.0d
@@ -484,19 +373,12 @@
 				type: "item"
 				item: "immersiveengineering:ingot_steel"
 			}]
-			rewards: [
-				{
-					id: "0DF30313B2DB0A8D"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "6F07268979F329F7"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "0DF30313B2DB0A8D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 12.0d
@@ -508,19 +390,12 @@
 				type: "item"
 				item: "create:crushing_wheel"
 			}]
-			rewards: [
-				{
-					id: "6C401CC992956601"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "12E40DF5293E399B"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "389686A43B1DC503"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 14.0d
@@ -532,19 +407,12 @@
 				type: "item"
 				item: "create:cinder_flour"
 			}]
-			rewards: [
-				{
-					id: "524CE2EB7D9B5103"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "67549DDB18765432"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "524CE2EB7D9B5103"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 15.0d
@@ -558,19 +426,12 @@
 				type: "item"
 				item: "minecraft:redstone"
 			}]
-			rewards: [
-				{
-					id: "64585A3EFFCAB1BE"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "14E9B543BC50D659"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "64585A3EFFCAB1BE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 2.0d
@@ -582,24 +443,12 @@
 				type: "item"
 				item: "create:encased_fan"
 			}]
-			rewards: [
-				{
-					id: "13F9E6BAC889DDA6"
-					type: "item"
-					item: "minecraft:soul_campfire"
-				}
-				{
-					id: "17728997B7A1A2BB"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "45C31B0F327348B6"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "358459232481C536"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 16.0d
@@ -614,19 +463,12 @@
 				type: "item"
 				item: "create:rose_quartz"
 			}]
-			rewards: [
-				{
-					id: "5C9EF9FA2C44F361"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "680D6E18E4C53C7D"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "5C9EF9FA2C44F361"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 18.0d
@@ -638,19 +480,12 @@
 				type: "item"
 				item: "create:electron_tube"
 			}]
-			rewards: [
-				{
-					id: "6CE4DA3893846567"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "394E8A854BC5D30A"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "6CE4DA3893846567"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 19.0d
@@ -694,24 +529,12 @@
 				type: "item"
 				item: "create:hose_pulley"
 			}]
-			rewards: [
-				{
-					id: "49C39D178D137161"
-					type: "item"
-					item: "create:hand_crank"
-				}
-				{
-					id: "2310C7C402BBC1C6"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "708C1C4F860AECFF"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "7563BCBA0515DB53"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 22.0d
@@ -1505,19 +1328,12 @@
 					item: "enderstorage:ender_tank"
 				}
 			]
-			rewards: [
-				{
-					id: "495E73D261272AD2"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "4B412648374E1D6F"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "6F9397ACCB03A1CB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 15.0d
@@ -1721,7 +1537,7 @@
 				item: "create:creative_motor"
 			}]
 			rewards: [{
-				id: "375D40DA28E4F76C"
+				id: "026B38FD6E6A7573"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 5564527076072386099L
@@ -1816,7 +1632,7 @@
 				item: "thermal:lumium_ingot"
 			}]
 			rewards: [{
-				id: "65672BA9C8BFC016"
+				id: "1EBC57F8B9BBD7C1"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 5564527076072386099L
@@ -1854,7 +1670,7 @@
 				item: "thermal_extra:twinite_ingot"
 			}]
 			rewards: [{
-				id: "39F18AC6499A336A"
+				id: "681951D3CAB8955D"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 5564527076072386099L
@@ -2030,19 +1846,12 @@
 				type: "item"
 				item: "create:spout"
 			}]
-			rewards: [
-				{
-					id: "25BE571027A5125C"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "27C03C96267E7CCC"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "743A7A02297D3E8F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 3.5d
@@ -2911,19 +2720,12 @@
 				type: "item"
 				item: "minecraft:glowstone_dust"
 			}]
-			rewards: [
-				{
-					id: "67EB41FD27513AD8"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564527076072386099L
-				}
-				{
-					id: "00C3C9CC36B7EE42"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-				}
-			]
+			rewards: [{
+				id: "67EB41FD27513AD8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
+			}]
 		}
 		{
 			x: 8.4d
@@ -3150,7 +2952,7 @@
 				}
 			}]
 			rewards: [{
-				id: "436517398BA26BA8"
+				id: "14DFA3412CD694D6"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 5564527076072386099L
