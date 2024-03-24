@@ -808,20 +808,27 @@
 				}
 			]
 			rewards: [{
-				id: "274D2717C1728507"
-				type: "command"
-				icon: {
+				id: "3CDFA4FA7DACF6A8"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 8072841
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/stress_generator.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 16777215
+						}
+						state: 5
+						label: "Stress Generator.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked stress_generator.nbt @p"
 			}]
 		}
 		{
@@ -883,20 +890,27 @@
 				}
 			]
 			rewards: [{
-				id: "5CB981CBDDC60C17"
-				type: "command"
-				title: "{block.immersiveengineering.excavator}"
-				icon: {
+				id: "153F179E5E2FF4D4"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						state: 0
-						color: 8096694
-						size: 5
+						color: 7105644
+						size: 9
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/excavator_full.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 6196919
+						}
+						state: 5
+						label: "Excavator Full.nbt"
+						canRotate: 1b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked excavator_full.nbt @p"
 			}]
 		}
 		{
@@ -1037,21 +1051,27 @@
 				}
 			]
 			rewards: [{
-				id: "7AC1402C4C24A6D0"
-				type: "command"
-				title: "{block.immersiveengineering.fermenter}"
-				icon: {
+				id: "2AA65D3D51CEEFDE"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 13421772
+						size: 3
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/fermenter.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 10076989
+						}
+						state: 5
+						label: "Fermenter.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked fermenter.nbt @p"
 			}]
 		}
 		{
@@ -1107,21 +1127,27 @@
 				}
 			]
 			rewards: [{
-				id: "186AC64B46F017CC"
-				type: "command"
-				title: "{block.immersiveengineering.refinery}"
-				icon: {
+				id: "6D9B4A3C9B9B0866"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 5544791
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/refinery.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 5544791
+						}
+						state: 5
+						label: "Refinery.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked refinery.nbt @p"
 			}]
 		}
 		{
@@ -1183,21 +1209,27 @@
 				}
 			]
 			rewards: [{
-				id: "2A0853298FD049A4"
-				type: "command"
-				title: "{block.immersiveengineering.squeezer}"
-				icon: {
+				id: "093419707F6FBB37"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 8072841
+						size: 3
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/squeezer.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 12408663
+						}
+						state: 5
+						label: "Squeezer.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked squeezer.nbt @p"
 			}]
 		}
 		{
@@ -1273,21 +1305,27 @@
 				}
 			]
 			rewards: [{
-				id: "7D89B4870E9C61CA"
-				type: "command"
-				title: "{block.immersiveengineering.arc_furnace}"
-				icon: {
+				id: "2C22CDA376D80CC2"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 9819623
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/arcfurnace.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 12408663
+						}
+						state: 5
+						label: "Arcfurnace.nbt"
+						canRotate: 1b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked arcfurnace.nbt @p"
 			}]
 		}
 		{
@@ -1342,20 +1380,27 @@
 				}
 			]
 			rewards: [{
-				id: "1D60D46412484B67"
-				type: "command"
-				title: "{block.immersiveengineering.bottling_machine}"
-				icon: {
+				id: "793F47454FA25223"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 7105644
+						size: 3
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/bottling_machine.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 14714914
+						}
+						state: 5
+						label: "Bottling Machine.nbt"
+						canRotate: 0b
 					}
 				}
-				command: "/capsule giveLinked bottling_machine.nbt @p"
 			}]
 		}
 		{
@@ -2102,21 +2147,27 @@
 				}
 			]
 			rewards: [{
-				id: "379CBD43523C9E1B"
-				type: "command"
-				title: "{block.immersiveengineering.mixer}"
-				icon: {
+				id: "0DAD579C7B20EABB"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 5544791
+						size: 3
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/mixer.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 6196919
+						}
+						state: 5
+						label: "Mixer.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked mixer.nbt @p"
 			}]
 		}
 		{
@@ -2193,21 +2244,27 @@
 				}
 			]
 			rewards: [{
-				id: "1274CE302A2BF27E"
-				type: "command"
-				title: "{block.immersiveengineering.assembler}"
-				icon: {
+				id: "455815FA55589C6C"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 12408663
+						size: 3
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/assembler.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 10076989
+						}
+						state: 5
+						label: "Assembler.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked assembler.nbt @p"
 			}]
 		}
 		{
@@ -2262,21 +2319,27 @@
 				}
 			]
 			rewards: [{
-				id: "560CDCADD3804591"
-				type: "command"
-				title: "{block.immersiveengineering.auto_workbench}"
-				icon: {
+				id: "7E525F7BA14CE774"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 5544791
+						size: 3
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/auto_workbench.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 13421772
+						}
+						state: 5
+						label: "Auto Workbench.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked auto_workbench.nbt @p"
 			}]
 		}
 		{
@@ -2324,21 +2387,27 @@
 				}
 			]
 			rewards: [{
-				id: "21B2E6EF2E7A4C1F"
-				type: "command"
-				title: "{block.immersiveengineering.crusher}"
-				icon: {
+				id: "0CF359EF7B35CF25"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 7105644
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/crusher.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 10076989
+						}
+						state: 5
+						label: "Crusher.nbt"
+						canRotate: 1b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked crusher.nbt @p"
 			}]
 		}
 		{
@@ -2393,21 +2462,27 @@
 				}
 			]
 			rewards: [{
-				id: "1FAD91CAFF8D3115"
-				type: "command"
-				title: "{block.immersiveengineering.diesel_generator}"
-				icon: {
+				id: "7BCDEC6904336D92"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 12408663
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/diesel_generator.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 16777215
+						}
+						state: 5
+						label: "Diesel Generator.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked diesel_generator.nbt @p"
 			}]
 		}
 		{
@@ -2479,21 +2554,27 @@
 				}
 			]
 			rewards: [{
-				id: "2FD8688DAA1226F0"
-				type: "command"
-				title: "{block.immersiveengineering.metal_press}"
-				icon: {
+				id: "34624E076840268F"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
 						color: 16777215
-						size: 1
+						size: 3
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/metal_press.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 13421772
+						}
+						state: 5
+						label: "Metal Press.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked metal_press.nbt @p"
 			}]
 		}
 		{
@@ -2548,21 +2629,27 @@
 				}
 			]
 			rewards: [{
-				id: "7408E9B12FC65D24"
-				type: "command"
-				title: "{block.immersiveengineering.sawmill}"
-				icon: {
+				id: "6D392FF7AF8785EE"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 8072841
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/sawmill.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 6196919
+						}
+						state: 5
+						label: "Sawmill.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked sawmill.nbt @p"
 			}]
 		}
 		{
@@ -2590,21 +2677,27 @@
 				}
 			]
 			rewards: [{
-				id: "46782C14C885119F"
-				type: "command"
-				title: "{block.immersiveengineering.tank}"
-				icon: {
+				id: "2EB243F86F5CFF37"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
 						color: 16777215
-						size: 1
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/sheetmetal_tank.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 6196919
+						}
+						state: 5
+						label: "Sheetmetal Tank.nbt"
+						canRotate: 1b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked sheetmetal_tank.nbt @p"
 			}]
 		}
 		{
@@ -2632,21 +2725,27 @@
 				}
 			]
 			rewards: [{
-				id: "14ADA33B8D81CAF1"
-				type: "command"
-				title: "{block.immersiveengineering.silo}"
-				icon: {
+				id: "3F03011D2F068325"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 7105644
+						size: 7
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/silo.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 10076989
+						}
+						state: 5
+						label: "Silo.nbt"
+						canRotate: 1b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked silo.nbt @p"
 			}]
 		}
 		{

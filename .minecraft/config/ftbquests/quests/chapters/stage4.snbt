@@ -163,20 +163,27 @@
 				}
 			]
 			rewards: [{
-				id: "1B8E24609B5B7630"
-				type: "command"
-				icon: {
+				id: "5FDAEB4BB6ED3A43"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 14714914
+						size: 3
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/entropy_reactor.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 8072841
+						}
+						state: 5
+						label: "Entropy Reactor.nbt"
+						canRotate: 1b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked entropy_reactor.nbt @p"
 			}]
 		}
 		{
@@ -978,20 +985,27 @@
 				}
 			]
 			rewards: [{
-				id: "07DC7573527B6133"
-				type: "command"
-				icon: {
+				id: "1B5DA8582C6DEBA7"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 10076989
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/thermal_evaporation.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 14714914
+						}
+						state: 5
+						label: "Thermal Evaporation.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked thermal_evaporation.nbt @p"
 			}]
 		}
 		{
@@ -1040,20 +1054,27 @@
 				}
 			]
 			rewards: [{
-				id: "0BBC5B5243517036"
-				type: "command"
-				icon: {
+				id: "40B9D31D631CD103"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 13421772
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/fission_reactor.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 7105644
+						}
+						state: 5
+						label: "Fission Reactor.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked fission_reactor.nbt @p"
 			}]
 		}
 		{
@@ -1116,20 +1137,27 @@
 				}
 			]
 			rewards: [{
-				id: "641DE18577CD9343"
-				type: "command"
-				icon: {
+				id: "1992F414E640F318"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 4869306
+						size: 7
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/sps.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 16777215
+						}
+						state: 5
+						label: "Sps.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked sps.nbt @p"
 			}]
 		}
 		{

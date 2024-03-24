@@ -82,15 +82,23 @@
 				id: "capsule:capsule"
 				Count: 1b
 				tag: {
-					state: 0
-					color: 1972267
-					size: 9
+					color: 10076989
+					size: 7
+					isReward: 1b
+					oneUse: 1b
+					structureName: "config/capsule/rewards/oak_tree.nbt"
+					author: "落秋FalAut"
+					display: {
+						color: 7105644
+					}
+					state: 5
+					label: "Oak Tree.nbt"
+					canRotate: 1b
 				}
 			}
 			x: 4.0d
-			y: 0.8d
+			y: 0.7d
 			shape: "pentagon"
-			size: 0.8d
 			can_repeat: true
 			id: "7E4DE0834545B121"
 			tasks: [{
@@ -101,19 +109,27 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "66DEAFD3C1E34F21"
-				type: "command"
-				icon: {
+				id: "134A30B5DD37C16C"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						state: 0
-						color: 1972267
-						size: 9
+						color: 10076989
+						size: 7
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/oak_tree.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 7105644
+						}
+						state: 5
+						label: "Oak Tree.nbt"
+						canRotate: 1b
 					}
 				}
-				team_reward: true
-				command: "/capsule fromExistingReward oak_tree.nbt @p"
 			}]
 		}
 		{
@@ -294,15 +310,23 @@
 				id: "capsule:capsule"
 				Count: 1b
 				tag: {
-					state: 0
-					color: 14126427
-					size: 3
+					color: 16777215
+					size: 9
+					isReward: 1b
+					oneUse: 1b
+					structureName: "config/capsule/rewards/tree_ritual.nbt"
+					author: "落秋FalAut"
+					display: {
+						color: 4869306
+					}
+					state: 5
+					label: "Tree Ritual.nbt"
+					canRotate: 0b
 				}
 			}
 			x: 10.0d
-			y: -2.2d
+			y: -2.3d
 			shape: "pentagon"
-			size: 0.8d
 			can_repeat: true
 			id: "1CCAE609D49691FD"
 			tasks: [
@@ -322,20 +346,27 @@
 				}
 			]
 			rewards: [{
-				id: "49D4246B79B1C2F0"
-				type: "command"
-				icon: {
+				id: "332864ABFDC944AB"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
 						color: 16777215
-						size: 1
+						size: 9
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/tree_ritual.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 4869306
+						}
+						state: 5
+						label: "Tree Ritual.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule fromExistingReward tree_ritual.nbt @p"
 			}]
 		}
 		{
@@ -949,9 +980,18 @@
 				id: "capsule:capsule"
 				Count: 1b
 				tag: {
-					state: 0
-					color: 1564002
-					size: 11
+					color: 16777215
+					size: 9
+					isReward: 1b
+					oneUse: 1b
+					structureName: "config/capsule/rewards/altar.nbt"
+					author: "落秋FalAut"
+					display: {
+						color: 5544791
+					}
+					state: 5
+					label: "Altar.nbt"
+					canRotate: 0b
 				}
 			}
 			x: 22.0d
@@ -996,20 +1036,27 @@
 				}
 			]
 			rewards: [{
-				id: "08A011B82B022997"
-				type: "command"
-				icon: {
+				id: "2F2B9C4EC2A603EA"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
 						color: 16777215
-						size: 1
+						size: 9
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/altar.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 5544791
+						}
+						state: 5
+						label: "Altar.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked altar.nbt @p"
 			}]
 		}
 		{
@@ -1964,9 +2011,18 @@
 				id: "capsule:capsule"
 				Count: 1b
 				tag: {
-					state: 0
-					color: 16606234
-					size: 11
+					color: 16777215
+					size: 9
+					isReward: 1b
+					oneUse: 1b
+					structureName: "config/capsule/rewards/nether_altar.nbt"
+					author: "落秋FalAut"
+					display: {
+						color: 12408663
+					}
+					state: 5
+					label: "Nether Altar.nbt"
+					canRotate: 0b
 				}
 			}
 			x: 8.0d
@@ -2010,20 +2066,27 @@
 				}
 			]
 			rewards: [{
-				id: "526496F4CD6D0A5A"
-				type: "command"
-				icon: {
+				id: "585A1D8DFCB5F0FD"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
 						color: 16777215
-						size: 1
+						size: 9
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/nether_altar.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 12408663
+						}
+						state: 5
+						label: "Nether Altar.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked nether_altar.nbt @p"
 			}]
 		}
 		{
@@ -2270,9 +2333,18 @@
 				id: "capsule:capsule"
 				Count: 1b
 				tag: {
-					state: 0
-					color: 16606234
-					size: 11
+					color: 4869306
+					size: 9
+					isReward: 1b
+					oneUse: 1b
+					structureName: "config/capsule/rewards/offering_table.nbt"
+					author: "落秋FalAut"
+					display: {
+						color: 12408663
+					}
+					state: 5
+					label: "Offering Table.nbt"
+					canRotate: 0b
 				}
 			}
 			x: 27.0d
@@ -2296,20 +2368,27 @@
 				}
 			]
 			rewards: [{
-				id: "73C765C48AB71353"
-				type: "command"
-				icon: {
+				id: "21164AF5F81C15A2"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 4869306
+						size: 9
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/offering_table.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 12408663
+						}
+						state: 5
+						label: "Offering Table.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule giveLinked offering_table.nbt @p"
 			}]
 		}
 		{
@@ -2341,9 +2420,18 @@
 				id: "capsule:capsule"
 				Count: 1b
 				tag: {
-					state: 0
-					color: 16042091
-					size: 9
+					color: 10076989
+					size: 7
+					isReward: 1b
+					oneUse: 1b
+					structureName: "config/capsule/rewards/animal_spawner.nbt"
+					author: "落秋FalAut"
+					display: {
+						color: 14714914
+					}
+					state: 5
+					label: "Animal Spawner.nbt"
+					canRotate: 0b
 				}
 			}
 			x: 20.0d
@@ -2381,20 +2469,27 @@
 				}
 			]
 			rewards: [{
-				id: "682F70B75C8960D4"
-				type: "command"
-				icon: {
+				id: "2F8C29652ED64E19"
+				type: "item"
+				team_reward: true
+				item: {
 					id: "capsule:capsule"
 					Count: 1b
 					tag: {
-						overpowered: 1
-						state: 0
-						color: 16777215
-						size: 1
+						color: 10076989
+						size: 7
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/animal_spawner.nbt"
+						author: "落秋FalAut"
+						display: {
+							color: 14714914
+						}
+						state: 5
+						label: "Animal Spawner.nbt"
+						canRotate: 0b
 					}
 				}
-				team_reward: true
-				command: "/capsule fromExistingReward animal_spawner.nbt @p"
 			}]
 		}
 		{
