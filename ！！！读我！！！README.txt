@@ -3,7 +3,7 @@ Since the server cannot automatically install modules like the CF installation p
 
 这里提供了需要删除的模组列表：
 Here is a list of mods to remove:
-///////////////////////////////
+////////////////////////////////
 Controlling
 embeddium
 extremesoundmuffler
