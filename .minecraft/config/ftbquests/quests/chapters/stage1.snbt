@@ -817,28 +817,6 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 1.5d
-			shape: "circle"
-			dependencies: ["23550D217AE0A3AE"]
-			id: "4CCD1EE79041F166"
-			tasks: [{
-				id: "61BED03BB98324DE"
-				type: "item"
-				item: {
-					id: "rechiseled:chisel"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "5D744C26AE9C5ADC"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8772607192016285100L
-			}]
-		}
-		{
 			x: 14.0d
 			y: 3.0d
 			dependencies: ["3105075D74A40D2F"]
@@ -2209,7 +2187,7 @@
 			}]
 		}
 		{
-			x: 19.0d
+			x: 18.0d
 			y: 1.5d
 			shape: "circle"
 			dependencies: ["23550D217AE0A3AE"]

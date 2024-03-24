@@ -6,14 +6,10 @@ const cmt = (outputs, base, sequence, seqLoops, transitional, event) => {
   sequence.forEach((step) => {
     let estStep = sequenceStep
     if (step.type == "filling") {
-      constructedSequence.push(
-        event.recipes.create.filling(transitional, [transitional, Fluid.of("manaliquidizer:mana_fluid", 100)])
-      )
+      constructedSequence.push(event.recipes.create.filling(transitional, [transitional, Fluid.of("manaliquidizer:mana_fluid", 100)]))
     }
     if (step.type == "external") {
-      constructedSequence.push(
-        event.recipes.create.filling(transitional, [transitional, Fluid.of("kubejs:mana", 100000)])
-      )
+      constructedSequence.push(event.recipes.create.filling(transitional, [transitional, Fluid.of("kubejs:mana", 100000)]))
 
       while (estStep <= totalSteps) {
         let estProgress = 1 / (totalSteps / (estStep - 1)) + "f"
@@ -25,19 +21,13 @@ const cmt = (outputs, base, sequence, seqLoops, transitional, event) => {
         let postItem = ""
 
         if (sequenceStep != 1) {
-          preItem = Item.of(
-            transitional,
-            `{SequencedAssembly:{Progress:${estProgress},Step:${estStep - 1},id:"kubejs:cmt"}}`
-          )
+          preItem = Item.of(transitional, `{SequencedAssembly:{Progress:${estProgress},Step:${estStep - 1},id:"kubejs:cmt"}}`)
         } else {
           preItem = base
         }
 
         if (estStep != totalSteps) {
-          postItem = Item.of(
-            transitional,
-            `{SequencedAssembly:{Progress:${nextProgress},Step:${estStep},id:"kubejs:cmt"}}`
-          )
+          postItem = Item.of(transitional, `{SequencedAssembly:{Progress:${nextProgress},Step:${estStep},id:"kubejs:cmt"}}`)
         } else {
           postItem = outputs[0]
         }
@@ -51,11 +41,7 @@ const cmt = (outputs, base, sequence, seqLoops, transitional, event) => {
     }
     sequenceStep++
   })
-  event.recipes
-    .createSequencedAssembly(outputs, base, constructedSequence)
-    .loops(seqLoops)
-    .transitionalItem(transitional)
-    .id(`kubejs:cmt`)
+  event.recipes.createSequencedAssembly(outputs, base, constructedSequence).loops(seqLoops).transitionalItem(transitional).id(`kubejs:cmt`)
 }
 onEvent("recipes", (event) => {
   cmt(

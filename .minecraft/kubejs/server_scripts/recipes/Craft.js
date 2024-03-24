@@ -1,176 +1,153 @@
-// priority: 0
-
 onEvent("recipes", (event) => {
   const id_prefix = "kubejs:recipes/shaped/"
-  let { crafting_shaped } = event.recipes.minecraft
+  const { shaped, shapeless, replaceInput } = event
 
-  event.replaceInput({ output: "tconstruct:seared_drain" }, "minecraft:copper_ingot", "tconstruct:queens_slime_nugget")
-  event.replaceInput({ output: "tconstruct:seared_chute" }, "minecraft:copper_ingot", "tconstruct:queens_slime_nugget")
-  event.replaceInput({ output: "occultism:magic_lamp_empty" }, "thermal:silver_ingot", "create:refined_radiance")
-  event.replaceInput({ output: "thermal:saw_blade" }, "minecraft:copper_ingot", "iron_ingot")
-  event.replaceInput({ output: "fluxnetworks:flux_block" }, "fluxnetworks:flux_core", "fluxnetworks:flux_dust")
-  event.replaceInput({ output: "tconstruct:scorched_alloyer" }, "tconstruct:scorched_ingot_gauge", "create:fluid_tank")
-  event.replaceInput({ output: "occultism:sacrificial_bowl" }, "occultism:otherstone", "create:shadow_steel")
-  event.replaceInput({ output: "thermal:redstone_servo" }, "iron_ingot", "immersiveengineering:stick_iron")
-  event.replaceInput({ output: "thermal:rf_coil" }, "gold_ingot", "assemblylinemachines:gold_rod")
-  event.replaceInput({ output: "immersiveengineering:hammer" }, "minecraft:string", "minecraft:slime_ball")
-  event.replaceInput(
-    { output: "ae2:controller" },
-    "ae2:smooth_sky_stone_block",
-    "immersiveengineering:sheetmetal_steel"
-  )
-  event.replaceInput(
-    { output: "botania:gaia_pylon" },
-    "botania:elementium_ingot",
-    "industrialforegoing:pink_slime_ingot"
-  )
-  event.replaceInput({ output: "thermal:device_tree_extractor" }, "thermal:redstone_servo", "create:mechanical_pump")
-  event.replaceInput({ output: "botania:natura_pylon" }, "botania:terrasteel_nugget", "kubejs:mana_emerald")
-  event.replaceInput(
-    { output: "industrialforegoing:laser_drill" },
-    "industrialforegoing:machine_frame_simple",
-    "industrialforegoing:machine_frame_advanced"
-  )
-  event.replaceInput({ output: "mekanism:upgrade_speed" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
-  event.replaceInput({ output: "mekanism:upgrade_energy" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
-  event.replaceInput({ output: "mekanism:upgrade_filter" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
-  event.replaceInput({ output: "mekanism:upgrade_muffling" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
-  event.replaceInput({ output: "mekanism:upgrade_gas" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
-  event.replaceInput({ output: "mekanism:upgrade_anchor" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
-  event.replaceInput({ output: "mekanism:upgrade_stone_generator" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
-  event.replaceInput({ output: "mekanism:basic_fluid_tank" }, "iron_ingot", "botania:terrasteel_nugget")
-  event.replaceInput({ output: "thermal:device_tree_extractor" }, "thermal:iron_gear", "create:cogwheel")
-  event.replaceInput(
-    { output: "mekanism:thermal_evaporation_valve" },
-    "mekanism:advanced_control_circuit",
-    "mekaevolution:absolute_control_circuit"
-  )
-  event.replaceInput(
-    { output: "mekanism:thermal_evaporation_controller" },
-    "mekanism:advanced_control_circuit",
-    "mekaevolution:absolute_control_circuit"
-  )
-  event.replaceInput(
-    { output: "mekanism:structural_glass" },
-    "immersiveengineering:ingot_steel",
-    "assemblylinemachines:pure_iron_ingot"
-  )
-  event.replaceInput(
-    { output: "mekanism:pressurized_reaction_chamber" },
-    "mekanism:alloy_infused",
-    "assemblylinemachines:microprocessor"
-  )
-  event.replaceInput({ output: "botanypotstiers:ultra_terracotta_botany_pot" }, "minecraft:nether_star", "diamond")
-  event.replaceInput({ output: "ae2:cell_component_256k" }, "ae2:sky_dust", "ae2:fluix_dust")
-  event.replaceInput(
-    { output: "botanypotstiers:ultra_terracotta_hopper_botany_pot" },
-    "minecraft:nether_star",
-    "diamond"
-  )
-  event.replaceInput({ output: "mekanism:sps_casing" }, "mekanism:pellet_plutonium", "mekanism:hdpe_sheet")
-  event.replaceInput(
-    { output: "mekanism:sps_port" },
-    "mekanism:ultimate_control_circuit",
-    "mekaevolution:absolute_control_circuit"
-  )
-  event.replaceInput(
-    { output: "mekanism:supercharged_coil" },
-    "mekanism:ultimate_control_circuit",
-    "mekaevolution:absolute_control_circuit"
-  )
-  event.replaceInput(
-    { output: "mekanism:supercharged_coil" },
-    "minecraft:copper_ingot",
-    "assemblylinemachines:pure_copper_ingot"
-  )
-  event.replaceInput(
-    { output: "mekanismgenerators:fission_reactor_port" },
-    "mekanism:elite_control_circuit",
-    "mekaevolution:absolute_control_circuit"
-  )
-  event.replaceInput({ output: "#botanypots:all_botany_pots" }, "minecraft:nether_star", "minecraft:diamond")
+  shapeless("naturesaura:gold_fiber", ["naturesaura:gold_leaf", "#forge:axes"]).damageIngredient("#forge:axes")
+  shapeless("naturesaura:token_anger", ["naturesaura:token_joy", Item.of("minecraft:flint_and_steel").ignoreNBT()]).damageIngredient("flint_and_steel")
+  shapeless("farmingforblockheads:market", ["naturesaura:animal_generator", "kubejs:undef1ned_fluid_bucket"]).replaceIngredient("kubejs:undef1ned_fluid_bucket", "bucket")
+  shapeless("2x kubejs:undef1ned", "kubejs:undef1ned")
+  shapeless("4x kubejs:undef1ned", "kubejs:undef1ned_block")
+  shapeless("kubejs:undef1ned_fluid_bucket", ["kubejs:undef1ned", "bucket"])
+  shapeless("grass_block", ["water_bucket", "dirt"])
+  shapeless("black_dye", "#coals")
+  shapeless("8x kubejs:nether_eye", ["naturesaura:fortress_finder", "kubejs:ghast_eye", "kubejs:wither_skeleton_eye", "lava_bucket"])
+  shapeless("miniutilities:feather_angel_ring", ["naturesaura:pet_reviver", "naturesaura:death_ring"])
+  shapeless(Item.of("create:sand_paper", "{Damage:0,Unbreakable:1b}"), ["minecraft:paper", "minecraft:sand"])
+  shapeless("architects_palette:oracle_jelly", ["minecraft:chorus_fruit", "minecraft:amethyst_shard", "minecraft:sugar", "minecraft:shulker_shell"])
+  shapeless("4x occultism:candle_white", ["torch", "create:refined_radiance"])
+  shapeless("minecraft:candle", "occultism:candle_white")
+  shapeless("tiab:time_in_a_bottle", ["minecraft:glass_bottle", "naturesaura:clock_hand"])
+  shapeless("naturesaura:token_rage", ["naturesaura:token_anger", Item.of("naturesaura:aura_bottle", '{stored_type:"naturesaura:nether"}')])
+  shapeless("occultism:spirit_fire", "create:chromatic_compound")
+  shapeless("minecraft:deepslate", ["cobblestone", "black_dye"])
+  shapeless("occultism:chalk_purple_impure", ["occultism:chalk_white_impure", "purple_dye"])
+  shapeless("64x hostilenetworks:overworld_prediction", "hostilenetworks:empty_prediction")
+  shapeless("assemblylinemachines:pure_steel_ingot", ["immersiveengineering:ingot_steel", "assemblylinemachines:pure_iron_ingot"])
+  shapeless("minecraft:crimson_nylium", ["minecraft:crimson_fungus", "minecraft:netherrack"])
+  shapeless("4x minecraft:magma_cream", "kubejs:congealed_magma_cream")
+  shapeless("64x createendertransmission:energy_transmitter", ["kubejs:undef1ned_block", "create:cogwheel"])
+  shapeless("immersiveengineering:ore_aluminum", "minecraft:raw_iron")
+  shapeless("immersiveengineering:ore_uranium", "minecraft:raw_gold")
+
+  replaceInput({ output: "tconstruct:seared_drain" }, "minecraft:copper_ingot", "tconstruct:queens_slime_nugget")
+  replaceInput({ output: "tconstruct:seared_chute" }, "minecraft:copper_ingot", "tconstruct:queens_slime_nugget")
+  replaceInput({ output: "occultism:magic_lamp_empty" }, "thermal:silver_ingot", "create:refined_radiance")
+  replaceInput({ output: "thermal:saw_blade" }, "minecraft:copper_ingot", "iron_ingot")
+  replaceInput({ output: "fluxnetworks:flux_block" }, "fluxnetworks:flux_core", "fluxnetworks:flux_dust")
+  replaceInput({ output: "tconstruct:scorched_alloyer" }, "tconstruct:scorched_ingot_gauge", "create:fluid_tank")
+  replaceInput({ output: "occultism:sacrificial_bowl" }, "occultism:otherstone", "create:shadow_steel")
+  replaceInput({ output: "thermal:redstone_servo" }, "iron_ingot", "immersiveengineering:stick_iron")
+  replaceInput({ output: "thermal:rf_coil" }, "gold_ingot", "assemblylinemachines:gold_rod")
+  replaceInput({ output: "immersiveengineering:hammer" }, "minecraft:string", "minecraft:slime_ball")
+  replaceInput({ output: "ae2:controller" }, "ae2:smooth_sky_stone_block", "immersiveengineering:sheetmetal_steel")
+  replaceInput({ output: "botania:gaia_pylon" }, "botania:elementium_ingot", "industrialforegoing:pink_slime_ingot")
+  replaceInput({ output: "thermal:device_tree_extractor" }, "thermal:redstone_servo", "create:mechanical_pump")
+  replaceInput({ output: "botania:natura_pylon" }, "botania:terrasteel_nugget", "kubejs:mana_emerald")
+  replaceInput({ output: "industrialforegoing:laser_drill" }, "industrialforegoing:machine_frame_simple", "industrialforegoing:machine_frame_advanced")
+  replaceInput({ output: "mekanism:upgrade_speed" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
+  replaceInput({ output: "mekanism:upgrade_energy" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
+  replaceInput({ output: "mekanism:upgrade_filter" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
+  replaceInput({ output: "mekanism:upgrade_muffling" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
+  replaceInput({ output: "mekanism:upgrade_gas" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
+  replaceInput({ output: "mekanism:upgrade_anchor" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
+  replaceInput({ output: "mekanism:upgrade_stone_generator" }, "#forge:glass", "thermal_extra:dragonsteel_plate")
+  replaceInput({ output: "mekanism:basic_fluid_tank" }, "iron_ingot", "botania:terrasteel_nugget")
+  replaceInput({ output: "thermal:device_tree_extractor" }, "thermal:iron_gear", "create:cogwheel")
+  replaceInput({ output: "mekanism:thermal_evaporation_valve" }, "mekanism:advanced_control_circuit", "mekaevolution:absolute_control_circuit")
+  replaceInput({ output: "mekanism:thermal_evaporation_controller" }, "mekanism:advanced_control_circuit", "mekaevolution:absolute_control_circuit")
+  replaceInput({ output: "mekanism:structural_glass" }, "immersiveengineering:ingot_steel", "assemblylinemachines:pure_iron_ingot")
+  replaceInput({ output: "mekanism:pressurized_reaction_chamber" }, "mekanism:alloy_infused", "assemblylinemachines:microprocessor")
+  replaceInput({ output: "botanypotstiers:ultra_terracotta_botany_pot" }, "minecraft:nether_star", "diamond")
+  replaceInput({ output: "ae2:cell_component_256k" }, "ae2:sky_dust", "ae2:fluix_dust")
+  replaceInput({ output: "botanypotstiers:ultra_terracotta_hopper_botany_pot" }, "minecraft:nether_star", "diamond")
+  replaceInput({ output: "mekanism:sps_casing" }, "mekanism:pellet_plutonium", "mekanism:hdpe_sheet")
+  replaceInput({ output: "mekanism:sps_port" }, "mekanism:ultimate_control_circuit", "mekaevolution:absolute_control_circuit")
+  replaceInput({ output: "mekanism:supercharged_coil" }, "mekanism:ultimate_control_circuit", "mekaevolution:absolute_control_circuit")
+  replaceInput({ output: "mekanism:supercharged_coil" }, "minecraft:copper_ingot", "assemblylinemachines:pure_copper_ingot")
+  replaceInput({ output: "mekanismgenerators:fission_reactor_port" }, "mekanism:elite_control_circuit", "mekaevolution:absolute_control_circuit")
+  replaceInput({ output: "#botanypots:all_botany_pots" }, "minecraft:nether_star", "minecraft:diamond")
 
   // undef1ned Block
-  crafting_shaped("kubejs:undef1ned_block", ["11", "11"], {
+  shaped("kubejs:undef1ned_block", ["11", "11"], {
     1: "kubejs:undef1ned",
   }).id(`${id_prefix}undef1ned_block`)
 
   // undef1ned Pickaxe
-  crafting_shaped(Item.of("kubejs:undef1ned_pickaxe", "{Unbreakable:1b}"), ["111", " 2 ", " 2 "], {
+  shaped(Item.of("kubejs:undef1ned_pickaxe", "{Unbreakable:1b}"), ["111", " 2 ", " 2 "], {
     1: "kubejs:undef1ned_block",
     2: "kubejs:undef1ned",
   }).id(`${id_prefix}undef1ned_pickaxe`)
 
   // undef1ned Axe
-  crafting_shaped(Item.of("kubejs:undef1ned_axe", "{Unbreakable:1b}"), ["11 ", "12 ", " 2 "], {
+  shaped(Item.of("kubejs:undef1ned_axe", "{Unbreakable:1b}"), ["11 ", "12 ", " 2 "], {
     1: "kubejs:undef1ned_block",
     2: "kubejs:undef1ned",
   }).id(`${id_prefix}undef1ned_axe`)
 
   // undef1ned Shovel
-  crafting_shaped(Item.of("kubejs:undef1ned_shovel", "{Unbreakable:1b}"), [" 1 ", " 2 ", " 2 "], {
+  shaped(Item.of("kubejs:undef1ned_shovel", "{Unbreakable:1b}"), [" 1 ", " 2 ", " 2 "], {
     1: "kubejs:undef1ned_block",
     2: "kubejs:undef1ned",
   }).id(`${id_prefix}undef1ned_shovel`)
 
   // Bucket
-  crafting_shaped("bucket", ["1 1", " 1 "], {
+  shaped("bucket", ["1 1", " 1 "], {
     1: "kubejs:undef1ned",
   }).id(`${id_prefix}bucket`)
 
   // Water Bucket
-  crafting_shaped("water_bucket", ["111", " 2 ", "   "], {
+  shaped("water_bucket", ["111", " 2 ", "   "], {
     1: "kubejs:undef1ned",
     2: "bucket",
   }).id(`${id_prefix}water_bucket`)
 
   // Lava Bucket
-  crafting_shaped("lava_bucket", ["   ", " 2 ", "111"], {
+  shaped("lava_bucket", ["   ", " 2 ", "111"], {
     1: "kubejs:undef1ned",
     2: "bucket",
   }).id(`${id_prefix}lava_bucket`)
 
   // Cobblefordays Tier 1
-  crafting_shaped("cobblefordays:tier_1", ["111", "2 3", "111"], {
+  shaped("cobblefordays:tier_1", ["111", "2 3", "111"], {
     1: "#logs",
     2: "water_bucket",
     3: "lava_bucket",
   }).id(`${id_prefix}cobblefordays_tier_1`)
 
   // Mechanical Miner
-  crafting_shaped("miniutilities:mechanical_miner", ["121", "3 3", "111"], {
+  shaped("miniutilities:mechanical_miner", ["121", "3 3", "111"], {
     1: "iron_ingot",
     2: Item.of("kubejs:undef1ned_pickaxe", "{Damage:0,Unbreakable:1b}"),
     3: "naturesaura:gold_powder",
   }).id(`${id_prefix}mechanical_miner`)
 
   // Calling Spirit
-  crafting_shaped("64x naturesaura:calling_spirit", [" 1 ", "232", " 1 "], {
+  shaped("64x naturesaura:calling_spirit", [" 1 ", "232", " 1 "], {
     1: Item.of("naturesaura:aura_bottle", '{stored_type:"naturesaura:overworld"}'),
     2: "naturesaura:infused_iron",
     3: "naturesaura:gold_powder",
   }).id(`${id_prefix}calling_spirit`)
 
   // Storge Controller
-  crafting_shaped("occultism:storage_controller", ["111", " 2 ", "222"], {
+  shaped("occultism:storage_controller", ["111", " 2 ", "222"], {
     1: "kubejs:undef1ned",
     2: "kubejs:undef1ned_block",
   }).id(`${id_prefix}storage_controller`)
 
   // Storge Remote
-  crafting_shaped("occultism:storage_remote", ["212", "222", "222"], {
+  shaped("occultism:storage_remote", ["212", "222", "222"], {
     1: "kubejs:undef1ned",
     2: "kubejs:undef1ned_block",
   }).id(`${id_prefix}storage_remote`)
 
   // Stable Wormhole
-  crafting_shaped("occultism:stable_wormhole", ["222", "212", "222"], {
+  shaped("occultism:stable_wormhole", ["222", "212", "222"], {
     1: "kubejs:undef1ned",
     2: "kubejs:undef1ned_block",
   }).id(`${id_prefix}stable_wormhole`)
 
   // Megatorch
-  crafting_shaped("torchmaster:megatorch", ["111", "232", "434"], {
+  shaped("torchmaster:megatorch", ["111", "232", "434"], {
     1: "torch",
     2: "kubejs:undef1ned",
     3: "#logs",
@@ -178,19 +155,19 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}megatorch`)
 
   // Gold Leaf
-  crafting_shaped("8x naturesaura:gold_leaf", ["111", "121", "111"], {
+  shaped("8x naturesaura:gold_leaf", ["111", "121", "111"], {
     1: "#leaves",
     2: "kubejs:undef1ned",
   }).id(`${id_prefix}gold_leaf`)
 
   // Token Euphoria
-  crafting_shaped("naturesaura:token_euphoria", ["111", "121", "111"], {
+  shaped("naturesaura:token_euphoria", ["111", "121", "111"], {
     1: "naturesaura:gold_powder",
     2: "naturesaura:token_joy",
   }).id(`${id_prefix}token_euphoria`)
 
   // Base
-  crafting_shaped("compactcrafting:base", [" 1 ", "232", "444"], {
+  shaped("compactcrafting:base", [" 1 ", "232", "444"], {
     1: "naturesaura:ancient_stick",
     2: "kubejs:infused_coal",
     3: "tconstruct:seared_bricks_slab",
@@ -198,47 +175,47 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}base`)
 
   // Projector Dish
-  crafting_shaped("compactcrafting:projector_dish", ["12 ", "132", "12 "], {
+  shaped("compactcrafting:projector_dish", ["12 ", "132", "12 "], {
     1: "#forge:glass_panes",
     2: "iron_ingot",
     3: "kubejs:infused_coal",
   }).id(`${id_prefix}projector_dish`)
 
   // Death Ring
-  crafting_shaped("naturesaura:death_ring", [" 1 ", "2 2", " 2 "], {
+  shaped("naturesaura:death_ring", [" 1 ", "2 2", " 2 "], {
     1: "naturesaura:token_euphoria",
     2: "naturesaura:sky_ingot",
   }).id(`naturesaura:death_ring`)
 
   // Pet Reviver
-  crafting_shaped("naturesaura:pet_reviver", [" 1 ", "121", " 1 "], {
+  shaped("naturesaura:pet_reviver", [" 1 ", "121", " 1 "], {
     1: "naturesaura:sky_ingot",
     2: "naturesaura:token_euphoria",
   }).id(`naturesaura:pet_reviver`)
 
   // Coke Brick
-  crafting_shaped("3x immersiveengineering:cokebrick", ["121", "232", "121"], {
+  shaped("3x immersiveengineering:cokebrick", ["121", "232", "121"], {
     1: "tconstruct:seared_brick",
     2: "architects_palette:algal_blend",
     3: "architects_palette:algal_bricks",
   }).id(`${id_prefix}cokebrick`)
 
   // Blast Brick
-  crafting_shaped("3x immersiveengineering:blastbrick", ["121", "232", "121"], {
+  shaped("3x immersiveengineering:blastbrick", ["121", "232", "121"], {
     1: "tconstruct:scorched_brick",
     2: "architects_palette:nether_brass_ingot",
     3: "tconstruct:scorched_bricks",
   }).id(`${id_prefix}blastbrick`)
 
   // Blaze In Jar
-  crafting_shaped("multiblocked:blaze_in_jar", [" 1 ", "232", "222"], {
+  shaped("multiblocked:blaze_in_jar", [" 1 ", "232", "222"], {
     1: "minecraft:oak_slab",
     2: "minecraft:glass_pane",
     3: "tconstruct:blaze_head",
   }).id(`${id_prefix}blaze_in_jar`)
 
   // Stresso Meter
-  crafting_shaped("create:stressometer", [" 1 ", "234"], {
+  shaped("create:stressometer", [" 1 ", "234"], {
     1: "compass",
     2: "create:electron_tube",
     3: "create:gearbox",
@@ -246,7 +223,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}stressometer`)
 
   // Ender Tank
-  crafting_shaped("enderstorage:ender_tank", ["121", "343", "151"], {
+  shaped("enderstorage:ender_tank", ["121", "343", "151"], {
     1: "gold_ingot",
     2: "cobblestone",
     3: "obsidian",
@@ -255,7 +232,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}ender_tank`)
 
   // Ender Chest
-  crafting_shaped("enderstorage:ender_chest", ["121", "343", "151"], {
+  shaped("enderstorage:ender_chest", ["121", "343", "151"], {
     1: "gold_ingot",
     2: "cobblestone",
     3: "obsidian",
@@ -264,7 +241,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}ender_chest`)
 
   // Compressor
-  crafting_shaped("extendedcrafting:compressor", ["121", "343", "151"], {
+  shaped("extendedcrafting:compressor", ["121", "343", "151"], {
     1: "extendedcrafting:black_iron_ingot",
     2: "ae2:singularity",
     3: "extendedcrafting:elite_catalyst",
@@ -273,7 +250,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}compressor`)
 
   // Charger
-  crafting_shaped("ae2:charger", ["121", "3  ", "141"], {
+  shaped("ae2:charger", ["121", "3  ", "141"], {
     1: "ae2:quartz_block",
     2: "immersiveengineering:charging_station",
     3: "immersiveengineering:logic_circuit",
@@ -281,7 +258,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}charger`)
 
   // Inscriber
-  crafting_shaped("ae2:inscriber", ["121", "3  ", "141"], {
+  shaped("ae2:inscriber", ["121", "3  ", "141"], {
     1: "ae2:quartz_block",
     2: "minecraft:sticky_piston",
     3: "immersiveengineering:logic_circuit",
@@ -289,13 +266,13 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}inscriber`)
 
   // Infinity Wand
-  crafting_shaped("constructionwand:infinity_wand", ["  1", " 2 ", "2  "], {
+  shaped("constructionwand:infinity_wand", ["  1", " 2 ", "2  "], {
     1: "kubejs:undef1ned",
     2: "naturesaura:ancient_stick",
   }).id(`${id_prefix}infinity_wand`)
 
   // Animal Generator
-  crafting_shaped("naturesaura:animal_generator", ["121", "3 3", "141"], {
+  shaped("naturesaura:animal_generator", ["121", "3 3", "141"], {
     1: "minecraft:nether_brick",
     2: "naturesaura:infused_iron",
     3: "minecraft:iron_bars",
@@ -303,26 +280,26 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}animal_generator`)
 
   // Flux Core
-  crafting_shaped("4x fluxnetworks:flux_core", ["121", "232", "121"], {
+  shaped("4x fluxnetworks:flux_core", ["121", "232", "121"], {
     1: "fluxnetworks:flux_dust",
     2: "fluxnetworks:flux_block",
     3: "redstone_block",
   }).id(`${id_prefix}flux_core`)
 
   // Mana Liqiudizer
-  crafting_shaped("manaliquidizer:mana_liquidizer", ["121", "2 2", "121"], {
+  shaped("manaliquidizer:mana_liquidizer", ["121", "2 2", "121"], {
     1: "botania:livingrock",
     2: "occultism:iesnium_ingot",
   }).id(`${id_prefix}mana_liquidizer`)
 
   // Machine Frame Pity
-  crafting_shaped("industrialforegoing:machine_frame_pity", ["121", "2 2", "121"], {
+  shaped("industrialforegoing:machine_frame_pity", ["121", "2 2", "121"], {
     1: "botania:livingrock",
     2: "botania:livingwood",
   }).id(`${id_prefix}machine_frame_pity`)
 
   // Fluid_extractor
-  crafting_shaped("industrialforegoing:fluid_extractor", ["151", "424", "131"], {
+  shaped("industrialforegoing:fluid_extractor", ["151", "424", "131"], {
     1: "create:refined_radiance",
     2: "industrialforegoing:machine_frame_pity",
     3: "thermal:device_tree_extractor",
@@ -331,7 +308,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}fluid_extractor`)
 
   // Latex Processing Unit
-  crafting_shaped("industrialforegoing:latex_processing_unit", ["151", "424", "131"], {
+  shaped("industrialforegoing:latex_processing_unit", ["151", "424", "131"], {
     1: "create:refined_radiance",
     2: "industrialforegoing:machine_frame_pity",
     3: "thermal:machine_centrifuge",
@@ -340,37 +317,37 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}latex_processing_unit`)
 
   // Condenser
-  crafting_shaped("ae2:condenser", ["121", "232", "121"], {
+  shaped("ae2:condenser", ["121", "232", "121"], {
     1: "ae2:certus_quartz_crystal",
     2: "ae2:quartz_glass",
     3: "ae2:fluix_pearl",
   }).id(`${id_prefix}condenser`)
 
   // Alloy Brick
-  crafting_shaped("immersiveengineering:alloybrick", ["12", "21"], {
+  shaped("immersiveengineering:alloybrick", ["12", "21"], {
     1: "architects_palette:nether_brass_blend",
     2: "architects_palette:nether_brass_ingot",
   }).id(`${id_prefix}alloybrick`)
 
   // Nether Prediction
-  crafting_shaped("hostilenetworks:nether_prediction", ["11", "11"], {
+  shaped("hostilenetworks:nether_prediction", ["11", "11"], {
     1: "hostilenetworks:overworld_prediction",
   }).id(`${id_prefix}nether_prediction`)
 
   // End Prediction
-  crafting_shaped("hostilenetworks:end_prediction", ["11", "11"], {
+  shaped("hostilenetworks:end_prediction", ["11", "11"], {
     1: "hostilenetworks:nether_prediction",
   }).id(`${id_prefix}end_prediction`)
 
   // Pinkinator
-  crafting_shaped("botania:pinkinator", ["12 ", "233", " 33"], {
+  shaped("botania:pinkinator", ["12 ", "233", " 33"], {
     1: "botania:dragonstone",
     2: "botania:pixie_dust",
     3: "botania:elementium_ingot",
   }).id(`${id_prefix}pinkinator`)
 
   // Pinkinator
-  crafting_shaped("industrialforegoing:dissolution_chamber", ["121", "343", "151"], {
+  shaped("industrialforegoing:dissolution_chamber", ["121", "343", "151"], {
     1: "industrialforegoing:plastic",
     2: "create:precision_mechanism",
     3: "minecraft:bucket",
@@ -379,31 +356,31 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}dissolution_chamber`)
 
   // Gaia Ingot
-  crafting_shaped("botania:gaia_ingot", ["111", "121", "111"], {
+  shaped("botania:gaia_ingot", ["111", "121", "111"], {
     1: "botania:life_essence",
     2: "industrialforegoing:pink_slime_ingot",
   }).id(`${id_prefix}gaia_ingo`)
 
   // Stress Generator Core
-  crafting_shaped("multiblocked:stress_generator_core", ["111", "121", "111"], {
+  shaped("multiblocked:stress_generator_core", ["111", "121", "111"], {
     1: "minecraft:glowstone",
     2: "kubejs:undef1ned",
   }).id(`${id_prefix}stress_generator_core`)
 
   // RF Coil Mold
-  crafting_shaped("kubejs:mold_rf_coil", ["11 ", "11 ", "  2"], {
+  shaped("kubejs:mold_rf_coil", ["11 ", "11 ", "  2"], {
     1: "extendedcrafting:black_iron_slate",
     2: Ingredient.of("immersiveengineering:wirecutter").ignoreNBT(),
   }).id(`${id_prefix}mold_rf_coil`)
 
   // Redstone Servo Mold
-  crafting_shaped("kubejs:mold_redstone_servo", ["2  ", " 11", " 11"], {
+  shaped("kubejs:mold_redstone_servo", ["2  ", " 11", " 11"], {
     1: "extendedcrafting:black_iron_slate",
     2: Ingredient.of("immersiveengineering:wirecutter").ignoreNBT(),
   }).id(`${id_prefix}mold_redstone_servo`)
 
   // Machine Furnace
-  crafting_shaped("thermal:machine_furnace", ["161", "232", "454"], {
+  shaped("thermal:machine_furnace", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -413,7 +390,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_furnace`)
 
   // Machine Sawmill
-  crafting_shaped("thermal:machine_sawmill", ["161", "232", "454"], {
+  shaped("thermal:machine_sawmill", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -423,7 +400,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_sawmill`)
 
   // Machine Pulverizer
-  crafting_shaped("thermal:machine_pulverizer", ["161", "232", "454"], {
+  shaped("thermal:machine_pulverizer", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -433,7 +410,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_pulverizer`)
 
   // Machine Smelter
-  crafting_shaped("thermal:machine_smelter", ["161", "232", "454"], {
+  shaped("thermal:machine_smelter", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -443,7 +420,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_smelter`)
 
   // Machine Insolator
-  crafting_shaped("thermal:machine_insolator", ["161", "232", "454"], {
+  shaped("thermal:machine_insolator", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -453,7 +430,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_insolator`)
 
   // Machine Centrifuge
-  crafting_shaped("thermal:machine_centrifuge", ["161", "232", "454"], {
+  shaped("thermal:machine_centrifuge", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -463,7 +440,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_centrifuge`)
 
   // Machine Press
-  crafting_shaped("thermal:machine_press", ["161", "232", "454"], {
+  shaped("thermal:machine_press", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -473,7 +450,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_press`)
 
   // Machine Crucible
-  crafting_shaped("thermal:machine_crucible", ["161", "232", "454"], {
+  shaped("thermal:machine_crucible", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -483,7 +460,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_crucible`)
 
   // Machine Chiller
-  crafting_shaped("thermal:machine_chiller", ["161", "232", "454"], {
+  shaped("thermal:machine_chiller", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -493,7 +470,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_chiller`)
 
   // Machine Refinery
-  crafting_shaped("thermal:machine_refinery", ["161", "232", "454"], {
+  shaped("thermal:machine_refinery", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -503,7 +480,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_refinery`)
 
   // Machine Pyrolyzer
-  crafting_shaped("thermal:machine_pyrolyzer", ["161", "232", "454"], {
+  shaped("thermal:machine_pyrolyzer", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -513,7 +490,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_pyrolyzer`)
 
   // Machine Bottler
-  crafting_shaped("thermal:machine_bottler", ["161", "232", "454"], {
+  shaped("thermal:machine_bottler", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -523,7 +500,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_bottler`)
 
   // Machine Brewer
-  crafting_shaped("thermal:machine_brewer", ["161", "232", "454"], {
+  shaped("thermal:machine_brewer", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -533,7 +510,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_brewer`)
 
   // Machine Crystallizer
-  crafting_shaped("thermal:machine_crystallizer", ["161", "232", "454"], {
+  shaped("thermal:machine_crystallizer", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -543,7 +520,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_crystallizer`)
 
   // Machine Crafter
-  crafting_shaped("thermal:machine_crafter", ["161", "232", "454"], {
+  shaped("thermal:machine_crafter", ["161", "232", "454"], {
     1: "immersiveengineering:logic_circuit",
     2: "thermal:redstone_servo",
     3: "thermal:machine_frame",
@@ -553,7 +530,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}machine_cafter`)
 
   // Combiner
-  crafting_shaped("mekanism:combiner", ["141", "232", "151"], {
+  shaped("mekanism:combiner", ["141", "232", "151"], {
     1: "immersiveengineering:plate_steel",
     2: "immersiveengineering:logic_circuit",
     3: "botania:crafting_halo",
@@ -562,7 +539,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}combiner`)
 
   // Metallurgic Infuser
-  crafting_shaped("mekanism:metallurgic_infuser", ["141", "232", "151"], {
+  shaped("mekanism:metallurgic_infuser", ["141", "232", "151"], {
     1: "immersiveengineering:plate_steel",
     2: "mekanism:basic_control_circuit",
     3: "create:spout",
@@ -571,7 +548,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}metallurgic_infuser`)
 
   // Electrolytic Sparator
-  crafting_shaped("mekanism:electrolytic_separator", ["141", "232", "151"], {
+  shaped("mekanism:electrolytic_separator", ["141", "232", "151"], {
     1: "mekanism:alloy_atomic",
     2: "mekanism:ultimate_control_circuit",
     3: "mekanism:electrolytic_core",
@@ -580,7 +557,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}electrolytic_separator`)
 
   // Loot Fabricator
-  crafting_shaped("hostilenetworks:loot_fabricator", [" 1 ", "232", "454"], {
+  shaped("hostilenetworks:loot_fabricator", [" 1 ", "232", "454"], {
     1: "hostilenetworks:empty_prediction",
     2: "thermal:electrum_plate",
     3: "create:shadow_steel_casing",
@@ -589,7 +566,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}loot_fabricator`)
 
   // chemical_infuser
-  crafting_shaped("mekanism:chemical_infuser", ["151", "343", "121"], {
+  shaped("mekanism:chemical_infuser", ["151", "343", "121"], {
     1: "mekanism:alloy_atomic",
     2: "mekanism:ultimate_control_circuit",
     3: "mekanism:basic_chemical_tank",
@@ -598,12 +575,12 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}chemical_infuser`)
 
   // Speed Upgrade
-  crafting_shaped("miniutilities:speed_upgrade", ["111", "111"], {
+  shaped("miniutilities:speed_upgrade", ["111", "111"], {
     1: "naturesaura:gold_powder",
   }).id(`${id_prefix}speed_upgrade`)
 
   // rotary_condensentrator
-  crafting_shaped("mekanism:rotary_condensentrator", ["161", "345", "121"], {
+  shaped("mekanism:rotary_condensentrator", ["161", "345", "121"], {
     1: "mekanism:alloy_atomic",
     2: "mekanism:ultimate_control_circuit",
     3: "mekanism:basic_chemical_tank",
@@ -612,7 +589,7 @@ onEvent("recipes", (event) => {
     6: "assemblylinemachines:microprocessor",
   }).id(`${id_prefix}rotary_condensentrator`)
 
-  crafting_shaped("mekanism:osmium_compressor", ["121", "343", "151"], {
+  shaped("mekanism:osmium_compressor", ["121", "343", "151"], {
     1: "mekanism:alloy_atomic",
     2: "assemblylinemachines:microprocessor",
     3: "bucket",
@@ -620,7 +597,7 @@ onEvent("recipes", (event) => {
     5: "mekanism:ultimate_control_circuit",
   }).id(`${id_prefix}osmium_compressor`)
 
-  crafting_shaped("mekanism:chemical_dissolution_chamber", ["121", "343", "151"], {
+  shaped("mekanism:chemical_dissolution_chamber", ["121", "343", "151"], {
     1: "mekanism:ingot_refined_obsidian",
     2: "assemblylinemachines:microprocessor",
     3: "mekanism:basic_chemical_tank",
@@ -628,7 +605,7 @@ onEvent("recipes", (event) => {
     5: "mekanism:ultimate_control_circuit",
   }).id(`${id_prefix}chemical_dissolution_chamber`)
 
-  crafting_shaped("mekanism:chemical_washer", ["121", "354", "161"], {
+  shaped("mekanism:chemical_washer", ["121", "354", "161"], {
     1: "mekanism:ingot_refined_obsidian",
     2: "assemblylinemachines:microprocessor",
     3: "mekanism:basic_chemical_tank",
@@ -637,7 +614,7 @@ onEvent("recipes", (event) => {
     6: "mekanism:ultimate_control_circuit",
   }).id(`${id_prefix}chemical_washer`)
 
-  crafting_shaped("mekanism:chemical_crystallizer", ["121", "343", "151"], {
+  shaped("mekanism:chemical_crystallizer", ["121", "343", "151"], {
     1: "mekanism:ingot_refined_obsidian",
     2: "assemblylinemachines:microprocessor",
     3: "mekanism:ultimate_control_circuit",
@@ -645,7 +622,7 @@ onEvent("recipes", (event) => {
     5: "thermal:machine_crystallizer",
   }).id(`${id_prefix}chemical_crystallizer`)
 
-  crafting_shaped("mekanism:energized_smelter", ["121", "343", "151"], {
+  shaped("mekanism:energized_smelter", ["121", "343", "151"], {
     1: "immersiveengineering:plate_steel",
     2: "assemblylinemachines:microprocessor",
     3: "mekanism:basic_control_circuit",
@@ -653,7 +630,7 @@ onEvent("recipes", (event) => {
     5: "furnace",
   }).id(`${id_prefix}energized_smelter`)
 
-  crafting_shaped("mekanism:crusher", ["121", "343", "151"], {
+  shaped("mekanism:crusher", ["121", "343", "151"], {
     1: "immersiveengineering:plate_steel",
     2: "assemblylinemachines:microprocessor",
     3: "mekanism:basic_control_circuit",
@@ -661,7 +638,7 @@ onEvent("recipes", (event) => {
     5: "create:iron_sheet",
   }).id(`${id_prefix}mekcrusher`)
 
-  crafting_shaped("mekanism:enrichment_chamber", ["121", "343", "151"], {
+  shaped("mekanism:enrichment_chamber", ["121", "343", "151"], {
     1: "immersiveengineering:plate_steel",
     2: "assemblylinemachines:microprocessor",
     3: "mekanism:basic_control_circuit",
@@ -669,51 +646,51 @@ onEvent("recipes", (event) => {
     5: "ae2:quartz_growth_accelerator",
   }).id(`${id_prefix}enrichment_chamber`)
 
-  crafting_shaped("multiblocked:terrestrial_agglomeration_plate_io", ["111", "121", "111"], {
+  shaped("multiblocked:terrestrial_agglomeration_plate_io", ["111", "121", "111"], {
     1: "botania:rune_mana",
     2: "chest",
   }).id(`${id_prefix}terrestrial_agglomeration_plate_io`)
 
-  crafting_shaped("multiblocked:pedestal", ["222", " 1 ", "222"], {
+  shaped("multiblocked:pedestal", ["222", " 1 ", "222"], {
     1: "kubejs:undef1ned",
     2: "kubejs:undef1ned_block",
   }).id(`${id_prefix}mbdpedestal`)
 
-  crafting_shaped("assemblylinemachines:overclocked_conduction_component", ["121", "232", "121"], {
+  shaped("assemblylinemachines:overclocked_conduction_component", ["121", "232", "121"], {
     1: "assemblylinemachines:empowered_conduction_component",
     2: "mekanism:alloy_atomic",
     3: "assemblylinemachines:energized_gold_block",
   }).id(`${id_prefix}overclocked_conduction_component`)
 
-  crafting_shaped("assemblylinemachines:overclocked_convection_component", ["121", "232", "121"], {
+  shaped("assemblylinemachines:overclocked_convection_component", ["121", "232", "121"], {
     1: "assemblylinemachines:empowered_convection_component",
     2: "mekanism:alloy_atomic",
     3: "assemblylinemachines:energized_gold_block",
   }).id(`${id_prefix}overclocked_convection_component`)
 
-  crafting_shaped("assemblylinemachines:conduction_component", ["121", "232", "121"], {
+  shaped("assemblylinemachines:conduction_component", ["121", "232", "121"], {
     1: "assemblylinemachines:pure_iron_plate",
     2: "redstone",
     3: "kubejs:pure_iron_block",
   }).id(`${id_prefix}conduction_component`)
 
-  crafting_shaped("assemblylinemachines:convection_component", ["121", "232", "121"], {
+  shaped("assemblylinemachines:convection_component", ["121", "232", "121"], {
     1: "assemblylinemachines:attuned_titanium_plate",
     2: "redstone",
     3: "assemblylinemachines:attuned_titanium_block",
   }).id(`${id_prefix}convection_component`)
 
-  crafting_shaped("mekaevolution:absolute_control_circuit", ["123"], {
+  shaped("mekaevolution:absolute_control_circuit", ["123"], {
     1: "assemblylinemachines:overclocked_conduction_component",
     2: "mekanism:ultimate_control_circuit",
     3: "assemblylinemachines:overclocked_convection_component",
   }).id(`${id_prefix}absolute_control_circuit`)
 
-  crafting_shaped("mekanism:thermal_evaporation_block", ["11 ", "11 "], {
+  shaped("mekanism:thermal_evaporation_block", ["11 ", "11 "], {
     1: "assemblylinemachines:pure_copper_ingot",
   }).id(`${id_prefix}thermal_evaporation_block`)
 
-  crafting_shaped("mekanism:solar_neutron_activator", ["111", "252", "434"], {
+  shaped("mekanism:solar_neutron_activator", ["111", "252", "434"], {
     1: "mekanismgenerators:solar_panel",
     2: "mekanism:alloy_atomic",
     3: "mekanism:steel_casing",
@@ -721,37 +698,37 @@ onEvent("recipes", (event) => {
     5: "assemblylinemachines:microprocessor",
   }).id(`${id_prefix}solar_neutron_activator`)
 
-  crafting_shaped("tconstruct:earth_slime_crystal", ["111", "121", "111"], {
+  shaped("tconstruct:earth_slime_crystal", ["111", "121", "111"], {
     1: "minecraft:slime_ball",
     2: "minecraft:amethyst_shard",
   }).id(`${id_prefix}earth_slime_crystal`)
 
-  crafting_shaped("tconstruct:sky_slime_crystal", ["111", "121", "111"], {
+  shaped("tconstruct:sky_slime_crystal", ["111", "121", "111"], {
     1: "tconstruct:sky_slime_ball",
     2: "minecraft:amethyst_shard",
   }).id(`${id_prefix}sky_slime_crystal`)
 
-  crafting_shaped("tconstruct:ender_slime_crystal", ["111", "121", "111"], {
+  shaped("tconstruct:ender_slime_crystal", ["111", "121", "111"], {
     1: "tconstruct:ender_slime_ball",
     2: "minecraft:amethyst_shard",
   }).id(`${id_prefix}ender_slime_crystal`)
 
-  crafting_shaped("tconstruct:ichor_slime_crystal", ["111", "121", "111"], {
+  shaped("tconstruct:ichor_slime_crystal", ["111", "121", "111"], {
     1: "tconstruct:ichor_slime_ball",
     2: "minecraft:amethyst_shard",
   }).id(`${id_prefix}ichorslime_crystal`)
 
-  crafting_shaped("miniutilities:flame_lily_seeds", ["111", "121", "111"], {
+  shaped("miniutilities:flame_lily_seeds", ["111", "121", "111"], {
     1: "minecraft:blaze_powder",
     2: "#forge:seeds",
   }).id(`${id_prefix}flame_lily_seeds`)
 
-  crafting_shaped("minecraft:enchanted_golden_apple", ["111", "121", "111"], {
+  shaped("minecraft:enchanted_golden_apple", ["111", "121", "111"], {
     1: "gold_block",
     2: "apple",
   }).id(`${id_prefix}enchanted_golden_apple`)
 
-  crafting_shaped("assemblylinemachines:reality_crystal", ["123", "456", "789"], {
+  shaped("assemblylinemachines:reality_crystal", ["123", "456", "789"], {
     1: "ae2:fluix_crystal",
     2: "minecraft:amethyst_shard",
     3: "ae2:certus_quartz_crystal",
@@ -763,7 +740,7 @@ onEvent("recipes", (event) => {
     9: "tconstruct:ichor_slime_crystal",
   }).id(`${id_prefix}reality_crystal`)
 
-  crafting_shaped("assemblylinemachines:miniature_black_hole", ["123", "456", "789"], {
+  shaped("assemblylinemachines:miniature_black_hole", ["123", "456", "789"], {
     1: Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:diamond"}'),
     2: Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:copper"}'),
     3: Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:emerald"}'),
@@ -775,92 +752,92 @@ onEvent("recipes", (event) => {
     9: Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:gold"}'),
   }).id(`${id_prefix}miniature_black_hole`)
 
-  crafting_shaped("mekaevolution:cosmic_control_circuit", ["123"], {
+  shaped("mekaevolution:cosmic_control_circuit", ["123"], {
     1: "assemblylinemachines:reality_crystal",
     2: "mekaevolution:absolute_control_circuit",
     3: "assemblylinemachines:miniature_black_hole",
   }).id(`${id_prefix}cosmic_control_circuit`)
 
-  crafting_shaped("assemblylinemachines:energy_harness", ["121", "343", "121"], {
+  shaped("assemblylinemachines:energy_harness", ["121", "343", "121"], {
     1: "mekanism:hdpe_sheet",
     2: "assemblylinemachines:energized_gold_plate",
     3: "assemblylinemachines:attuned_titanium_plate",
     4: "mekaevolution:cosmic_control_circuit",
   }).id(`${id_prefix}energy_harness`)
 
-  crafting_shaped("assemblylinemachines:entropy_reactor_core", ["121", "232", "121"], {
+  shaped("assemblylinemachines:entropy_reactor_core", ["121", "232", "121"], {
     1: "assemblylinemachines:energy_harness",
     2: "assemblylinemachines:entropy_reactor_block",
     3: "assemblylinemachines:miniature_black_hole",
   }).id(`${id_prefix}entropy_reactor_core`)
 
-  crafting_shaped("assemblylinemachines:entropy_reactor_block", ["121", "2 2", "121"], {
+  shaped("assemblylinemachines:entropy_reactor_block", ["121", "2 2", "121"], {
     1: "assemblylinemachines:attuned_titanium_plate",
     2: "mekanism:steel_casing",
   }).id(`${id_prefix}entropy_reactor_block`)
 
-  crafting_shaped("assemblylinemachines:entropy_reactor_upgrade_capacity", [" 1 ", "121", " 1 "], {
+  shaped("assemblylinemachines:entropy_reactor_upgrade_capacity", [" 1 ", "121", " 1 "], {
     1: "mekanism:hdpe_sheet",
     2: "ae2:singularity",
   }).id(`${id_prefix}entropy_reactor_upgrade_capacity`)
 
-  crafting_shaped("assemblylinemachines:entropy_reactor_upgrade_cycle_delayer", [" 1 ", "121", " 1 "], {
+  shaped("assemblylinemachines:entropy_reactor_upgrade_cycle_delayer", [" 1 ", "121", " 1 "], {
     1: "mekanism:hdpe_sheet",
     2: "clock",
   }).id(`${id_prefix}entropy_reactor_upgrade_cycle_delayer`)
 
-  crafting_shaped("assemblylinemachines:entropy_reactor_upgrade_variety", [" 1 ", "121", " 1 "], {
+  shaped("assemblylinemachines:entropy_reactor_upgrade_variety", [" 1 ", "121", " 1 "], {
     1: "mekanism:hdpe_sheet",
     2: "mekanism:pellet_antimatter",
   }).id(`${id_prefix}entropy_reactor_upgrade_variety`)
 
-  crafting_shaped("assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser", ["111", "121", "111"], {
+  shaped("assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser", ["111", "121", "111"], {
     1: "kubejs:undef1ned",
     2: "assemblylinemachines:reality_crystal",
   }).id(`${id_prefix}entropy_reactor_upgrade_entropic_harnesser`)
 
-  crafting_shaped("extendedexchange:fading_matter", ["111", "121", "111"], {
+  shaped("extendedexchange:fading_matter", ["111", "121", "111"], {
     1: Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:antimatter"}'),
     2: "assemblylinemachines:semi_dense_neutron_matter",
   }).id(`${id_prefix}fading_matter1`)
 
-  crafting_shaped("5x extendedexchange:fading_matter", ["111", "121", "111"], {
+  shaped("5x extendedexchange:fading_matter", ["111", "121", "111"], {
     1: Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:antimatter"}'),
     2: "assemblylinemachines:quark_matter",
   }).id(`${id_prefix}fading_matter2`)
 
-  crafting_shaped("10x extendedexchange:fading_matter", ["111", "121", "111"], {
+  shaped("10x extendedexchange:fading_matter", ["111", "121", "111"], {
     1: Item.of("extendedcrafting:singularity", '{Id:"extendedcrafting:antimatter"}'),
     2: "assemblylinemachines:strange_matter",
   }).id(`${id_prefix}fading_matter3`)
 
-  crafting_shaped("assemblylinemachines:electrified_netherite_blend", ["121", "232", "121"], {
+  shaped("assemblylinemachines:electrified_netherite_blend", ["121", "232", "121"], {
     1: "thermal:netherite_dust",
     2: "assemblylinemachines:energized_gold_ingot",
     3: "assemblylinemachines:chaotic_fertilizer",
   }).id(`${id_prefix}electrified_netherite_blend`)
 
-  crafting_shaped("assemblylinemachines:nova_blend", ["121", "434", "121"], {
+  shaped("assemblylinemachines:nova_blend", ["121", "434", "121"], {
     1: "assemblylinemachines:prismatic_dust",
     2: "minecraft:redstone",
     3: "minecraft:nether_star",
     4: "thermal:lapis_dust",
   }).id(`${id_prefix}nova_blend`)
 
-  crafting_shaped("assemblylinemachines:mystium_blend", ["121", "232", "121"], {
+  shaped("assemblylinemachines:mystium_blend", ["121", "232", "121"], {
     1: "assemblylinemachines:electrified_netherite_blend",
     2: "mekanism:pellet_antimatter",
     3: "assemblylinemachines:corrupted_shard",
   }).id(`${id_prefix}mystium_blend`)
 
-  crafting_shaped("mekaevolution:infinite_control_circuit", ["111", "132", "222"], {
+  shaped("mekaevolution:infinite_control_circuit", ["111", "132", "222"], {
     1: "assemblylinemachines:novasteel_ingot",
     2: "assemblylinemachines:mystium_ingot",
     3: "mekaevolution:cosmic_control_circuit",
   }).id(`${id_prefix}infinite_control_circuit`)
 
   // painting_machine
-  crafting_shaped("mekanism:painting_machine", ["161", "343", "121"], {
+  shaped("mekanism:painting_machine", ["161", "343", "121"], {
     1: "mekanism:alloy_atomic",
     2: "mekaevolution:infinite_control_circuit",
     3: "mekanism:dye_base",
@@ -869,7 +846,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}painting_machine`)
 
   // 'mekanism:pigment_extractor'
-  crafting_shaped("mekanism:pigment_extractor", ["161", "343", "121"], {
+  shaped("mekanism:pigment_extractor", ["161", "343", "121"], {
     1: "mekanism:alloy_atomic",
     2: "mekaevolution:infinite_control_circuit",
     3: "thermal:device_tree_extractor",
@@ -878,7 +855,7 @@ onEvent("recipes", (event) => {
   }).id(`${id_prefix}pigment_extractor`)
 
   // pigment_mixer
-  crafting_shaped("mekanism:pigment_mixer", ["161", "343", "121"], {
+  shaped("mekanism:pigment_mixer", ["161", "343", "121"], {
     1: "mekanism:alloy_atomic",
     2: "mekaevolution:infinite_control_circuit",
     3: "mekanism:hdpe_rod",
@@ -886,81 +863,78 @@ onEvent("recipes", (event) => {
     6: "assemblylinemachines:microprocessor",
   }).id(`${id_prefix}pigment_mixer`)
 
-  crafting_shaped("tconstruct:smeltery_controller", ["21 "], {
+  shaped("tconstruct:smeltery_controller", ["21 "], {
     1: "tconstruct:queens_slime_nugget",
     2: "tconstruct:seared_melter",
   }).id(`${id_prefix}smeltery_controller`)
 
-  crafting_shaped("create:sail_frame", ["12 ", "21 "], {
+  shaped("create:sail_frame", ["12 ", "21 "], {
     1: "create:andesite_alloy",
     2: "stick",
   }).id(`${id_prefix}sail_frame`)
 
-  crafting_shaped("kubejs:spirit_attuned_gem_block", ["111", "111", "111"], {
+  shaped("kubejs:spirit_attuned_gem_block", ["111", "111", "111"], {
     1: "occultism:spirit_attuned_gem",
   }).id(`${id_prefix}spirit_attuned_gem_block`)
 
-  crafting_shaped("kubejs:fluix_pearl_block", ["111", "111", "111"], {
+  shaped("kubejs:fluix_pearl_block", ["111", "111", "111"], {
     1: "ae2:fluix_pearl",
   }).id(`${id_prefix}fluix_pearl_block`)
 
-  crafting_shaped("kubejs:mana_pearl_block", ["111", "111", "111"], {
+  shaped("kubejs:mana_pearl_block", ["111", "111", "111"], {
     1: "botania:mana_pearl",
   }).id(`${id_prefix}mana_pearl_block`)
 
-  crafting_shaped("kubejs:pure_iron_block", ["111", "111", "111"], {
+  shaped("kubejs:pure_iron_block", ["111", "111", "111"], {
     1: "assemblylinemachines:pure_iron_ingot",
   }).id(`${id_prefix}pure_iron_block`)
 
-  crafting_shaped("assemblylinemachines:internal_water_generator", ["121", "131", "121"], {
+  shaped("assemblylinemachines:internal_water_generator", ["121", "131", "121"], {
     1: "assemblylinemachines:pure_copper_plate",
     2: "assemblylinemachines:pure_copper_gear",
-    3: Item.of(
-      "mekanism:ultimate_fluid_tank",
-      '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:256000,FluidName:"minecraft:water"}}]}}'
-    ).weakNBT(),
+    3: Item.of("mekanism:ultimate_fluid_tank", '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:256000,FluidName:"minecraft:water"}}]}}').weakNBT(),
   }).id(`${id_prefix}internal_water_generator`)
 
-  crafting_shaped("thermal:rf_coil_creative_augment", ["123"], {
+  shaped("thermal:rf_coil_creative_augment", ["123"], {
     1: "thermal_extra:rf_coil_xfer_augment_5",
     2: "assemblylinemachines:creative_upgrade_kit",
     3: "thermal_extra:rf_coil_storage_augment_5",
   }).id(`${id_prefix}rf_coil_creative_augment`)
 
-  crafting_shaped("thermal:machine_efficiency_creative_augment", ["123"], {
+  shaped("thermal:machine_efficiency_creative_augment", ["123"], {
     1: "thermal_extra:machine_speed_augment_4",
     2: "assemblylinemachines:creative_upgrade_kit",
     3: "thermal_extra:machine_efficiency_augment_4",
   }).id(`${id_prefix}machine_efficiency_creative_augment`)
 
-  crafting_shaped("thermal:fluid_tank_creative_augment", ["12 "], {
+  shaped("thermal:fluid_tank_creative_augment", ["12 "], {
     1: "assemblylinemachines:creative_upgrade_kit",
     2: "thermal_extra:fluid_tank_augment_6",
   }).id(`${id_prefix}fluid_tank_creative_augment`)
 
-  crafting_shaped("thermal:machine_catalyst_creative_augment", ["12 "], {
+  shaped("thermal:machine_catalyst_creative_augment", ["12 "], {
     1: "assemblylinemachines:creative_upgrade_kit",
     2: "thermal_extra:machine_catalyst_augment_3",
   }).id(`${id_prefix}machine_catalyst_creative_augment`)
 
-  crafting_shaped("projecte:alchemical_coal", ["11 ", "11 "], {
+  shaped("projecte:alchemical_coal", ["11 ", "11 "], {
     1: "coal",
   }).id(`${id_prefix}alchemical_coal`)
 
-  crafting_shaped("projecte:mobius_fuel", ["11 ", "11 "], {
+  shaped("projecte:mobius_fuel", ["11 ", "11 "], {
     1: "projecte:alchemical_coal",
   }).id(`${id_prefix}mobius_fuel`)
 
-  crafting_shaped("projecte:aeternalis_fuel", ["11 ", "11 "], {
+  shaped("projecte:aeternalis_fuel", ["11 ", "11 "], {
     1: "projecte:mobius_fuel",
   }).id(`${id_prefix}aeternalis_fuel`)
 
-  crafting_shaped("8x ae2:sky_stone_block", ["111", "121", "111"], {
+  shaped("8x ae2:sky_stone_block", ["111", "121", "111"], {
     1: "stone",
     2: "kubejs:undef1ned",
   }).id(`${id_prefix}sky_stone_block`)
 
-  crafting_shaped("kubejs:congealed_magma_cream", ["11 ", "11 "], {
+  shaped("kubejs:congealed_magma_cream", ["11 ", "11 "], {
     1: "minecraft:magma_cream",
   }).id(`${id_prefix}congealed_magma_cream`)
 })

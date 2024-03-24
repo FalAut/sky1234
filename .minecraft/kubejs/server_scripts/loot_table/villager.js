@@ -68,32 +68,12 @@ onEvent("morejs.villager.trades", (event) => {
   event.removeModdedTrades(["immersiveengineering:machinist"], 4)
   event.removeModdedTrades(["immersiveengineering:machinist"], 5)
   event.addTrade("immersiveengineering:machinist", 1, "emerald", "immersiveengineering:treated_wood_horizontal")
-  event.addTrade(
-    "immersiveengineering:machinist",
-    1,
-    "emerald",
-    Item.of("immersiveengineering:blueprint", '{blueprint:"components"}')
-  )
+  event.addTrade("immersiveengineering:machinist", 1, "emerald", Item.of("immersiveengineering:blueprint", '{blueprint:"components"}'))
   event.addTrade("immersiveengineering:machinist", 2, "emerald", "immersiveengineering:coal_coke")
   event.addTrade("immersiveengineering:machinist", 2, "emerald", "immersiveengineering:wire_copper")
-  event.addTrade(
-    "immersiveengineering:machinist",
-    3,
-    "emerald",
-    Item.of("immersiveengineering:blueprint", '{blueprint:"electrode"}')
-  )
-  event.addTrade(
-    "immersiveengineering:machinist",
-    4,
-    "emerald",
-    Item.of("immersiveengineering:blueprint", '{blueprint:"molds"}')
-  )
-  event.addTrade(
-    "immersiveengineering:machinist",
-    5,
-    "emerald",
-    Item.of("immersiveengineering:blueprint", '{blueprint:"bannerpatterns"}')
-  )
+  event.addTrade("immersiveengineering:machinist", 3, "emerald", Item.of("immersiveengineering:blueprint", '{blueprint:"electrode"}'))
+  event.addTrade("immersiveengineering:machinist", 4, "emerald", Item.of("immersiveengineering:blueprint", '{blueprint:"molds"}'))
+  event.addTrade("immersiveengineering:machinist", 5, "emerald", Item.of("immersiveengineering:blueprint", '{blueprint:"bannerpatterns"}'))
 })
 onEvent("morejs.wanderer.trades", (event) => {
   event.removeModdedTrades(1)

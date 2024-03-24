@@ -1,54 +1,20 @@
-/** @format */
-
 onEvent("recipes", (event) => {
   const id_prefix = "kubejs:recipes/mekanism/mekanism/"
-  const {
-    chemical_infusing,
-    combining,
-    compressing,
-    crushing,
-    dissolution,
-    enriching,
-    injecting,
-    metallurgic_infusing,
-    purifying,
-    sawing,
-    smelting,
-  } = event.recipes.mekanism
+  const { chemical_infusing, combining, compressing, crushing, dissolution, enriching, injecting, metallurgic_infusing, purifying, sawing, smelting } = event.recipes.mekanism
 
-  metallurgic_infusing(
-    "thermal_extra:dragonsteel_ingot",
-    "immersiveengineering:ingot_steel",
-    "20x kubejs:dragon_breath"
-  ).id(`${id_prefix}dragonsteel_ingot`)
+  metallurgic_infusing("thermal_extra:dragonsteel_ingot", "immersiveengineering:ingot_steel", "20x kubejs:dragon_breath").id(`${id_prefix}dragonsteel_ingot`)
 
-  metallurgic_infusing("mekanism:alloy_atomic", "mekanism:alloy_reinforced", "20x kubejs:unobtanium").id(
-    `${id_prefix}alloy_atomic`
-  )
+  metallurgic_infusing("mekanism:alloy_atomic", "mekanism:alloy_reinforced", "20x kubejs:unobtanium").id(`${id_prefix}alloy_atomic`)
 
-  metallurgic_infusing(
-    "assemblylinemachines:energized_gold_ingot",
-    "assemblylinemachines:pure_gold_ingot",
-    "20x mekanism:redstone"
-  ).id(`${id_prefix}energized_gold_ingot`)
+  metallurgic_infusing("assemblylinemachines:energized_gold_ingot", "assemblylinemachines:pure_gold_ingot", "20x mekanism:redstone").id(`${id_prefix}energized_gold_ingot`)
 
-  metallurgic_infusing("assemblylinemachines:empowered_coal", "minecraft:coal", "20x mekanism:redstone").id(
-    `${id_prefix}empowered_coal`
-  )
+  metallurgic_infusing("assemblylinemachines:empowered_coal", "minecraft:coal", "20x mekanism:redstone").id(`${id_prefix}empowered_coal`)
 
-  metallurgic_infusing(
-    "assemblylinemachines:attuned_titanium_ingot",
-    "assemblylinemachines:pure_titanium_ingot",
-    "20x mekanism:refined_obsidian"
-  ).id(`${id_prefix}attuned_titanium_ingot`)
+  metallurgic_infusing("assemblylinemachines:attuned_titanium_ingot", "assemblylinemachines:pure_titanium_ingot", "20x mekanism:refined_obsidian").id(`${id_prefix}attuned_titanium_ingot`)
 
-  combining("mekanism:basic_control_circuit", "immersiveengineering:circuit_board", "botania:terrasteel_nugget").id(
-    `${id_prefix}basic_control_circuit`
-  )
+  combining("mekanism:basic_control_circuit", "immersiveengineering:circuit_board", "botania:terrasteel_nugget").id(`${id_prefix}basic_control_circuit`)
 
-  combining("mekanism:steel_casing", "industrialforegoing:machine_frame_supreme", "botania:gaia_ingot").id(
-    `${id_prefix}steel_casing`
-  )
+  combining("mekanism:steel_casing", "industrialforegoing:machine_frame_supreme", "botania:gaia_ingot").id(`${id_prefix}steel_casing`)
 
   event
     .custom({
