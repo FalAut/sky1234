@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipe/industrialforegoing/laser_drill_ore/";
+  const id_prefix = "kubejs:recipe/industrialforegoing/laser_drill_ore/"
 
   const recipes = [
     {
@@ -44,7 +44,7 @@ onEvent("recipes", (event) => {
       catalyst: { item: "industrialforegoing:laser_lens15" },
       id: `${id_prefix}titanium_ore`,
     },
-  ];
+  ]
   recipes.forEach((recipe) => {
     event
       .custom({
@@ -54,6 +54,6 @@ onEvent("recipes", (event) => {
         pointer: 0,
         catalyst: recipe.catalyst,
       })
-      .id(recipe.id);
-  });
-});
+      .id(recipe.id)
+  })
+})

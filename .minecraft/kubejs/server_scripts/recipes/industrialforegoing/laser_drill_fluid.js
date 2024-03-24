@@ -18,7 +18,7 @@ onEvent("recipes", (event) => {
       entity: "botania:pink_wither",
       type: "industrialforegoing:laser_drill_fluid",
     })
-    .id("kubejs:recipe/industrialforegoing/laser_drill_fluid/pink_slime");
+    .id("kubejs:recipe/industrialforegoing/laser_drill_fluid/pink_slime")
 
   event
     .custom({
@@ -39,5 +39,5 @@ onEvent("recipes", (event) => {
       entity: "wither",
       type: "industrialforegoing:laser_drill_fluid",
     })
-    .id("kubejs:recipe/industrialforegoing/laser_drill_fluid/ether_gas");
-});
+    .id("kubejs:recipe/industrialforegoing/laser_drill_fluid/ether_gas")
+})

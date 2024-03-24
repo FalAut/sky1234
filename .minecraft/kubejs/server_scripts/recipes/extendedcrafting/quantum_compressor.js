@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/extendedcrafting/compressor/";
+  const id_prefix = "kubejs:recipes/extendedcrafting/compressor/"
 
   const recipes = [
     {
@@ -173,7 +173,7 @@ onEvent("recipes", (event) => {
       result: { item: "extendedcrafting:ultimate_singularity" },
       id: `${id_prefix}ultimate_singularity`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
     event
@@ -186,6 +186,6 @@ onEvent("recipes", (event) => {
         catalyst: { item: recipe.icatalyst },
         result: recipe.result,
       })
-      .id(recipe.id);
-  });
-});
+      .id(recipe.id)
+  })
+})

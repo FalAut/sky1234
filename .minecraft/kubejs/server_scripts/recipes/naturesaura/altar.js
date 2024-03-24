@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "naturesaura:altar/";
+  const id_prefix = "naturesaura:altar/"
   const recipes = [
     {
       input: "iron_ingot",
@@ -69,11 +69,11 @@ onEvent("recipes", (event) => {
       time: 80,
       id: `${id_prefix}gilded_blackstone`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    recipe.type = "naturesaura:altar";
-    recipe.input = Ingredient.of(recipe.input).toJson();
-    event.custom(recipe).id(recipe.id);
-  });
-});
+    recipe.type = "naturesaura:altar"
+    recipe.input = Ingredient.of(recipe.input).toJson()
+    event.custom(recipe).id(recipe.id)
+  })
+})

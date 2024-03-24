@@ -224,12 +224,6 @@
 			]
 			rewards: [
 				{
-					id: "24EDA489B65BCD5E"
-					type: "item"
-					item: "bettermuffling:muffling_block_advanced"
-					count: 3
-				}
-				{
 					id: "0C81196C00E7A49D"
 					type: "random"
 					exclude_from_claim_all: true
@@ -565,11 +559,6 @@
 				item: "minecraft:redstone"
 			}]
 			rewards: [
-				{
-					id: "0AFAEE464029265E"
-					type: "item"
-					item: "bettermuffling:muffling_block_advanced"
-				}
 				{
 					id: "64585A3EFFCAB1BE"
 					type: "random"
@@ -2924,11 +2913,6 @@
 			}]
 			rewards: [
 				{
-					id: "4AFC64981017D8DD"
-					type: "item"
-					item: "bettermuffling:muffling_block_advanced"
-				}
-				{
 					id: "67EB41FD27513AD8"
 					type: "random"
 					exclude_from_claim_all: true
@@ -3110,11 +3094,6 @@
 			}]
 			rewards: [
 				{
-					id: "6D61D645C8286B2A"
-					type: "item"
-					item: "bettermuffling:muffling_block_advanced"
-				}
-				{
 					id: "20ABC0ABEAE3B5FF"
 					type: "random"
 					exclude_from_claim_all: true
@@ -3140,6 +3119,12 @@
 				id: "18AA81BA1738546F"
 				type: "item"
 				item: "immersiveengineering:redstone_acid_bucket"
+			}]
+			rewards: [{
+				id: "6F5B5A0D293591DF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564527076072386099L
 			}]
 		}
 		{

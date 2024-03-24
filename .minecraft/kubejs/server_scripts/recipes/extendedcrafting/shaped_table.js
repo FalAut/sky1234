@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/extendedcrafting/shaped_table/";
+  const id_prefix = "kubejs:recipes/extendedcrafting/shaped_table/"
   event
     .custom({
       type: "extendedcrafting:shaped_table",
@@ -226,12 +226,22 @@ onEvent("recipes", (event) => {
         item: "hostilenetworks:empty_prediction",
       },
     })
-    .id(`${id_prefix}empty_prediction`);
+    .id(`${id_prefix}empty_prediction`)
 
   event
     .custom({
       type: "extendedcrafting:shaped_table",
-      pattern: ["ABBBBBBBA", "BCDEFEDCB", "BDGHIHJDB", "BEHKLMHEB", "BFNOPQRFB", "BEHSTUHEB", "BDVHWHXDB", "BCDEFEDCB", "ABBBBBBBA"],
+      pattern: [
+        "ABBBBBBBA",
+        "BCDEFEDCB",
+        "BDGHIHJDB",
+        "BEHKLMHEB",
+        "BFNOPQRFB",
+        "BEHSTUHEB",
+        "BDVHWHXDB",
+        "BCDEFEDCB",
+        "ABBBBBBBA",
+      ],
       key: {
         A: {
           item: "assemblylinemachines:novasteel_gear",
@@ -316,11 +326,21 @@ onEvent("recipes", (event) => {
         item: "ae2:creative_item_cell",
       },
     })
-    .id(`${id_prefix}creative_item_cell`);
+    .id(`${id_prefix}creative_item_cell`)
   event
     .custom({
       type: "extendedcrafting:shaped_table",
-      pattern: ["AAAAAAAAA", "AAABBBAAA", "AABAAABAA", "AABAAAAAA", "AABAAAAAA", "AABAAAAAA", "AABAAABAA", "AAABBBAAA", "AAAAAAAAA"],
+      pattern: [
+        "AAAAAAAAA",
+        "AAABBBAAA",
+        "AABAAABAA",
+        "AABAAAAAA",
+        "AABAAAAAA",
+        "AABAAAAAA",
+        "AABAAABAA",
+        "AAABBBAAA",
+        "AAAAAAAAA",
+      ],
       key: {
         A: {
           item: "extendedcrafting:the_ultimate_ingot",
@@ -333,11 +353,21 @@ onEvent("recipes", (event) => {
         item: "functionalstorage:creative_vending_upgrade",
       },
     })
-    .id(`${id_prefix}creative_vending_upgrade`);
+    .id(`${id_prefix}creative_vending_upgrade`)
   event
     .custom({
       type: "extendedcrafting:shaped_table",
-      pattern: ["ABBBBBBBA", "BCDDEDDCB", "BDFGGGFDB", "BDGHIHGDB", "BEGIJIGEB", "BDGHIHGDB", "BDFGGGFDB", "BCDDEDDCB", "ABBBBBBBA"],
+      pattern: [
+        "ABBBBBBBA",
+        "BCDDEDDCB",
+        "BDFGGGFDB",
+        "BDGHIHGDB",
+        "BEGIJIGEB",
+        "BDGHIHGDB",
+        "BDFGGGFDB",
+        "BCDDEDDCB",
+        "ABBBBBBBA",
+      ],
       key: {
         A: {
           item: "assemblylinemachines:novasteel_gear",
@@ -374,12 +404,22 @@ onEvent("recipes", (event) => {
         item: "mekanism:creative_fluid_tank",
       },
     })
-    .id(`${id_prefix}creative_fluid_tank`);
+    .id(`${id_prefix}creative_fluid_tank`)
 
   event
     .custom({
       type: "extendedcrafting:shaped_table",
-      pattern: ["ABBBBBBBA", "BCDDEDDCB", "BDFGGGFDB", "BDGHHHGDB", "BEGHHHGEB", "BDGHHHGDB", "BDFGGGFDB", "BCDDEDDCB", "ABBBBBBBA"],
+      pattern: [
+        "ABBBBBBBA",
+        "BCDDEDDCB",
+        "BDFGGGFDB",
+        "BDGHHHGDB",
+        "BEGHHHGEB",
+        "BDGHHHGDB",
+        "BDFGGGFDB",
+        "BCDDEDDCB",
+        "ABBBBBBBA",
+      ],
       key: {
         A: {
           item: "assemblylinemachines:novasteel_gear",
@@ -411,11 +451,21 @@ onEvent("recipes", (event) => {
         item: "mekanism:creative_chemical_tank",
       },
     })
-    .id(`${id_prefix}creative_chemical_tank`);
+    .id(`${id_prefix}creative_chemical_tank`)
   event
     .custom({
       type: "extendedcrafting:shaped_table",
-      pattern: ["ABBBBBBBA", "BCDDEDDCB", "BDFGGGFDB", "BDGHHHGDB", "BEGHHHGEB", "BDGHHHGDB", "BDFGGGFDB", "BCDDEDDCB", "ABBBBBBBA"],
+      pattern: [
+        "ABBBBBBBA",
+        "BCDDEDDCB",
+        "BDFGGGFDB",
+        "BDGHHHGDB",
+        "BEGHHHGEB",
+        "BDGHHHGDB",
+        "BDFGGGFDB",
+        "BCDDEDDCB",
+        "ABBBBBBBA",
+      ],
       key: {
         A: {
           item: "assemblylinemachines:novasteel_gear",
@@ -445,13 +495,26 @@ onEvent("recipes", (event) => {
           nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}',
         },
       },
-      result: Item.of("mekanism:creative_energy_cube", '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}'),
+      result: Item.of(
+        "mekanism:creative_energy_cube",
+        '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}'
+      ),
     })
-    .id(`${id_prefix}creative_energy_cube`);
+    .id(`${id_prefix}creative_energy_cube`)
   event
     .custom({
       type: "extendedcrafting:shaped_table",
-      pattern: ["ABBBBBBBA", "BCDDDDDCB", "BD     DB", "BD     DB", "BD     DB", "BD     DB", "BD     DB", "BCDDDDDCB", "ABBBBBBBA"],
+      pattern: [
+        "ABBBBBBBA",
+        "BCDDDDDCB",
+        "BD     DB",
+        "BD     DB",
+        "BD     DB",
+        "BD     DB",
+        "BD     DB",
+        "BCDDDDDCB",
+        "ABBBBBBBA",
+      ],
       key: {
         A: {
           item: "assemblylinemachines:novasteel_gear",
@@ -470,5 +533,5 @@ onEvent("recipes", (event) => {
         item: "assemblylinemachines:creative_upgrade_kit",
       },
     })
-    .id(`${id_prefix}creative_energy_cube`);
-});
+    .id(`${id_prefix}creative_energy_cube`)
+})

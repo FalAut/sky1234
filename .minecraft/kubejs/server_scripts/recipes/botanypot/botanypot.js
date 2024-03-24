@@ -23,7 +23,7 @@ onEvent("recipes", (event) => {
         maxRolls: 2,
       },
     ],
-  });
+  })
 
   //烈焰百合种子 更好的植物盆栽
   event.custom({
@@ -49,7 +49,7 @@ onEvent("recipes", (event) => {
         maxRolls: 2,
       },
     ],
-  });
+  })
 
   //末影百合种子
   event.custom({
@@ -75,7 +75,7 @@ onEvent("recipes", (event) => {
         maxRolls: 2,
       },
     ],
-  });
+  })
 
   //末影百合种子 更好的植物盆栽
   event.custom({
@@ -101,7 +101,7 @@ onEvent("recipes", (event) => {
         maxRolls: 2,
       },
     ],
-  });
+  })
 
   //紫颂果
   event.custom({
@@ -127,7 +127,7 @@ onEvent("recipes", (event) => {
         maxRolls: 2,
       },
     ],
-  });
+  })
 
   //紫颂果 更好的植物盆栽
   event.custom({
@@ -153,7 +153,7 @@ onEvent("recipes", (event) => {
         maxRolls: 2,
       },
     ],
-  });
+  })
 
   //向日葵
   event.custom({
@@ -179,7 +179,7 @@ onEvent("recipes", (event) => {
         maxRolls: 2,
       },
     ],
-  });
+  })
 
   //向日葵 更好的植物盆栽
   event.custom({
@@ -205,5 +205,5 @@ onEvent("recipes", (event) => {
         maxRolls: 2,
       },
     ],
-  });
-});
+  })
+})

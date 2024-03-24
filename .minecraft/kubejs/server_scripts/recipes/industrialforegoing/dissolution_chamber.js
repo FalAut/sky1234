@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipe/industrialforegoing/dissolution_chamber/";
+  const id_prefix = "kubejs:recipe/industrialforegoing/dissolution_chamber/"
 
   const recipes = [
     {
@@ -353,14 +353,14 @@ onEvent("recipes", (event) => {
       outputFluidAmount: 0,
       id: `${id_prefix}circuit_board4`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    let ingredients = [];
+    let ingredients = []
 
     recipe.inputs.forEach((input) => {
-      ingredients.push(Ingredient.of(input));
-    });
+      ingredients.push(Ingredient.of(input))
+    })
 
     event
       .custom({
@@ -371,6 +371,6 @@ onEvent("recipes", (event) => {
         output: recipe.outputItem,
         outputFluid: `{FluidName:"${recipe.outputFluid}",Amount:${recipe.outputFluidAmount}}`,
       })
-      .id(recipe.id);
-  });
-});
+      .id(recipe.id)
+  })
+})

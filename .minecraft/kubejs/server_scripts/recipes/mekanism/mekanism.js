@@ -1,7 +1,7 @@
 /** @format */
 
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/mekanism/mekanism/";
+  const id_prefix = "kubejs:recipes/mekanism/mekanism/"
   const {
     chemical_infusing,
     combining,
@@ -14,31 +14,41 @@ onEvent("recipes", (event) => {
     purifying,
     sawing,
     smelting,
-  } = event.recipes.mekanism;
+  } = event.recipes.mekanism
 
-  metallurgic_infusing("thermal_extra:dragonsteel_ingot", "immersiveengineering:ingot_steel", "20x kubejs:dragon_breath").id(
-    `${id_prefix}dragonsteel_ingot`
-  );
+  metallurgic_infusing(
+    "thermal_extra:dragonsteel_ingot",
+    "immersiveengineering:ingot_steel",
+    "20x kubejs:dragon_breath"
+  ).id(`${id_prefix}dragonsteel_ingot`)
 
-  metallurgic_infusing("mekanism:alloy_atomic", "mekanism:alloy_reinforced", "20x kubejs:unobtanium").id(`${id_prefix}alloy_atomic`);
+  metallurgic_infusing("mekanism:alloy_atomic", "mekanism:alloy_reinforced", "20x kubejs:unobtanium").id(
+    `${id_prefix}alloy_atomic`
+  )
 
-  metallurgic_infusing("assemblylinemachines:energized_gold_ingot", "assemblylinemachines:pure_gold_ingot", "20x mekanism:redstone").id(
-    `${id_prefix}energized_gold_ingot`
-  );
+  metallurgic_infusing(
+    "assemblylinemachines:energized_gold_ingot",
+    "assemblylinemachines:pure_gold_ingot",
+    "20x mekanism:redstone"
+  ).id(`${id_prefix}energized_gold_ingot`)
 
-  metallurgic_infusing("assemblylinemachines:empowered_coal", "minecraft:coal", "20x mekanism:redstone").id(`${id_prefix}empowered_coal`);
+  metallurgic_infusing("assemblylinemachines:empowered_coal", "minecraft:coal", "20x mekanism:redstone").id(
+    `${id_prefix}empowered_coal`
+  )
 
   metallurgic_infusing(
     "assemblylinemachines:attuned_titanium_ingot",
     "assemblylinemachines:pure_titanium_ingot",
     "20x mekanism:refined_obsidian"
-  ).id(`${id_prefix}attuned_titanium_ingot`);
+  ).id(`${id_prefix}attuned_titanium_ingot`)
 
   combining("mekanism:basic_control_circuit", "immersiveengineering:circuit_board", "botania:terrasteel_nugget").id(
     `${id_prefix}basic_control_circuit`
-  );
+  )
 
-  combining("mekanism:steel_casing", "industrialforegoing:machine_frame_supreme", "botania:gaia_ingot").id(`${id_prefix}steel_casing`);
+  combining("mekanism:steel_casing", "industrialforegoing:machine_frame_supreme", "botania:gaia_ingot").id(
+    `${id_prefix}steel_casing`
+  )
 
   event
     .custom({
@@ -47,7 +57,7 @@ onEvent("recipes", (event) => {
       input: { amount: 1, gas: "mekanism:antimatter" },
       output: { item: "mekanism:pellet_antimatter" },
     })
-    .id(`${id_prefix}pellet_antimatter`);
+    .id(`${id_prefix}pellet_antimatter`)
 
   event
     .custom({
@@ -55,7 +65,7 @@ onEvent("recipes", (event) => {
       input: { ingredient: { tag: "forge:pellets/antimatter" } },
       output: { gas: "mekanism:antimatter", amount: 1 },
     })
-    .id(`${id_prefix}antimatter`);
+    .id(`${id_prefix}antimatter`)
 
   event
     .custom({
@@ -63,7 +73,7 @@ onEvent("recipes", (event) => {
       input: { ingredient: { item: "assemblylinemachines:quantum_fuel" } },
       output: { gas: "mekanism:fissile_fuel", amount: 100 },
     })
-    .id(`${id_prefix}fissile_fuel`);
+    .id(`${id_prefix}fissile_fuel`)
 
   event
     .custom({
@@ -74,7 +84,7 @@ onEvent("recipes", (event) => {
       duration: 100,
       itemOutput: { item: "mekanism:pellet_polonium" },
     })
-    .id(`${id_prefix}pellet_polonium`);
+    .id(`${id_prefix}pellet_polonium`)
 
   event
     .custom({
@@ -90,7 +100,7 @@ onEvent("recipes", (event) => {
       duration: 100,
       itemOutput: { item: "architects_palette:unobtanium" },
     })
-    .id(`${id_prefix}unobtanium`);
+    .id(`${id_prefix}unobtanium`)
 
   event
     .custom({
@@ -99,7 +109,7 @@ onEvent("recipes", (event) => {
       input: { amount: 200, slurry: "mekanism:clean_copper" },
       output: { item: "assemblylinemachines:pure_copper_ingot" },
     })
-    .id(`${id_prefix}pure_copper_ingot`);
+    .id(`${id_prefix}pure_copper_ingot`)
 
   event
     .custom({
@@ -108,7 +118,7 @@ onEvent("recipes", (event) => {
       input: { amount: 200, slurry: "mekanism:clean_gold" },
       output: { item: "assemblylinemachines:pure_gold_ingot" },
     })
-    .id(`${id_prefix}pure_gold_ingot`);
+    .id(`${id_prefix}pure_gold_ingot`)
 
   event
     .custom({
@@ -117,7 +127,7 @@ onEvent("recipes", (event) => {
       input: { amount: 200, slurry: "mekanism:clean_iron" },
       output: { item: "assemblylinemachines:pure_iron_ingot" },
     })
-    .id(`${id_prefix}pure_iron_ingot`);
+    .id(`${id_prefix}pure_iron_ingot`)
 
   event
     .custom({
@@ -130,7 +140,7 @@ onEvent("recipes", (event) => {
         chemicalType: "slurry",
       },
     })
-    .id(`${id_prefix}dirty_titanium_from_ore`);
+    .id(`${id_prefix}dirty_titanium_from_ore`)
 
   event
     .custom({
@@ -145,7 +155,7 @@ onEvent("recipes", (event) => {
         chemicalType: "slurry",
       },
     })
-    .id(`${id_prefix}dirty_titanium_from_raw_block`);
+    .id(`${id_prefix}dirty_titanium_from_raw_block`)
 
   event
     .custom({
@@ -161,7 +171,7 @@ onEvent("recipes", (event) => {
         chemicalType: "slurry",
       },
     })
-    .id(`${id_prefix}dirty_titanium_from_raw`);
+    .id(`${id_prefix}dirty_titanium_from_raw`)
 
   event
     .custom({
@@ -170,7 +180,7 @@ onEvent("recipes", (event) => {
       slurryInput: { amount: 1, slurry: "kubejs:dirty_titanium" },
       output: { slurry: "kubejs:clean_titanium", amount: 1 },
     })
-    .id(`${id_prefix}clean_titanium`);
+    .id(`${id_prefix}clean_titanium`)
 
   event
     .custom({
@@ -179,7 +189,7 @@ onEvent("recipes", (event) => {
       input: { amount: 200, slurry: "kubejs:clean_titanium" },
       output: { item: "assemblylinemachines:pure_titanium_ingot" },
     })
-    .id(`${id_prefix}pure_titanium_ingot`);
+    .id(`${id_prefix}pure_titanium_ingot`)
 
   event
     .custom({
@@ -195,7 +205,7 @@ onEvent("recipes", (event) => {
       duration: 100,
       itemOutput: { item: "assemblylinemachines:empowered_fuel" },
     })
-    .id(`${id_prefix}empowered_fuel`);
+    .id(`${id_prefix}empowered_fuel`)
 
   event
     .custom({
@@ -211,7 +221,7 @@ onEvent("recipes", (event) => {
       duration: 100,
       itemOutput: { item: "assemblylinemachines:prism_rose" },
     })
-    .id(`${id_prefix}prism_rose`);
+    .id(`${id_prefix}prism_rose`)
 
   event
     .custom({
@@ -227,9 +237,9 @@ onEvent("recipes", (event) => {
       duration: 100,
       itemOutput: { item: "assemblylinemachines:chaotic_fertilizer" },
     })
-    .id(`${id_prefix}chaotic_fertilizer`);
+    .id(`${id_prefix}chaotic_fertilizer`)
 
-  crushing("assemblylinemachines:prismatic_dust", "assemblylinemachines:prism_rose").id(`${id_prefix}prismatic_dust`);
+  crushing("assemblylinemachines:prismatic_dust", "assemblylinemachines:prism_rose").id(`${id_prefix}prismatic_dust`)
 
   event
     .custom({
@@ -238,7 +248,7 @@ onEvent("recipes", (event) => {
       rightInput: { amount: 1, pigment: "mekanism:green" },
       output: { pigment: "kubejs:lime", amount: 2 },
     })
-    .id(`${id_prefix}lime`);
+    .id(`${id_prefix}lime`)
 
   event
     .custom({
@@ -247,7 +257,7 @@ onEvent("recipes", (event) => {
       rightInput: { amount: 1, pigment: "mekanism:purple" },
       output: { pigment: "kubejs:violet", amount: 2 },
     })
-    .id(`${id_prefix}violet`);
+    .id(`${id_prefix}violet`)
 
   // event
   //   .custom({
@@ -273,7 +283,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "mekanism:orange" },
       output: { item: "extendedexchange:orange_matter" },
     })
-    .id(`${id_prefix}orange_matter`);
+    .id(`${id_prefix}orange_matter`)
 
   event
     .custom({
@@ -286,7 +296,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "kubejs:lime" },
       output: { item: "extendedexchange:lime_matter" },
     })
-    .id(`${id_prefix}lime_matter`);
+    .id(`${id_prefix}lime_matter`)
 
   event
     .custom({
@@ -299,7 +309,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "mekanism:green" },
       output: { item: "extendedexchange:green_matter" },
     })
-    .id(`${id_prefix}green_matter`);
+    .id(`${id_prefix}green_matter`)
 
   event
     .custom({
@@ -312,7 +322,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "mekanism:cyan" },
       output: { item: "extendedexchange:cyan_matter" },
     })
-    .id(`${id_prefix}cyan_matter`);
+    .id(`${id_prefix}cyan_matter`)
 
   event
     .custom({
@@ -325,7 +335,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "mekanism:blue" },
       output: { item: "extendedexchange:blue_matter" },
     })
-    .id(`${id_prefix}blue_matter`);
+    .id(`${id_prefix}blue_matter`)
 
   event
     .custom({
@@ -338,7 +348,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "mekanism:magenta" },
       output: { item: "extendedexchange:magenta_matter" },
     })
-    .id(`${id_prefix}magenta_matter`);
+    .id(`${id_prefix}magenta_matter`)
 
   event
     .custom({
@@ -351,7 +361,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "mekanism:purple" },
       output: { item: "extendedexchange:purple_matter" },
     })
-    .id(`${id_prefix}purple_matter`);
+    .id(`${id_prefix}purple_matter`)
 
   event
     .custom({
@@ -364,7 +374,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "mekanism:white" },
       output: { item: "extendedexchange:white_matter" },
     })
-    .id(`${id_prefix}white_matter`);
+    .id(`${id_prefix}white_matter`)
 
   event
     .custom({
@@ -377,7 +387,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "mekanism:pink" },
       output: { item: "extendedexchange:pink_matter" },
     })
-    .id(`${id_prefix}pink_matter`);
+    .id(`${id_prefix}pink_matter`)
 
   event
     .custom({
@@ -390,7 +400,7 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "mekanism:yellow" },
       output: { item: "extendedexchange:yellow_matter" },
     })
-    .id(`${id_prefix}yellow_matter`);
+    .id(`${id_prefix}yellow_matter`)
 
   event
     .custom({
@@ -403,8 +413,8 @@ onEvent("recipes", (event) => {
       chemicalInput: { amount: 256, pigment: "kubejs:violet" },
       output: { item: "extendedexchange:violet_matter" },
     })
-    .id(`${id_prefix}violet_matter`);
+    .id(`${id_prefix}violet_matter`)
 
-  enriching("kubejs:enriched_dragon_breath", "minecraft:dragon_breath");
-  enriching("kubejs:enriched_unobtanium", "architects_palette:unobtanium");
-});
+  enriching("kubejs:enriched_dragon_breath", "minecraft:dragon_breath")
+  enriching("kubejs:enriched_unobtanium", "architects_palette:unobtanium")
+})

@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/occultis/spirit_fire/";
+  const id_prefix = "kubejs:recipes/occultis/spirit_fire/"
   const recipes = [
     {
       ingredient: { item: "create:refined_radiance" },
@@ -21,9 +21,9 @@ onEvent("recipes", (event) => {
       result: { item: "occultism:otherstone" },
       id: `${id_prefix}otherstone`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    (recipe.type = "occultism:spirit_fire"), event.custom(recipe).id(recipe.id);
-  });
-});
+    ;(recipe.type = "occultism:spirit_fire"), event.custom(recipe).id(recipe.id)
+  })
+})

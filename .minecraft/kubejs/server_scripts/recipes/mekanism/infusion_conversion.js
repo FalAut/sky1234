@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/mekanism/infusion_conversion/";
+  const id_prefix = "kubejs:recipes/mekanism/infusion_conversion/"
   const recipes = [
     {
       input: { ingredient: { item: "minecraft:dragon_breath" } },
@@ -21,7 +21,7 @@ onEvent("recipes", (event) => {
       output: { amount: 80, infuse_type: "kubejs:unobtanium" },
       id: `${id_prefix}unobtanium2`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
     event
@@ -30,6 +30,6 @@ onEvent("recipes", (event) => {
         input: recipe.input,
         output: recipe.output,
       })
-      .id(recipe.id);
-  });
-});
+      .id(recipe.id)
+  })
+})

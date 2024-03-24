@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/occultis/miner/";
+  const id_prefix = "kubejs:recipes/occultis/miner/"
   const recipes = [
     {
       ingredient: { item: "occultism:miner_debug_unspecialized" },
@@ -109,9 +109,9 @@ onEvent("recipes", (event) => {
       weight: 100,
       id: `${id_prefix}mystical_flowers16`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    (recipe.type = "occultism:miner"), event.custom(recipe).id(recipe.id);
-  });
-});
+    ;(recipe.type = "occultism:miner"), event.custom(recipe).id(recipe.id)
+  })
+})

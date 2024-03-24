@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "naturesaura:tree_ritual/";
+  const id_prefix = "naturesaura:tree_ritual/"
   const recipes = [
     {
       ingredients: [
@@ -95,13 +95,13 @@ onEvent("recipes", (event) => {
       sapling: "oak_sapling",
       id: `${id_prefix}token_joy`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    recipe.type = "naturesaura:tree_ritual";
-    recipe.ingredients = recipe.ingredients.map((input) => Ingredient.of(input).toJson());
-    recipe.sapling = Item.of(recipe.sapling).toJson();
-    recipe.output = Item.of(recipe.output).toResultJson();
-    event.custom(recipe).id(recipe.id);
-  });
-});
+    recipe.type = "naturesaura:tree_ritual"
+    recipe.ingredients = recipe.ingredients.map((input) => Ingredient.of(input).toJson())
+    recipe.sapling = Item.of(recipe.sapling).toJson()
+    recipe.output = Item.of(recipe.output).toResultJson()
+    event.custom(recipe).id(recipe.id)
+  })
+})

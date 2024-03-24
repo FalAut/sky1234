@@ -5,5 +5,5 @@ onEvent("recipes", (event) => {
     .inputMana(500000)
 
     .duration(120)
-    .outputItem("botania:terrasteel_ingot");
-});
+    .outputItem("botania:terrasteel_ingot")
+})

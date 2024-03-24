@@ -5,5 +5,5 @@ onEvent("ponder.tag", (event) => {
     "kubejs:nether_portal_frame",
     "naturesaura:nature_altar",
     "kubejs:undef1ned_fluid_bucket",
-  ]);
-});
+  ])
+})

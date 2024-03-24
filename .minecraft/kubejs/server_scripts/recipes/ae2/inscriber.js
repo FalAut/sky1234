@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/ae2/inscriber/";
+  const id_prefix = "kubejs:recipes/ae2/inscriber/"
   const recipes = [
     {
       mode: "press",
@@ -29,7 +29,7 @@ onEvent("recipes", (event) => {
       result: { item: "ae2:calculation_processor_press" },
       id: `${id_prefix}calculation_processor_press`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
     event
@@ -43,6 +43,6 @@ onEvent("recipes", (event) => {
         },
         result: recipe.result,
       })
-      .id(recipe.id);
-  });
-});
+      .id(recipe.id)
+  })
+})

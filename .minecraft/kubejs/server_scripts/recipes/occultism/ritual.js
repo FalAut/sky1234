@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/occultis/ritual/";
+  const id_prefix = "kubejs:recipes/occultis/ritual/"
   const recipes = [
     {
       ritual_type: "occultism:craft_with_spirit_name",
@@ -63,9 +63,9 @@ onEvent("recipes", (event) => {
       result: { item: "multiblocked:runic_altar_core" },
       id: `${id_prefix}runic_altar_core`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    (recipe.type = "occultism:ritual"), event.custom(recipe).id(recipe.id);
-  });
-});
+    ;(recipe.type = "occultism:ritual"), event.custom(recipe).id(recipe.id)
+  })
+})

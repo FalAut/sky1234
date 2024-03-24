@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/compact_crafting/";
+  const id_prefix = "kubejs:recipes/compact_crafting/"
   const recipes = [
     {
       recipeSize: 5,
@@ -331,7 +331,7 @@ onEvent("recipes", (event) => {
       ],
       id: `${id_prefix}end_portal_frame`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
     event
@@ -344,6 +344,6 @@ onEvent("recipes", (event) => {
         components: recipe.components,
         outputs: recipe.outputs,
       })
-      .id(recipe.id);
-  });
-});
+      .id(recipe.id)
+  })
+})

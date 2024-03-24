@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "naturesaura:animal_spawner/";
+  const id_prefix = "naturesaura:animal_spawner/"
   const recipes = [
     {
       inputs: ["naturesaura:birth_spirit", "orange_dye"],
@@ -29,11 +29,11 @@ onEvent("recipes", (event) => {
       time: 120,
       id: `${id_prefix}villager`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    recipe.type = "naturesaura:animal_spawner";
-    recipe.ingredients = recipe.inputs.map((input) => Ingredient.of(input).toJson());
-    event.custom(recipe).id(recipe.id);
-  });
-});
+    recipe.type = "naturesaura:animal_spawner"
+    recipe.ingredients = recipe.inputs.map((input) => Ingredient.of(input).toJson())
+    event.custom(recipe).id(recipe.id)
+  })
+})

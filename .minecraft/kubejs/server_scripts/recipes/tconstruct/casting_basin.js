@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/tconstruct/casting_basin/";
+  const id_prefix = "kubejs:recipes/tconstruct/casting_basin/"
   const recipes = [
     {
       cast_item: { item: "minecraft:nether_bricks" },
@@ -115,13 +115,13 @@ onEvent("recipes", (event) => {
       cooling_time: 100,
       id: `${id_prefix}andesite`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    (recipe.type = "tconstruct:casting_basin"),
+    ;(recipe.type = "tconstruct:casting_basin"),
       (recipe.cast = recipe.cast_item),
       recipe.cast_tag,
       (recipe.fluid = { name: recipe.fluid_name, tag: recipe.fluid_tag, amount: recipe.fluid_amount }),
-      event.custom(recipe).id(recipe.id);
-  });
-});
+      event.custom(recipe).id(recipe.id)
+  })
+})

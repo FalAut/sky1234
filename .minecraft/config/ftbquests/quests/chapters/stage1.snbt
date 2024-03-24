@@ -191,6 +191,7 @@
 						id: "tconstruct:kama"
 						Count: 1b
 						tag: {
+							tic_persistent: { }
 							tic_multipliers: {
 								"tconstruct:attack_damage": 0.5f
 							}
@@ -203,6 +204,10 @@
 							}
 							tic_broken: 0b
 							tic_modifiers: [
+								{
+									name: "tconstruct:tilling"
+									level: 1s
+								}
 								{
 									name: "tconstruct:cultivated"
 									level: 3s
@@ -222,7 +227,7 @@
 								"tconstruct:wood"
 							]
 							Damage: 0
-							tic_persistent_data: {
+							tic_volatile_data: {
 								abilities: 1
 								upgrades: 3
 							}
@@ -236,6 +241,7 @@
 						id: "tconstruct:kama"
 						Count: 1b
 						tag: {
+							tic_persistent: { }
 							tic_multipliers: {
 								"tconstruct:attack_damage": 0.5f
 							}
@@ -248,6 +254,10 @@
 							}
 							tic_broken: 0b
 							tic_modifiers: [
+								{
+									name: "tconstruct:tilling"
+									level: 1s
+								}
 								{
 									name: "tconstruct:stonebound"
 									level: 3s
@@ -267,7 +277,7 @@
 								"tconstruct:rock"
 							]
 							Damage: 0
-							tic_persistent_data: {
+							tic_volatile_data: {
 								abilities: 1
 								upgrades: 3
 							}
@@ -1331,19 +1341,12 @@
 				type: "item"
 				item: "tconstruct:queens_slime_block"
 			}]
-			rewards: [
-				{
-					id: "0B609AAA7324BEB4"
-					type: "item"
-					item: "bettermuffling:muffling_block_advanced"
-				}
-				{
-					id: "3BE264ECD6C84193"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+			rewards: [{
+				id: "3BE264ECD6C84193"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 26.0d
@@ -1356,19 +1359,12 @@
 				type: "item"
 				item: "minecraft:coal"
 			}]
-			rewards: [
-				{
-					id: "3F326B3E5FAF4C82"
-					type: "item"
-					item: "bettermuffling:muffling_block_advanced"
-				}
-				{
-					id: "0A580CB16C766121"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 8772607192016285100L
-				}
-			]
+			rewards: [{
+				id: "0A580CB16C766121"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8772607192016285100L
+			}]
 		}
 		{
 			x: 24.0d

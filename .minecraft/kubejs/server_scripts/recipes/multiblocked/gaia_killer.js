@@ -48,5 +48,5 @@ onEvent("recipes", (event) => {
       "immersiveengineering:shader_bag_epic",
       "minecraft:music_disc_13",
       "minecraft:music_disc_wait",
-    ]);
-});
+    ])
+})

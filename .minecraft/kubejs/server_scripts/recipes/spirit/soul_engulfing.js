@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipe/spirit/soul_engulfing/";
+  const id_prefix = "kubejs:recipe/spirit/soul_engulfing/"
   const recipes = [
     {
       ingredient: { item: "immersiveengineering:ingot_steel" },
@@ -37,7 +37,7 @@ onEvent("recipes", (event) => {
       outputItem: "spirit:soul_steel_block",
       id: `${id_prefix}soul_steel_ingot2`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
     event
@@ -51,6 +51,6 @@ onEvent("recipes", (event) => {
         destroysStructure: recipe.destroysStructure,
         outputItem: recipe.outputItem,
       })
-      .id(recipe.id);
-  });
-});
+      .id(recipe.id)
+  })
+})

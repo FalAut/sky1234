@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/naturesaura/offering_table/";
+  const id_prefix = "kubejs:recipes/naturesaura/offering_table/"
   const recipes = [
     {
       input: {
@@ -37,9 +37,9 @@ onEvent("recipes", (event) => {
       },
       id: `${id_prefix}diamond1`,
     },
-  ];
+  ]
   recipes.forEach((recipe) => {
-    recipe.type = "naturesaura:offering";
-    event.custom(recipe).id(recipe.id);
-  });
-});
+    recipe.type = "naturesaura:offering"
+    event.custom(recipe).id(recipe.id)
+  })
+})

@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/tconstruct/alloy/";
+  const id_prefix = "kubejs:recipes/tconstruct/alloy/"
   const recipes = [
     {
       inputs: [
@@ -19,10 +19,10 @@ onEvent("recipes", (event) => {
       temperature: 1000,
       id: `${id_prefix}molten_andesite_alloy2`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    recipe.type = "tconstruct:alloy";
-    event.custom(recipe).id(recipe.id);
-  });
-});
+    recipe.type = "tconstruct:alloy"
+    event.custom(recipe).id(recipe.id)
+  })
+})

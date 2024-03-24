@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/tconstruct/casting_table/";
+  const id_prefix = "kubejs:recipes/tconstruct/casting_table/"
   const recipes = [
     {
       cast: { tag: "tconstruct:casts/single_use/ingot" },
@@ -16,9 +16,9 @@ onEvent("recipes", (event) => {
       cooling_time: 60,
       id: `${id_prefix}andesite_alloy2`,
     },
-  ];
+  ]
 
   recipes.forEach((recipe) => {
-    (recipe.type = "tconstruct:casting_table"), event.custom(recipe).id(recipe.id);
-  });
-});
+    ;(recipe.type = "tconstruct:casting_table"), event.custom(recipe).id(recipe.id)
+  })
+})

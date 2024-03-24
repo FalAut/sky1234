@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/multiblocked/runic_altar/";
+  const id_prefix = "kubejs:recipes/multiblocked/runic_altar/"
 
   event.recipes.multiblocked
     .multiblock("runic_altar")
@@ -17,7 +17,7 @@ onEvent("recipes", (event) => {
 
     .duration(20)
     .outputItem("botania:creative_pool")
-    .id(`${id_prefix}creative_pool`);
+    .id(`${id_prefix}creative_pool`)
 
   event.recipes.multiblocked
     .multiblock("runic_altar")
@@ -35,7 +35,7 @@ onEvent("recipes", (event) => {
 
     .duration(1)
     .outputItem("botania:rune_mana")
-    .id(`${id_prefix}rune_mana`);
+    .id(`${id_prefix}rune_mana`)
 
   event.recipes.multiblocked
     .multiblock("runic_altar")
@@ -49,7 +49,7 @@ onEvent("recipes", (event) => {
     .inputMana(100000)
 
     .duration(120)
-    .outputItem("botania:rune_air");
+    .outputItem("botania:rune_air")
 
   event.recipes.multiblocked
     .multiblock("runic_altar")
@@ -63,7 +63,7 @@ onEvent("recipes", (event) => {
     .inputMana(100000)
 
     .duration(120)
-    .outputItem("botania:rune_earth");
+    .outputItem("botania:rune_earth")
 
   event.recipes.multiblocked
     .multiblock("runic_altar")
@@ -77,7 +77,7 @@ onEvent("recipes", (event) => {
     .inputMana(100000)
 
     .duration(120)
-    .outputItem("botania:rune_water");
+    .outputItem("botania:rune_water")
 
   event.recipes.multiblocked
     .multiblock("runic_altar")
@@ -91,13 +91,19 @@ onEvent("recipes", (event) => {
     .inputMana(100000)
 
     .duration(120)
-    .outputItem("botania:rune_fire");
+    .outputItem("botania:rune_fire")
 
   event.recipes.multiblocked
     .multiblock("runic_altar")
-    .inputItems(["botania:rune_mana", "botania:rune_fire", "botania:rune_earth", "botania:rune_air", "botania:rune_water"])
+    .inputItems([
+      "botania:rune_mana",
+      "botania:rune_fire",
+      "botania:rune_earth",
+      "botania:rune_air",
+      "botania:rune_water",
+    ])
     .inputMana(1000000)
 
     .duration(120)
-    .outputItem("multiblocked:runic_crystal");
-});
+    .outputItem("multiblocked:runic_crystal")
+})

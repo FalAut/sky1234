@@ -12,9 +12,9 @@ onEvent("item.modification", (event) => {
       "farmingforblockheads:market",
     ],
     (item) => {
-      item.fireResistant = true;
+      item.fireResistant = true
     }
-  );
+  )
 
   event.modify(
     [
@@ -27,13 +27,13 @@ onEvent("item.modification", (event) => {
       "create:chromatic_compound",
     ],
     (item) => {
-      item.maxStackSize = 64;
+      item.maxStackSize = 64
     }
-  );
-});
+  )
+})
 
 onEvent("block.modification", (event) => {
   event.modify(["minecraft:end_portal_frame", "minecraft:end_portal"], (block) => {
-    block.destroySpeed = 1;
-  });
-});
+    block.destroySpeed = 1
+  })
+})

@@ -2,29 +2,29 @@
 // priority: 1
 
 onEvent("recipes", (event) => {
-  event.remove({ type: "occultism:miner" });
-  event.remove({ type: "botania:runic_altar" });
-  event.remove({ type: "industrialforegoing:laser_drill_ore" });
-  event.remove({ type: "extendedexchange:alchemy_table" });
-  event.remove({ input: "immersiveengineering:hammer" });
-  event.remove({ input: "projecte:philosophers_stone" });
-  event.remove({ output: "occultism:iesnium_ingot" });
-  event.remove({ mod: "fissionrecipe" });
-  event.remove({ output: "assemblylinemachines:pure_copper_ingot" });
-  event.remove({ output: "assemblylinemachines:pure_iron_ingot" });
-  event.remove({ output: "assemblylinemachines:pure_gold_ingot" });
-  event.remove({ type: "assemblylinemachines:alloying" });
-  event.remove({ type: "assemblylinemachines:bathing" });
-  event.remove({ type: "assemblylinemachines:enchantment_book" });
-  event.remove({ type: "assemblylinemachines:fertilizer" });
-  event.remove({ type: "assemblylinemachines:fig" });
-  event.remove({ type: "assemblylinemachines:generator_fluid" });
-  event.remove({ type: "assemblylinemachines:greenhouse" });
-  event.remove({ type: "assemblylinemachines:grinding" });
-  event.remove({ type: "assemblylinemachines:lumber" });
-  event.remove({ type: "assemblylinemachines:pneumatic" });
-  event.remove({ type: "assemblylinemachines:purifying" });
-  event.remove({ type: "assemblylinemachines:refining" });
+  event.remove({ type: "occultism:miner" })
+  event.remove({ type: "botania:runic_altar" })
+  event.remove({ type: "industrialforegoing:laser_drill_ore" })
+  event.remove({ type: "extendedexchange:alchemy_table" })
+  event.remove({ input: "immersiveengineering:hammer" })
+  event.remove({ input: "projecte:philosophers_stone" })
+  event.remove({ output: "occultism:iesnium_ingot" })
+  event.remove({ mod: "fissionrecipe" })
+  event.remove({ output: "assemblylinemachines:pure_copper_ingot" })
+  event.remove({ output: "assemblylinemachines:pure_iron_ingot" })
+  event.remove({ output: "assemblylinemachines:pure_gold_ingot" })
+  event.remove({ type: "assemblylinemachines:alloying" })
+  event.remove({ type: "assemblylinemachines:bathing" })
+  event.remove({ type: "assemblylinemachines:enchantment_book" })
+  event.remove({ type: "assemblylinemachines:fertilizer" })
+  event.remove({ type: "assemblylinemachines:fig" })
+  event.remove({ type: "assemblylinemachines:generator_fluid" })
+  event.remove({ type: "assemblylinemachines:greenhouse" })
+  event.remove({ type: "assemblylinemachines:grinding" })
+  event.remove({ type: "assemblylinemachines:lumber" })
+  event.remove({ type: "assemblylinemachines:pneumatic" })
+  event.remove({ type: "assemblylinemachines:purifying" })
+  event.remove({ type: "assemblylinemachines:refining" })
 
   let RecipesToRemoveID = [
     "minecraft:bucket",
@@ -711,8 +711,8 @@ onEvent("recipes", (event) => {
     "",
     "",
     "",
-  ];
+  ]
   RecipesToRemoveID.forEach((recipe) => {
-    event.remove({ id: recipe });
-  });
-});
+    event.remove({ id: recipe })
+  })
+})

@@ -37,16 +37,16 @@ onEvent("recipes", (event) => {
     "wither_skeleton",
     "zombie",
     "zombified_piglin",
-  ];
+  ]
 
   const predictionItems = predictions.map((prediction) => {
-    return Item.of("hostilenetworks:prediction", `{data_model:{id:"hostilenetworks:${prediction}"}}`);
-  });
+    return Item.of("hostilenetworks:prediction", `{data_model:{id:"hostilenetworks:${prediction}"}}`)
+  })
 
   event.recipes.multiblocked
     .multiblock("prediction_chamber")
     .duration(60)
     .id("kubejs:recipes/multiblocked/prediction")
     .setChance(0.25)
-    .outputItems(predictionItems);
-});
+    .outputItems(predictionItems)
+})

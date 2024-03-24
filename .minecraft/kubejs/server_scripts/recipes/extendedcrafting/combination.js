@@ -52,5 +52,5 @@ onEvent("recipes", (event) => {
     result: {
       item: "extendedexchange:final_star",
     },
-  });
-});
+  })
+})

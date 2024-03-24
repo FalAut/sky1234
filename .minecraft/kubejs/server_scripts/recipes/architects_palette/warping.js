@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  const id_prefix = "kubejs:recipes/architects_palette/warping/";
+  const id_prefix = "kubejs:recipes/architects_palette/warping/"
   const recipes = [
     {
       ingredient: [{ item: "minecraft:redstone" }],
@@ -13,9 +13,9 @@ onEvent("recipes", (event) => {
       dimension: "minecraft:the_nether",
       id: `${id_prefix}netherite_ingot`,
     },
-  ];
+  ]
   recipes.forEach((recipe) => {
-    recipe.type = "architects_palette:warping";
-    event.custom(recipe).id(recipe.id);
-  });
-});
+    recipe.type = "architects_palette:warping"
+    event.custom(recipe).id(recipe.id)
+  })
+})
