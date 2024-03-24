@@ -25,7 +25,6 @@ onEvent("recipes", (event) => {
   shapeless("assemblylinemachines:pure_steel_ingot", ["immersiveengineering:ingot_steel", "assemblylinemachines:pure_iron_ingot"])
   shapeless("minecraft:crimson_nylium", ["minecraft:crimson_fungus", "minecraft:netherrack"])
   shapeless("4x minecraft:magma_cream", "kubejs:congealed_magma_cream")
-  shapeless("64x createendertransmission:energy_transmitter", ["kubejs:undef1ned_block", "create:cogwheel"])
   shapeless("immersiveengineering:ore_aluminum", "minecraft:raw_iron")
   shapeless("immersiveengineering:ore_uranium", "minecraft:raw_gold")
 
