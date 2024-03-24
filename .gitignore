@@ -18,10 +18,6 @@ config/skyblockbuilder/data
 !schematics/**
 schematics/uploaded
 
-!local/
-!local/**
-!local/ftbchunks/client-config.snbt
-
 !LICENSE
 !README.md
 
