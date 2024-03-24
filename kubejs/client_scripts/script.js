@@ -9,12 +9,7 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("naturesaura:birth_spirit", Text.translate("tooltip.kubejs.birth_spirit").green())
 
-  tooltip.add(
-    ["naturesaura:fortress_finder", "kubejs:wither_skeleton_eye", "kubejs:ghast_eye"],
-    Text.translate("tooltip.kubejs.eyes").green()
-  )
-
-  // tooltip.add("farmingforblockheads:market", Text.translate("tooltip.kubejs.market").green());
+  tooltip.add(["naturesaura:fortress_finder", "kubejs:wither_skeleton_eye", "kubejs:ghast_eye"], Text.translate("tooltip.kubejs.eyes").green())
 
   tooltip.add("assemblylinemachines:corrupted_shard", Text.translate("tooltip.kubejs.corrupted_shard").green())
 
@@ -24,27 +19,15 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("naturesaura:animal_spawner", Text.translate("tooltip.kubejs.animal_spawner").green())
 
-  // tooltip.add("naturesaura:gold_fiber", Text.translate("tooltip.kubejs.gold_fiber").green());
-
-  // tooltip.add("naturesaura:token_anger", Text.translate("tooltip.kubejs.token_anger").green());
-
-  // tooltip.add("kubejs:nether_eye", Text.translate("tooltip.kubejs.nether_eye").green());
-
   tooltip.add("create:refined_radiance", Text.translate("tooltip.kubejs.refined_radiance").green())
 
   tooltip.add("create:shadow_steel", Text.translate("tooltip.kubejs.shadow_steel").green())
 
-  tooltip.add("createendertransmission:energy_transmitter", [
-    Text.translate("tooltip.kubejs.energy_transmitter1").green(),
-    Text.translate("tooltip.kubejs.energy_transmitter2").red(),
-  ])
+  tooltip.add("createendertransmission:energy_transmitter", [Text.translate("tooltip.kubejs.energy_transmitter1").green(), Text.translate("tooltip.kubejs.energy_transmitter2").red()])
 
   tooltip.add("minecraft:end_portal_frame", Text.translate("tooltip.kubejs.end_portal_frame").green())
 
-  tooltip.add(
-    ["extendedcrafting:elite_auto_table", "extendedcrafting:ultimate_auto_table"],
-    Text.translate("tooltip.kubejs.auto_table").green()
-  )
+  tooltip.add(["extendedcrafting:elite_auto_table", "extendedcrafting:ultimate_auto_table"], Text.translate("tooltip.kubejs.auto_table").green())
 
   tooltip.add("create:blaze_burner", Text.translate("tooltip.kubejs.blaze_burner").green())
 
@@ -52,40 +35,19 @@ onEvent("item.tooltip", (tooltip) => {
 
   tooltip.add("minecraft:netherite_ingot", Text.translate("tooltip.kubejs.netherite_ingot").green())
 
-  tooltip.add("tiab:time_in_a_bottle", [
-    Text.translate("tooltip.kubejs.time_in_a_bottle1").green(),
-    Text.translate("tooltip.kubejs.time_in_a_bottle2").green(),
-    Text.translate("tooltip.kubejs.time_in_a_bottle3").green(),
-  ])
+  tooltip.add("tiab:time_in_a_bottle", [Text.translate("tooltip.kubejs.time_in_a_bottle1").green(), Text.translate("tooltip.kubejs.time_in_a_bottle2").green(), Text.translate("tooltip.kubejs.time_in_a_bottle3").green()])
 
   tooltip.add("minecraft:quartz", Text.translate("tooltip.kubejs.quartz").green())
 
-  tooltip.add(
-    ["kubejs:smoked_iron_block", "extendedcrafting:black_iron_ingot"],
-    [Text.translate("tooltip.kubejs.black_iron1").green(), Text.translate("tooltip.kubejs.black_iron2").green()]
-  )
+  tooltip.add(["kubejs:smoked_iron_block", "extendedcrafting:black_iron_ingot"], [Text.translate("tooltip.kubejs.black_iron1").green(), Text.translate("tooltip.kubejs.black_iron2").green()])
 
-  tooltip.add("manaliquidizer:mana_liquidizer", [
-    Text.translate("tooltip.kubejs.mana_liquidizer1").green(),
-    Text.translate("tooltip.kubejs.mana_liquidizer2").green(),
-    Text.translate("tooltip.kubejs.mana_liquidizer3").green(),
-    Text.translate("tooltip.kubejs.mana_liquidizer4").red(),
-  ])
+  tooltip.add("manaliquidizer:mana_liquidizer", [Text.translate("tooltip.kubejs.mana_liquidizer1").green(), Text.translate("tooltip.kubejs.mana_liquidizer2").green(), Text.translate("tooltip.kubejs.mana_liquidizer3").green(), Text.translate("tooltip.kubejs.mana_liquidizer4").red()])
 
-  tooltip.add("@torcherino", [
-    Text.translate("tooltip.kubejs.torcherino1").red(),
-    Text.translate("tooltip.kubejs.torcherino2").red(),
-  ])
+  tooltip.add("@torcherino", [Text.translate("tooltip.kubejs.torcherino1").red(), Text.translate("tooltip.kubejs.torcherino2").red()])
 
-  tooltip.add("assemblylinemachines:condensed_void_bucket", [
-    Text.translate("tooltip.kubejs.condensed_void_bucket1").red(),
-    Text.translate("tooltip.kubejs.condensed_void_bucket2").red(),
-  ])
+  tooltip.add("assemblylinemachines:condensed_void_bucket", [Text.translate("tooltip.kubejs.condensed_void_bucket1").red(), Text.translate("tooltip.kubejs.condensed_void_bucket2").red()])
 
-  tooltip.add(
-    ["assemblylinemachines:entropy_reactor_block", "assemblylinemachines:entropy_reactor_core"],
-    [Text.translate("tooltip.kubejs.entropy_reactor1").red(), Text.translate("tooltip.kubejs.entropy_reactor2").red()]
-  )
+  tooltip.add(["assemblylinemachines:entropy_reactor_block", "assemblylinemachines:entropy_reactor_core"], [Text.translate("tooltip.kubejs.entropy_reactor1").red(), Text.translate("tooltip.kubejs.entropy_reactor2").red()])
 })
 
 onEvent("jei.remove.recipes", (event) => {
@@ -104,38 +66,10 @@ onEvent("jei.remove.recipes", (event) => {
   event.remove("immersiveengineering:arcfurnace_recycling", "immersiveengineering:recycling/pure_iron_plate")
   event.remove("immersiveengineering:arcfurnace_recycling", "immersiveengineering:recycling/pure_gold_plate")
   event.remove("immersiveengineering:arcfurnace_recycling", "immersiveengineering:recycling/pure_gold_gear")
-  event.remove("lychee:item_burning", "lychee:kubejs/recipes/lychee/burning/token_anger")
-  event.remove("lychee:block_crushing", "lychee:kubejs/recipes/lychee/block_crushing/gold_fiber")
-  event.remove("lychee:item_inside", "lychee:kubejs/recipes/lychee/market")
-  event.remove("lychee:item_inside", "lychee:kubejs/recipes/lychee/market_ghost")
-  event.remove("lychee:item_inside", "lychee:kubejs/recipes/lychee/nether_portal/nether_eye")
-  event.remove("lychee:item_inside", "lychee:kubejs/recipes/lychee/nether_portal/nether_eye_ghost")
-  event.remove("lychee:block_interacting", "lychee:kubejs/recipes/lychee/oak_sapling")
 })
 onEvent("jei.remove.categories", (event) => {
   console.log(event.getCategoryIds())
-  event.remove([
-    "create:automatic_shaped",
-    "create:automatic_shapeless",
-    "jeresources:dungeon",
-    "jeresources:enchantment",
-    "jeresources:worldgen",
-    "hostilenetworks:sim_chamber",
-    "projecte:world_transmutation",
-    "projecte:collector",
-    "assemblylinemachines:alloying",
-    "assemblylinemachines:bathing",
-    "assemblylinemachines:enchantment_book",
-    "assemblylinemachines:fertilizer",
-    "assemblylinemachines:fig",
-    "assemblylinemachines:generator_fluid",
-    "assemblylinemachines:greenhouse",
-    "assemblylinemachines:grinding",
-    "assemblylinemachines:lumber",
-    "assemblylinemachines:pneumatic",
-    "assemblylinemachines:purifying",
-    "assemblylinemachines:refining",
-  ])
+  event.remove(["create:automatic_shaped", "create:automatic_shapeless", "jeresources:dungeon", "jeresources:enchantment", "jeresources:worldgen", "hostilenetworks:sim_chamber", "projecte:world_transmutation", "projecte:collector", "assemblylinemachines:alloying", "assemblylinemachines:bathing", "assemblylinemachines:enchantment_book", "assemblylinemachines:fertilizer", "assemblylinemachines:fig", "assemblylinemachines:generator_fluid", "assemblylinemachines:greenhouse", "assemblylinemachines:grinding", "assemblylinemachines:lumber", "assemblylinemachines:pneumatic", "assemblylinemachines:purifying", "assemblylinemachines:refining"])
 })
 
 onEvent("jei.hide.items", (event) => {
