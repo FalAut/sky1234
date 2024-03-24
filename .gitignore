@@ -1,34 +1,33 @@
-# Whitelist
-.minecraft/**
-
-## instance/0xUDF
-instance.cfg
-mmc-pack.json
-flame
-natives
-.packignore
+**
+!.gitignore
 
 ## Config
-!.minecraft/config/
-!.minecraft/config/**
-.minecraft/config/sodium-extra-options.json
-.minecraft/config/jei
-.minecraft/config/jei/**
-.minecraft/config/skyblockbuilder/data
-.minecraft/config/skyblockbuilder/data/**
-!.minecraft/defaultconfigs/
-!.minecraft/defaultconfigs/**
-!.minecraft/schematics/
-!.minecraft/schematics/**
+!config/
+!config/**
+config/jei/
+config/jei/**
+config/skyblockbuilder/data
+
+!defaultconfigs/
+!defaultconfigs/**
+
+!multiblocked/
+!multiblocked/**
+
+!schematics/
+!schematics/**
+schematics/uploaded
+
+!local/ftbchunks/client-config.snbt
+
+!LICENSE
+!README.md
 
 ## KubeJS
-!.minecraft/kubejs/
-!.minecraft/kubejs/**
-.minecraft/kubejs/README.txt
-.minecraft/kubejs/exported
-.minecraft/kubejs/probe
-.minecraft/kubejs/config/probejs.json
-
-## Resources
-!.minecraft/multiblocked/
-!.minecraft/multiblocked/**
+!kubejs/
+!kubejs/**
+kubejs/README.txt
+kubejs/exported
+kubejs/probe
+kubejs/ponder.json
+kubejs/config/probejs.json
