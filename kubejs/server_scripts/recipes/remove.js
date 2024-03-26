@@ -405,6 +405,8 @@ onEvent("recipes", (event) => {
     "assemblylinemachines:crafting/internal_water_generator",
     "botania:terra_plate",
     "minecraft:lectern",
+    "minecraft:magma_block",
+    "tconstruct:smeltery/casting/slime/magma_block",
   ]
   RecipesToRemoveID.forEach((recipe) => {
     event.remove({ id: recipe })
