@@ -115,6 +115,13 @@ onEvent("recipes", (event) => {
       cooling_time: 100,
       id: `${id_prefix}andesite`,
     },
+    {
+      fluid_name: "tconstruct:magma",
+      fluid_amount: 1000,
+      result: "kubejs:congealed_magma_cream",
+      cooling_time: 140,
+      id: `${id_prefix}congealed_magma_cream`,
+    },
   ]
 
   recipes.forEach((recipe) => {
