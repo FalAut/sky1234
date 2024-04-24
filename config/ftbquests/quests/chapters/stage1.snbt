@@ -2121,11 +2121,15 @@
 				{
 					id: "0FFF3766F48B92A9"
 					type: "item"
-					item: "tconstruct:blank_sand_cast"
-					count: 16
+					item: "create:wrench"
 				}
 				{
-					id: "242F4B3B0347F581"
+					id: "6BB1F43D8D4F8958"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "4D492E46FA5EB480"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 8772607192016285100L
