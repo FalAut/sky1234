@@ -599,18 +599,11 @@
 			y: 0.0d
 			dependencies: ["2FE6C4FA80441955"]
 			id: "3A220C3A8609602F"
-			tasks: [
-				{
-					id: "288F7AF57315DAEA"
-					type: "item"
-					item: "tconstruct:seared_melter"
-				}
-				{
-					id: "686D22B28D2963F6"
-					type: "item"
-					item: "tconstruct:seared_heater"
-				}
-			]
+			tasks: [{
+				id: "288F7AF57315DAEA"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
 			rewards: [{
 				id: "61DAC65C8AFA0DD4"
 				type: "random"
