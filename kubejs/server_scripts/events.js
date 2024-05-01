@@ -1,31 +1,32 @@
 // priority: 2
 
-onEvent("server.load", (event) => {
+onEvent('server.load', (event) => {
     const { server } = event
     if (server.persistentData.firstload) return
 
-    server.runCommandSilent("time set noon")
-    server.runCommandSilent("gamerule keepInventory true")
-    server.runCommandSilent("gamerule doDaylightCycle false")
-    server.runCommandSilent("gamerule doWeatherCycle false")
-    server.runCommandSilent("gamerule doInsomnia false")
-    server.runCommandSilent("gamerule doTraderSpawning false")
+    server.runCommandSilent('time set noon')
+    server.runCommandSilent('gamerule keepInventory true')
+    server.runCommandSilent('gamerule doDaylightCycle false')
+    server.runCommandSilent('gamerule doWeatherCycle false')
+    server.runCommandSilent('gamerule doInsomnia false')
+    server.runCommandSilent('gamerule doTraderSpawning false')
     server.scheduleInTicks(100, (callback) => {
-        callback.server.runCommandSilent("setworldspawn 57 65 57")
+        callback.server.runCommandSilent('setworldspawn 57 65 57')
     })
 
     server.persistentData.firstload = true
 })
 
-onEvent("player.logged_in", (event) => {
-    if (!event.player.stages.has("starting_items")) {
-        event.player.stages.add("starting_items")
-        event.player.give("kubejs:undef1ned")
+onEvent('player.logged_in', (event) => {
+    if (!event.player.stages.has('starting_items')) {
+        event.player.stages.add('starting_items')
+        event.player.give('kubejs:undef1ned')
     }
 })
 
-onEvent("player.tick", (event) => {
+onEvent('player.tick', (event) => {
     const { player, block, level } = event
+
     const pData = player.persistentData
 
     // //哭泣之井传送
@@ -46,38 +47,14 @@ onEvent("player.tick", (event) => {
     player.setSaturation(20)
 })
 
-// onEvent("block.right_click", (event) => {
-//     const seed = `${NBT.l(event.level.seed)}`.replace("L", "")
-//     event.player.tell(seed)
-// })
-// function f(x, z, seed, r) {
-//     let x1 = false
-//     let z1 = false
-//     let random = new Math.seedrandom(seed + Math.floor(x / r) + Math.pow(z + 100, 2) / 64)
-//     x1 = x % r === Math.floor(random() * r)
-//     random = new Math.seedrandom(seed + Math.floor(z / r) + Math.pow(z + 100, 2) / 64)
-//     z1 = z % r === Math.floor(random() * r)
-
-//     if (x1 && z1) {
-//         return 1
-//     } else {
-//         return 0
-//     }
-// }
-// onEvent("block.break", (event) => {
-//     const { block } = event
-//     const { x, y, z } = block
-//     const seed = `${NBT.l(event.level.seed)}`.replace("L", "")
-//     f(x, z, seed, 10)
-// })
-onEvent("item.right_click", (event) => {
+onEvent('item.right_click', (event) => {
     const { item, level, player, server } = event
 
     //降生之魂
-    if (item.id == "botania:ender_dagger") {
-        player.addItemCooldown("botania:ender_dagger", 200)
-        player.attack("void", 19)
-        player.give("naturesaura:birth_spirit")
+    if (item.id == 'botania:ender_dagger') {
+        player.addItemCooldown('botania:ender_dagger', 200)
+        player.attack('void', 19)
+        player.give('naturesaura:birth_spirit')
     }
 
     // //虚空维度传送器
@@ -100,23 +77,23 @@ onEvent("item.right_click", (event) => {
     // }
 })
 
-onEvent("entity.spawned", (event) => {
+onEvent('entity.spawned', (event) => {
     const { entity, server, level } = event
     if (
-        (level.dimension == "minecraft:the_nether" && entity.type === "minecraft:piglin") ||
-        entity.type === "minecraft:zombified_piglin" ||
-        entity.type === "minecraft:magma_cube"
+        (level.dimension == 'minecraft:the_nether' && entity.type === 'minecraft:piglin') ||
+        entity.type === 'minecraft:zombified_piglin' ||
+        entity.type === 'minecraft:magma_cube'
     ) {
         event.cancel()
     }
 
-    if (entity.type == "minecraft:ender_dragon") {
+    if (entity.type == 'minecraft:ender_dragon') {
         server.scheduleInTicks(20, (callback) => {
             entity.kill()
         })
     }
 })
-onEvent("block.right_click", (event) => {
+onEvent('block.right_click', (event) => {
     const { item, block, player } = event
 
     // if (event.item.id == 'industrialforegoing:infinity_nuke' && event.level.dimension == "minecraft:overworld") {
@@ -124,20 +101,20 @@ onEvent("block.right_click", (event) => {
     //     event.cancel()
     // }
 
-    if (item.id == "kubejs:nether_eye" && block.id == "kubejs:nether_portal_frame") {
-        block.set("kubejs:nether_portal_frame_filled")
-        player.playSound("minecraft:block.end_portal_frame.fill")
+    if (item.id == 'kubejs:nether_eye' && block.id == 'kubejs:nether_portal_frame') {
+        block.set('kubejs:nether_portal_frame_filled')
+        player.playSound('minecraft:block.end_portal_frame.fill')
         player.swingArm(event.hand)
         item.count--
     }
 
-    if (item.id == "naturesaura:token_anger" && block.id == "kubejs:nether_portal_frame_filled") {
-        player.playSound("minecraft:block.end_portal.spawn")
+    if (item.id == 'naturesaura:token_anger' && block.id == 'kubejs:nether_portal_frame_filled') {
+        player.playSound('minecraft:block.end_portal.spawn')
         player.swingArm(event.hand)
     }
 })
 
-onEvent("command.run", (event) => {
+onEvent('command.run', (event) => {
     const { server } = event
     let command = event.getParseResults().getReader().getString()
     var randomTick = /gamerule randomTickSpeed/
